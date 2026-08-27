@@ -4,9 +4,8 @@ Analysis code for:
 
 > **[Manuscript title]**
 > [Author list]
-> *[Journal]* (year). doi:[DOI]
 >
-> *Citation details will be completed on acceptance.*
+> *Citation details will be added on acceptance.*
 
 ## What this code does
 
