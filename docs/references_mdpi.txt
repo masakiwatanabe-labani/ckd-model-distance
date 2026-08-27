@@ -1,0 +1,74 @@
+References in MDPI style -- 26 entries
+Verified against PubMed (efetch) / Crossref REST on 2026-08-27. Nothing filled in from memory.
+
+Notes:
+  * Lists of 11 or more authors are truncated to the first 10 plus 'et al.'; the full
+    list follows in brackets for those entries.
+  * Journal names are the ISO abbreviations returned by PubMed, which omit full stops
+    (e.g. 'Ann Rheum Dis'). MDPI house style punctuates them ('Ann. Rheum. Dis.');
+    check punctuation against the journal's own list before submission.
+  * Smyth 2004: see the note in references.bib regarding 'Article 3' versus pages 1-25.
+
+1. Liu, J.; Kumar, S.; Dolzhenko, E.; Alvarado, G.F.; Guo, J.; Lu, C.; Chen, Y.; Li, M.; Dessing, M.C.; Parvez, R.K.; et al. Molecular characterization of the transition from acute to chronic kidney injury following ischemia/reperfusion. JCI Insight 2017, 2, e94716. https://doi.org/10.1172/jci.insight.94716
+    [full list, 15 authors] Liu, J.; Kumar, S.; Dolzhenko, E.; Alvarado, G.F.; Guo, J.; Lu, C.; Chen, Y.; Li, M.; Dessing, M.C.; Parvez, R.K.; Cippà, P.E.; Krautzberger, A.M.; Saribekyan, G.; Smith, A.D.; McMahon, A.P.
+
+2. Grayson, P.C.; Eddy, S.; Taroni, J.N.; Lightfoot, Y.L.; Mariani, L.; Parikh, H.; Lindenmeyer, M.T.; Ju, W.; Greene, C.S.; Godfrey, B.; et al. Metabolic pathways and immunometabolism in rare kidney diseases. Ann Rheum Dis 2018, 77, 1226-1233. https://doi.org/10.1136/annrheumdis-2017-212935
+    [full list, 15 authors] Grayson, P.C.; Eddy, S.; Taroni, J.N.; Lightfoot, Y.L.; Mariani, L.; Parikh, H.; Lindenmeyer, M.T.; Ju, W.; Greene, C.S.; Godfrey, B.; Cohen, C.D.; Krischer, J.; Kretzler, M.; Merkel, P.A.; Vasculitis Clinical Research Consortium, the European Renal cDNA Bank cohort, and the Nephrotic Syndrome Study Network
+
+3. Alakwaa, F.; Das, V.; Majumdar, A.; Nair, V.; Fermin, D.; Dey, A.B.; Slidel, T.; Reilly, D.F.; Myshkin, E.; Duffin, K.L.; et al. Leveraging complementary multi-omics data integration methods for mechanistic insights in kidney diseases. JCI Insight 2025, 10, e186070. https://doi.org/10.1172/jci.insight.186070
+    [full list, 18 authors] Alakwaa, F.; Das, V.; Majumdar, A.; Nair, V.; Fermin, D.; Dey, A.B.; Slidel, T.; Reilly, D.F.; Myshkin, E.; Duffin, K.L.; Chen, Y.; Bitzer, M.; Pennathur, S.; Brosius, F.C.; Kretzler, M.; Ju, W.; Karihaloo, A.; Eddy, S.
+
+4. Ju, W.; Greene, C.S.; Eichinger, F.; Nair, V.; Hodgin, J.B.; Bitzer, M.; Lee, Y.-S.; Zhu, Q.; Kehata, M.; Li, M.; et al. Defining cell-type specificity at the transcriptional level in human disease. Genome Res 2013, 23, 1862-1873. https://doi.org/10.1101/gr.155697.113
+    [full list, 15 authors] Ju, W.; Greene, C.S.; Eichinger, F.; Nair, V.; Hodgin, J.B.; Bitzer, M.; Lee, Y.-S.; Zhu, Q.; Kehata, M.; Li, M.; Jiang, S.; Rastaldi, M.P.; Cohen, C.D.; Troyanskaya, O.G.; Kretzler, M.
+
+5. Berthier, C.C.; Bethunaickan, R.; Gonzalez-Rivera, T.; Nair, V.; Ramanujam, M.; Zhang, W.; Bottinger, E.P.; Segerer, S.; Lindenmeyer, M.; Cohen, C.D.; et al. Cross-species transcriptional network analysis defines shared inflammatory responses in murine and human lupus nephritis. J Immunol 2012, 189, 988-1001. https://doi.org/10.4049/jimmunol.1103031
+    [full list, 12 authors] Berthier, C.C.; Bethunaickan, R.; Gonzalez-Rivera, T.; Nair, V.; Ramanujam, M.; Zhang, W.; Bottinger, E.P.; Segerer, S.; Lindenmeyer, M.; Cohen, C.D.; Davidson, A.; Kretzler, M.
+
+6. Cohen, C.D.; Frach, K.; Schlöndorff, D.; Kretzler, M.. Quantitative gene expression analysis in renal biopsies: a novel protocol for a high-throughput multicenter application. Kidney Int 2002, 61, 133-140. https://doi.org/10.1046/j.1523-1755.2002.00113.x
+
+7. Lawson, J.S.; Liu, H.-H.; Syme, H.M.; Purcell, R.; Wheeler-Jones, C.P.D.; Elliott, J.. The cat as a naturally occurring model of renal interstitial fibrosis: Characterisation of primary feline proximal tubular epithelial cells and comparative pro-fibrotic effects of TGF-β1. PLoS One 2018, 13, e0202577. https://doi.org/10.1371/journal.pone.0202577
+
+8. Lawson, J.S.; Syme, H.M.; Wheeler-Jones, C.P.D.; Elliott, J.. Characterisation of feline renal cortical fibroblast cultures and their transcriptional response to transforming growth factor β1. BMC Vet Res 2018, 14, 76. https://doi.org/10.1186/s12917-018-1387-2
+
+9. Lourenço, B.N.; Schmiedt, C.W.; Alabady, M.S.; Stanton, J.B.; Coleman, A.E.; Brown, C.A.; Rissi, D.R.; Brown, S.A.; Tarigo, J.L.. Analysis of genes associated with proinflammatory and profibrotic pathways upregulated in ischemia-induced chronic kidney disease in cats. Am J Vet Res 2021, 82, 589-597. https://doi.org/10.2460/ajvr.82.7.589
+
+10. Marstrand-Jørgensen, A.B.; Sembach, F.E.; Bak, S.T.; Ougaard, M.; Christensen-Dalsgaard, M.; Rønn Madsen, M.; Jensen, D.M.; Secher, T.; Heimbürger, S.M.N.; Fink, L.N.; et al. Shared and Distinct Renal Transcriptome Signatures in 3 Standard Mouse Models of Chronic Kidney Disease. Nephron 2024, 148, 487-502. https://doi.org/10.1159/000535918
+    [full list, 15 authors] Marstrand-Jørgensen, A.B.; Sembach, F.E.; Bak, S.T.; Ougaard, M.; Christensen-Dalsgaard, M.; Rønn Madsen, M.; Jensen, D.M.; Secher, T.; Heimbürger, S.M.N.; Fink, L.N.; Hansen, D.; Hansen, H.H.; Østergaard, M.V.; Christensen, M.; Dalbøge, L.S.
+
+11. Humphreys, B.D.. Mechanisms of Renal Fibrosis. Annu Rev Physiol 2018, 80, 309-326. https://doi.org/10.1146/annurev-physiol-022516-034227
+
+12. Liu, Y.. Cellular and molecular mechanisms of renal fibrosis. Nat Rev Nephrol 2011, 7, 684-696. https://doi.org/10.1038/nrneph.2011.149
+
+13. Kang, H.M.; Ahn, S.H.; Choi, P.; Ko, Y.-A.; Han, S.H.; Chinga, F.; Park, A.S.D.; Tao, J.; Sharma, K.; Pullman, J.; et al. Defective fatty acid oxidation in renal tubular epithelial cells has a key role in kidney fibrosis development. Nat Med 2015, 21, 37-46. https://doi.org/10.1038/nm.3762
+    [full list, 13 authors] Kang, H.M.; Ahn, S.H.; Choi, P.; Ko, Y.-A.; Han, S.H.; Chinga, F.; Park, A.S.D.; Tao, J.; Sharma, K.; Pullman, J.; Bottinger, E.P.; Goldberg, I.J.; Susztak, K.
+
+14. Liberzon, A.; Birger, C.; Thorvaldsdóttir, H.; Ghandi, M.; Mesirov, J.P.; Tamayo, P.. The Molecular Signatures Database (MSigDB) hallmark gene set collection. Cell Syst 2015, 1, 417-425. https://doi.org/10.1016/j.cels.2015.12.004
+
+15. Fang, Z.; Liu, X.; Peltz, G.. GSEApy: a comprehensive package for performing gene set enrichment analysis in Python. Bioinformatics 2023, 39, btac757. https://doi.org/10.1093/bioinformatics/btac757
+
+16. Dyer, S.C.; Austine-Orimoloye, O.; Azov, A.G.; Barba, M.; Barnes, I.; Barrera-Enriquez, V.P.; Becker, A.; Bennett, R.; Beracochea, M.; Berry, A.; et al. Ensembl 2025. Nucleic Acids Res 2025, 53, D948-D957. https://doi.org/10.1093/nar/gkae1071
+    [full list, 91 authors] Dyer, S.C.; Austine-Orimoloye, O.; Azov, A.G.; Barba, M.; Barnes, I.; Barrera-Enriquez, V.P.; Becker, A.; Bennett, R.; Beracochea, M.; Berry, A.; Bhai, J.; Bhurji, S.K.; Boddu, S.; Branco Lins, P.R.; Brooks, L.; Ramaraju, S.B.; Campbell, L.I.; Martinez, M.C.; Charkhchi, M.; Cortes, L.A.; Davidson, C.; Denni, S.; Dodiya, K.; Donaldson, S.; El Houdaigui, B.; El Naboulsi, T.; Falola, O.; Fatima, R.; Genez, T.; Martinez, J.G.; Gurbich, T.; Hardy, M.; Hollis, Z.; Hunt, T.; Kay, M.; Kaykala, V.; Lemos, D.; Lodha, D.; Mathlouthi, N.; Merino, G.A.; Merritt, R.; Mirabueno, L.P.; Mushtaq, A.; Hossain, S.N.; Pérez-Silva, J.G.; Perry, M.; Piližota, I.; Poppleton, D.; Prosovetskaia, I.; Raj, S.; Salam, A.I.A.; Saraf, S.; Saraiva-Agostinho, N.; Sinha, S.; Sipos, B.; Sitnik, V.; Steed, E.; Suner, M.-M.; Surapaneni, L.; Sutinen, K.; Tricomi, F.F.; Tsang, I.; Urbina-Gómez, D.; Veidenberg, A.; Walsh, T.A.; Willhoft, N.L.; Allen, J.; Alvarez-Jarreta, J.; Chakiachvili, M.; Cheema, J.; da Rocha, J.B.; De Silva, N.H.; Giorgetti, S.; Haggerty, L.; Ilsley, G.R.; Keatley, J.; Loveland, J.E.; Moore, B.; Mudge, J.M.; Naamati, G.; Tate, J.; Trevanion, S.J.; Winterbottom, A.; Flint, B.; Frankish, A.; Hunt, S.E.; Finn, R.D.; Freeberg, M.A.; Harrison, P.W.; Martin, F.J.; Yates, A.D.
+
+17. UniProt Consortium
+. UniProt: the Universal Protein Knowledgebase in 2025. Nucleic Acids Res 2025, 53, D609-D617. https://doi.org/10.1093/nar/gkae1010
+
+18. Mantel, N.. The detection of disease clustering and a generalized regression approach. Cancer Res 1967, 27, 209-220.
+
+19. Li, Q.; Cominetti, O.; Holzwarth, J.A.; Summers, S.; Wang, X.; Dayon, L.. Integrated multi-omics analysis of renal metabolism in domestic cats with spontaneous chronic kidney disease. Commun Biol 2025, 8, 1794. https://doi.org/10.1038/s42003-025-09164-8
+
+20. Klötzer, K.A.; Abedini, A.; Li, S.; Balzer, M.S.; Liang, X.; Levinsohn, J.; Ha, E.; Dumoulin, B.; Hogan, J.J.; Quinn, G.; et al. Analysis of individual patient pathway coordination in a cross-species single-cell kidney atlas. Nat Genet 2025, 57, 1922-1934. https://doi.org/10.1038/s41588-025-02285-0
+    [full list, 16 authors] Klötzer, K.A.; Abedini, A.; Li, S.; Balzer, M.S.; Liang, X.; Levinsohn, J.; Ha, E.; Dumoulin, B.; Hogan, J.J.; Quinn, G.; Bloom, R.D.; Schuller, M.; Eller, K.; Halmos, B.; Zhang, N.R.; Susztak, K.
+
+21. Smyth, G.K.. Linear Models and Empirical Bayes Methods for Assessing Differential Expression in Microarray Experiments. Stat. Appl. Genet. Mol. Biol. 2004, 3, 1-25. https://doi.org/10.2202/1544-6115.1027
+
+22. Benjamini, Y.; Hochberg, Y.. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. J. R. Stat. Soc. Series B Stat. Methodol. 1995, 57, 289-300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x
+
+23. Harris, C.R.; Millman, K.J.; van der Walt, S.J.; Gommers, R.; Virtanen, P.; Cournapeau, D.; Wieser, E.; Taylor, J.; Berg, S.; Smith, N.J.; et al. Array programming with NumPy. Nature 2020, 585, 357-362. https://doi.org/10.1038/s41586-020-2649-2
+    [full list, 26 authors] Harris, C.R.; Millman, K.J.; van der Walt, S.J.; Gommers, R.; Virtanen, P.; Cournapeau, D.; Wieser, E.; Taylor, J.; Berg, S.; Smith, N.J.; Kern, R.; Picus, M.; Hoyer, S.; van Kerkwijk, M.H.; Brett, M.; Haldane, A.; del Río, J.F.; Wiebe, M.; Peterson, P.; Gérard-Marchant, P.; Sheppard, K.; Reddy, T.; Weckesser, W.; Abbasi, H.; Gohlke, C.; Oliphant, T.E.
+
+24. Virtanen, P.; Gommers, R.; Oliphant, T.E.; Haberland, M.; Reddy, T.; Cournapeau, D.; Burovski, E.; Peterson, P.; Weckesser, W.; Bright, J.; et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nat Methods 2020, 17, 261-272. https://doi.org/10.1038/s41592-019-0686-2
+    [full list, 112 authors] Virtanen, P.; Gommers, R.; Oliphant, T.E.; Haberland, M.; Reddy, T.; Cournapeau, D.; Burovski, E.; Peterson, P.; Weckesser, W.; Bright, J.; van der Walt, S.J.; Brett, M.; Wilson, J.; Millman, K.J.; Mayorov, N.; Nelson, A.R.J.; Jones, E.; Kern, R.; Larson, E.; Carey, C.J.; Polat, İ.; Feng, Y.; Moore, E.W.; VanderPlas, J.; Laxalde, D.; Perktold, J.; Cimrman, R.; Henriksen, I.; Quintero, E.A.; Harris, C.R.; Archibald, A.M.; Ribeiro, A.H.; Pedregosa, F.; van Mulbregt, P.; ?; Vijaykumar, A.; Bardelli, A.P.; Rothberg, A.; Hilboll, A.; Kloeckner, A.; Scopatz, A.; Lee, A.; Rokem, A.; Woods, C.N.; Fulton, C.; Masson, C.; Häggström, C.; Fitzgerald, C.; Nicholson, D.A.; Hagen, D.R.; Pasechnik, D.V.; Olivetti, E.; Martin, E.; Wieser, E.; Silva, F.; Lenders, F.; Wilhelm, F.; Young, G.; Price, G.A.; Ingold, G.-L.; Allen, G.E.; Lee, G.R.; Audren, H.; Probst, I.; Dietrich, J.P.; Silterra, J.; Webber, J.T.; Slavič, J.; Nothman, J.; Buchner, J.; Kulick, J.; Schönberger, J.L.; de Miranda Cardoso, J.V.; Reimer, J.; Harrington, J.; Rodríguez, J.L.C.; Nunez-Iglesias, J.; Kuczynski, J.; Tritz, K.; Thoma, M.; Newville, M.; Kümmerer, M.; Bolingbroke, M.; Tartre, M.; Pak, M.; Smith, N.J.; Nowaczyk, N.; Shebanov, N.; Pavlyk, O.; Brodtkorb, P.A.; Lee, P.; McGibbon, R.T.; Feldbauer, R.; Lewis, S.; Tygier, S.; Sievert, S.; Vigna, S.; Peterson, S.; More, S.; Pudlik, T.; Oshima, T.; Pingel, T.J.; Robitaille, T.P.; Spura, T.; Jones, T.R.; Cera, T.; Leslie, T.; Zito, T.; Krauss, T.; Upadhyay, U.; Halchenko, Y.O.; Vázquez-Baeza, Y.
+
+25. Hunter, J.D.. Matplotlib: A 2D Graphics Environment. Comput. Sci. Eng. 2007, 9, 90-95. https://doi.org/10.1109/mcse.2007.55
+
+26. McKinney, W.. Data Structures for Statistical Computing in Python. Proc. 9th Python Sci. Conf. 2010, 56-61. https://doi.org/10.25080/majora-92bf1922-00a

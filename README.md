@@ -70,6 +70,10 @@ Everything is written to `results/`. Figures for the paper are in
 numbers from each step in the order they were produced (with a machine-readable
 `results/summary.json` alongside).
 
+Bibliographic data for the manuscript are kept separately in `docs/`, as
+`references.bib` (BibTeX) and `references_mdpi.txt` (plain text, MDPI style);
+`results/` holds analysis output only.
+
 ### Where each figure and table comes from
 
 | Paper item | File | Produced by |
@@ -100,7 +104,6 @@ outlines. Style and output format are set in one place, `src/lib_figure.py`.
 | Elapsed time versus onset compartment (Mantel) | `results/time_axis_full_pairs_no6mo.csv`, `fig3_mantel_values.csv` |
 | Module-level distances and power | `results/module_distance_pairs_*.csv`, `module_power_curve.csv` |
 | Candidate validation in human cohorts | `results/candidates_human_validation.csv`, `ercb_candidate_validation.csv` |
-| References used in the manuscript | `results/references.bib` |
 
 ## Pipeline
 
