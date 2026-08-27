@@ -1,0 +1,64 @@
+seed: 20260826
+
+paths:
+  raw: data/raw
+  ref: data/ref
+  interim: data/interim
+  results: results
+
+files:
+  cat_omics: 42003_2025_9164_MOESM3_ESM.xlsx
+  mouse_rna: all_fpkm_TRECK.xlsx
+  mouse_prot: PK25055_解析結果.xlsx
+
+cat_sheets:
+  rna_cortex: "S3 RNA cortex"
+  rna_medulla: "S4 RNA medulla"
+  prot_cortex: "S5 Protein cortex"
+  prot_medulla: "S6 Protein medulla"
+
+thresholds:
+  fpkm_min: 1.0
+  q_sig: 0.05
+  lfc_sig: 0.3
+  lfc_strong: 0.585
+  early_onset_ratio: 0.5
+  late_onset_ratio: 0.2
+  min_module_genes: 5
+
+permutation:
+  n_perm_rho: 1000
+  n_perm_module: 1000
+  n_decile: 10
+
+orthology:
+  source: ensembl
+  cat_species: fcatus
+  mouse_species: mmusculus
+  human_species: hsapiens
+  keep_types: [ortholog_one2one]
+
+external:
+  gse_mouse_iri: GSE98622
+  # GSE98622 は2つのシーケンスプラットフォームに分かれている（series matrix で確認）:
+  #   GPL13112: SHAM4h/24h/12m, IRI2h..IRI28d, IRI12m
+  #   GPL19057: NORM3m/9m/15m, IRI6mN
+  # プラットフォームをまたいで対照をプールすると batch と交絡するため、
+  # 必ず同一プラットフォーム内・時点整合のコントラストを組む。
+  # 主解析: 12か月 IRI vs 同週齢 sham（同一プラットフォーム、加齢も揃う）
+  iri_late_labels: [IRI12m]
+  iri_control_labels: [SHAM12m]
+  # 感度解析: 6か月 IRI vs 同一プラットフォームの normal
+  iri_late_labels_sens: [IRI6mN]
+  iri_control_labels_sens: [NORM3m, NORM9m, NORM15m]
+  kpmp_proteomics: data/external/KPMP/regional_proteomics.csv
+  kpmp_transcriptomics: data/external/KPMP/regional_transcriptomics.csv
+
+design:
+  # 種 x 発症区画（入口）。マウスだけが両方の入口を持つ点が設計の要。
+  cat_natural_ctx:  {species: cat,   entry: tubular}
+  cat_natural_med:  {species: cat,   entry: tubular}
+  mouse_podtreck:   {species: mouse, entry: glomerular}
+  mouse_iri_late:   {species: mouse, entry: tubular}
+  human_kpmp_ti:    {species: human, entry: glomerular}
+  human_kpmp_g:     {species: human, entry: glomerular}

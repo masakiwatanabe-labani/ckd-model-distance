@@ -1,0 +1,11 @@
+cat,mouse_state,days,distance
+cat_ctx_late,PodTRECK_5D,5.0,0.7025
+cat_ctx_late,PodTRECK_2W,14.0,0.5028
+cat_ctx_late,PodTRECK_3W,21.0,0.5645
+cat_ctx_late,UUO_2D,2.0,0.695
+cat_ctx_late,UUO_8D,8.0,0.5654
+cat_med_late,PodTRECK_5D,5.0,0.7518
+cat_med_late,PodTRECK_2W,14.0,0.6012
+cat_med_late,PodTRECK_3W,21.0,0.5803
+cat_med_late,UUO_2D,2.0,0.6972
+cat_med_late,UUO_8D,8.0,0.5916

@@ -1,0 +1,15 @@
+Gene,"Cat cortex, late (log2FC, q)","Mouse protein, Day 21 (log2FC, q)","Human KPMP TI, protein (log2FC, adj p)","Human ERCB TI, transcript (log2FC, q)",Direction across three species
+FAM3D,+2.01 (0.0179) *,+4.55 (3.26e-05) *,not measured,not measured,not evaluable (human not measured)
+PTN,+1.94 (0.0108) *,+1.58 (0.000421) *,not measured,-0.18 (0.331),"discordant (cat + / mouse + / human -, ERCB)"
+ANXA3,+1.35 (0.0299) *,+1.42 (2.63e-05) *,+0.54 (0.732),+0.92 (1.52e-05) *,"concordant (+, human = KPMP)"
+NPNT,+0.76 (0.111),+0.66 (0.0104) *,+0.38 (1),not measured,"concordant (+, human = KPMP)"
+ANGPTL2,+0.90 (0.0402) *,+0.37 (0.00856) *,+0.77 (1),-0.13 (0.174),"concordant (+, human = KPMP)"
+THBS1,+0.91 (0.077),+1.27 (6.24e-05) *,+0.36 (0.759),+0.39 (0.000739) *,"concordant (+, human = KPMP)"
+SULF1,+1.25 (0.0291) *,+2.18 (9.84e-06) *,-0.00 (1),-0.26 (0.0643),"discordant (cat + / mouse + / human -, KPMP)"
+ITGB6,+1.25 (0.0625),+0.59 (0.000515) *,+3.60 (0.155),+1.69 (1.11e-06) *,"concordant (+, human = KPMP)"
+TXNIP,+1.32 (0.0302) *,+1.11 (0.000267) *,+1.60 (0.889),-0.00 (0.998),"concordant (+, human = KPMP)"
+SPP1,+4.14 (0.0122) *,+3.69 (3.14e-06) *,+1.70 (0.468),+0.43 (0.000145) *,"concordant (+, human = KPMP)"
+MGP,not measured,+2.67 (0.00276) *,+0.58 (1),+0.29 (0.293),not evaluable (cat not measured)
+FBLN1,+2.22 (0.00497) *,+0.66 (0.00116) *,+1.08 (0.293),-0.10 (0.361),"concordant (+, human = KPMP)"
+NEDD4L,-0.72 (0.0374) *,-0.28 (0.0087) *,-0.50 (0.855),-0.36 (9.43e-07) *,"concordant (-, human = KPMP)"
+HSD11B2,-1.15 (0.0662),+0.68 (0.0079) *,-1.36 (0.00131) *,-0.54 (0.0014) *,"discordant (cat - / mouse + / human -, KPMP)"

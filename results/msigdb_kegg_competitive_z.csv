@@ -1,0 +1,1205 @@
+dataset,term,z,mean_lfc,n_genes
+cat_rna_ctx_late,ABC transporters,1.5888897426064936,0.35604150245245103,34
+cat_rna_ctx_late,AGE-RAGE signaling pathway in diabetic complications,4.476220582103774,0.48600521935732216,94
+cat_rna_ctx_late,AMPK signaling pathway,-1.5238562367676425,-0.08013344367742677,110
+cat_rna_ctx_late,Acute myeloid leukemia,3.4087669624686865,0.45751281209506306,61
+cat_rna_ctx_late,Adherens junction,2.3717596327199626,0.21312740548496456,68
+cat_rna_ctx_late,Adipocytokine signaling pathway,-1.2038490841343668,-0.06331085047484689,58
+cat_rna_ctx_late,Adrenergic signaling in cardiomyocytes,2.433421541239558,0.20688912830746425,117
+cat_rna_ctx_late,African trypanosomiasis,1.9701432133780867,0.2706367072596535,23
+cat_rna_ctx_late,"Alanine, aspartate and glutamate metabolism",-4.382183307143363,-0.5951679231165744,30
+cat_rna_ctx_late,Alcoholism,0.94711012740723,0.1310094821766785,82
+cat_rna_ctx_late,Aldosterone synthesis and secretion,1.6548304549780846,0.2347729670618182,76
+cat_rna_ctx_late,Aldosterone-regulated sodium reabsorption,-0.34259225664191434,0.0753030689997846,30
+cat_rna_ctx_late,Alzheimer disease,-4.00133200073182,-0.054672738373330546,284
+cat_rna_ctx_late,Amino sugar and nucleotide sugar metabolism,-1.2542249021455245,0.016289329221561295,41
+cat_rna_ctx_late,Aminoacyl-tRNA biosynthesis,-1.914118789413189,-0.1195794059694239,44
+cat_rna_ctx_late,Amoebiasis,6.49887322428933,0.769878617945847,76
+cat_rna_ctx_late,Amphetamine addiction,2.537659251435737,0.3324591437236611,48
+cat_rna_ctx_late,Amyotrophic lateral sclerosis,-3.6608897879482023,-0.06896325362246614,281
+cat_rna_ctx_late,Antigen processing and presentation,1.593992370454679,0.4042062152196522,31
+cat_rna_ctx_late,Apelin signaling pathway,1.9448343603448095,0.23009693445513896,116
+cat_rna_ctx_late,Apoptosis,4.15096547431907,0.25465312908533766,142
+cat_rna_ctx_late,Arachidonic acid metabolism,1.6100596814155053,0.33406631594827196,32
+cat_rna_ctx_late,Arginine and proline metabolism,-4.393642114706741,-0.4948775564138335,45
+cat_rna_ctx_late,Arginine biosynthesis,-2.6768535421723736,-0.6883885845457969,13
+cat_rna_ctx_late,Arrhythmogenic right ventricular cardiomyopathy,3.3779046169681135,0.3004990003181593,63
+cat_rna_ctx_late,Ascorbate and aldarate metabolism,-3.850472727303123,-1.10294746321006,11
+cat_rna_ctx_late,Autophagy,-1.863102738678542,-0.015555322101912761,160
+cat_rna_ctx_late,Axon guidance,2.249529196526534,0.1695617769151514,162
+cat_rna_ctx_late,B cell receptor signaling pathway,4.946301654917342,0.6672792789019207,66
+cat_rna_ctx_late,Bacterial invasion of epithelial cells,3.0742559174903716,0.31276169427006395,69
+cat_rna_ctx_late,Basal cell carcinoma,2.4169247395356686,0.4117228283912064,50
+cat_rna_ctx_late,Basal transcription factors,-0.6374768171640934,-0.038447272692137525,38
+cat_rna_ctx_late,Base excision repair,0.2792561772388756,0.04817977428870875,31
+cat_rna_ctx_late,Bile secretion,-0.7836460047960495,-0.15263452446958295,46
+cat_rna_ctx_late,Biosynthesis of unsaturated fatty acids,-1.3198692050076666,-0.07865300739703371,21
+cat_rna_ctx_late,Bladder cancer,2.274549088336982,0.3831562801490485,39
+cat_rna_ctx_late,Breast cancer,1.810125063377239,0.20887068190163866,114
+cat_rna_ctx_late,Butanoate metabolism,-5.5669966439978955,-0.9936609138096931,19
+cat_rna_ctx_late,C-type lectin receptor signaling pathway,5.40710649670721,0.5549028028091136,87
+cat_rna_ctx_late,Calcium signaling pathway,1.1314594450222737,0.1903371327515047,174
+cat_rna_ctx_late,Carbohydrate digestion and absorption,0.17768372462441795,0.12620136627323805,30
+cat_rna_ctx_late,Cardiac muscle contraction,-1.3234962749330523,-0.09016300284985912,46
+cat_rna_ctx_late,Cell adhesion molecules,6.87580917233508,0.7595456395941795,106
+cat_rna_ctx_late,Cell cycle,4.099643392394591,0.38894014374035896,114
+cat_rna_ctx_late,Cellular senescence,2.7164139728511856,0.27845005792476324,135
+cat_rna_ctx_late,Central carbon metabolism in cancer,0.5303696539131723,0.1670472231156998,59
+cat_rna_ctx_late,Chagas disease,5.081717732474121,0.5621694853577114,85
+cat_rna_ctx_late,Chemical carcinogenesis,1.0889136363419818,0.10048555865334585,150
+cat_rna_ctx_late,Chemokine signaling pathway,7.4822986839208,0.6843152652875113,146
+cat_rna_ctx_late,Cholesterol metabolism,-0.04648361720567508,0.13621535294500892,37
+cat_rna_ctx_late,Choline metabolism in cancer,2.4297336650199854,0.21619055979557003,83
+cat_rna_ctx_late,Cholinergic synapse,4.0366382371920135,0.3509259726362387,90
+cat_rna_ctx_late,Chronic myeloid leukemia,3.254165415139439,0.3539045242985856,74
+cat_rna_ctx_late,Circadian entrainment,2.2161383764002482,0.19145230015020634,69
+cat_rna_ctx_late,Circadian rhythm,-1.6064921914693409,-0.19742985831817164,28
+cat_rna_ctx_late,Citrate cycle (TCA cycle),-6.154523258688597,-0.687510933318017,29
+cat_rna_ctx_late,Cocaine addiction,2.2643914931923765,0.22880507327159239,32
+cat_rna_ctx_late,Collecting duct acid secretion,-4.918909217036273,-0.7848002185787619,23
+cat_rna_ctx_late,Colorectal cancer,3.0308670451926574,0.25690944872597016,80
+cat_rna_ctx_late,Complement and coagulation cascades,3.883772583090811,0.7535369668911074,57
+cat_rna_ctx_late,Coronavirus disease,7.689354587494908,0.4658518508720852,188
+cat_rna_ctx_late,Cortisol synthesis and secretion,0.9398970229058019,0.1907415507664135,48
+cat_rna_ctx_late,Cushing syndrome,1.7883810206152697,0.20119864238341253,122
+cat_rna_ctx_late,Cysteine and methionine metabolism,-4.982569279204593,-0.43606330351837064,44
+cat_rna_ctx_late,Cytokine-cytokine receptor interaction,11.230546074595273,1.141574872135814,156
+cat_rna_ctx_late,Cytosolic DNA-sensing pathway,3.4993598162131616,0.546506146771814,42
+cat_rna_ctx_late,DNA replication,2.4342030481150045,0.2668697181037459,33
+cat_rna_ctx_late,Diabetic cardiomyopathy,-4.2807850659225455,-0.014930720881611306,164
+cat_rna_ctx_late,Dilated cardiomyopathy,4.988836718509017,0.4633491568071467,73
+cat_rna_ctx_late,Dopaminergic synapse,1.6063007679050993,0.12797706725771493,105
+cat_rna_ctx_late,Drug metabolism,-2.844961953679239,-0.2994686917183654,58
+cat_rna_ctx_late,ECM-receptor interaction,6.331240264307434,0.7096419660844836,74
+cat_rna_ctx_late,Endocrine and other factor-regulated calcium reabsorption,-1.9322763734702084,-0.18597918303711128,42
+cat_rna_ctx_late,Endocytosis,-0.22639877507663686,0.08400094185694622,221
+cat_rna_ctx_late,Endometrial cancer,2.2346552932325947,0.2530524852821737,55
+cat_rna_ctx_late,Epithelial cell signaling in Helicobacter pylori infection,-0.646046147479566,-0.014120809483418949,64
+cat_rna_ctx_late,Epstein-Barr virus infection,7.483002499053691,0.5470653452623255,158
+cat_rna_ctx_late,ErbB signaling pathway,0.23366558848768926,0.03595788310016327,75
+cat_rna_ctx_late,Estrogen signaling pathway,2.121414978385167,0.3062966034771064,93
+cat_rna_ctx_late,Ether lipid metabolism,-0.03686337145942729,0.07455678017291302,34
+cat_rna_ctx_late,Fanconi anemia pathway,-0.23917025612281453,-0.0246078459912876,47
+cat_rna_ctx_late,Fat digestion and absorption,-2.9340330494862155,-0.44568004470689404,27
+cat_rna_ctx_late,Fatty acid biosynthesis,-4.4587629430013305,-0.6731318804602101,15
+cat_rna_ctx_late,Fatty acid degradation,-6.937921648563406,-0.8176309385835672,36
+cat_rna_ctx_late,Fatty acid elongation,-3.2856315778017855,-0.4352912172419202,20
+cat_rna_ctx_late,Fc epsilon RI signaling pathway,3.0462190584813675,0.4565870847604145,52
+cat_rna_ctx_late,Fc gamma R-mediated phagocytosis,4.662568142254827,0.4949613881545038,84
+cat_rna_ctx_late,Ferroptosis,-1.8467764774120097,-0.17219578599932894,34
+cat_rna_ctx_late,Fluid shear stress and atherosclerosis,2.312262952324613,0.2153859471161355,114
+cat_rna_ctx_late,Focal adhesion,5.754532055920296,0.41125599293733933,177
+cat_rna_ctx_late,Folate biosynthesis,-3.3345781315819965,-0.5931407441598677,17
+cat_rna_ctx_late,FoxO signaling pathway,1.043993049296894,0.13225207148244042,112
+cat_rna_ctx_late,Fructose and mannose metabolism,-1.8842156625350754,-0.32580529978219935,30
+cat_rna_ctx_late,GABAergic synapse,0.7724900768749648,0.04475715380393409,59
+cat_rna_ctx_late,Galactose metabolism,-1.14251069685154,-0.13910132004296605,22
+cat_rna_ctx_late,Gap junction,2.9353273094124845,0.29365395495818686,66
+cat_rna_ctx_late,Gastric acid secretion,-0.10863246300623577,-0.03134191510537682,54
+cat_rna_ctx_late,Gastric cancer,2.631006146005592,0.3039930714459566,115
+cat_rna_ctx_late,Glioma,3.04477034575765,0.32526089715840534,68
+cat_rna_ctx_late,Glucagon signaling pathway,-2.0347546148722477,-0.15911639696191548,87
+cat_rna_ctx_late,Glutamatergic synapse,2.9459714761011635,0.2629103590034529,74
+cat_rna_ctx_late,Glutathione metabolism,-2.564879661699567,-0.18520278401560722,39
+cat_rna_ctx_late,Glycerolipid metabolism,-2.6715954848504846,-0.30631955814055595,48
+cat_rna_ctx_late,Glycerophospholipid metabolism,-0.4607920329840683,0.009897024058784613,77
+cat_rna_ctx_late,"Glycine, serine and threonine metabolism",-5.708217787868149,-0.8058458879115225,36
+cat_rna_ctx_late,Glycolysis / Gluconeogenesis,-3.803135578838398,-0.41700585808302315,49
+cat_rna_ctx_late,Glycosaminoglycan biosynthesis,2.461373183016247,0.16770478411895692,49
+cat_rna_ctx_late,Glycosaminoglycan degradation,1.7911044904594533,0.22828945187687757,16
+cat_rna_ctx_late,Glycosphingolipid biosynthesis,1.9412385961180072,0.2648571550802736,42
+cat_rna_ctx_late,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,-1.0381328749464591,-0.077392341929049,25
+cat_rna_ctx_late,Glyoxylate and dicarboxylate metabolism,-5.81613796104034,-0.7649336505618942,29
+cat_rna_ctx_late,GnRH secretion,1.8053006799128637,0.29635849901045863,48
+cat_rna_ctx_late,GnRH signaling pathway,2.6347092622470436,0.27322349211914054,72
+cat_rna_ctx_late,"Growth hormone synthesis, secretion and action",1.909279745006516,0.17979061858427312,97
+cat_rna_ctx_late,HIF-1 signaling pathway,1.5142202373904479,0.20223032468105173,92
+cat_rna_ctx_late,Hedgehog signaling pathway,0.916364880203615,0.16253355791089427,51
+cat_rna_ctx_late,Hematopoietic cell lineage,6.272004153679981,1.1015492262747864,57
+cat_rna_ctx_late,Hepatitis B,6.129971950607384,0.429666929444119,139
+cat_rna_ctx_late,Hepatitis C,4.844956105991717,0.33898065312921705,126
+cat_rna_ctx_late,Hepatocellular carcinoma,2.553193600169126,0.24601466072138972,137
+cat_rna_ctx_late,Herpes simplex virus 1 infection,6.572213669696623,0.3268644848456056,230
+cat_rna_ctx_late,Hippo signaling pathway,1.6564652949689538,0.18583197528220097,155
+cat_rna_ctx_late,Histidine metabolism,-3.9729088371076986,-0.9122596387514464,18
+cat_rna_ctx_late,Homologous recombination,0.545336656005964,0.10749787845944292,36
+cat_rna_ctx_late,Human T-cell leukemia virus 1 infection,6.420117353618103,0.48439023356712085,180
+cat_rna_ctx_late,Human cytomegalovirus infection,6.138039881486906,0.40297004862089264,180
+cat_rna_ctx_late,Human immunodeficiency virus 1 infection,4.503357389087733,0.3261415941151246,166
+cat_rna_ctx_late,Human papillomavirus infection,3.8147303269990274,0.2440417397647654,274
+cat_rna_ctx_late,Huntington disease,-5.118109065086833,-0.10465085675308942,239
+cat_rna_ctx_late,Hypertrophic cardiomyopathy,4.100457794713181,0.3833047071393102,72
+cat_rna_ctx_late,IL-17 signaling pathway,3.334714157437189,0.4925534340395003,62
+cat_rna_ctx_late,Inflammatory bowel disease,5.4986760644618435,0.855678190392307,33
+cat_rna_ctx_late,Inflammatory mediator regulation of TRP channels,1.8490307232675034,0.21696328589492372,74
+cat_rna_ctx_late,Influenza A,6.1109147962228345,0.5041225071374396,112
+cat_rna_ctx_late,Inositol phosphate metabolism,0.7649384506158378,0.05533957505642214,67
+cat_rna_ctx_late,Insulin resistance,0.4156881117035705,0.10774884501150409,99
+cat_rna_ctx_late,Insulin secretion,1.7878506680750197,0.2550691430934068,60
+cat_rna_ctx_late,Insulin signaling pathway,-0.8573604279350343,-0.019617574376548413,122
+cat_rna_ctx_late,Intestinal immune network for IgA production,4.569463077769901,1.2211918311314267,25
+cat_rna_ctx_late,JAK-STAT signaling pathway,6.934741834154089,0.6804994662397622,101
+cat_rna_ctx_late,Kaposi sarcoma-associated herpesvirus infection,5.779950295656825,0.4351910590080495,150
+cat_rna_ctx_late,Legionellosis,1.4188577677850167,0.303254031552228,40
+cat_rna_ctx_late,Leishmaniasis,6.143499430926025,0.7571876277131682,50
+cat_rna_ctx_late,Leukocyte transendothelial migration,4.7464933605312725,0.5305450682594169,96
+cat_rna_ctx_late,Lipid and atherosclerosis,5.445125096137392,0.3828313290336982,162
+cat_rna_ctx_late,Long-term depression,1.3133905764584073,0.17659699945657145,44
+cat_rna_ctx_late,Long-term potentiation,0.39764059139398206,0.06295790034512815,51
+cat_rna_ctx_late,Longevity regulating pathway,0.5156482880269808,0.084340965126172,132
+cat_rna_ctx_late,Lysine degradation,-3.5985680003672833,-0.34502339299246815,59
+cat_rna_ctx_late,Lysosome,0.5551896391654817,0.09335158540208907,119
+cat_rna_ctx_late,MAPK signaling pathway,3.866102100260545,0.2473495416518885,246
+cat_rna_ctx_late,Malaria,5.827825866675206,1.04700716364251,32
+cat_rna_ctx_late,Mannose type O-glycan biosynthesis,-0.007976571417365191,0.0109502166547788,20
+cat_rna_ctx_late,Maturity onset diabetes of the young,-1.928114066935111,-0.4886783907969137,12
+cat_rna_ctx_late,Measles,6.934073563945561,0.6092106922334778,107
+cat_rna_ctx_late,Melanogenesis,1.4031685259753102,0.22536657326259188,75
+cat_rna_ctx_late,Melanoma,3.8486370465838173,0.47993934719579984,59
+cat_rna_ctx_late,Metabolism of xenobiotics by cytochrome P450,-1.6564419649848552,-0.28881542765752755,21
+cat_rna_ctx_late,MicroRNAs in cancer,5.5326955312998765,0.3718348370494314,144
+cat_rna_ctx_late,Mineral absorption,-2.1437916914487785,-0.26569972435185923,38
+cat_rna_ctx_late,Mismatch repair,0.8237175441547072,0.1070054818416369,21
+cat_rna_ctx_late,Mitophagy,-2.1558196668285126,-0.07039176149336811,66
+cat_rna_ctx_late,Morphine addiction,1.6442114419098222,0.1837290357010383,62
+cat_rna_ctx_late,Mucin type O-glycan biosynthesis,2.139290909983619,0.36574616951470307,24
+cat_rna_ctx_late,N-Glycan biosynthesis,-0.20084237192144228,0.011564011488128757,46
+cat_rna_ctx_late,NF-kappa B signaling pathway,7.001166078746032,0.7165639619757895,85
+cat_rna_ctx_late,NOD-like receptor signaling pathway,4.873239843988661,0.4407527186312331,129
+cat_rna_ctx_late,Natural killer cell mediated cytotoxicity,5.7697918939366195,0.764365976768055,71
+cat_rna_ctx_late,Necroptosis,3.008047228616664,0.2882109486355061,98
+cat_rna_ctx_late,Neuroactive ligand-receptor interaction,0.2994504569069899,0.07868779357720714,129
+cat_rna_ctx_late,Neurotrophin signaling pathway,2.320878272884237,0.1519279073625189,107
+cat_rna_ctx_late,Neutrophil extracellular trap formation,4.511425779426388,0.5640362132265061,93
+cat_rna_ctx_late,Nicotinate and nicotinamide metabolism,-2.4602774295825833,-0.2401622900174613,28
+cat_rna_ctx_late,Nicotine addiction,1.0413978299753792,0.21477714170847986,11
+cat_rna_ctx_late,Nitrogen metabolism,-1.8861170625465928,-0.3225599860248081,13
+cat_rna_ctx_late,Non-alcoholic fatty liver disease,-3.6200217078134487,-0.11130478887800109,124
+cat_rna_ctx_late,Non-homologous end-joining,0.35890157766189157,0.0348890429668656,12
+cat_rna_ctx_late,Non-small cell lung cancer,2.2941984063348624,0.2855814885563972,68
+cat_rna_ctx_late,Notch signaling pathway,1.852965210859813,0.21985484280970236,55
+cat_rna_ctx_late,Nucleotide excision repair,0.857866071814979,0.09610461309019609,40
+cat_rna_ctx_late,Olfactory transduction,1.5043461526324027,0.43719582192269946,26
+cat_rna_ctx_late,One carbon pool by folate,-1.256591695974571,-0.3308992217702972,17
+cat_rna_ctx_late,Oocyte meiosis,1.8486845221770374,0.21004101138161538,95
+cat_rna_ctx_late,Osteoclast differentiation,7.3476881441174005,0.7181012284165971,102
+cat_rna_ctx_late,Other glycan degradation,-0.7715312772058489,-0.08431425356652854,15
+cat_rna_ctx_late,Other types of O-glycan biosynthesis,2.5778389331469342,0.29258445038582565,37
+cat_rna_ctx_late,Ovarian steroidogenesis,2.219069331558606,0.3855396440283239,25
+cat_rna_ctx_late,Oxidative phosphorylation,-10.428376563857864,-0.5299506304004762,99
+cat_rna_ctx_late,Oxytocin signaling pathway,2.6057231521892907,0.18149399178180453,122
+cat_rna_ctx_late,PD-L1 expression and PD-1 checkpoint pathway in cancer,5.530142444020009,0.5313003818592469,83
+cat_rna_ctx_late,PI3K-Akt signaling pathway,6.516326392974002,0.40125059599278434,281
+cat_rna_ctx_late,PPAR signaling pathway,-4.439616856020982,-0.3296011387974096,61
+cat_rna_ctx_late,Pancreatic cancer,3.0309547453012136,0.28765076459422556,74
+cat_rna_ctx_late,Pancreatic secretion,0.895637551909248,0.1499747585321661,60
+cat_rna_ctx_late,Pantothenate and CoA biosynthesis,-3.310150436024183,-0.5778311750382332,16
+cat_rna_ctx_late,"Parathyroid hormone synthesis, secretion and action",2.80415921917427,0.22905580777299256,94
+cat_rna_ctx_late,Parkinson disease,-5.601799287330249,-0.1506902383084014,191
+cat_rna_ctx_late,Pathogenic Escherichia coli infection,5.222888236795083,0.344330854580335,165
+cat_rna_ctx_late,Pathways of neurodegeneration,-3.259000561623422,-0.020811571861210534,368
+cat_rna_ctx_late,Pentose and glucuronate interconversions,-2.9462671261834674,-0.8184023081427996,13
+cat_rna_ctx_late,Pentose phosphate pathway,-1.936068991015039,-0.38253632344594884,25
+cat_rna_ctx_late,Peroxisome,-7.39909008007794,-0.5598211714831501,76
+cat_rna_ctx_late,Pertussis,5.331281432072456,0.6939082388105159,55
+cat_rna_ctx_late,Phagosome,3.030563073470196,0.4259445941516671,108
+cat_rna_ctx_late,Phenylalanine metabolism,-2.2590943557749217,-0.545188775604047,15
+cat_rna_ctx_late,Phosphatidylinositol signaling system,0.7123689369282151,0.09824477050049424,86
+cat_rna_ctx_late,Phospholipase D signaling pathway,3.0986794897275347,0.3103857789820274,119
+cat_rna_ctx_late,Platelet activation,5.000199406286023,0.5250327648993935,98
+cat_rna_ctx_late,Porphyrin and chlorophyll metabolism,-1.7495791294102474,-0.12316706732320855,20
+cat_rna_ctx_late,Primary bile acid biosynthesis,-1.7142553170915604,-0.28726599952412535,14
+cat_rna_ctx_late,Primary immunodeficiency,6.09048949926413,1.441220758791181,29
+cat_rna_ctx_late,Prion disease,-2.8143401796772203,0.026683040845818597,209
+cat_rna_ctx_late,Progesterone-mediated oocyte maturation,1.8891963526025362,0.23230758300855694,76
+cat_rna_ctx_late,Prolactin signaling pathway,2.2098206681712464,0.23810327087357014,57
+cat_rna_ctx_late,Propanoate metabolism,-6.5087696655236815,-0.7508543982348781,31
+cat_rna_ctx_late,Prostate cancer,1.7218241887055397,0.1786749019996079,91
+cat_rna_ctx_late,Proteasome,-0.6493024455307206,0.022401966880022144,42
+cat_rna_ctx_late,Protein digestion and absorption,2.1018499506434942,0.41030882817135844,71
+cat_rna_ctx_late,Protein export,-0.5448713457538932,-0.06981259962969669,23
+cat_rna_ctx_late,Protein processing in endoplasmic reticulum,-0.36843312260995936,0.005109747426807698,156
+cat_rna_ctx_late,Proteoglycans in cancer,3.9844915731116246,0.34130780667822,178
+cat_rna_ctx_late,Proximal tubule bicarbonate reclamation,-2.699724103387318,-0.48614009457283414,17
+cat_rna_ctx_late,Purine metabolism,-1.6160854544141297,-0.03214455040433207,106
+cat_rna_ctx_late,Pyrimidine metabolism,0.017994889223660823,0.03230535206746971,47
+cat_rna_ctx_late,Pyruvate metabolism,-5.768949592363254,-0.6529610994453566,37
+cat_rna_ctx_late,RIG-I-like receptor signaling pathway,2.975251235134737,0.35036243438007886,50
+cat_rna_ctx_late,RNA degradation,0.10522758567999861,-0.013336327768368374,69
+cat_rna_ctx_late,RNA polymerase,-0.4627821083643616,-0.030960032929376862,28
+cat_rna_ctx_late,RNA transport,0.8243124280350131,0.027065873669799637,144
+cat_rna_ctx_late,Rap1 signaling pathway,3.6240361803736225,0.2868913464943165,176
+cat_rna_ctx_late,Ras signaling pathway,3.6135061597587557,0.26972018965966266,180
+cat_rna_ctx_late,Regulation of actin cytoskeleton,4.388387524811484,0.27487765303545836,179
+cat_rna_ctx_late,Regulation of lipolysis in adipocytes,2.1305463823425277,0.31763426665759964,40
+cat_rna_ctx_late,Relaxin signaling pathway,4.1741809140317265,0.39481036850580764,108
+cat_rna_ctx_late,Renal cell carcinoma,0.800243835774729,0.1563740841270771,65
+cat_rna_ctx_late,Renin secretion,0.5321777090612082,0.20317535258443956,54
+cat_rna_ctx_late,Renin-angiotensin system,-2.187615956605658,-0.448135139885171,16
+cat_rna_ctx_late,Retinol metabolism,-2.5937211049240703,-0.3506558207663846,22
+cat_rna_ctx_late,Retrograde endocannabinoid signaling,-2.8209012927697055,-0.12174635892931954,104
+cat_rna_ctx_late,Rheumatoid arthritis,0.8953328836658613,0.3418272561105127,55
+cat_rna_ctx_late,Ribosome,-0.10281457617779206,-0.02048780491827132,126
+cat_rna_ctx_late,Ribosome biogenesis in eukaryotes,1.8718284506963794,0.06896938894562465,71
+cat_rna_ctx_late,SNARE interactions in vesicular transport,-0.8833297554178167,0.030775729518831185,32
+cat_rna_ctx_late,Salivary secretion,1.9456204089800324,0.34288831117071483,55
+cat_rna_ctx_late,Salmonella infection,4.61973543352603,0.30238510639410215,218
+cat_rna_ctx_late,Selenocompound metabolism,-2.7178414249600493,-0.3675591479433482,16
+cat_rna_ctx_late,Serotonergic synapse,1.7311968069198362,0.21054268877984592,69
+cat_rna_ctx_late,Shigellosis,3.7191882090432675,0.2416768662444563,201
+cat_rna_ctx_late,Signaling pathways regulating pluripotency of stem cells,2.4380094325468558,0.2413142120108908,104
+cat_rna_ctx_late,Small cell lung cancer,4.428375289747734,0.3992665660488008,86
+cat_rna_ctx_late,Sphingolipid metabolism,0.17268559713912637,0.02898763603532408,41
+cat_rna_ctx_late,Sphingolipid signaling pathway,1.968173496709091,0.16224298490569303,110
+cat_rna_ctx_late,Spinocerebellar ataxia,-0.9577627897191587,0.05528191573770503,118
+cat_rna_ctx_late,Spliceosome,0.4057726894339128,0.005023234993567177,122
+cat_rna_ctx_late,Staphylococcus aureus infection,7.2122616474405605,1.6157377718165264,35
+cat_rna_ctx_late,Starch and sucrose metabolism,-0.8963583022759584,-0.10561577304897997,25
+cat_rna_ctx_late,Steroid biosynthesis,1.652364826060713,0.35691246616572664,19
+cat_rna_ctx_late,Steroid hormone biosynthesis,-1.987086656549114,-0.18374903284155217,20
+cat_rna_ctx_late,Sulfur metabolism,-1.1821464611650214,-0.22218975315899123,10
+cat_rna_ctx_late,Synaptic vesicle cycle,-4.2468021788789665,-0.32977381645079884,60
+cat_rna_ctx_late,Systemic lupus erythematosus,5.113161064878118,1.201207819749966,28
+cat_rna_ctx_late,T cell receptor signaling pathway,5.024435809270219,0.5905237689138425,90
+cat_rna_ctx_late,TGF-beta signaling pathway,3.583142352109107,0.49255178016258655,80
+cat_rna_ctx_late,TNF signaling pathway,5.783161659215185,0.5472465268857757,96
+cat_rna_ctx_late,Taste transduction,0.3008705550784731,0.2424612311917117,32
+cat_rna_ctx_late,Terpenoid backbone biosynthesis,-1.1170779215076034,-0.1724966446514557,20
+cat_rna_ctx_late,Th1 and Th2 cell differentiation,5.682184804637524,0.6581364737073615,68
+cat_rna_ctx_late,Th17 cell differentiation,5.7997868846252265,0.651747304688218,81
+cat_rna_ctx_late,Thermogenesis,-6.481628990894326,-0.19872312616284446,180
+cat_rna_ctx_late,Thiamine metabolism,-2.5554563122991474,-0.6353076321509522,11
+cat_rna_ctx_late,Thyroid cancer,2.0078633297238264,0.32068475082089015,36
+cat_rna_ctx_late,Thyroid hormone signaling pathway,0.23387435312018506,0.11031705230578806,111
+cat_rna_ctx_late,Thyroid hormone synthesis,0.9118905679888442,0.1659129515651345,55
+cat_rna_ctx_late,Tight junction,-0.3109512737684396,0.05079547693359334,144
+cat_rna_ctx_late,Toll-like receptor signaling pathway,6.073630926327647,0.6690431971249187,76
+cat_rna_ctx_late,Toxoplasmosis,5.704359092890182,0.5453892220092534,83
+cat_rna_ctx_late,Transcriptional misregulation in cancer,5.3767612005635135,0.49483922847999406,143
+cat_rna_ctx_late,Tryptophan metabolism,-6.943333663440734,-0.9926484105233302,34
+cat_rna_ctx_late,Tuberculosis,5.349341615118315,0.49549061785130855,130
+cat_rna_ctx_late,Type I diabetes mellitus,2.567921772014452,0.9668561933210983,10
+cat_rna_ctx_late,Type II diabetes mellitus,1.2710412046504829,0.29971004749037533,34
+cat_rna_ctx_late,Tyrosine metabolism,-2.9275842166763293,-0.4605281377364531,21
+cat_rna_ctx_late,Ubiquinone and other terpenoid-quinone biosynthesis,-3.087789898001415,-0.5510534215377295,11
+cat_rna_ctx_late,Ubiquitin mediated proteolysis,-1.1931849354705917,-0.012716209017307393,133
+cat_rna_ctx_late,VEGF signaling pathway,1.9534612376267861,0.20546119873664515,51
+cat_rna_ctx_late,"Valine, leucine and isoleucine degradation",-8.642223119727163,-0.9106238389224364,45
+cat_rna_ctx_late,Various types of N-glycan biosynthesis,-0.7718954685488107,-0.04706212025091405,34
+cat_rna_ctx_late,Vascular smooth muscle contraction,2.7805656449397262,0.2829122606441344,99
+cat_rna_ctx_late,Vasopressin-regulated water reabsorption,0.13985592444928852,0.04754938349709363,39
+cat_rna_ctx_late,Vibrio cholerae infection,-2.299593410920173,-0.17851465080526144,47
+cat_rna_ctx_late,Viral carcinogenesis,5.448958852650586,0.37249561309109497,148
+cat_rna_ctx_late,Viral myocarditis,4.422584949963091,0.7256907262673794,34
+cat_rna_ctx_late,Viral protein interaction with cytokine and cytokine receptor,7.861942040230338,1.4612821806610703,50
+cat_rna_ctx_late,Vitamin digestion and absorption,-1.319099932212805,-0.17980446661273214,20
+cat_rna_ctx_late,Wnt signaling pathway,3.4675894446970967,0.3636149314578797,132
+cat_rna_ctx_late,Yersinia infection,5.543998445581981,0.4343466187215028,123
+cat_rna_ctx_late,alpha-Linolenic acid metabolism,-0.46498118687702195,-0.04073729505750925,12
+cat_rna_ctx_late,beta-Alanine metabolism,-4.49478629262306,-0.6950254482535516,26
+cat_rna_ctx_late,cAMP signaling pathway,2.0755616847852214,0.1932543570290579,149
+cat_rna_ctx_late,cGMP-PKG signaling pathway,1.5171235493249204,0.15087839218241392,130
+cat_rna_ctx_late,mRNA surveillance pathway,0.3290618053176482,0.0100422994563752,82
+cat_rna_ctx_late,mTOR signaling pathway,-2.32973531272429,-0.06656438484276357,137
+cat_rna_ctx_late,p53 signaling pathway,3.4280153203819967,0.43544736608238016,66
+cat_rna_med_prog,ABC transporters,-0.207307564291136,0.06571975690088254,33
+cat_rna_med_prog,AGE-RAGE signaling pathway in diabetic complications,-1.3555116635770308,-0.040448425235509664,95
+cat_rna_med_prog,AMPK signaling pathway,-0.09888490865429347,0.0337089281407894,111
+cat_rna_med_prog,Acute myeloid leukemia,0.4598247228130756,0.0369052765380784,62
+cat_rna_med_prog,Adherens junction,-1.6623653571072794,-0.07406299163268289,69
+cat_rna_med_prog,Adipocytokine signaling pathway,-0.10247997772812788,0.019599846936866127,61
+cat_rna_med_prog,Adrenergic signaling in cardiomyocytes,-0.2596984608572842,0.05756779757342125,119
+cat_rna_med_prog,African trypanosomiasis,-1.2765537021158109,-0.20187405302524367,23
+cat_rna_med_prog,"Alanine, aspartate and glutamate metabolism",1.5088064873197835,0.21108212978327578,31
+cat_rna_med_prog,Alcoholism,-0.9005468544334335,-0.05623296305550281,86
+cat_rna_med_prog,Aldosterone synthesis and secretion,-2.4422217855505357,-0.06697226730924158,75
+cat_rna_med_prog,Aldosterone-regulated sodium reabsorption,-1.6661117945180324,-0.13322427516468832,31
+cat_rna_med_prog,Alzheimer disease,3.4343962829382657,0.06740105853103535,287
+cat_rna_med_prog,Amino sugar and nucleotide sugar metabolism,0.4808136937702905,0.03040531707890531,41
+cat_rna_med_prog,Aminoacyl-tRNA biosynthesis,1.7964649902694731,0.11699226351733456,44
+cat_rna_med_prog,Amoebiasis,0.18693142061510673,0.02208217086718412,78
+cat_rna_med_prog,Amphetamine addiction,-0.975797471670925,-0.037484086062567284,48
+cat_rna_med_prog,Amyotrophic lateral sclerosis,5.355322103525525,0.13834397730006917,281
+cat_rna_med_prog,Antigen processing and presentation,1.861602353748602,0.11549398188483294,31
+cat_rna_med_prog,Apelin signaling pathway,-1.7930057871839096,-0.05741914829015806,122
+cat_rna_med_prog,Apoptosis,2.305214547431514,0.08501612235280712,142
+cat_rna_med_prog,Arachidonic acid metabolism,2.7403736691384495,0.28392423467814737,32
+cat_rna_med_prog,Arginine and proline metabolism,4.003647171594628,0.37372795703473866,45
+cat_rna_med_prog,Arginine biosynthesis,1.1539988290040408,0.19552774198699296,13
+cat_rna_med_prog,Arrhythmogenic right ventricular cardiomyopathy,-1.3282766317469197,-0.0847491636428898,66
+cat_rna_med_prog,Ascorbate and aldarate metabolism,1.4839872171990642,0.18434408739207298,11
+cat_rna_med_prog,Autophagy,0.149362118107756,0.0016428472273891845,161
+cat_rna_med_prog,Axon guidance,-4.173141102826787,-0.17836745434378665,164
+cat_rna_med_prog,B cell receptor signaling pathway,0.7575847124624678,0.12159487634201673,67
+cat_rna_med_prog,Bacterial invasion of epithelial cells,0.0421292095313491,-0.04111940308421228,71
+cat_rna_med_prog,Basal cell carcinoma,-0.720426282817363,-0.01628533718475282,51
+cat_rna_med_prog,Basal transcription factors,-0.6919582107260488,-0.032218798548845906,38
+cat_rna_med_prog,Base excision repair,2.5236948260370733,0.19060829871356216,32
+cat_rna_med_prog,Bile secretion,-0.894402848253006,0.016455587593614818,45
+cat_rna_med_prog,Biosynthesis of unsaturated fatty acids,1.241883268458889,0.11844874018796639,21
+cat_rna_med_prog,Bladder cancer,1.6086547295456963,0.16154384062967178,40
+cat_rna_med_prog,Breast cancer,-2.238290356923592,-0.07435950532607528,116
+cat_rna_med_prog,Butanoate metabolism,2.3572347744134703,0.3090004088225524,18
+cat_rna_med_prog,C-type lectin receptor signaling pathway,-0.9025042458466436,-0.07086720483919556,86
+cat_rna_med_prog,Calcium signaling pathway,-3.493295792796895,-0.13450899489853727,175
+cat_rna_med_prog,Carbohydrate digestion and absorption,-0.12270474132991033,0.12031709934435751,30
+cat_rna_med_prog,Cardiac muscle contraction,0.4170607325900871,0.09402673681711259,49
+cat_rna_med_prog,Cell adhesion molecules,0.14443346512314567,0.04537975180202119,107
+cat_rna_med_prog,Cell cycle,2.1555261199282665,0.18381547139895596,117
+cat_rna_med_prog,Cellular senescence,1.3612777185824887,0.11037491506418648,137
+cat_rna_med_prog,Central carbon metabolism in cancer,0.18278724280603387,0.08100604267438462,60
+cat_rna_med_prog,Chagas disease,1.7571073442393281,0.08459176426039926,85
+cat_rna_med_prog,Chemical carcinogenesis,-1.955036544135002,-0.07726682133924553,150
+cat_rna_med_prog,Chemokine signaling pathway,0.9110610040140071,0.05974558665019251,142
+cat_rna_med_prog,Cholesterol metabolism,1.3985206129988117,0.2381729277234112,37
+cat_rna_med_prog,Choline metabolism in cancer,-0.6708887963632064,-0.002987160667141278,84
+cat_rna_med_prog,Cholinergic synapse,-2.0900062428781667,-0.10028336495824007,90
+cat_rna_med_prog,Chronic myeloid leukemia,1.0796789470652641,0.09635829575164143,74
+cat_rna_med_prog,Circadian entrainment,-3.3955371716828107,-0.20064491022597578,73
+cat_rna_med_prog,Circadian rhythm,-2.569645370462187,-0.20568522014102025,28
+cat_rna_med_prog,Citrate cycle (TCA cycle),1.8141644077910568,0.26968932574754717,29
+cat_rna_med_prog,Cocaine addiction,-0.5842016823183878,-0.04019041360958073,33
+cat_rna_med_prog,Collecting duct acid secretion,0.2906624045715941,-0.031074523333003316,23
+cat_rna_med_prog,Colorectal cancer,-0.5817466044096988,-0.01849023386957082,80
+cat_rna_med_prog,Complement and coagulation cascades,1.7786459763944993,0.23066751491065282,55
+cat_rna_med_prog,Coronavirus disease,7.060589129380277,0.25652408928237314,188
+cat_rna_med_prog,Cortisol synthesis and secretion,-2.1016405540416687,-0.1340876981393137,49
+cat_rna_med_prog,Cushing syndrome,-2.149678076379194,-0.07350867556854301,123
+cat_rna_med_prog,Cysteine and methionine metabolism,2.208039436419789,0.19074782174167026,44
+cat_rna_med_prog,Cytokine-cytokine receptor interaction,1.573858373618868,0.10433492410584003,149
+cat_rna_med_prog,Cytosolic DNA-sensing pathway,1.8877218026059064,0.14953996025866606,42
+cat_rna_med_prog,DNA replication,3.551728696801336,0.26767921341404793,34
+cat_rna_med_prog,Diabetic cardiomyopathy,2.9638159064308116,0.11050136070031413,164
+cat_rna_med_prog,Dilated cardiomyopathy,-0.3726076876349614,0.03863031163798891,76
+cat_rna_med_prog,Dopaminergic synapse,-2.219419160935093,-0.11007688806998212,106
+cat_rna_med_prog,Drug metabolism,3.524016297604885,0.2889072195497155,58
+cat_rna_med_prog,ECM-receptor interaction,-1.1348529508089344,-0.08576999773962148,75
+cat_rna_med_prog,Endocrine and other factor-regulated calcium reabsorption,-0.7854853919844698,-0.010812551715821404,43
+cat_rna_med_prog,Endocytosis,-0.5147949723814735,-0.013640766574359907,223
+cat_rna_med_prog,Endometrial cancer,-0.2142134155058702,-0.009548029417546346,55
+cat_rna_med_prog,Epithelial cell signaling in Helicobacter pylori infection,0.9369320491457096,0.05691297034668584,64
+cat_rna_med_prog,Epstein-Barr virus infection,3.6213064784741955,0.15931568368090807,158
+cat_rna_med_prog,ErbB signaling pathway,-1.2913211501932298,-0.08726555780530795,75
+cat_rna_med_prog,Estrogen signaling pathway,-0.47690661537105383,0.046015714818118204,98
+cat_rna_med_prog,Ether lipid metabolism,0.274091958000657,0.10674384193094022,35
+cat_rna_med_prog,Fanconi anemia pathway,0.11817266394843934,0.03924150671350512,47
+cat_rna_med_prog,Fat digestion and absorption,2.4174650189318037,0.4978731480583229,24
+cat_rna_med_prog,Fatty acid biosynthesis,3.0872003696427632,0.5093752767863932,15
+cat_rna_med_prog,Fatty acid degradation,4.042611878133372,0.39046018780059716,35
+cat_rna_med_prog,Fatty acid elongation,1.6031264137042744,0.14859216451858998,20
+cat_rna_med_prog,Fc epsilon RI signaling pathway,0.5075124973881484,0.021977413196989707,53
+cat_rna_med_prog,Fc gamma R-mediated phagocytosis,1.110868561783049,0.04389480295514392,86
+cat_rna_med_prog,Ferroptosis,2.467803306766462,0.24088642799938512,33
+cat_rna_med_prog,Fluid shear stress and atherosclerosis,0.0321928891326999,0.011619874098389448,115
+cat_rna_med_prog,Focal adhesion,-2.748514997377499,-0.10853634561419388,177
+cat_rna_med_prog,Folate biosynthesis,1.861582807720869,0.24380783393348876,17
+cat_rna_med_prog,FoxO signaling pathway,-1.2096395662274835,-0.014268107520035734,116
+cat_rna_med_prog,Fructose and mannose metabolism,1.3283535401675663,0.17029944187687987,29
+cat_rna_med_prog,GABAergic synapse,-1.9120605272178925,-0.13370716649969264,62
+cat_rna_med_prog,Galactose metabolism,0.6858196374981322,0.05589139018836271,22
+cat_rna_med_prog,Gap junction,-1.8197987487911442,-0.13690791916831974,70
+cat_rna_med_prog,Gastric acid secretion,-1.6052620692786332,-0.1833595389039766,55
+cat_rna_med_prog,Gastric cancer,-0.9331282945025824,-0.00981509936859167,115
+cat_rna_med_prog,Glioma,-0.2355904515513416,0.014057497286047858,68
+cat_rna_med_prog,Glucagon signaling pathway,-1.198489189039854,-0.018210264618109394,85
+cat_rna_med_prog,Glutamatergic synapse,-1.625456209362869,-0.07065645723228929,79
+cat_rna_med_prog,Glutathione metabolism,3.681260995978589,0.325010611378066,40
+cat_rna_med_prog,Glycerolipid metabolism,1.9401323115215838,0.16822507982642745,48
+cat_rna_med_prog,Glycerophospholipid metabolism,0.8977640959283053,0.09537420074626664,78
+cat_rna_med_prog,"Glycine, serine and threonine metabolism",6.313981505498024,0.6472288256571127,36
+cat_rna_med_prog,Glycolysis / Gluconeogenesis,1.2123496669621188,0.14599205880933494,49
+cat_rna_med_prog,Glycosaminoglycan biosynthesis,-0.7758144547491097,-0.03615472587966011,52
+cat_rna_med_prog,Glycosaminoglycan degradation,0.6407691728007477,0.07607216213575262,16
+cat_rna_med_prog,Glycosphingolipid biosynthesis,1.2960396510858487,0.11288997913597942,43
+cat_rna_med_prog,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,0.5093252698958342,0.03242019677803077,25
+cat_rna_med_prog,Glyoxylate and dicarboxylate metabolism,4.282193165037034,0.43263594457122795,29
+cat_rna_med_prog,GnRH secretion,-0.8440754568677531,-0.041585869881426055,48
+cat_rna_med_prog,GnRH signaling pathway,-0.21961314690502398,-1.772037200131123e-05,71
+cat_rna_med_prog,"Growth hormone synthesis, secretion and action",-2.4278986421113102,-0.14418522895344235,98
+cat_rna_med_prog,HIF-1 signaling pathway,-1.8068286643422988,-0.10239275573378433,92
+cat_rna_med_prog,Hedgehog signaling pathway,-2.3394274368556665,-0.11611315728556104,51
+cat_rna_med_prog,Hematopoietic cell lineage,1.0499560069293987,0.16050727525982364,59
+cat_rna_med_prog,Hepatitis B,-0.11338494645904658,0.021232229544395582,139
+cat_rna_med_prog,Hepatitis C,0.7378893817753951,0.03908273117626908,127
+cat_rna_med_prog,Hepatocellular carcinoma,-0.4413862436671532,0.02217422324782409,139
+cat_rna_med_prog,Herpes simplex virus 1 infection,-2.0527042624278833,-0.04178730641849698,232
+cat_rna_med_prog,Hippo signaling pathway,-2.5948760201050747,-0.07930229514157015,157
+cat_rna_med_prog,Histidine metabolism,2.309375263752936,0.4159597255011591,17
+cat_rna_med_prog,Homologous recombination,0.7984752005533571,0.09462430609175425,37
+cat_rna_med_prog,Human T-cell leukemia virus 1 infection,1.3669507199187259,0.09491948180741575,182
+cat_rna_med_prog,Human cytomegalovirus infection,-0.2283496007344487,-0.0003804842883863573,181
+cat_rna_med_prog,Human immunodeficiency virus 1 infection,1.6918369218058285,0.07898289925793467,169
+cat_rna_med_prog,Human papillomavirus infection,-2.190487146768573,-0.06042718322710395,276
+cat_rna_med_prog,Huntington disease,4.954515226070418,0.1217292334830459,239
+cat_rna_med_prog,Hypertrophic cardiomyopathy,-0.46874098082957233,0.03917627327874312,74
+cat_rna_med_prog,IL-17 signaling pathway,1.461159059630673,0.10812644965874492,64
+cat_rna_med_prog,Inflammatory bowel disease,0.5055608912695214,0.042299134096128656,34
+cat_rna_med_prog,Inflammatory mediator regulation of TRP channels,-1.5348359086991106,-0.13896897582714612,74
+cat_rna_med_prog,Influenza A,-0.6001061256928604,-0.03367990738958192,113
+cat_rna_med_prog,Inositol phosphate metabolism,-2.1102882446042224,-0.10190418705317157,69
+cat_rna_med_prog,Insulin resistance,-1.2085057049096168,0.030435604237400344,98
+cat_rna_med_prog,Insulin secretion,-1.7640861985964618,-0.0916733351832339,59
+cat_rna_med_prog,Insulin signaling pathway,-0.8447417254556759,-0.01657983608323844,124
+cat_rna_med_prog,Intestinal immune network for IgA production,1.8388996973857572,0.21157501067545792,20
+cat_rna_med_prog,JAK-STAT signaling pathway,-1.0174696162592307,-0.0419409356272389,104
+cat_rna_med_prog,Kaposi sarcoma-associated herpesvirus infection,0.09399589459162097,-0.006193602319130275,151
+cat_rna_med_prog,Legionellosis,1.3696472180438024,0.07009661642630464,40
+cat_rna_med_prog,Leishmaniasis,0.3378532218279749,-0.014436059860272092,51
+cat_rna_med_prog,Leukocyte transendothelial migration,0.3815051127682996,0.04926105314074756,96
+cat_rna_med_prog,Lipid and atherosclerosis,0.2105909065413252,0.005817590139786267,162
+cat_rna_med_prog,Long-term depression,-1.5208991914634478,-0.14599552213570569,45
+cat_rna_med_prog,Long-term potentiation,-1.4744750596828053,-0.12703236382588473,50
+cat_rna_med_prog,Longevity regulating pathway,-2.0872408858945786,-0.10919871109582531,135
+cat_rna_med_prog,Lysine degradation,0.14623791163796204,0.06744762651839058,59
+cat_rna_med_prog,Lysosome,2.6157982129816237,0.14063487685658527,119
+cat_rna_med_prog,MAPK signaling pathway,-2.785790043248587,-0.05801964418357326,250
+cat_rna_med_prog,Malaria,0.13152349621055326,-0.024880498610741736,32
+cat_rna_med_prog,Mannose type O-glycan biosynthesis,-0.10314764056906654,-0.022819023989686882,20
+cat_rna_med_prog,Maturity onset diabetes of the young,2.0278378201349323,0.6621914653255727,12
+cat_rna_med_prog,Measles,0.970153490098471,0.05058876792639001,108
+cat_rna_med_prog,Melanogenesis,-1.8757137625585885,-0.07914386358540812,76
+cat_rna_med_prog,Melanoma,-0.12456702378476696,0.02847402169994189,58
+cat_rna_med_prog,Metabolism of xenobiotics by cytochrome P450,0.3083774517357537,0.0418535563477308,20
+cat_rna_med_prog,MicroRNAs in cancer,-2.4814960372044244,-0.058546920471478525,147
+cat_rna_med_prog,Mineral absorption,0.1360064678244972,0.11588634828489516,38
+cat_rna_med_prog,Mismatch repair,0.8973654452849579,0.0902271157321979,21
+cat_rna_med_prog,Mitophagy,2.1813029340896244,0.12527229682480018,66
+cat_rna_med_prog,Morphine addiction,-4.045325441402581,-0.31178715636737964,66
+cat_rna_med_prog,Mucin type O-glycan biosynthesis,0.8252126495317172,0.17663292311659975,24
+cat_rna_med_prog,N-Glycan biosynthesis,1.0023908098793959,0.04798267331231499,47
+cat_rna_med_prog,NF-kappa B signaling pathway,0.8683007769602851,0.055678564450400134,84
+cat_rna_med_prog,NOD-like receptor signaling pathway,0.2607807290676761,0.02048316413418287,128
+cat_rna_med_prog,Natural killer cell mediated cytotoxicity,1.7947399719456996,0.11780234652635312,70
+cat_rna_med_prog,Necroptosis,1.738977503157698,0.07427594779023892,98
+cat_rna_med_prog,Neuroactive ligand-receptor interaction,-1.9060478128018796,-0.09665549033502772,128
+cat_rna_med_prog,Neurotrophin signaling pathway,-0.683210102734907,-0.030982970899743167,107
+cat_rna_med_prog,Neutrophil extracellular trap formation,1.7302130016475727,0.0770962651366185,94
+cat_rna_med_prog,Nicotinate and nicotinamide metabolism,2.5363498606155748,0.3361790451620353,29
+cat_rna_med_prog,Nicotine addiction,-1.7237833235082205,-0.3194899885900095,12
+cat_rna_med_prog,Nitrogen metabolism,1.7473131281097056,0.38452663443568125,13
+cat_rna_med_prog,Non-alcoholic fatty liver disease,1.8657393933331436,0.07387508109514246,125
+cat_rna_med_prog,Non-homologous end-joining,0.3065435252505413,0.0511322065070412,12
+cat_rna_med_prog,Non-small cell lung cancer,0.17161465354759153,0.010600126062454317,70
+cat_rna_med_prog,Notch signaling pathway,-2.664726981345743,-0.10789285583341084,56
+cat_rna_med_prog,Nucleotide excision repair,2.0279859444763146,0.1317856405689812,41
+cat_rna_med_prog,Olfactory transduction,-1.6838239563346329,-0.2544386309959363,28
+cat_rna_med_prog,One carbon pool by folate,2.673010354171109,0.23500116051622635,16
+cat_rna_med_prog,Oocyte meiosis,1.0142050120280528,0.09437987545832488,97
+cat_rna_med_prog,Osteoclast differentiation,-0.3681624697188183,-0.011198433144541843,104
+cat_rna_med_prog,Other glycan degradation,1.8375097682659904,0.2311587612658142,15
+cat_rna_med_prog,Other types of O-glycan biosynthesis,0.6790704159432662,0.12005479743317607,37
+cat_rna_med_prog,Ovarian steroidogenesis,-1.096984781991658,-0.1725224776106219,27
+cat_rna_med_prog,Oxidative phosphorylation,3.588517322331384,0.13486994077912864,99
+cat_rna_med_prog,Oxytocin signaling pathway,-2.392972938193034,-0.09225305411851899,121
+cat_rna_med_prog,PD-L1 expression and PD-1 checkpoint pathway in cancer,0.43114241812115167,0.010785733099367848,84
+cat_rna_med_prog,PI3K-Akt signaling pathway,-1.7378174301172742,-0.03590842669787024,286
+cat_rna_med_prog,PPAR signaling pathway,2.702464557963127,0.30187809843848123,61
+cat_rna_med_prog,Pancreatic cancer,0.741010021615246,0.07156491084268077,75
+cat_rna_med_prog,Pancreatic secretion,0.310403209648814,0.10481066641657102,61
+cat_rna_med_prog,Pantothenate and CoA biosynthesis,2.136785939291022,0.32690806096023306,16
+cat_rna_med_prog,"Parathyroid hormone synthesis, secretion and action",-0.3719919338462642,0.0621837587034032,94
+cat_rna_med_prog,Parkinson disease,5.674739634505798,0.16517511718409938,192
+cat_rna_med_prog,Pathogenic Escherichia coli infection,1.5093948899616363,0.07061965427071658,167
+cat_rna_med_prog,Pathways of neurodegeneration,4.46728824093231,0.09861728661850003,370
+cat_rna_med_prog,Pentose and glucuronate interconversions,0.8501046043136252,0.11265492835632894,13
+cat_rna_med_prog,Pentose phosphate pathway,2.4922608063477836,0.2842952668375347,25
+cat_rna_med_prog,Peroxisome,6.1484432837389535,0.41568761212689864,76
+cat_rna_med_prog,Pertussis,1.2625343267973157,0.04717393474396368,56
+cat_rna_med_prog,Phagosome,1.358402826549234,0.051329050080688124,107
+cat_rna_med_prog,Phenylalanine metabolism,1.4311010812962899,0.32622136122627093,15
+cat_rna_med_prog,Phosphatidylinositol signaling system,-1.900704356514929,-0.07869061357593249,87
+cat_rna_med_prog,Phospholipase D signaling pathway,-0.8986403110395307,-0.0163353486809713,120
+cat_rna_med_prog,Platelet activation,-0.889316826394323,-0.039547642412366864,102
+cat_rna_med_prog,Porphyrin and chlorophyll metabolism,2.5012668629682255,0.25105533408315284,20
+cat_rna_med_prog,Primary bile acid biosynthesis,2.957202932167976,0.4903113715638471,14
+cat_rna_med_prog,Primary immunodeficiency,3.1004344883299475,0.33267932108859066,27
+cat_rna_med_prog,Prion disease,4.768317049733256,0.13731420039174516,209
+cat_rna_med_prog,Progesterone-mediated oocyte maturation,0.2754895862945441,0.05398594563896019,79
+cat_rna_med_prog,Prolactin signaling pathway,-0.14682787290556387,0.008171207331025892,57
+cat_rna_med_prog,Propanoate metabolism,3.800125372610339,0.30828976749376835,31
+cat_rna_med_prog,Prostate cancer,-0.6247674980092363,-0.012198001125832733,91
+cat_rna_med_prog,Proteasome,5.093421228916709,0.30092084525463647,42
+cat_rna_med_prog,Protein digestion and absorption,0.9329149246460999,0.05203673524698769,71
+cat_rna_med_prog,Protein export,2.3483166142604093,0.19058459831804828,23
+cat_rna_med_prog,Protein processing in endoplasmic reticulum,2.1870268956835597,0.0639992135409497,155
+cat_rna_med_prog,Proteoglycans in cancer,-0.44966215239389135,0.005301690567246313,180
+cat_rna_med_prog,Proximal tubule bicarbonate reclamation,0.7215140743627408,0.2669982874396253,18
+cat_rna_med_prog,Purine metabolism,0.8939324468898078,0.05028512117028718,108
+cat_rna_med_prog,Pyrimidine metabolism,5.359074872668551,0.47928664922628356,47
+cat_rna_med_prog,Pyruvate metabolism,2.893823102045493,0.3074194977864195,36
+cat_rna_med_prog,RIG-I-like receptor signaling pathway,0.06854143041311171,0.013122020847281974,50
+cat_rna_med_prog,RNA degradation,0.3987708384582442,0.034683854190262445,70
+cat_rna_med_prog,RNA polymerase,1.9612595526849705,0.15319732401749978,28
+cat_rna_med_prog,RNA transport,1.3336310943935756,0.056556995160552154,144
+cat_rna_med_prog,Rap1 signaling pathway,-3.209635271762345,-0.12322860058147524,180
+cat_rna_med_prog,Ras signaling pathway,-3.154198346444633,-0.10077819305382206,186
+cat_rna_med_prog,Regulation of actin cytoskeleton,-1.324757843244894,-0.04799239999854542,179
+cat_rna_med_prog,Regulation of lipolysis in adipocytes,-1.6816456601285978,-0.2657250922206776,43
+cat_rna_med_prog,Relaxin signaling pathway,-1.8042969225076164,-0.0649185220790263,111
+cat_rna_med_prog,Renal cell carcinoma,-1.9178428754818506,-0.10527605340321126,66
+cat_rna_med_prog,Renin secretion,-2.1013658373894195,-0.08806207952826914,55
+cat_rna_med_prog,Renin-angiotensin system,3.254501571449833,0.7871267182065675,16
+cat_rna_med_prog,Retinol metabolism,-0.34990008027255415,-0.06997550073880186,22
+cat_rna_med_prog,Retrograde endocannabinoid signaling,-0.9685964304321215,-0.10008760402090558,106
+cat_rna_med_prog,Rheumatoid arthritis,0.22505793189096615,0.021146666428971426,57
+cat_rna_med_prog,Ribosome,11.05087704297188,0.40024282019570295,126
+cat_rna_med_prog,Ribosome biogenesis in eukaryotes,1.9370684710980017,0.10441586656943662,71
+cat_rna_med_prog,SNARE interactions in vesicular transport,0.041302831307103965,0.021900428605796603,31
+cat_rna_med_prog,Salivary secretion,-0.20936984476442977,0.0621369958622293,57
+cat_rna_med_prog,Salmonella infection,2.0260945924546734,0.059467485857976024,216
+cat_rna_med_prog,Selenocompound metabolism,0.9287636036000934,0.09785076131288761,16
+cat_rna_med_prog,Serotonergic synapse,-3.4317452766209713,-0.24752649606041616,74
+cat_rna_med_prog,Shigellosis,0.11481824686475943,-0.008307014149016025,202
+cat_rna_med_prog,Signaling pathways regulating pluripotency of stem cells,-2.6509569699064564,-0.0865773713511963,106
+cat_rna_med_prog,Small cell lung cancer,0.273790123923008,0.005880913110690902,86
+cat_rna_med_prog,Sphingolipid metabolism,-0.06883447692440336,-0.045542517864333325,41
+cat_rna_med_prog,Sphingolipid signaling pathway,0.10969623918777065,-0.015117621822030275,111
+cat_rna_med_prog,Spinocerebellar ataxia,2.4600395026214583,0.0880144426150762,120
+cat_rna_med_prog,Spliceosome,1.031283386359231,0.041854960279061666,122
+cat_rna_med_prog,Staphylococcus aureus infection,4.607910892789512,0.6393755045287035,36
+cat_rna_med_prog,Starch and sucrose metabolism,0.010959331107039044,0.07778807994072608,25
+cat_rna_med_prog,Steroid biosynthesis,2.074354575078149,0.4845107459511598,19
+cat_rna_med_prog,Steroid hormone biosynthesis,1.5791720599881829,0.2324188405060374,21
+cat_rna_med_prog,Sulfur metabolism,1.7813988255951727,0.25586338075367954,10
+cat_rna_med_prog,Synaptic vesicle cycle,0.5910516624599973,0.027371936722658634,59
+cat_rna_med_prog,Systemic lupus erythematosus,1.8223806366884197,0.1748399402744825,29
+cat_rna_med_prog,T cell receptor signaling pathway,1.0224489251670623,0.07717179213278762,90
+cat_rna_med_prog,TGF-beta signaling pathway,-3.1096766186817626,-0.13868344087257464,79
+cat_rna_med_prog,TNF signaling pathway,-0.26577130921347103,-0.004877169054812139,95
+cat_rna_med_prog,Taste transduction,-0.6797643823371051,-0.1153056549649259,30
+cat_rna_med_prog,Terpenoid backbone biosynthesis,1.6610400961983502,0.21826190093001543,19
+cat_rna_med_prog,Th1 and Th2 cell differentiation,0.42724672123715524,0.07342883769103624,70
+cat_rna_med_prog,Th17 cell differentiation,1.637710303767319,0.13048053959160438,81
+cat_rna_med_prog,Thermogenesis,1.6408637822560248,0.03428966930152732,181
+cat_rna_med_prog,Thiamine metabolism,0.4487570777132633,0.047127702276833314,11
+cat_rna_med_prog,Thyroid cancer,0.834731937631664,0.08612117267958447,36
+cat_rna_med_prog,Thyroid hormone signaling pathway,-2.810129423139288,-0.11574892513728538,110
+cat_rna_med_prog,Thyroid hormone synthesis,1.0944419328384332,0.15910211789918605,55
+cat_rna_med_prog,Tight junction,-0.49835353374080354,0.008223684760051456,145
+cat_rna_med_prog,Toll-like receptor signaling pathway,1.0569190401984139,0.06930446368955823,76
+cat_rna_med_prog,Toxoplasmosis,0.5688823921538503,0.021123385091299032,83
+cat_rna_med_prog,Transcriptional misregulation in cancer,-2.0153982881125385,-0.07576941713684544,143
+cat_rna_med_prog,Tryptophan metabolism,3.394632639286234,0.3533123039651657,35
+cat_rna_med_prog,Tuberculosis,-0.019044833450560267,0.02282409992860974,130
+cat_rna_med_prog,Type I diabetes mellitus,0.9790286089817307,0.30935865700388027,11
+cat_rna_med_prog,Type II diabetes mellitus,-1.9001468281719995,-0.15919458047240406,36
+cat_rna_med_prog,Tyrosine metabolism,1.8469928282474208,0.22894053387200175,21
+cat_rna_med_prog,Ubiquinone and other terpenoid-quinone biosynthesis,0.7702312004626549,0.13222865413416815,11
+cat_rna_med_prog,Ubiquitin mediated proteolysis,-0.6982894032596075,-0.007996453568709688,133
+cat_rna_med_prog,VEGF signaling pathway,-0.013550985010545243,-0.024916519024199595,51
+cat_rna_med_prog,"Valine, leucine and isoleucine degradation",3.364196066509141,0.19734563599579663,45
+cat_rna_med_prog,Various types of N-glycan biosynthesis,0.0007185206729952821,-0.03410515042953899,36
+cat_rna_med_prog,Vascular smooth muscle contraction,-2.6558339283987924,-0.06955550211643594,100
+cat_rna_med_prog,Vasopressin-regulated water reabsorption,-0.25088500262294744,-0.0018365423590663316,38
+cat_rna_med_prog,Vibrio cholerae infection,1.5008308936389438,0.12221154729900927,47
+cat_rna_med_prog,Viral carcinogenesis,0.45752276151175897,0.03740599646843242,147
+cat_rna_med_prog,Viral myocarditis,1.0914394311626194,0.06616160471117633,35
+cat_rna_med_prog,Viral protein interaction with cytokine and cytokine receptor,3.1790905910643925,0.29841678884671696,42
+cat_rna_med_prog,Vitamin digestion and absorption,2.6588770288994605,0.5030836712904204,19
+cat_rna_med_prog,Wnt signaling pathway,-2.474257721143509,-0.0971035877841109,135
+cat_rna_med_prog,Yersinia infection,1.1438523534828118,0.04534020173179753,123
+cat_rna_med_prog,alpha-Linolenic acid metabolism,1.9499574245103832,0.47998666482721525,12
+cat_rna_med_prog,beta-Alanine metabolism,2.1275861488120023,0.27660757247186607,26
+cat_rna_med_prog,cAMP signaling pathway,-2.846926969854262,-0.11802522052943051,154
+cat_rna_med_prog,cGMP-PKG signaling pathway,-4.112660253792053,-0.19799980329613964,133
+cat_rna_med_prog,mRNA surveillance pathway,-0.0848932954945401,0.012697470104824728,82
+cat_rna_med_prog,mTOR signaling pathway,0.2751090868646144,0.028306818107861408,137
+cat_rna_med_prog,p53 signaling pathway,2.5515104947493272,0.24517917559305635,67
+m_rna_2w,ABC transporters,-1.2278519867124258,0.4115390320873989,30
+m_rna_2w,AGE-RAGE signaling pathway in diabetic complications,6.433417991565904,1.2644349528179575,91
+m_rna_2w,AMPK signaling pathway,-1.1422483582636245,0.42498221757033744,103
+m_rna_2w,Acute myeloid leukemia,3.3692299398436507,0.950126603977318,57
+m_rna_2w,Adherens junction,4.590519745131469,0.9145932722650324,67
+m_rna_2w,Adipocytokine signaling pathway,0.9826311565106901,0.6812781718408848,57
+m_rna_2w,Adrenergic signaling in cardiomyocytes,2.9636715335083896,0.7322325044153548,94
+m_rna_2w,African trypanosomiasis,2.183911781110457,1.140564729663081,20
+m_rna_2w,"Alanine, aspartate and glutamate metabolism",-3.591598931544783,-0.31534414406083106,24
+m_rna_2w,Alcoholism,0.8501802658786864,0.5313359870498849,97
+m_rna_2w,Aldosterone synthesis and secretion,0.8794798804209987,0.5759206090760266,63
+m_rna_2w,Aldosterone-regulated sodium reabsorption,0.6423011680190982,0.6949574729217999,32
+m_rna_2w,Alzheimer disease,-3.9917822144078454,0.40776361460372046,274
+m_rna_2w,Amino sugar and nucleotide sugar metabolism,-1.120731041103694,0.4376352163474016,42
+m_rna_2w,Aminoacyl-tRNA biosynthesis,-4.7503421121653036,0.015905044000192763,26
+m_rna_2w,Amoebiasis,5.071987547888702,1.2694811546023217,74
+m_rna_2w,Amphetamine addiction,0.9576763729828759,0.5439924973443485,38
+m_rna_2w,Amyotrophic lateral sclerosis,-4.465024342955253,0.3512250938344287,272
+m_rna_2w,Antigen processing and presentation,4.31239106859049,1.1656121727899245,35
+m_rna_2w,Apelin signaling pathway,4.203319091235366,0.8479208245656564,104
+m_rna_2w,Apoptosis,7.647084768348645,1.0406393625223143,147
+m_rna_2w,Arachidonic acid metabolism,0.5526707991325842,0.44977411899792025,31
+m_rna_2w,Arginine and proline metabolism,-3.8567211296668105,-0.010585692593321335,41
+m_rna_2w,Arginine biosynthesis,-2.7745410741459353,-0.10100540495570119,14
+m_rna_2w,Arrhythmogenic right ventricular cardiomyopathy,5.820172254774489,1.1121894680656974,46
+m_rna_2w,Ascorbate and aldarate metabolism,-5.010295167621317,-0.6980466640614531,16
+m_rna_2w,Autophagy,-0.8793543383628448,0.5319348662624821,154
+m_rna_2w,Axon guidance,5.946406335697962,0.8455700377814106,135
+m_rna_2w,B cell receptor signaling pathway,5.667102283409106,1.0459036379249818,62
+m_rna_2w,Bacterial invasion of epithelial cells,6.457767680092919,1.1216200589192253,61
+m_rna_2w,Basal cell carcinoma,2.853683453818364,0.8224445485849916,39
+m_rna_2w,Basal transcription factors,-0.06877728571077438,0.5343913112045817,39
+m_rna_2w,Base excision repair,1.4793891431403223,0.7073498151431894,28
+m_rna_2w,Bile secretion,-3.0232330105217167,0.03491953802748115,47
+m_rna_2w,Biosynthesis of unsaturated fatty acids,-1.8948873819609289,0.15068095856845926,21
+m_rna_2w,Bladder cancer,1.726146592921287,0.7250191186390108,34
+m_rna_2w,Breast cancer,3.24938477851956,0.7252713058224004,99
+m_rna_2w,Butanoate metabolism,-6.262209294064861,-1.3165601904903457,20
+m_rna_2w,C-type lectin receptor signaling pathway,6.3494687358598165,1.1302347170732687,88
+m_rna_2w,Calcium signaling pathway,0.6505476601243106,0.5637391466643242,128
+m_rna_2w,Carbohydrate digestion and absorption,-0.3267462780029705,0.3845170261856435,28
+m_rna_2w,Cardiac muscle contraction,-3.7403814333096093,0.18823777540166403,45
+m_rna_2w,Cell adhesion molecules,5.261602470194718,1.1832635026625244,74
+m_rna_2w,Cell cycle,3.8305736021119654,0.7871352884615915,109
+m_rna_2w,Cellular senescence,3.203331274420875,0.7983891922478823,130
+m_rna_2w,Central carbon metabolism in cancer,1.2296339731787902,0.6490828679216665,57
+m_rna_2w,Chagas disease,5.791871670579222,1.2080612459410904,84
+m_rna_2w,Chemical carcinogenesis,0.6221877545688189,0.52206640854484,165
+m_rna_2w,Chemokine signaling pathway,8.129153122787322,1.1337306467412502,138
+m_rna_2w,Cholesterol metabolism,-0.544880075166127,0.36903957498074613,39
+m_rna_2w,Choline metabolism in cancer,1.8142477189642268,0.6087350692550119,82
+m_rna_2w,Cholinergic synapse,3.4757764941768694,0.8062077528389401,62
+m_rna_2w,Chronic myeloid leukemia,4.63659867949794,0.9739444286640441,70
+m_rna_2w,Circadian entrainment,3.2631972662184086,0.8441773990922941,50
+m_rna_2w,Circadian rhythm,0.9196888525100706,0.5986286384430731,28
+m_rna_2w,Citrate cycle (TCA cycle),-6.594473275088135,-0.500994823255382,27
+m_rna_2w,Cocaine addiction,1.0222635532311704,0.555411814178104,23
+m_rna_2w,Collecting duct acid secretion,-3.395279628062213,0.0791448471734898,23
+m_rna_2w,Colorectal cancer,4.437739877479564,0.875681475641319,79
+m_rna_2w,Complement and coagulation cascades,6.292845262933035,1.5904183981341944,46
+m_rna_2w,Coronavirus disease,11.309374109414113,1.1361014028838359,181
+m_rna_2w,Cortisol synthesis and secretion,0.19514743500185688,0.49510521748573094,43
+m_rna_2w,Cushing syndrome,2.4767835875013255,0.6420304306413002,106
+m_rna_2w,Cysteine and methionine metabolism,-4.770327783072157,-0.2520797943566464,40
+m_rna_2w,Cytokine-cytokine receptor interaction,8.611846735672527,1.1996741952155254,147
+m_rna_2w,Cytosolic DNA-sensing pathway,3.2141294834301726,0.9815513946730215,46
+m_rna_2w,DNA replication,1.5888971226457804,0.6816029614169524,35
+m_rna_2w,Diabetic cardiomyopathy,-5.941124925775935,0.2272524054796416,155
+m_rna_2w,Dilated cardiomyopathy,5.783816955024903,1.145620061319239,53
+m_rna_2w,Dopaminergic synapse,2.8171441598446907,0.6913858567708899,81
+m_rna_2w,Drug metabolism,-4.9213480487902554,0.05014138325540052,89
+m_rna_2w,ECM-receptor interaction,6.720018116663715,1.4194585059198928,61
+m_rna_2w,Endocrine and other factor-regulated calcium reabsorption,-0.18361339394892007,0.44721480823511234,38
+m_rna_2w,Endocytosis,3.9734197771051707,0.6939959887730104,208
+m_rna_2w,Endometrial cancer,3.034409054770333,0.7804309210278977,52
+m_rna_2w,Epithelial cell signaling in Helicobacter pylori infection,2.024746117459896,0.7986532933870729,64
+m_rna_2w,Epstein-Barr virus infection,6.849713534557458,1.0268349344332528,152
+m_rna_2w,ErbB signaling pathway,3.0458647852674234,0.760174501237416,71
+m_rna_2w,Estrogen signaling pathway,3.410191298309755,0.8806419345349447,89
+m_rna_2w,Ether lipid metabolism,0.7954413331941499,0.5939416907635577,31
+m_rna_2w,Fanconi anemia pathway,-0.8267032483888339,0.4861746202507635,38
+m_rna_2w,Fat digestion and absorption,-0.9359539427353374,0.18376411436265028,23
+m_rna_2w,Fatty acid biosynthesis,-1.531341835321448,0.29064773589829174,13
+m_rna_2w,Fatty acid degradation,-6.3957300169769,-0.4550552681652608,34
+m_rna_2w,Fatty acid elongation,-2.514007772328682,0.1459778195129513,24
+m_rna_2w,Fc epsilon RI signaling pathway,3.926227044920543,0.9594087221416522,52
+m_rna_2w,Fc gamma R-mediated phagocytosis,6.397914576331857,1.0502579040733768,82
+m_rna_2w,Ferroptosis,-1.9676934698850292,0.4277268013719777,32
+m_rna_2w,Fluid shear stress and atherosclerosis,4.313352490949957,0.9049770226826742,123
+m_rna_2w,Focal adhesion,8.886157707257414,1.0902291963804622,164
+m_rna_2w,Folate biosynthesis,-3.681633726806746,-0.20904005073789766,17
+m_rna_2w,FoxO signaling pathway,2.1501460929849134,0.6294215227770038,111
+m_rna_2w,Fructose and mannose metabolism,-2.036795142741309,0.19616476155777862,30
+m_rna_2w,GABAergic synapse,0.6565550416736557,0.5346516305542756,41
+m_rna_2w,Galactose metabolism,-1.316399493563046,0.34444030971374817,23
+m_rna_2w,Gap junction,3.9147063469544388,0.9190006652496172,62
+m_rna_2w,Gastric acid secretion,1.6711982919720558,0.7027331679924876,47
+m_rna_2w,Gastric cancer,3.9013726673699898,0.7557737299971955,99
+m_rna_2w,Glioma,3.478839870815958,0.8316953776150853,62
+m_rna_2w,Glucagon signaling pathway,-0.3766449138357843,0.4406668553060796,81
+m_rna_2w,Glutamatergic synapse,1.4780357207748764,0.6649604022484223,54
+m_rna_2w,Glutathione metabolism,-3.6112497834256008,-0.019039620837174004,49
+m_rna_2w,Glycerolipid metabolism,-3.9924628475586887,-0.017703475666109955,43
+m_rna_2w,Glycerophospholipid metabolism,-1.4829689981464607,0.43934021584709276,73
+m_rna_2w,"Glycine, serine and threonine metabolism",-6.815880911584542,-0.7767009819736764,34
+m_rna_2w,Glycolysis / Gluconeogenesis,-4.105739353268352,0.019865099040761388,50
+m_rna_2w,Glycosaminoglycan biosynthesis,0.8875915456453218,0.559692425314642,45
+m_rna_2w,Glycosaminoglycan degradation,-0.5038114022147397,0.37927837571859957,16
+m_rna_2w,Glycosphingolipid biosynthesis,0.5204137864911451,0.5029707379050524,40
+m_rna_2w,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,-1.1609222743345833,0.41010807435723473,24
+m_rna_2w,Glyoxylate and dicarboxylate metabolism,-7.260235210598761,-0.8166293577819232,28
+m_rna_2w,GnRH secretion,1.627109061865158,0.8995877284748283,36
+m_rna_2w,GnRH signaling pathway,3.121929289767362,0.8555119145203854,67
+m_rna_2w,"Growth hormone synthesis, secretion and action",2.3329364905333967,0.744856689094399,86
+m_rna_2w,HIF-1 signaling pathway,1.615197099965024,0.7245269579786855,93
+m_rna_2w,Hedgehog signaling pathway,0.41394505431328654,0.5431278962362264,42
+m_rna_2w,Hematopoietic cell lineage,3.2561758296505445,0.9640081837708471,45
+m_rna_2w,Hepatitis B,6.2940790350195215,0.9595182391253116,130
+m_rna_2w,Hepatitis C,6.18205747748562,0.9686216101174966,122
+m_rna_2w,Hepatocellular carcinoma,4.227129614712744,0.7812190804050047,131
+m_rna_2w,Herpes simplex virus 1 infection,8.17347604243931,1.1715318170381748,134
+m_rna_2w,Hippo signaling pathway,7.4469858853241595,0.931008103535995,138
+m_rna_2w,Histidine metabolism,-3.0213538001865428,-0.16762947476154746,18
+m_rna_2w,Homologous recombination,0.4008006323452386,0.5893487296339014,26
+m_rna_2w,Human T-cell leukemia virus 1 infection,6.325483813469758,0.8962830594493664,171
+m_rna_2w,Human cytomegalovirus infection,6.57541096754405,0.9430648339198613,169
+m_rna_2w,Human immunodeficiency virus 1 infection,5.444799706246086,0.8676099783614494,158
+m_rna_2w,Human papillomavirus infection,6.358702838984073,0.845464233595496,246
+m_rna_2w,Huntington disease,-6.619363994926388,0.23830614238720954,223
+m_rna_2w,Hypertrophic cardiomyopathy,5.9135037853137264,1.156440483654345,53
+m_rna_2w,IL-17 signaling pathway,5.883580375987287,1.264942552871348,71
+m_rna_2w,Inflammatory bowel disease,5.281209345432881,1.3162309254327273,30
+m_rna_2w,Inflammatory mediator regulation of TRP channels,2.943884481645871,0.8156624047773946,63
+m_rna_2w,Influenza A,6.897871561492836,1.0503984495868381,113
+m_rna_2w,Inositol phosphate metabolism,-0.636228393729396,0.4451619944863022,60
+m_rna_2w,Insulin resistance,0.9679306961572242,0.5483358626031929,91
+m_rna_2w,Insulin secretion,-0.2529878799157867,0.4944939040420677,42
+m_rna_2w,Insulin signaling pathway,2.0011127969541844,0.6405897295811767,117
+m_rna_2w,Intestinal immune network for IgA production,1.6862533298054054,0.8177044736969481,19
+m_rna_2w,JAK-STAT signaling pathway,4.434154743638753,0.8572093776029993,100
+m_rna_2w,Kaposi sarcoma-associated herpesvirus infection,7.017801630703022,1.0209473353805245,146
+m_rna_2w,Legionellosis,2.9032056756224147,1.189604430900421,48
+m_rna_2w,Leishmaniasis,6.237226119695088,1.4439605711094345,49
+m_rna_2w,Leukocyte transendothelial migration,6.8597872504693544,1.2218197977213079,92
+m_rna_2w,Lipid and atherosclerosis,6.586091639183049,0.9768883846893341,164
+m_rna_2w,Long-term depression,1.8751694244265025,0.7980701568649086,39
+m_rna_2w,Long-term potentiation,1.4965629989290155,0.6764994170791886,46
+m_rna_2w,Longevity regulating pathway,0.9413672439029902,0.580617225628158,128
+m_rna_2w,Lysine degradation,-2.2545844990289794,0.03241347797093995,56
+m_rna_2w,Lysosome,0.0009992888794244676,0.595759482168765,117
+m_rna_2w,MAPK signaling pathway,6.694758512041804,0.8800911284010237,220
+m_rna_2w,Malaria,4.3364480436186446,1.4512381583210512,32
+m_rna_2w,Mannose type O-glycan biosynthesis,-0.4911724107513564,0.4370101175412448,19
+m_rna_2w,Measles,5.885280319429502,0.9573078596704152,103
+m_rna_2w,Melanogenesis,3.1565269216618117,0.7938783453079603,65
+m_rna_2w,Melanoma,3.0051859360435493,0.7913413996494896,55
+m_rna_2w,Metabolism of xenobiotics by cytochrome P450,-1.6879047316747222,0.2588785952670569,36
+m_rna_2w,MicroRNAs in cancer,6.187172095743932,0.9559656617972454,148
+m_rna_2w,Mineral absorption,-2.060660154691253,0.12218776822644953,35
+m_rna_2w,Mismatch repair,0.7768355350003078,0.6389634782655248,20
+m_rna_2w,Mitophagy,-0.37065584539335067,0.5699756992814932,60
+m_rna_2w,Morphine addiction,2.546285773060012,0.7577416507987624,45
+m_rna_2w,Mucin type O-glycan biosynthesis,-0.7544619757812254,0.3481506573417889,22
+m_rna_2w,N-Glycan biosynthesis,0.30453012256166223,0.5858792937311345,44
+m_rna_2w,NF-kappa B signaling pathway,6.644485004312313,1.2251863133274132,82
+m_rna_2w,NOD-like receptor signaling pathway,5.529762350763675,0.9646800184294111,131
+m_rna_2w,Natural killer cell mediated cytotoxicity,4.648064123072506,1.0344934076789791,66
+m_rna_2w,Necroptosis,4.104544023032273,0.8354300399605545,114
+m_rna_2w,Neuroactive ligand-receptor interaction,0.12234702801817048,0.6091455489921836,86
+m_rna_2w,Neurotrophin signaling pathway,5.536363216818272,0.9187018138171217,96
+m_rna_2w,Neutrophil extracellular trap formation,3.1321816288306614,0.8931993678354269,115
+m_rna_2w,Nicotinate and nicotinamide metabolism,-2.187482669160947,0.15642134593821708,30
+m_rna_2w,Non-alcoholic fatty liver disease,-4.917457759836168,0.23297871570375878,139
+m_rna_2w,Non-homologous end-joining,-0.557329200272944,0.4809262030331616,10
+m_rna_2w,Non-small cell lung cancer,2.5854010684538746,0.7422667189602951,63
+m_rna_2w,Notch signaling pathway,2.4377703669107142,0.7302968514708458,49
+m_rna_2w,Nucleotide excision repair,-0.8459732117711395,0.4932736623688038,42
+m_rna_2w,Olfactory transduction,2.479996149676584,0.8474372226367279,21
+m_rna_2w,One carbon pool by folate,-2.2312220888277885,-0.05589652503254454,17
+m_rna_2w,Oocyte meiosis,2.3328304292239688,0.6752244985602681,95
+m_rna_2w,Osteoclast differentiation,8.077935438807566,1.2108156672935657,100
+m_rna_2w,Other glycan degradation,-1.8117526791252065,0.19696520017323949,16
+m_rna_2w,Other types of O-glycan biosynthesis,0.5519018010410222,0.5975001108386858,36
+m_rna_2w,Ovarian steroidogenesis,-0.7082484836541197,0.36791943479880723,27
+m_rna_2w,Oxidative phosphorylation,-10.874897654731221,-0.2296528502307177,97
+m_rna_2w,Oxytocin signaling pathway,4.158284340190128,0.8279688462818431,94
+m_rna_2w,PD-L1 expression and PD-1 checkpoint pathway in cancer,4.128810044753747,0.852692195556093,77
+m_rna_2w,PI3K-Akt signaling pathway,6.762532579117836,0.8813683800499017,249
+m_rna_2w,PPAR signaling pathway,-3.983252338215407,-0.07761966257633425,56
+m_rna_2w,Pancreatic cancer,4.378316697013357,0.863331398143028,71
+m_rna_2w,Pancreatic secretion,1.6124803307036872,0.6531493040176969,51
+m_rna_2w,Pantothenate and CoA biosynthesis,-4.99209397798724,-0.5322763979140743,19
+m_rna_2w,"Parathyroid hormone synthesis, secretion and action",1.7197880087093886,0.6619364937982646,81
+m_rna_2w,Parkinson disease,-6.617555063988118,0.21287463567182516,186
+m_rna_2w,Pathogenic Escherichia coli infection,7.6662268584606865,1.0027593744894792,160
+m_rna_2w,Pathways of neurodegeneration,-3.9474125798262043,0.40867896248297625,339
+m_rna_2w,Pentose and glucuronate interconversions,-5.4353182700632665,-0.6755071827448341,17
+m_rna_2w,Pentose phosphate pathway,-2.099906941068215,0.14151422197555283,24
+m_rna_2w,Peroxisome,-9.799239930111668,-0.5104486744743508,74
+m_rna_2w,Pertussis,6.6012645827419005,1.4535055922651723,58
+m_rna_2w,Phagosome,3.837770228795092,1.0674633134882545,99
+m_rna_2w,Phenylalanine metabolism,-1.6935763199347196,-0.17618782857655674,14
+m_rna_2w,Phosphatidylinositol signaling system,0.6972989509616636,0.6176198236682516,78
+m_rna_2w,Phospholipase D signaling pathway,3.1548971950338296,0.7598911704297983,108
+m_rna_2w,Platelet activation,6.481879804832144,1.070769597435541,99
+m_rna_2w,Porphyrin and chlorophyll metabolism,-4.712452648404827,0.048858246910763785,27
+m_rna_2w,Primary bile acid biosynthesis,-3.0009441851218384,-0.9363279650841952,11
+m_rna_2w,Primary immunodeficiency,3.5967827223596975,1.060880655514912,21
+m_rna_2w,Prion disease,-4.47784760035905,0.36685191145956175,201
+m_rna_2w,Progesterone-mediated oocyte maturation,2.911678919953005,0.7421773367956755,74
+m_rna_2w,Prolactin signaling pathway,2.5492013109136535,0.835220119586347,54
+m_rna_2w,Propanoate metabolism,-7.381348173129332,-0.8134122475179896,31
+m_rna_2w,Prostate cancer,2.9136346318255093,0.7214178966972739,87
+m_rna_2w,Proteasome,-1.0538863745512448,0.5444380045445948,43
+m_rna_2w,Protein digestion and absorption,0.45610373681879696,0.6418437304567569,57
+m_rna_2w,Protein export,-0.7170723211574246,0.48432422001212877,21
+m_rna_2w,Protein processing in endoplasmic reticulum,0.18826663790872658,0.5632804928809494,151
+m_rna_2w,Proteoglycans in cancer,7.754502812009939,1.03272079821528,170
+m_rna_2w,Proximal tubule bicarbonate reclamation,-2.8574344072314775,-0.24896751026904496,16
+m_rna_2w,Purine metabolism,-1.3914130659604373,0.407661867949422,97
+m_rna_2w,Pyrimidine metabolism,-2.244086773260218,0.23929617171030612,49
+m_rna_2w,Pyruvate metabolism,-5.995181225918024,-0.4615314147781192,36
+m_rna_2w,RIG-I-like receptor signaling pathway,3.1427116862642066,0.941795346756802,48
+m_rna_2w,RNA degradation,0.2201972318899957,0.5518578051549311,70
+m_rna_2w,RNA polymerase,-0.6058918313383072,0.48358562908566133,29
+m_rna_2w,RNA transport,1.9127257267173507,0.6140492406590394,141
+m_rna_2w,Rap1 signaling pathway,4.606251444217596,0.7921587986164755,165
+m_rna_2w,Ras signaling pathway,5.0093971100112915,0.7890876359228443,159
+m_rna_2w,Regulation of actin cytoskeleton,8.88129267919268,1.0139415843330377,171
+m_rna_2w,Regulation of lipolysis in adipocytes,0.7918994664456279,0.6207401273969397,42
+m_rna_2w,Relaxin signaling pathway,4.989903404214376,1.015923654103294,96
+m_rna_2w,Renal cell carcinoma,3.013228680231155,0.8182665039975355,65
+m_rna_2w,Renin secretion,1.6867838440211291,0.6773902188688201,43
+m_rna_2w,Renin-angiotensin system,-1.9125790250047423,0.051417184081307986,14
+m_rna_2w,Retinol metabolism,-1.95172341480953,0.24764956306085367,22
+m_rna_2w,Retrograde endocannabinoid signaling,-4.388518697535034,0.21733956778116204,86
+m_rna_2w,Rheumatoid arthritis,1.897790727692747,0.9887856078564841,62
+m_rna_2w,Ribosome,2.7779265644492477,0.6490823274758187,126
+m_rna_2w,Ribosome biogenesis in eukaryotes,2.0114212064220434,0.649534886638332,70
+m_rna_2w,SNARE interactions in vesicular transport,-0.29797860173356616,0.5680117002384834,26
+m_rna_2w,Salivary secretion,2.1097830848257915,0.7359710739197464,46
+m_rna_2w,Salmonella infection,7.040600247705477,0.9490788537793777,208
+m_rna_2w,Selenocompound metabolism,-4.552542998013289,-0.6053699243148971,17
+m_rna_2w,Serotonergic synapse,1.1378506207712027,0.6184722788042432,48
+m_rna_2w,Shigellosis,6.6559967087649925,0.942821994544198,198
+m_rna_2w,Signaling pathways regulating pluripotency of stem cells,5.094023041572005,0.8477292177956297,97
+m_rna_2w,Small cell lung cancer,5.211529977606898,1.0356873532481614,84
+m_rna_2w,Sphingolipid metabolism,-0.7183208628016352,0.4272793050300417,41
+m_rna_2w,Sphingolipid signaling pathway,3.5211859766724998,0.7892807024807613,103
+m_rna_2w,Spinocerebellar ataxia,-1.7989286020077861,0.4795389608118087,111
+m_rna_2w,Spliceosome,3.790208437536952,0.6928213994523135,126
+m_rna_2w,Staphylococcus aureus infection,5.99218275118213,2.129684874796308,32
+m_rna_2w,Starch and sucrose metabolism,-2.3518293831889117,0.12188674548878133,22
+m_rna_2w,Steroid biosynthesis,-2.3980535272761907,0.30638889453070256,16
+m_rna_2w,Steroid hormone biosynthesis,-4.69046414356148,-0.516273221669345,24
+m_rna_2w,Sulfur metabolism,-4.562183856436975,-0.7502333750228143,10
+m_rna_2w,Synaptic vesicle cycle,-1.6498554899580977,0.3050290890521879,44
+m_rna_2w,Systemic lupus erythematosus,1.0777325333759924,0.7962528627948952,51
+m_rna_2w,T cell receptor signaling pathway,4.7635531326642155,0.894553441357795,79
+m_rna_2w,TGF-beta signaling pathway,4.6313904695861945,0.9067385819487049,71
+m_rna_2w,TNF signaling pathway,7.519507506429739,1.3319775369507472,99
+m_rna_2w,Taste transduction,0.10437511308450124,0.5911485912559132,18
+m_rna_2w,Terpenoid backbone biosynthesis,-2.523694334823813,-0.013829388626276024,21
+m_rna_2w,Th1 and Th2 cell differentiation,3.8357774199175365,0.9012497486329876,57
+m_rna_2w,Th17 cell differentiation,5.1429761576757995,0.9646321425034626,70
+m_rna_2w,Thermogenesis,-7.006516456002966,0.14926321882918792,172
+m_rna_2w,Thiamine metabolism,-2.6326400963731613,-0.23531536945320283,11
+m_rna_2w,Thyroid cancer,2.4591441725648897,0.9135955345659103,32
+m_rna_2w,Thyroid hormone signaling pathway,1.725846039041023,0.6601493470351225,102
+m_rna_2w,Thyroid hormone synthesis,-0.6074401100067078,0.37752203880729535,53
+m_rna_2w,Tight junction,6.349336153086236,0.9622528580107533,137
+m_rna_2w,Toll-like receptor signaling pathway,6.059046601711269,1.1476677969627125,77
+m_rna_2w,Toxoplasmosis,6.292389690114988,1.080702576292778,84
+m_rna_2w,Transcriptional misregulation in cancer,5.4999271827770055,0.9072377623355049,130
+m_rna_2w,Tryptophan metabolism,-6.285950668423,-0.7889766669971967,34
+m_rna_2w,Tuberculosis,6.01979653826603,1.1233674221961074,127
+m_rna_2w,Type I diabetes mellitus,1.2775035884371289,0.8572996023502558,10
+m_rna_2w,Type II diabetes mellitus,0.9403012339479211,0.7435453514741261,32
+m_rna_2w,Tyrosine metabolism,-2.716157067840451,-0.26852067012322395,19
+m_rna_2w,Ubiquinone and other terpenoid-quinone biosynthesis,-3.5500682719516345,-0.42059983940094475,10
+m_rna_2w,Ubiquitin mediated proteolysis,0.29907671400380587,0.5902118447069118,129
+m_rna_2w,VEGF signaling pathway,3.2896603823162325,0.9172644738413598,48
+m_rna_2w,"Valine, leucine and isoleucine degradation",-9.107635926372147,-0.9415858037475591,44
+m_rna_2w,Various types of N-glycan biosynthesis,0.5369472030261745,0.5929611141716118,32
+m_rna_2w,Vascular smooth muscle contraction,3.3292729227927613,0.804841966989587,85
+m_rna_2w,Vasopressin-regulated water reabsorption,1.0429390206103677,0.6749962859249887,37
+m_rna_2w,Vibrio cholerae infection,-0.10536995099884366,0.5639056279341035,47
+m_rna_2w,Viral carcinogenesis,5.217719730565358,0.8757970675572515,153
+m_rna_2w,Viral myocarditis,2.7097058011984916,0.915269337584276,29
+m_rna_2w,Viral protein interaction with cytokine and cytokine receptor,6.024039448912119,1.5266381710454446,52
+m_rna_2w,Vitamin digestion and absorption,-4.371131161862723,-0.3047026466160156,17
+m_rna_2w,Wnt signaling pathway,2.5398954064585917,0.690854164171001,112
+m_rna_2w,Yersinia infection,6.860696758535066,0.9962103319236145,119
+m_rna_2w,beta-Alanine metabolism,-5.172031370929413,-0.6975425463711095,25
+m_rna_2w,cAMP signaling pathway,3.372116832352678,0.7495863460861869,121
+m_rna_2w,cGMP-PKG signaling pathway,2.087593061600795,0.6538297819842198,110
+m_rna_2w,mRNA surveillance pathway,1.8399897792109465,0.6288766837613876,79
+m_rna_2w,mTOR signaling pathway,-0.9379914000179927,0.5175814332487119,131
+m_rna_2w,p53 signaling pathway,3.304612538115507,0.8641220393438627,64
+m_prot_d21,ABC transporters,-1.0180863236186095,-0.09028083894979692,33
+m_prot_d21,AGE-RAGE signaling pathway in diabetic complications,4.231121617334932,0.5967472284169711,84
+m_prot_d21,AMPK signaling pathway,-2.904378181717206,-0.15627957803232329,105
+m_prot_d21,Acute myeloid leukemia,2.0434758961745416,0.4815883816054622,54
+m_prot_d21,Adherens junction,0.7579052150240303,0.22601010410360584,65
+m_prot_d21,Adipocytokine signaling pathway,-0.27180572529293767,0.1743002495460102,56
+m_prot_d21,Adrenergic signaling in cardiomyocytes,1.2822681878469973,0.260334812823217,99
+m_prot_d21,African trypanosomiasis,2.2235390269900015,0.6118895523465608,19
+m_prot_d21,"Alanine, aspartate and glutamate metabolism",-4.250794713066756,-1.0205925484572287,27
+m_prot_d21,Alcoholism,-0.30519912264742904,0.07807225529177322,80
+m_prot_d21,Aldosterone synthesis and secretion,-0.2739972656852841,0.16683934164565664,62
+m_prot_d21,Aldosterone-regulated sodium reabsorption,0.3908138959279912,0.15560482815538218,32
+m_prot_d21,Alzheimer disease,-8.505797197500767,-0.5113134553035836,274
+m_prot_d21,Amino sugar and nucleotide sugar metabolism,-1.6473245211679872,0.014409059431972755,46
+m_prot_d21,Aminoacyl-tRNA biosynthesis,-6.622144699283066,-0.839828697210222,44
+m_prot_d21,Amoebiasis,5.195996236365829,0.9249538539991136,70
+m_prot_d21,Amphetamine addiction,0.20955546981371354,0.1532332696135819,39
+m_prot_d21,Amyotrophic lateral sclerosis,-7.4145855727923715,-0.43365688449371503,284
+m_prot_d21,Antigen processing and presentation,1.9638341382654099,0.436332808003763,33
+m_prot_d21,Apelin signaling pathway,0.2213594971386927,0.213117245585604,104
+m_prot_d21,Apoptosis,2.780750243526427,0.3808585825066252,135
+m_prot_d21,Arachidonic acid metabolism,1.5078593944744731,0.41948929693326237,33
+m_prot_d21,Arginine and proline metabolism,-3.7848401311981275,-0.634482536096571,41
+m_prot_d21,Arginine biosynthesis,-2.4853243267275538,-0.6222764001889063,14
+m_prot_d21,Arrhythmogenic right ventricular cardiomyopathy,4.513706770746643,0.6719984018865763,53
+m_prot_d21,Ascorbate and aldarate metabolism,-2.3139410571252275,-0.6758021500138653,16
+m_prot_d21,Autophagy,-4.252432896059642,-0.08278560476617797,160
+m_prot_d21,Axon guidance,3.2508150673250196,0.34316642096039063,140
+m_prot_d21,B cell receptor signaling pathway,3.5189133959479353,0.6015288695156736,61
+m_prot_d21,Bacterial invasion of epithelial cells,1.4263544141103488,0.2813977060266186,69
+m_prot_d21,Basal cell carcinoma,2.0088879361989194,0.3865922787726001,34
+m_prot_d21,Basal transcription factors,2.2469127674169442,0.3912900248804149,38
+m_prot_d21,Base excision repair,3.9836656587314385,0.7073070451712348,30
+m_prot_d21,Bile secretion,-3.928486485752929,-0.7047609720303485,50
+m_prot_d21,Biosynthesis of unsaturated fatty acids,-3.725451062136958,-0.8527082378305072,21
+m_prot_d21,Bladder cancer,-0.2746802143231759,0.1743331939296415,34
+m_prot_d21,Breast cancer,2.056942454987058,0.3290682577880975,92
+m_prot_d21,Butanoate metabolism,-6.372894631077456,-2.144874930258027,20
+m_prot_d21,C-type lectin receptor signaling pathway,3.2698009034632793,0.5758775275392014,75
+m_prot_d21,Calcium signaling pathway,0.11065168718944422,0.1115479931178237,132
+m_prot_d21,Carbohydrate digestion and absorption,-1.3314003349283667,-0.2765299159886579,32
+m_prot_d21,Cardiac muscle contraction,-3.8198760036328663,-0.7831890363655639,49
+m_prot_d21,Cell adhesion molecules,3.1671526640093517,0.5749384857519098,85
+m_prot_d21,Cell cycle,4.228580131579287,0.49274130687492357,95
+m_prot_d21,Cellular senescence,1.2851971531032784,0.24758695149612203,119
+m_prot_d21,Central carbon metabolism in cancer,-0.9427270937920135,0.024962288309635313,57
+m_prot_d21,Chagas disease,2.753234120847891,0.48881071372517304,72
+m_prot_d21,Chemical carcinogenesis,-0.5045293904701643,0.15999014849657467,152
+m_prot_d21,Chemokine signaling pathway,2.9868362780604625,0.45570710768330924,122
+m_prot_d21,Cholesterol metabolism,1.6595844070345886,0.4732214804385557,43
+m_prot_d21,Choline metabolism in cancer,-0.4668236492151535,0.029332785695553764,85
+m_prot_d21,Cholinergic synapse,0.43592309816045843,0.22090838184397563,65
+m_prot_d21,Chronic myeloid leukemia,1.626310901924264,0.3221570972233133,66
+m_prot_d21,Circadian entrainment,1.4314860385406094,0.3340098948700681,54
+m_prot_d21,Circadian rhythm,0.23772702863444037,0.20956190864794932,26
+m_prot_d21,Citrate cycle (TCA cycle),-7.372338706601016,-1.4913585173262902,29
+m_prot_d21,Cocaine addiction,-0.411554486813657,0.031113521348843282,28
+m_prot_d21,Collecting duct acid secretion,-5.014089915464387,-0.8952055383334931,23
+m_prot_d21,Colorectal cancer,0.5956567736763992,0.2220086812892081,71
+m_prot_d21,Complement and coagulation cascades,11.945325749183356,2.2546518895689402,69
+m_prot_d21,Coronavirus disease,2.4357651111951655,0.49901261760361226,181
+m_prot_d21,Cortisol synthesis and secretion,0.19704119811438991,0.23045010352085646,37
+m_prot_d21,Cushing syndrome,1.142340400598617,0.2528417339887715,95
+m_prot_d21,Cysteine and methionine metabolism,-5.288769856514178,-0.8906362195592349,39
+m_prot_d21,Cytokine-cytokine receptor interaction,5.161793758617788,0.8511392703950578,83
+m_prot_d21,Cytosolic DNA-sensing pathway,3.7288241968075937,0.683123030627734,42
+m_prot_d21,DNA replication,3.809889616469876,0.6669180230039837,34
+m_prot_d21,Diabetic cardiomyopathy,-8.393940566371452,-0.7991468565365537,165
+m_prot_d21,Dilated cardiomyopathy,4.289739582435753,0.6699742697020091,59
+m_prot_d21,Dopaminergic synapse,0.025019635387512094,0.14219606230471488,85
+m_prot_d21,Drug metabolism,-3.526709198181659,-0.31966153036476813,89
+m_prot_d21,ECM-receptor interaction,7.284671202161397,0.9935786311937793,77
+m_prot_d21,Endocrine and other factor-regulated calcium reabsorption,-2.232899851454077,-0.21124822428045248,45
+m_prot_d21,Endocytosis,-2.8240681598067416,-0.015437090189670905,215
+m_prot_d21,Endometrial cancer,0.15364124218996356,0.16927668254296768,50
+m_prot_d21,Epithelial cell signaling in Helicobacter pylori infection,-1.7852667826549347,-0.08256405453453482,56
+m_prot_d21,Epstein-Barr virus infection,4.199905236981242,0.5076439667043477,140
+m_prot_d21,ErbB signaling pathway,0.8221990923222364,0.25437493217191165,67
+m_prot_d21,Estrogen signaling pathway,0.8850082301593004,0.437589409431428,92
+m_prot_d21,Ether lipid metabolism,-0.24169091112705018,0.11490727289061253,32
+m_prot_d21,Fanconi anemia pathway,1.8313292118513353,0.38333570208418555,31
+m_prot_d21,Fat digestion and absorption,0.16867436053041346,0.061795051336265824,28
+m_prot_d21,Fatty acid biosynthesis,-2.9482277569825746,-0.5015957320439658,15
+m_prot_d21,Fatty acid degradation,-6.05401552136366,-1.1067631615537197,36
+m_prot_d21,Fatty acid elongation,-3.7405215908088283,-0.7204045528901474,23
+m_prot_d21,Fc epsilon RI signaling pathway,2.2378464187254834,0.5113518964088795,53
+m_prot_d21,Fc gamma R-mediated phagocytosis,2.086677543978331,0.3815987672347544,84
+m_prot_d21,Ferroptosis,-1.5733929830508975,-0.06974710808640595,36
+m_prot_d21,Fluid shear stress and atherosclerosis,0.7931794208174545,0.26625952462249597,113
+m_prot_d21,Focal adhesion,6.132006424479022,0.6110838650386524,171
+m_prot_d21,Folate biosynthesis,-3.275076334587347,-0.773365770830546,19
+m_prot_d21,FoxO signaling pathway,-0.09473103714142068,0.11983327936043904,100
+m_prot_d21,Fructose and mannose metabolism,-2.217736948815655,-0.2649433547584369,32
+m_prot_d21,GABAergic synapse,-1.303693318445248,-0.1016248159861393,40
+m_prot_d21,Galactose metabolism,-1.1568418370139952,-0.070034923954622,24
+m_prot_d21,Gap junction,1.9481204552710887,0.3809551811738441,67
+m_prot_d21,Gastric acid secretion,-1.6547272435060487,-0.051670708976801795,50
+m_prot_d21,Gastric cancer,1.655783221913169,0.29648908964531445,90
+m_prot_d21,Glioma,1.327901410236901,0.34010155221679733,57
+m_prot_d21,Glucagon signaling pathway,-1.6139848158966854,-0.08154983565359487,84
+m_prot_d21,Glutamatergic synapse,0.1665547036277247,0.14496871569522246,60
+m_prot_d21,Glutathione metabolism,-3.466194169213487,-0.4924616540595709,47
+m_prot_d21,Glycerolipid metabolism,-3.427878367530909,-0.48495673688245683,49
+m_prot_d21,Glycerophospholipid metabolism,-2.078180769727708,-0.061859587353161244,74
+m_prot_d21,"Glycine, serine and threonine metabolism",-7.314833006218746,-1.6037357689045317,34
+m_prot_d21,Glycolysis / Gluconeogenesis,-5.2453118721312295,-0.5973866472206966,54
+m_prot_d21,Glycosaminoglycan biosynthesis,0.965480056036706,0.20579701331901,44
+m_prot_d21,Glycosaminoglycan degradation,2.321215889776677,0.7713572054215052,15
+m_prot_d21,Glycosphingolipid biosynthesis,1.7181969924700118,0.3057846886052061,38
+m_prot_d21,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,-1.6045740314669232,-0.1339277294229565,23
+m_prot_d21,Glyoxylate and dicarboxylate metabolism,-7.606770397635381,-1.7754708535999602,27
+m_prot_d21,GnRH secretion,0.12409562061967891,0.2653509064518162,34
+m_prot_d21,GnRH signaling pathway,1.2986088806495466,0.4151884824748858,66
+m_prot_d21,"Growth hormone synthesis, secretion and action",0.5937200930698912,0.27792621956834523,86
+m_prot_d21,HIF-1 signaling pathway,0.2871345345456498,0.20949989094122798,88
+m_prot_d21,Hedgehog signaling pathway,0.28100907187378155,0.16096601573989483,40
+m_prot_d21,Hematopoietic cell lineage,3.4346718980333533,0.7252514333519922,35
+m_prot_d21,Hepatitis B,2.660569610527559,0.37241350120752315,124
+m_prot_d21,Hepatitis C,1.1988355172054128,0.2837522416928122,119
+m_prot_d21,Hepatocellular carcinoma,1.0790075594693898,0.20050855548199145,122
+m_prot_d21,Herpes simplex virus 1 infection,4.57626619941894,0.5387095528190793,142
+m_prot_d21,Hippo signaling pathway,2.1457397612447267,0.26033590434044934,132
+m_prot_d21,Histidine metabolism,-3.8794593189312483,-0.7975339695699596,19
+m_prot_d21,Homologous recombination,1.9580796185921665,0.4929599648368006,26
+m_prot_d21,Human T-cell leukemia virus 1 infection,3.1700167001811974,0.37289672967812765,153
+m_prot_d21,Human cytomegalovirus infection,1.7326919389177518,0.30507108018998425,159
+m_prot_d21,Human immunodeficiency virus 1 infection,1.7297374823983422,0.30068189079523994,156
+m_prot_d21,Human papillomavirus infection,3.6480833849677627,0.3816471482038709,246
+m_prot_d21,Huntington disease,-9.1473827864193,-0.6292213760377828,233
+m_prot_d21,Hypertrophic cardiomyopathy,4.275223805538693,0.6317218569184269,57
+m_prot_d21,IL-17 signaling pathway,2.9710177667600757,0.6493171920742922,53
+m_prot_d21,Inflammatory bowel disease,4.174007341203999,0.8693096423527875,23
+m_prot_d21,Inflammatory mediator regulation of TRP channels,0.8600914312530346,0.37401400313631056,61
+m_prot_d21,Influenza A,3.3664426095126903,0.4558329293251559,109
+m_prot_d21,Inositol phosphate metabolism,-0.6265267540831337,0.06536229714354452,67
+m_prot_d21,Insulin resistance,-1.588608356411996,-0.06667659515419375,91
+m_prot_d21,Insulin secretion,-0.612472812447717,-0.038058313277149515,48
+m_prot_d21,Insulin signaling pathway,-1.4148845415706495,0.04524699511435999,114
+m_prot_d21,Intestinal immune network for IgA production,3.1752498385909385,1.1670349277307634,11
+m_prot_d21,JAK-STAT signaling pathway,3.038125250855641,0.5017768597846313,77
+m_prot_d21,Kaposi sarcoma-associated herpesvirus infection,3.373169445786878,0.4802274157058162,136
+m_prot_d21,Legionellosis,1.2170291131706157,0.36266777236884623,44
+m_prot_d21,Leishmaniasis,5.398444149196851,1.0408322549950961,43
+m_prot_d21,Leukocyte transendothelial migration,3.2374871787597934,0.5709702830886598,92
+m_prot_d21,Lipid and atherosclerosis,2.815741573983768,0.4075536103213773,155
+m_prot_d21,Long-term depression,-0.3039296266899255,0.1404995570356258,44
+m_prot_d21,Long-term potentiation,-0.0526160695519561,0.16924874770977696,45
+m_prot_d21,Longevity regulating pathway,-1.6581031296958029,0.022383563592090733,128
+m_prot_d21,Lysine degradation,-1.3468409445870817,-0.288864386384679,60
+m_prot_d21,Lysosome,2.284848835438722,0.4150622201356833,115
+m_prot_d21,MAPK signaling pathway,4.580441707593904,0.4471172112180316,204
+m_prot_d21,Malaria,4.108248285092857,0.8882099052487367,27
+m_prot_d21,Mannose type O-glycan biosynthesis,-0.49900986475473696,-0.006492706168659642,19
+m_prot_d21,Measles,2.391297652911019,0.3946700698097556,95
+m_prot_d21,Melanogenesis,0.6936234340323164,0.22025459977461398,62
+m_prot_d21,Melanoma,1.4145959805881596,0.33000226039835073,53
+m_prot_d21,Metabolism of xenobiotics by cytochrome P450,-0.6092477049021506,0.09463926132856747,35
+m_prot_d21,MicroRNAs in cancer,4.045349023788829,0.47910883090398054,130
+m_prot_d21,Mineral absorption,-3.5149730865359974,-0.532497843850326,40
+m_prot_d21,Mismatch repair,1.6246085454375188,0.38056511571663393,21
+m_prot_d21,Mitophagy,-2.7432697901198444,-0.15732055794103028,58
+m_prot_d21,Morphine addiction,1.3272544754893758,0.30458267941407585,48
+m_prot_d21,Mucin type O-glycan biosynthesis,0.08247974257524185,0.22151649642616872,22
+m_prot_d21,N-Glycan biosynthesis,-2.2324446261427897,-0.08856319033020241,43
+m_prot_d21,NF-kappa B signaling pathway,4.4353787074480975,0.6847322650814001,73
+m_prot_d21,NOD-like receptor signaling pathway,3.655728225525402,0.5119141162500399,125
+m_prot_d21,Natural killer cell mediated cytotoxicity,2.739351936137988,0.5124677705268731,63
+m_prot_d21,Necroptosis,2.014399784651573,0.3172140126601488,105
+m_prot_d21,Neuroactive ligand-receptor interaction,2.0196667946599822,0.4599259325247641,65
+m_prot_d21,Neurotrophin signaling pathway,1.597940654757686,0.33936366642066357,96
+m_prot_d21,Neutrophil extracellular trap formation,5.518254625164348,0.7380622207826053,102
+m_prot_d21,Nicotinate and nicotinamide metabolism,-3.107419975682715,-0.5779575887549127,31
+m_prot_d21,Nitrogen metabolism,-3.370019240538986,-1.2971425904839327,14
+m_prot_d21,Non-alcoholic fatty liver disease,-8.497346333164232,-0.9280481330358876,126
+m_prot_d21,Non-homologous end-joining,2.853190156550099,0.7688207284597326,11
+m_prot_d21,Non-small cell lung cancer,1.0740009954502931,0.2688607485685278,60
+m_prot_d21,Notch signaling pathway,3.8145381870238855,0.6076703975183021,47
+m_prot_d21,Nucleotide excision repair,2.8920559476737266,0.4777557348174279,41
+m_prot_d21,Olfactory transduction,1.8751471249149552,0.48665823401476144,25
+m_prot_d21,One carbon pool by folate,-3.411062343276781,-0.8202426481082927,18
+m_prot_d21,Oocyte meiosis,1.3440510412125861,0.3008135278323255,85
+m_prot_d21,Osteoclast differentiation,6.31116670607954,0.8855334309390978,89
+m_prot_d21,Other glycan degradation,1.0068613904798498,0.38636403551655407,16
+m_prot_d21,Other types of O-glycan biosynthesis,0.4377135581230136,0.27838007801401565,33
+m_prot_d21,Ovarian steroidogenesis,-1.3440273792043587,-0.15979891242540817,25
+m_prot_d21,Oxidative phosphorylation,-14.164966302632244,-1.7051142390314973,105
+m_prot_d21,Oxytocin signaling pathway,2.4342971571991012,0.38630398982859687,98
+m_prot_d21,PD-L1 expression and PD-1 checkpoint pathway in cancer,2.7501087502091384,0.45462901255544164,75
+m_prot_d21,PI3K-Akt signaling pathway,4.440589853375148,0.4231382454692531,252
+m_prot_d21,PPAR signaling pathway,-2.7604983089134114,-0.3743070791494425,60
+m_prot_d21,Pancreatic cancer,1.5512964956174529,0.32754561109284236,66
+m_prot_d21,Pancreatic secretion,0.10957881891323658,0.198214234849459,66
+m_prot_d21,Pantothenate and CoA biosynthesis,-4.719273738166252,-1.294438261006504,18
+m_prot_d21,"Parathyroid hormone synthesis, secretion and action",1.1592405187459773,0.2758465824421077,81
+m_prot_d21,Parkinson disease,-11.032989881759644,-0.8416696829736217,194
+m_prot_d21,Pathogenic Escherichia coli infection,1.8188613438182903,0.2978971473197384,160
+m_prot_d21,Pathways of neurodegeneration,-8.557350198268233,-0.41686936186511875,344
+m_prot_d21,Pentose and glucuronate interconversions,-3.122235450085464,-0.7866576236977548,19
+m_prot_d21,Pentose phosphate pathway,-3.2480536519117718,-0.6202332174629522,24
+m_prot_d21,Peroxisome,-11.434699682114774,-1.8250337960606984,75
+m_prot_d21,Pertussis,5.027480177794569,1.0175099178073972,52
+m_prot_d21,Phagosome,0.993039071975419,0.33207195063385564,102
+m_prot_d21,Phenylalanine metabolism,-2.627752230649398,-0.7622616827688332,14
+m_prot_d21,Phosphatidylinositol signaling system,-0.22479953805459368,0.16254124296714825,85
+m_prot_d21,Phospholipase D signaling pathway,0.4151224416639212,0.2279083152935227,115
+m_prot_d21,Platelet activation,4.292323413097589,0.6022043381471762,107
+m_prot_d21,Porphyrin and chlorophyll metabolism,-3.1296637108917515,-0.4515015002682486,27
+m_prot_d21,Primary bile acid biosynthesis,-3.507000548054661,-1.9633948260491914,10
+m_prot_d21,Primary immunodeficiency,3.705995607158822,0.9009749563072198,18
+m_prot_d21,Prion disease,-7.146272937649381,-0.48262118389243136,209
+m_prot_d21,Progesterone-mediated oocyte maturation,0.8365991393854068,0.2507331644064083,70
+m_prot_d21,Prolactin signaling pathway,0.2294987880138175,0.16704085888147768,50
+m_prot_d21,Propanoate metabolism,-8.215686563404335,-1.8296328204666596,31
+m_prot_d21,Prostate cancer,1.3208123022936602,0.3144538776795687,81
+m_prot_d21,Proteasome,-1.596665787739684,0.021714509989933985,41
+m_prot_d21,Protein digestion and absorption,2.038947376938104,0.10172580400271813,73
+m_prot_d21,Protein export,-3.810432799786697,-0.5167888801626246,23
+m_prot_d21,Protein processing in endoplasmic reticulum,-5.403811337154638,-0.20302895377433564,153
+m_prot_d21,Proteoglycans in cancer,4.139562365641137,0.47721567952866667,166
+m_prot_d21,Proximal tubule bicarbonate reclamation,-3.479972204980913,-0.9554851253609314,19
+m_prot_d21,Purine metabolism,-1.6833660687871321,-0.043769164305457374,102
+m_prot_d21,Pyrimidine metabolism,-2.9262841899036665,-0.3026555651404912,47
+m_prot_d21,Pyruvate metabolism,-6.9888074001787155,-1.2515680521162869,38
+m_prot_d21,RIG-I-like receptor signaling pathway,1.464264608812075,0.3457206821864066,45
+m_prot_d21,RNA degradation,1.3112198730947882,0.21155442459030074,65
+m_prot_d21,RNA polymerase,1.7621784764095685,0.35436612800599515,29
+m_prot_d21,RNA transport,1.9514932430032599,0.25728446765243007,143
+m_prot_d21,Rap1 signaling pathway,2.3865881734025827,0.3263583643291679,169
+m_prot_d21,Ras signaling pathway,1.9380562659797214,0.32521594120558195,157
+m_prot_d21,Regulation of actin cytoskeleton,3.4316481394452114,0.3630782241681982,176
+m_prot_d21,Regulation of lipolysis in adipocytes,-1.2984223767078127,-0.018916309574314366,41
+m_prot_d21,Relaxin signaling pathway,2.6279299794001165,0.41617125206397115,95
+m_prot_d21,Renal cell carcinoma,-0.3743586550101725,0.13372805626294185,62
+m_prot_d21,Renin secretion,1.1251112737936775,0.32825996153742387,45
+m_prot_d21,Renin-angiotensin system,0.3956253936587085,0.1659195501637471,17
+m_prot_d21,Retinol metabolism,-0.1883433348176378,0.14447297804750447,23
+m_prot_d21,Retrograde endocannabinoid signaling,-6.197228509539017,-0.7687978062157316,87
+m_prot_d21,Rheumatoid arthritis,-0.8711513534070637,0.06290863202295803,41
+m_prot_d21,Ribosome,-9.593672931247811,-0.595121978704215,123
+m_prot_d21,Ribosome biogenesis in eukaryotes,1.978253030537137,0.3135116853924433,69
+m_prot_d21,SNARE interactions in vesicular transport,-3.6487098012739705,-0.40586804348050987,31
+m_prot_d21,Salivary secretion,-0.17267480904360072,0.15117889880893204,53
+m_prot_d21,Salmonella infection,1.4056384374658393,0.2675321380467648,210
+m_prot_d21,Selenocompound metabolism,-4.987100916297917,-1.2283539907544232,17
+m_prot_d21,Serotonergic synapse,-1.270434000485519,-0.021455241435769535,54
+m_prot_d21,Shigellosis,3.019241499449702,0.36402037720914204,203
+m_prot_d21,Signaling pathways regulating pluripotency of stem cells,2.3375540837625173,0.34262066177919637,92
+m_prot_d21,Small cell lung cancer,3.737544304605994,0.5790609631137578,77
+m_prot_d21,Sphingolipid metabolism,-0.28090999275794193,0.09039310775260796,41
+m_prot_d21,Sphingolipid signaling pathway,0.5401031111170939,0.22548802477353772,100
+m_prot_d21,Spinocerebellar ataxia,-2.9825789036387684,-0.0891448075514447,112
+m_prot_d21,Spliceosome,4.478652835781481,0.4208892543526021,124
+m_prot_d21,Staphylococcus aureus infection,7.4903986972965,2.014102031865338,38
+m_prot_d21,Starch and sucrose metabolism,-2.0024211277063646,-0.34329232085961325,25
+m_prot_d21,Steroid biosynthesis,-2.007226453381553,-0.3956556723468665,18
+m_prot_d21,Steroid hormone biosynthesis,-1.3506519134741068,-0.4147438650561469,20
+m_prot_d21,Sulfur metabolism,-3.841114057284013,-1.2492046613251795,10
+m_prot_d21,Synaptic vesicle cycle,-4.3702671601828795,-0.4979001234688303,51
+m_prot_d21,Systemic lupus erythematosus,6.540421290228371,1.4562779373615202,36
+m_prot_d21,T cell receptor signaling pathway,2.87752867602265,0.4654667665897146,77
+m_prot_d21,TGF-beta signaling pathway,2.841982810467619,0.587687494728846,65
+m_prot_d21,TNF signaling pathway,4.275115980223266,0.6563762074044839,81
+m_prot_d21,Taste transduction,0.7953885128843999,0.22310332546883313,21
+m_prot_d21,Terpenoid backbone biosynthesis,-3.5427608559258736,-0.8586871205777087,21
+m_prot_d21,Th1 and Th2 cell differentiation,4.736787337441698,0.6899750302542352,58
+m_prot_d21,Th17 cell differentiation,4.749842293778335,0.6843429387009773,66
+m_prot_d21,Thermogenesis,-10.773070291379234,-0.9603188423048098,188
+m_prot_d21,Thiamine metabolism,-2.883126502296727,-1.176654008279239,10
+m_prot_d21,Thyroid cancer,-0.005585969082500846,0.15719102166139992,28
+m_prot_d21,Thyroid hormone signaling pathway,-0.2780207086014075,0.049586867749904714,104
+m_prot_d21,Thyroid hormone synthesis,-0.47195660907035775,0.11450723212987045,54
+m_prot_d21,Tight junction,0.15821295811110458,0.17571436690981426,134
+m_prot_d21,Toll-like receptor signaling pathway,3.8808398226421947,0.7280837467579528,68
+m_prot_d21,Toxoplasmosis,2.839484032626487,0.45803939284901807,81
+m_prot_d21,Transcriptional misregulation in cancer,6.643655996850667,0.7184310502464114,124
+m_prot_d21,Tryptophan metabolism,-6.466440399250961,-1.4401991214791574,34
+m_prot_d21,Tuberculosis,3.9148921997585315,0.5724770139498577,113
+m_prot_d21,Type II diabetes mellitus,-0.4400199530216822,0.20400276975817497,29
+m_prot_d21,Tyrosine metabolism,-2.6001198249281674,-0.6216980662389395,22
+m_prot_d21,Ubiquinone and other terpenoid-quinone biosynthesis,-3.7974025531966835,-1.162020799478033,10
+m_prot_d21,Ubiquitin mediated proteolysis,-0.14056007151736716,0.13404545366680126,125
+m_prot_d21,VEGF signaling pathway,1.409684602866595,0.3327500434760743,49
+m_prot_d21,"Valine, leucine and isoleucine degradation",-8.911036803922435,-1.740251641068027,45
+m_prot_d21,Various types of N-glycan biosynthesis,-0.525891880077494,0.10679350031592968,33
+m_prot_d21,Vascular smooth muscle contraction,1.0464493148990062,0.28869905131102414,82
+m_prot_d21,Vasopressin-regulated water reabsorption,-1.9764671505173543,-0.08072741945470743,38
+m_prot_d21,Vibrio cholerae infection,-4.1374533786003695,-0.4450341093188328,44
+m_prot_d21,Viral carcinogenesis,2.689101171286243,0.35753671819356553,139
+m_prot_d21,Viral myocarditis,0.5179206783133246,0.2695512602307485,31
+m_prot_d21,Viral protein interaction with cytokine and cytokine receptor,3.115609837711229,0.9354850372986233,27
+m_prot_d21,Vitamin digestion and absorption,-1.7018589831943138,-0.6214833180777649,19
+m_prot_d21,Wnt signaling pathway,2.2162306649962487,0.30550846451657737,110
+m_prot_d21,Yersinia infection,3.2760307670970654,0.4077036986755734,119
+m_prot_d21,beta-Alanine metabolism,-5.0505639459252025,-1.3625592281368544,25
+m_prot_d21,cAMP signaling pathway,0.12910413733117082,0.14510607829611125,119
+m_prot_d21,cGMP-PKG signaling pathway,0.4408135915377429,0.1514551950770927,119
+m_prot_d21,mRNA surveillance pathway,1.9871815020931762,0.30703329844947286,79
+m_prot_d21,mTOR signaling pathway,-2.470401214852733,-0.05274005547229793,130
+m_prot_d21,p53 signaling pathway,1.768509233558877,0.36264310291947227,52

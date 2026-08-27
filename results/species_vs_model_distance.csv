@@ -1,0 +1,15 @@
+mouse_state,d_species,percentile_in_between_model,n_genes,判定,cat
+PodTRECK_2W,0.5028,56.2,10581,分布の中（モデル間距離に埋もれる）,cat_natural_ctx
+IRI_12mo,0.5347,56.2,10221,分布の中（モデル間距離に埋もれる）,cat_natural_ctx
+PodTRECK_3W,0.5645,62.5,10581,分布の中（モデル間距離に埋もれる）,cat_natural_ctx
+UUO_8D,0.5654,62.5,11700,分布の中（モデル間距離に埋もれる）,cat_natural_ctx
+IRI_6mo,0.6238,81.2,10381,分布の中（モデル間距離に埋もれる）,cat_natural_ctx
+UUO_2D,0.695,87.5,11686,分布の中（モデル間距離に埋もれる）,cat_natural_ctx
+PodTRECK_5D,0.7025,87.5,10581,分布の中（モデル間距離に埋もれる）,cat_natural_ctx
+IRI_12mo,0.4388,43.8,10235,分布の中（モデル間距離に埋もれる）,cat_natural_med
+IRI_6mo,0.5625,62.5,10410,分布の中（モデル間距離に埋もれる）,cat_natural_med
+PodTRECK_3W,0.5803,75.0,10607,分布の中（モデル間距離に埋もれる）,cat_natural_med
+UUO_8D,0.5916,75.0,11784,分布の中（モデル間距離に埋もれる）,cat_natural_med
+PodTRECK_2W,0.6012,75.0,10607,分布の中（モデル間距離に埋もれる）,cat_natural_med
+UUO_2D,0.6972,87.5,11767,分布の中（モデル間距離に埋もれる）,cat_natural_med
+PodTRECK_5D,0.7518,87.5,10607,分布の中（モデル間距離に埋もれる）,cat_natural_med

@@ -1,0 +1,310 @@
+
+## 01_load / ID対応QC
+
+- **ネコ遺伝子数**: 15149
+- **LOC遺伝子の割合**: 12.1%
+- **オルソログで対応が取れた数**: 10713
+- **大文字一致のみで対応した数**: 12438
+- **オルソログ表で新たに拾えた数**: 346
+- **大文字一致では拾えたがオルソログ表にない数**: 2071
+- **新たに拾えた例**: ['AARS1', 'ABCA10', 'ABCA8', 'ACP3', 'ADSS1', 'AKAP17A', 'AKR1B1', 'ALOX15B', 'ANKS1A', 'ATP5F1A', 'ATP5F1B', 'ATP5F1C', 'ATP5F1D', 'ATP5IF1', 'ATP5MC3', 'ATP5MJ', 'ATP5PD', 'ATP5PF', 'ATP5PO', 'ATP6V0E1']
+- **probe:FAM3D**: [{'mouse_symbol': 'Oit1', 'resolved_by': 'ensembl_id'}]
+- **probe:C3**: [{'mouse_symbol': 'C3', 'resolved_by': 'ensembl_id'}]
+- **probe:LCN2**: 未対応
+- **probe:SLC14A2**: [{'mouse_symbol': 'Slc14a2', 'resolved_by': 'ensembl_id'}]
+- **probe:NR3C2**: [{'mouse_symbol': 'Nr3c2', 'resolved_by': 'ensembl_id'}]
+- **シンボル解決: ensembl_id直接**: 14370
+- **シンボル解決: synonym経由**: 2
+- **シンボル衝突（複数のcat遺伝子座が同名）で採用した件数**: 453
+- **シンボル未解決（mouse_rnaに実在しない）件数**: 9
+- **シンボル未解決の例（最大100件）**: [{'cat_symbol': 'PTPRG', 'mouse_ensembl': 'ENSMUSG00000121513', 'mouse_symbol_biomart': 'Ptprg'}, {'cat_symbol': 'SLC9C2', 'mouse_ensembl': 'ENSMUSG00000121369', 'mouse_symbol_biomart': 'SLC9C2'}, {'cat_symbol': 'AHSP', 'mouse_ensembl': 'ENSMUSG00000121605', 'mouse_symbol_biomart': 'Ahsp'}, {'cat_symbol': 'DHRSX', 'mouse_ensembl': 'ENSMUSG00000144291', 'mouse_symbol_biomart': 'Dhrsx'}, {'cat_symbol': 'AKAP17A', 'mouse_ensembl': 'ENSMUSG00000121606', 'mouse_symbol_biomart': 'Akap17a'}, {'cat_symbol': 'STS', 'mouse_ensembl': 'ENSMUSG00000121914', 'mouse_symbol_biomart': 'Sts'}, {'cat_symbol': 'TSC22D4', 'mouse_ensembl': 'ENSMUSG00000144222', 'mouse_symbol_biomart': 'Gm57848'}, {'cat_symbol': 'ARPC1B', 'mouse_ensembl': 'ENSMUSG00000142832', 'mouse_symbol_biomart': 'Gm62072'}, {'cat_symbol': 'ZRSR2', 'mouse_ensembl': 'ENSMUSG00000121808', 'mouse_symbol_biomart': 'Gm73394'}]
+
+## 01_load / データ形状
+
+- **ネコ皮質RNA**: (15149, 21)
+- **ネコ髄質RNA**: (15267, 18)
+- **ネコ皮質プロテオーム**: (2967, 23)
+- **ネコプロテオームは行中心化**: True
+- **マウスRNA**: (52325, 15)
+- **マウスプロテオーム**: (12635, 9)
+- **対応のあるネコ個体数**: 17
+
+## 02_de / コントラスト別サマリ
+
+- **cat_rna_ctx_early**: n=15149, q<0.05&|FC|>1.5: 0, prior_df=2.0
+- **cat_rna_ctx_late**: n=15149, q<0.05&|FC|>1.5: 3032, prior_df=2.0
+- **cat_rna_ctx_prog**: n=15149, q<0.05&|FC|>1.5: 0, prior_df=2.0
+- **cat_prot_ctx_early**: n=2967, q<0.05&|FC|>1.5: 0, prior_df=3.8
+- **cat_prot_ctx_late**: n=2967, q<0.05&|FC|>1.5: 281, prior_df=3.8
+- **cat_prot_ctx_prog**: n=2967, q<0.05&|FC|>1.5: 0, prior_df=4.0
+- **cat_rna_med_early**: n=15267, q<0.05&|FC|>1.5: 0, prior_df=2.0
+- **cat_rna_med_late**: n=15267, q<0.05&|FC|>1.5: 301, prior_df=2.2
+- **cat_rna_med_prog**: n=15267, q<0.05&|FC|>1.5: 0, prior_df=2.2
+- **cat_prot_med_early**: n=2698, q<0.05&|FC|>1.5: 0, prior_df=3.6
+- **cat_prot_med_late**: n=2698, q<0.05&|FC|>1.5: 0, prior_df=3.5
+- **cat_prot_med_prog**: n=2698, q<0.05&|FC|>1.5: 0, prior_df=3.7
+- **m_rna_5d**: n=15224, q<0.05&|FC|>1.5: 1274, prior_df=2.5
+- **m_rna_2w**: n=15224, q<0.05&|FC|>1.5: 8053, prior_df=2.1
+- **m_rna_3w**: n=15224, q<0.05&|FC|>1.5: 14, prior_df=2.6
+- **m_rna_2w250**: n=15224, q<0.05&|FC|>1.5: 7104, prior_df=1.8
+- **m_rna_prog_5d2w**: n=15224, q<0.05&|FC|>1.5: 6145, prior_df=2.1
+- **m_rna_prog_2w3w**: n=15224, q<0.05&|FC|>1.5: 27, prior_df=2.4
+- **m_rna_dose**: n=15224, q<0.05&|FC|>1.5: 22, prior_df=1.6
+- **m_prot_d14**: n=12189, q<0.05&|FC|>1.5: 5558, prior_df=1.9
+- **m_prot_d21**: n=12189, q<0.05&|FC|>1.5: 5758, prior_df=1.8
+- **m_prot_prog**: n=12189, q<0.05&|FC|>1.5: 790, prior_df=1.7
+
+## 03_crossspecies
+
+- **種間 RNA（皮質晩期 x マウス2W, ortholog）**: [0.49]
+- **種間 protein（皮質晩期 x D21, ortholog）**: [0.6]
+- **種内ベンチマーク**: {'マウス protein D14 vs D21': 0.946, 'マウス RNA 2W DT100 vs DT250': 0.892, 'マウス RNA 2W vs 3W': 0.876, 'マウス RNA 5D vs 2W': 0.579, 'ネコ皮質 RNA 晩期 vs 早期': 0.878, 'ネコ 皮質 vs 髄質 RNA': 0.76, 'ネコ 皮質 vs 髄質 protein': 0.684, 'ネコ皮質 RNA vs protein': 0.66, 'マウス RNA2W vs protein D14': 0.707, 'マウス RNA3W vs protein D21': 0.624}
+- **順列検定**: {'cat_rna_ctx_late x m_rna_2w': 'rho=0.490, z=45.5, p=0.000999', 'cat_prot_ctx_late x m_prot_d21': 'rho=0.600, z=27.0, p=0.000999', 'cat_rna_med_late x m_rna_2w': 'rho=0.389, z=38.0, p=0.000999'}
+- **傷害軸除外**: [{'label': 'cat_rna_ctx_late x m_rna_2w', 'rho_all': 0.489569221451472, 'rho_wo_injury': 0.4818524570118244, 'n_all': 9000, 'n_kept': 8937}, {'label': 'cat_prot_ctx_late x m_prot_d21', 'rho_all': 0.5995627382801783, 'rho_wo_injury': 0.5913543158690622, 'n_all': 2184, 'n_kept': 2151}]
+
+## 05_stage
+
+- **ctx クラス内訳**: {'other': 12926, 'early_onset': 2146, 'late_onset': 59, 'sign_reversal': 16, 'transient_peak': 2}
+- **ctx 発現量バイアス確認**: {'early_onset': {'n': 2146, 'median_pct': 37.3, 'frac_below_25pct': 0.363}, 'late_onset': {'n': 59, 'median_pct': 35.9, 'frac_below_25pct': 0.424}, 'transient_peak': {'n': 2, 'median_pct': 24.7, 'frac_below_25pct': 0.5}, 'sign_reversal': {'n': 16, 'median_pct': 9.9, 'frac_below_25pct': 0.812}, 'all_genes_median_pct': 50.0}
+- **ctx sign_reversal のうち進行コントラストで支持**: 10/16
+- **ctx transient_peak のうち進行コントラストで支持**: 0/2
+- **med クラス内訳**: {'other': 14908, 'early_onset': 189, 'sign_reversal': 151, 'late_onset': 19}
+- **med 発現量バイアス確認**: {'early_onset': {'n': 189, 'median_pct': 35.8, 'frac_below_25pct': 0.397}, 'late_onset': {'n': 19, 'median_pct': 19.2, 'frac_below_25pct': 0.737}, 'transient_peak': {'n': 0, 'median_pct': None, 'frac_below_25pct': None}, 'sign_reversal': {'n': 151, 'median_pct': 8.7, 'frac_below_25pct': 0.728}, 'all_genes_median_pct': 50.0}
+- **med sign_reversal のうち進行コントラストで支持**: 100/151
+- **med transient_peak のうち進行コントラストで支持**: 0/0
+- **ctx rho(early,late)**: 0.878
+- **med rho(early,late)**: 0.678
+- **進行軸の種間一致**: [{'cat_axis': 'ネコ皮質進行軸', 'mouse_axis': 'マウス 5D→2W', 'rho': 0.3131737221544082, 'p': 5.424334730292916e-204, 'n': 9000}, {'cat_axis': 'ネコ髄質進行軸', 'mouse_axis': 'マウス 5D→2W', 'rho': -0.09043824722391426, 'p': 7.680386031062811e-18, 'n': 9017}, {'cat_axis': 'ネコ皮質進行軸', 'mouse_axis': 'マウス 2W→3W', 'rho': -0.36804930530102037, 'p': 8.997282281354806e-287, 'n': 9000}, {'cat_axis': 'ネコ髄質進行軸', 'mouse_axis': 'マウス 2W→3W', 'rho': 0.11666812265399351, 'p': 1.0605448919698273e-28, 'n': 9017}, {'cat_axis': 'ネコ皮質進行軸', 'mouse_axis': 'マウス DT100→DT250', 'rho': 0.004635676287683247, 'p': 0.6601398103090048, 'n': 9000}, {'cat_axis': 'ネコ髄質進行軸', 'mouse_axis': 'マウス DT100→DT250', 'rho': 0.18422718919171488, 'p': 1.1598670329101527e-69, 'n': 9017}, {'cat_axis': 'ネコ皮質進行軸', 'mouse_axis': 'マウス 2W vs Ctrl（参考）', 'rho': 0.38569225928015144, 'p': 0.0, 'n': 9000}, {'cat_axis': 'ネコ髄質進行軸', 'mouse_axis': 'マウス 2W vs Ctrl（参考）', 'rho': -0.04424650532320503, 'p': 2.633651853460052e-05, 'n': 9017}]
+- **偏相関**: [{'mouse': 'm_rna_5d', 'partial_rho_late_given_early': 0.201, 'partial_rho_early_given_late': -0.066, 'n': 9000}, {'mouse': 'm_rna_2w', 'partial_rho_late_given_early': 0.251, 'partial_rho_early_given_late': 0.012, 'n': 9000}, {'mouse': 'm_rna_3w', 'partial_rho_late_given_early': 0.184, 'partial_rho_early_given_late': 0.048, 'n': 9000}, {'mouse': 'm_rna_2w250', 'partial_rho_late_given_early': 0.251, 'partial_rho_early_given_late': 0.032, 'n': 9000}]
+- **注意**: 早期側の推定は分散が大きく減衰するため、偏相関の非対称性はそのまま「晩期に対応」と読んではいけない
+
+## 06_compartment
+
+- **対応のある個体数**: 17
+- **共通遺伝子数**: 14698
+- **群構成**: {'Control': 6, 'CKD1/2': 6, 'CKD3/4': 5}
+- **進行軸 皮質×髄質 rho**: 0.204 (95%CI 0.188–0.221, n=14698)
+- **早期 皮質×髄質 rho**: 0.676
+- **晩期 皮質×髄質 rho**: 0.763
+- **区画交互作用 q<0.05**: 0
+- **主要軸（進行 p<0.05 かつ LOO 安定）**: [{'module': 'Osmotic_TonEBP', 'tissue': 'cortex', 'prog_delta': -0.501, 'prog_p_perm': 0.008}, {'module': 'Osmotic_TonEBP', 'tissue': 'medulla', 'prog_delta': -0.841, 'prog_p_perm': 0.006}, {'module': 'Urea_concentration', 'tissue': 'cortex', 'prog_delta': -0.658, 'prog_p_perm': 0.04}]
+
+## 07_candidates
+
+- **後期起動・上昇の総数**: 29
+- **分泌/シグナルペプチド保有**: 8
+- **遊離尿トラック上位（score>=6）**: ['CRYAB', 'PTN', 'H6PD', 'FAM3D', 'SULF1', 'CDYL2', 'RUNDC3A', 'ANXA3', 'TXNIP', 'P4HA2', 'TSHZ2', 'RBM20', 'HIF1A']
+- **uEVトラック**: ['SEMA5A', 'PTGFRN', 'CALCRL', 'ITGA8', 'ABCA1', 'VIPR1']
+- **注意**: FAM3D のマウスオルソログは Oit1。オルソログ表を使わないと必ず落ちる。また FAM3D は消化管由来で栄養状態により血中濃度が変動するため、尿マーカー化する場合は採尿タイミングの影響を先に評価すること。
+
+## 09_dataset_matrix / 種×入口の分解
+
+- **【RNA層】データセット**: ['cat_natural_ctx_rna', 'cat_natural_med_rna', 'mouse_podtreck_rna', 'mouse_iri_late_rna']
+- **IRI後期の定義（主）**: ['IRI12m'] vs ['SHAM12m']（同一プラットフォーム GPL13112・同週齢）
+- **IRI後期の定義（感度）**: ['IRI6mN'] vs ['NORM3m', 'NORM9m', 'NORM15m']（同一プラットフォーム GPL19057）
+- **RNA層 rho行列**: {'cat_natural_ctx_rna': {'cat_natural_ctx_rna': 1.0, 'cat_natural_med_rna': 0.76, 'mouse_podtreck_rna': 0.497, 'mouse_iri_late_rna': 0.465}, 'cat_natural_med_rna': {'cat_natural_ctx_rna': 0.76, 'cat_natural_med_rna': 1.0, 'mouse_podtreck_rna': 0.399, 'mouse_iri_late_rna': 0.561}, 'mouse_podtreck_rna': {'cat_natural_ctx_rna': 0.497, 'cat_natural_med_rna': 0.399, 'mouse_podtreck_rna': 1.0, 'mouse_iri_late_rna': 0.595}, 'mouse_iri_late_rna': {'cat_natural_ctx_rna': 0.465, 'cat_natural_med_rna': 0.561, 'mouse_podtreck_rna': 0.595, 'mouse_iri_late_rna': 1.0}}
+- **RNA層 overlap**: {'cat_natural_ctx_rna': {'cat_natural_ctx_rna': 0, 'cat_natural_med_rna': 14605, 'mouse_podtreck_rna': 10581, 'mouse_iri_late_rna': 10221}, 'cat_natural_med_rna': {'cat_natural_ctx_rna': 14605, 'cat_natural_med_rna': 0, 'mouse_podtreck_rna': 10607, 'mouse_iri_late_rna': 10235}, 'mouse_podtreck_rna': {'cat_natural_ctx_rna': 10581, 'cat_natural_med_rna': 10607, 'mouse_podtreck_rna': 0, 'mouse_iri_late_rna': 11735}, 'mouse_iri_late_rna': {'cat_natural_ctx_rna': 10221, 'cat_natural_med_rna': 10235, 'mouse_podtreck_rna': 11735, 'mouse_iri_late_rna': 0}}
+- **RNA層 分解**: {'d_entry_mouse (PodTRECK vs IRI)': 0.4046532105059918, 'd_species_tubular (cat natural vs mouse IRI)': 0.534720534642483, 'd_confounded (cat natural vs PodTRECK)': 0.5028319704878554, '結論': '種差 > 病因差（入口を揃えても種が効く）', '比 (種/病因)': 1.321}
+- **RNA層 分解（感度: IRI 6か月）**: {'d_entry_mouse (PodTRECK vs IRI)': 0.6163830681736315, 'd_species_tubular (cat natural vs mouse IRI)': 0.6237563163390463, 'd_confounded (cat natural vs PodTRECK)': 0.5028319704878554, '結論': '種差 > 病因差（入口を揃えても種が効く）', '比 (種/病因)': 1.012}
+- **PERMANOVA(参考値)**: [{'factor': 'species', 'pseudo_F': 1.611, 'p_perm': 0.332, 'n_datasets': 4}, {'factor': 'entry', 'pseudo_F': 1.243, 'p_perm': 0.25, 'n_datasets': 4}]
+- **【蛋白層】データセット**: ['cat_natural_ctx_prot', 'cat_natural_med_prot', 'mouse_podtreck_prot', 'human_kpmp_ti', 'human_kpmp_g']
+- **蛋白層 rho行列**: {'cat_natural_ctx_prot': {'cat_natural_ctx_prot': 1.0, 'cat_natural_med_prot': 0.684, 'mouse_podtreck_prot': 0.583, 'human_kpmp_ti': 0.363, 'human_kpmp_g': 0.267}, 'cat_natural_med_prot': {'cat_natural_ctx_prot': 0.684, 'cat_natural_med_prot': 1.0, 'mouse_podtreck_prot': 0.582, 'human_kpmp_ti': 0.359, 'human_kpmp_g': 0.278}, 'mouse_podtreck_prot': {'cat_natural_ctx_prot': 0.583, 'cat_natural_med_prot': 0.582, 'mouse_podtreck_prot': 1.0, 'human_kpmp_ti': 0.337, 'human_kpmp_g': 0.212}, 'human_kpmp_ti': {'cat_natural_ctx_prot': 0.363, 'cat_natural_med_prot': 0.359, 'mouse_podtreck_prot': 0.337, 'human_kpmp_ti': 1.0, 'human_kpmp_g': 0.223}, 'human_kpmp_g': {'cat_natural_ctx_prot': 0.267, 'cat_natural_med_prot': 0.278, 'mouse_podtreck_prot': 0.212, 'human_kpmp_ti': 0.223, 'human_kpmp_g': 1.0}}
+- **蛋白層 overlap**: {'cat_natural_ctx_prot': {'cat_natural_ctx_prot': 0, 'cat_natural_med_prot': 2427, 'mouse_podtreck_prot': 2778, 'human_kpmp_ti': 2726, 'human_kpmp_g': 2726}, 'cat_natural_med_prot': {'cat_natural_ctx_prot': 2427, 'cat_natural_med_prot': 0, 'mouse_podtreck_prot': 2510, 'human_kpmp_ti': 2477, 'human_kpmp_g': 2477}, 'mouse_podtreck_prot': {'cat_natural_ctx_prot': 2778, 'cat_natural_med_prot': 2510, 'mouse_podtreck_prot': 0, 'human_kpmp_ti': 7726, 'human_kpmp_g': 7726}, 'human_kpmp_ti': {'cat_natural_ctx_prot': 2726, 'cat_natural_med_prot': 2477, 'mouse_podtreck_prot': 7726, 'human_kpmp_ti': 0, 'human_kpmp_g': 8646}, 'human_kpmp_g': {'cat_natural_ctx_prot': 2726, 'cat_natural_med_prot': 2477, 'mouse_podtreck_prot': 7726, 'human_kpmp_ti': 8646, 'human_kpmp_g': 0}}
+- **蛋白層 ヒトへの距離**: {'d_cat_to_human_TI': 0.6373553483697441, 'd_catmed_to_human_TI': 0.6411387088016397, 'd_podtreck_to_human_TI': 0.6625241377326205, 'd_cat_to_human_G': 0.7331533987266107, 'd_catmed_to_human_G': 0.722333606171738, 'd_podtreck_to_human_G': 0.7881405535805, 'd_human_TI_vs_G': 0.7766388766506555, 'ヒトTIへの近さ順位': 'ネコ皮質(0.637) < ネコ髄質(0.641) < Pod-TRECK(0.663)', 'ヒトGへの近さ順位': 'ネコ髄質(0.722) < ネコ皮質(0.733) < Pod-TRECK(0.788)', '注意': '区画解像度が非対称（KPMP=LMDでTI/G分離, マウス=全腎, ネコ=皮質/髄質）。距離の絶対値ではなく順位で解釈すること。'}
+- **共通遺伝子が少ないペア(<1000)**: なし
+- **適応免疫チェック**: 実施済み。results/mouse_iri_adaptive_immunity.csv 参照
+- **制約1（層の分離）**: RNA層と蛋白層は独立した距離行列として扱い、層をまたぐ比較は行列に含めていない。測定量が異なるため、種・入口の効果と測定層の効果が交絡するため。
+- **制約2（蛋白層の2x2は不完全）**: マウスIRIに対応する腎プロテオームが存在しないため、蛋白層では種×入口の2x2が完成しない。したがって d_entry / d_species の分解は RNA層でのみ実施し、蛋白層はヒト（KPMP）への距離の評価に限定している。
+- **制約3（区画解像度の非対称）**: KPMP はレーザーマイクロダイセクションで TI/G を分離、マウスは全腎、ネコは皮質/髄質の分離。区画の粒度が揃っていないため、ヒトへの距離は絶対値ではなく順位でのみ解釈すること。
+- **制約4（ネコ蛋白の行中心化）**: ネコのプロテオーム値は蛋白ごとに行中心化されている（row mean≈0）。log2FC の絶対値は種間比較に使えないため、蛋白層も Spearman（順位ベース）のみで扱っている。
+- **警告**: データセット数が少ないので PERMANOVA の p 値は参考値。主結果は d_entry と d_species の直接比較で述べること。
+
+## 10_human_validation / 方向一致の符号検定
+
+- **[watchlist] 集合**: watchlist 25遺伝子
+- **[watchlist] ヒトTIで検出**: 16 / 25
+- **[watchlist] 3種一致**: 8/13 = 61.5% (帰無25%, 二項検定 p=0.005649)
+- **[watchlist] ネコRNA × ヒトTI蛋白**: 10/14 = 71.4% (帰無50%, p=0.08978)
+- **[watchlist] マウス蛋白 × ヒトTI蛋白**: 11/15 = 73.3% (帰無50%, p=0.05923)
+- **[watchlist] ネコRNA × マウス蛋白**: 10/13 = 76.9% (帰無50%, p=0.04614)
+- **[後期起動] 集合**: 後期起動 59遺伝子
+- **[後期起動] ヒトTIで検出**: 26 / 59
+- **[後期起動] 3種一致**: 11/25 = 44.0% (帰無25%, 二項検定 p=0.02967)
+- **[後期起動] ネコRNA × ヒトTI蛋白**: 13/26 = 50.0% (帰無50%, p=0.5775)
+- **[後期起動] マウス蛋白 × ヒトTI蛋白**: 16/25 = 64.0% (帰無50%, p=0.1148)
+- **[後期起動] ネコRNA × マウス蛋白**: 18/25 = 72.0% (帰無50%, p=0.02164)
+- **注意1**: KPMP の CKD は糖尿病性腎症・高血圧性腎硬化症が主体で、ネコ自然発症CKDとは病因が異なる。一致しなかった遺伝子は「否定された」ではなく「病因の異なるヒトCKDでは確認できなかった」。
+- **注意2**: 遺伝子は共発現により独立でないため、二項検定の p 値は反保守的。一致率（効果量）と併せて読むこと。
+- **注意3**: 個別遺伝子の有意性ではなく、方向一致そのものを所見として扱っている。
+
+## 11_ercb / ERCB尿細管間質での候補検証
+
+- **データ**: GSE104954 (ERCB tubulointerstitium, 腎生検)
+- **プラットフォーム構成**: {'GSE104954-GPL22945': {'RPGN': 21, 'control_LD': 18, 'DN': 7, 'FSGS_MCD': 4, 'MCD': 4, 'FSGS': 3, 'control_TN': 3}, 'GSE104954-GPL24120': {'SLE': 32, 'IgAN': 25, 'HT': 20, 'MGN': 18, 'DN': 10, 'FSGS': 10, 'MCD': 9, 'TMD': 6, 'control_LD': 3, 'control_TN': 2}}
+- **目的遺伝子の検出**: {'FAM3D': '未検出（このアレイに非搭載）', 'PTN': '検出', 'ANXA3': '検出', 'TXNIP': '検出', 'ANGPTL2': '検出'}
+- **プローブ集約**: Brainarray ENTREZG カスタムCDF。プローブセットID='<EntrezID>_at' で 1プローブセット=1遺伝子。複数プローブの集約は発生しない（保険として同一シンボルは平均を取る実装）。両プラットフォームとも同一の12,074プローブセット。
+- **制約1（正規化）**: マイクロアレイなので KPMP プロテオーム・RNA-seq とは正規化が異なる。距離行列には入れず、個別遺伝子の検証にのみ使用。
+- **制約2（プラットフォーム交絡）**: 対照(LD)は GPL22945 に18検体、GPL24120 に3検体と偏在。プラットフォームをまたぐ対照プールは batch と交絡するため、全コントラストを同一プラットフォーム内で組んでいる。GPL24120 側は対照 n=5（LD3+TN2）と少ない。
+- **結果**: results/ercb_candidate_validation.csv 参照
+
+## 12_model_distance / 種間距離はモデル間距離分布の中か外か
+
+- **マウスモデル状態**: {'PodTRECK_5D': 'PodTRECK', 'PodTRECK_2W': 'PodTRECK', 'PodTRECK_3W': 'PodTRECK', 'IRI_12mo': 'IRI', 'IRI_6mo': 'IRI', 'UUO_2D': 'UUO', 'UUO_8D': 'UUO'}
+- **モデル間距離 (between_model)**: n=16, min=0.243, 中央=0.465, max=0.956, IQR=0.389-0.587
+- **モデル内距離 (within_model, 参考)**: n=5, min=0.124, 中央=0.414, max=0.452
+- **ネコ皮質 × 各マウスモデル**: [{'mouse_state': 'PodTRECK_2W', 'd_species': 0.5028, 'percentile_in_between_model': 56.2, 'n_genes': 10581, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'IRI_12mo', 'd_species': 0.5347, 'percentile_in_between_model': 56.2, 'n_genes': 10221, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'PodTRECK_3W', 'd_species': 0.5645, 'percentile_in_between_model': 62.5, 'n_genes': 10581, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'UUO_8D', 'd_species': 0.5654, 'percentile_in_between_model': 62.5, 'n_genes': 11700, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'IRI_6mo', 'd_species': 0.6238, 'percentile_in_between_model': 81.2, 'n_genes': 10381, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'UUO_2D', 'd_species': 0.695, 'percentile_in_between_model': 87.5, 'n_genes': 11686, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'PodTRECK_5D', 'd_species': 0.7025, 'percentile_in_between_model': 87.5, 'n_genes': 10581, '判定': '分布の中（モデル間距離に埋もれる）'}]
+- **ネコ髄質 × 各マウスモデル**: [{'mouse_state': 'IRI_12mo', 'd_species': 0.4388, 'percentile_in_between_model': 43.8, 'n_genes': 10235, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'IRI_6mo', 'd_species': 0.5625, 'percentile_in_between_model': 62.5, 'n_genes': 10410, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'PodTRECK_3W', 'd_species': 0.5803, 'percentile_in_between_model': 75.0, 'n_genes': 10607, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'UUO_8D', 'd_species': 0.5916, 'percentile_in_between_model': 75.0, 'n_genes': 11784, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'PodTRECK_2W', 'd_species': 0.6012, 'percentile_in_between_model': 75.0, 'n_genes': 10607, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'UUO_2D', 'd_species': 0.6972, 'percentile_in_between_model': 87.5, 'n_genes': 11767, '判定': '分布の中（モデル間距離に埋もれる）'}, {'mouse_state': 'PodTRECK_5D', 'd_species': 0.7518, 'percentile_in_between_model': 87.5, 'n_genes': 10607, '判定': '分布の中（モデル間距離に埋もれる）'}]
+- **ネコ皮質×髄質（種内参考）**: 0.2401
+- **UUO対照の感度**: {'UUO_8D 対照=sham4腎': np.float64(0.5654), 'UUO_8D 対照=sham右のみ(n=2)': np.float64(0.5779)}
+- **制約1（UUOの対照）**: GSE79443 は右尿管結紮で、**閉塞腎（右）のみ寄託**されており UUO個体の対側左腎は存在しない。したがって対側腎対照は選べず、sham手術腎を対照とした。sham は2個体×左右4腎で、左右差は無視できる（rho 0.992、|差|中央値 0.19 log2）ため4腎を用いたが、2個体の擬似反復である点は残る。
+- **制約2（バッチ交絡）**: PodTRECK / GSE98622 / GSE79443 は施設・時期が異なる。log2FC を各データセット内のコントラストとして計算しているためバッチ主効果は相殺されるが、バッチ×病態の交互作用は残る。距離の絶対値ではなく分布内の相対位置で解釈すること。
+- **制約3（Gubra論文）**: Marstrand-Jørgensen et al., Nephron 2024 (10.1159/000535918) は同一施設で UUO/uIRI/ADI 3モデルが揃い理想的だったが、Data Availability Statement により公開寄託されていない（corresponding author への請求のみ）。GEO/SRA/ArrayExpress/BioProject を検索したが該当なし。代替として GSE79443 を使用。
+
+## 13_time_axis / 距離を説明するのは時間軸か入口か
+
+- **経過日数の割り当て**: {'PodTRECK_5D': 5, 'PodTRECK_2W': 14, 'PodTRECK_3W': 21, 'IRI_6mo': 180, 'IRI_12mo': 365, 'UUO_2D': 2, 'UUO_8D': 8}
+- **入口の割り当て**: {'PodTRECK_5D': 'glomerular', 'PodTRECK_2W': 'glomerular', 'PodTRECK_3W': 'glomerular', 'IRI_6mo': 'tubular', 'IRI_12mo': 'tubular', 'UUO_2D': 'tubular', 'UUO_8D': 'tubular'}
+- **Mantel検定（状態ラベル並べ替え, n_perm=9999）**: {'時間差 |Δlog10(日数)|': {'mantel_rho': 0.54, 'p': 0.0301}, '時間差 |Δ日数|(線形)': {'mantel_rho': 0.369, 'p': 0.2741}, '入口不一致': {'mantel_rho': 0.095, 'p': 0.746}, 'モデル不一致': {'mantel_rho': 0.332, 'p': 0.0398}, '時間差 | 入口を統制': {'mantel_rho': 0.599, 'p': 0.0133}, '入口 | 時間差を統制': {'mantel_rho': 0.201, 'p': 0.2222}}
+- **判定**: 時間軸が距離をより説明する
+- **交絡の程度**: |Δlog10日数| と 入口不一致 の相関 rho=-0.064。事前には交絡を懸念したが、実測ではほぼ直交していた。理由: 尿細管入口が最短(UUO 2-8日)と最長(IRI 180-365日)の両端を占め、糸球体入口(PodTRECK 5-21日)が中間に入るため、時間と入口が分離している。したがって偏Mantel の値は素直に解釈できる。
+- **ネコを時間軸に載せた場合**: [{'cat_state': 'ネコ皮質 早期(IRIS1/2)', '最近傍マウス状態': 'IRI_12mo', 'その距離': 0.4602, '距離重みづけ見かけ日数(幾何平均)': 26.3, 'd_PodTRECK_5D': 0.7652, 'd_PodTRECK_2W': 0.5577, 'd_PodTRECK_3W': 0.5922, 'd_IRI_6mo': 0.5361, 'd_IRI_12mo': 0.4602, 'd_UUO_2D': 0.7195, 'd_UUO_8D': 0.5822}, {'cat_state': 'ネコ皮質 晩期(IRIS3/4)', '最近傍マウス状態': 'PodTRECK_2W', 'その距離': 0.5028, '距離重みづけ見かけ日数(幾何平均)': 22.5, 'd_PodTRECK_5D': 0.7025, 'd_PodTRECK_2W': 0.5028, 'd_PodTRECK_3W': 0.5645, 'd_IRI_6mo': 0.6238, 'd_IRI_12mo': 0.5347, 'd_UUO_2D': 0.695, 'd_UUO_8D': 0.5654}]
+- **ネコは経過時間の代理に使えるか**: 使えない。理由: (1) 自然発症で明確な傷害イベントが無く、発症時点が不明。マウスの『傷害後n日』に対応する原点が定義できない。(2) 横断デザインで、各病期は別個体。同一個体の時間推移を見ていない。(3) IRISステージは血清クレアチニン（腎機能）による定義であって時間の定義ではない。残存ネフロン量の指標であり、進行速度は個体差が大きい。(4) 実測では、病期の進行が時間軸上の前進として現れない。むしろ逆向きに動く: 早期(IRIS1/2)の最近傍は IRI_12mo（365日）だが、晩期(IRIS3/4)の最近傍は PodTRECK_2W（14日）。IRI 6mo/12mo への距離は早期→晩期でむしろ増加する (0.536→0.624, 0.460→0.535)。病期が進むほど慢性マウス状態から離れる。→ 病期は『進行度』の順序尺度としては使えるが、経過日数の代理には使えない。
+- **制約**: 状態7個・ペア21個と小さい。Mantel の検出力は低く、rho の点推定も不安定。方向性の議論に留めること。
+
+## 14_time_axis_full / GSE98622全時点での時間軸 vs 入口
+
+- **A: IRI6mo込み(15状態)**: {'状態数': 15, 'ペア数': 105, '交絡 rho(時間, 入口)': -0.172, '時間差 |Δlog10(日数)|': {'rho': 0.608, 'p': 0.0005}, '入口不一致': {'rho': -0.046, 'p': 0.7813}, 'モデル不一致': {'rho': -0.003, 'p': 0.9859}, '時間 | 入口を統制': {'rho': 0.607, 'p': 0.0003}, '入口 | 時間を統制': {'rho': 0.097, 'p': 0.5642}, '時間（モデル内制限並べ替え）': {'rho': 0.608, 'p': 0.0005}, '判定': '時間軸が距離をより説明する'}
+- **B: IRI6mo除く(14状態, 全て同一プラットフォーム内)**: {'状態数': 14, 'ペア数': 91, '交絡 rho(時間, 入口)': -0.144, '時間差 |Δlog10(日数)|': {'rho': 0.553, 'p': 0.005}, '入口不一致': {'rho': -0.019, 'p': 0.9173}, 'モデル不一致': {'rho': 0.044, 'p': 0.8078}, '時間 | 入口を統制': {'rho': 0.553, 'p': 0.0048}, '入口 | 時間を統制': {'rho': 0.075, 'p': 0.6439}, '時間（モデル内制限並べ替え）': {'rho': 0.553, 'p': 0.0024}, '判定': '時間軸が距離をより説明する'}
+- **C: 感度 全shamプール(IRI6mo除く)**: {'状態数': 14, 'ペア数': 91, '交絡 rho(時間, 入口)': -0.144, '時間差 |Δlog10(日数)|': {'rho': 0.662, 'p': 0.0002}, '入口不一致': {'rho': -0.05, 'p': 0.7754}, 'モデル不一致': {'rho': 0.026, 'p': 0.8772}, '時間 | 入口を統制': {'rho': 0.665, 'p': 0.0002}, '入口 | 時間を統制': {'rho': 0.082, 'p': 0.6048}, '時間（モデル内制限並べ替え）': {'rho': 0.662, 'p': 0.0003}, '判定': '時間軸が距離をより説明する'}
+- **対照の取り方**: IRI 2h-28d は若齢sham(SHAM4h+SHAM24h, n=6)、IRI 12mo は同週齢SHAM12m(n=3)、IRI 6mo は NORM3m/9m/15m(n=9, GPL19057)。全shamをプールすると IRI12m だけが加齢+傷害 vs 若齢の比較になり、加齢シグナルが時間差として混入して時間効果を過大評価する（仮説に有利な方向のバイアス）ため、主解析では避けた。感度解析Cがその影響の大きさを示す。
+- **版の使い分け**: 版Aは IRI6mo を含むが GPL19057 との跨ぎがある。版Bは IRI6mo を除き、全状態が各データセット内コントラストのみで、IRI 9時点は完全に同一プラットフォーム。主結果は版Bで述べること。
+- **制限並べ替えの意味**: モデル同一性を保ったまま状態を入れ替える検定。『モデルの違いでは説明できない、時間そのものの効果』を測る。
+
+## 15_within_model_time / IRI除外版とモデル内の時間関係
+
+- **IRI除外版（PodTRECK3 + UUO2 = 5状態, 10ペア）**: {'時間 rho': 0.152, '入口 rho': 0.213, '偏(時間|入口) rho': 0.285, '注記': '検出力が無いので p 値は参考。符号と大きさのみ見る。'}
+- **ネコの扱い**: ネコには経過日数を割り当てられないため時間Mantelには含めない。距離の参照として results/time_axis_noIRI_cat_ref.csv に併記。
+- **モデル内の 距離 vs 経過時間差**: [{'model': 'PodTRECK', 'n_states': 3, 'n_pairs': 3, 'rho_vs_log10days': 1.0, 'p_vs_log10days': 0.0, 'rho_vs_lineardays': 1.0, '評価可能か': '可'}, {'model': 'IRI', 'n_states': 9, 'n_pairs': 36, 'rho_vs_log10days': 0.601, 'p_vs_log10days': 0.0001, 'rho_vs_lineardays': 0.023, '評価可能か': '可'}, {'model': 'UUO', 'n_states': 2, 'n_pairs': 1, 'rho_vs_log10days': nan, 'p_vs_log10days': nan, 'rho_vs_lineardays': nan, '評価可能か': '不可（ペア1個）'}]
+- **対数関係は3モデルで成立するか**: IRI のみ評価可能（9時点36ペア）。PodTRECK は3時点3ペアで参考値、UUO は2時点1ペアで評価不可。『3モデルすべてで成立』は現データでは検証できない。
+- **図**: results/within_model_time.png, results/iri_trajectory.png
+
+## 16_entry_model_checks / Results3.3の確認
+
+- **前提の訂正**: 13-15番の時間軸解析（14状態）は全てマウスで、ネコは含まれていない。『14状態にネコが tubular として含まれる』は誤り。ネコが入るのは09の距離行列のみ。
+- **(1) 入口・モデルMantel**: {'マウスのみ(14状態)': {'状態数': 14, 'ペア数': 91, '入口不一致': {'rho': -0.019, 'p': 0.9173}, 'モデル不一致': {'rho': 0.044, 'p': 0.8078}, '入口|時間を統制': {'rho': 0.075, 'p': 0.6439}, 'モデル|時間を統制': {'rho': 0.238, 'p': 0.1227}}, 'ネコ込み(16状態)': {'状態数': 16, 'ペア数': 120, '入口不一致': {'rho': -0.054, 'p': 0.7827}, 'モデル不一致': {'rho': 0.179, 'p': 0.2443}, '偏Mantel': '計算不可（ネコに経過日数を割り当てられないため時間行列が作れない）'}}
+- **(2) 部分抽出の要約（IRI時点数を変えたとき）**: [{'n_states': 7, 'n_combos': 36, 'model_med': 0.185, 'model_min': 0.037, 'model_max': 0.462, 'model_frac_pos': 0.444, 'time_med': 0.376, 'entry_med': -0.016}, {'n_states': 9, 'n_combos': 126, 'model_med': 0.107, 'model_min': -0.06, 'model_max': 0.364, 'model_frac_pos': 0.159, 'time_med': 0.519, 'entry_med': -0.021}, {'n_states': 11, 'n_combos': 84, 'model_med': 0.065, 'model_min': -0.089, 'model_max': 0.282, 'model_frac_pos': 0.06, 'time_med': 0.519, 'entry_med': -0.014}, {'n_states': 14, 'n_combos': 1, 'model_med': 0.044, 'model_min': 0.044, 'model_max': 0.044, 'model_frac_pos': 0.0, 'time_med': 0.553, 'entry_med': -0.019}]
+- **(2) 7状態版で IRI12m を含むか別**: {'size': {False: 28, True: 8}, 'median': {False: 0.175, True: 0.194}, 'min': {False: 0.074, True: 0.037}, 'max': {False: 0.462, True: 0.314}}
+- **備考**: 7状態版で変えられるのは IRI 9時点から2点を選ぶ組み合わせのみ（PodTRECK と UUO は予備時点が無い）。C(9,2)=36通りを全数列挙した。
+
+## 18_monotonic_genes / 単調性による層別
+
+- **定義**: IRI 2h基準の log2FC 軌跡 vs log10(日数) の |Spearman rho| > 0.7
+- **群構成**: {'non_monotonic': 13232, 'monotonic_up': 977, 'monotonic_down': 243}
+- **ヒト空間の遺伝子数**: {'単調': 1219, '非単調': 13225, '全体': 14443}
+- **Mantel比較**: {'14状態: 全遺伝子': {'n_states': 14, 'median_overlap': 12992, 'time_rho': 0.565, 'time_p': 0.0042, 'entry_rho': -0.033, 'entry_p': 0.8737, 'time|entry_rho': 0.567, 'time|entry_p': 0.0034}, '14状態: 単調群のみ': {'n_states': 14, 'median_overlap': 916, 'time_rho': 0.546, 'time_p': 0.0014, 'entry_rho': 0.076, 'entry_p': 0.6015, 'time|entry_rho': 0.577, 'time|entry_p': 0.0006}, '14状態: 非単調群のみ': {'n_states': 14, 'median_overlap': 12068, 'time_rho': 0.554, 'time_p': 0.0044, 'entry_rho': -0.043, 'entry_p': 0.818, 'time|entry_rho': 0.559, 'time|entry_p': 0.0035}, '5状態(非循環, PodTRECK+UUO): 全遺伝子': {'n_states': 5, 'median_overlap': 11863, 'time_rho': 0.152, 'time_p': 0.7077, 'entry_rho': 0.213, 'entry_p': 0.7075, 'time|entry_rho': 0.285, 'time|entry_p': 0.5213}, '5状態(非循環, PodTRECK+UUO): 単調群のみ': {'n_states': 5, 'median_overlap': 954, 'time_rho': 0.152, 'time_p': 0.6635, 'entry_rho': 0.142, 'entry_p': 0.6067, 'time|entry_rho': 0.115, 'time|entry_p': 0.8397}, '5状態(非循環, PodTRECK+UUO): 非単調群のみ': {'n_states': 5, 'median_overlap': 10910, 'time_rho': 0.152, 'time_p': 0.7118, 'entry_rho': 0.355, 'entry_p': 0.398, 'time|entry_rho': 0.285, 'time|entry_p': 0.4931}}
+- **循環性の警告**: 単調群は IRI の時系列で時間相関する遺伝子として選ばれているため、IRI 状態を含む14状態版で時間相関が上がるのは定義上ほぼ自明。遺伝子選択に使っていない PodTRECK+UUO の5状態版（非循環）が本当の検証。
+- **濃縮**: results/monotonic_enrichment.csv, monotonic_up_enrichment.csv, monotonic_dn_enrichment.csv
+- **多重比較補正**: Benjamini-Hochberg。gobp/kegg/hallmark の各ライブラリ内で独立に補正（3ライブラリは項目が大きく重複するため、まとめて補正すると保守的すぎる）。列 q が BH-adjusted p、n_tested_in_library が各ライブラリの検定数。
+
+## 19_distance_distributions / Results3.4
+
+- **状態集合**: 16状態 = マウス14（PodTRECK3 + UUO2 + IRI9）+ ネコ2。3.3と統一。
+- **ペア内訳**: {'between_model': 51, 'within_model': 40, 'cross_species': 28, 'within_cat': 1}
+- **分布**: [{'group': 'between_model', 'n': 51, 'min': 0.2164, 'Q1': 0.3203, 'median': 0.4129, 'Q3': 0.6295, 'max': 1.0535}, {'group': 'within_model (IRI込み)', 'n': 40, 'min': 0.1081, 'Q1': 0.2728, 'median': 0.4172, 'Q3': 0.6548, 'max': 0.8379}, {'group': 'within_model (IRI-IRI除く)', 'n': 4, 'min': 0.1238, 'Q1': 0.2274, 'median': 0.3414, 'Q3': 0.4287, 'max': 0.4524}, {'group': 'cross_species', 'n': 28, 'min': 0.4388, 'Q1': 0.5471, 'median': 0.5777, 'Q3': 0.6956, 'max': 0.8291}]
+- **主張の確認**: {'種間がモデル間レンジ内に収まる数': '28 / 28', 'モデル間レンジ': '0.2164 - 1.0535', '種間レンジ': '0.4388 - 0.8291', 'Mann-Whitney(種間>モデル間, 片側) p': 0.0002, '中央値': '種間 0.5777 vs モデル間 0.4129', 'モデル間の最遠ペア': 'UUO 2d x IRI 2h = 1.0535', '種間の最遠ペア': 'IRI 2h x cat cortex = 0.8291', '種間パーセンタイル範囲': '58.8 - 90.2'}
+- **7状態版との比較**: [{'版': '7状態(13番)', 'between_n': 16, 'between_median': 0.465, 'between_max': 0.9563, 'cross_n': 14, 'cross_median': 0.586, 'cross_max': 0.7518, 'レンジ内': '14/14', 'MW_p': 0.0242}, {'版': '16状態(本節)', 'between_n': 51, 'between_median': 0.4129, 'between_max': 1.0535, 'cross_n': 28, 'cross_median': 0.5777, 'cross_max': 0.8291, 'レンジ内': '28/28', 'MW_p': 0.0002}]
+- **内部基準（ネコ皮質×髄質）**: {'値': 0.2401, '空間': 'ヒトシンボル空間、to_human_space（16状態版と同一定義）', '遺伝子数': 14605, 'デザイン': '晩期コントラスト（CKD3/4 vs Control）の log2FC 同士の相関であり、17頭の対応ありデザインではない。', '06_compartmentとの関係': '06 の『晩期 皮質×髄質 rho 0.763』(距離0.237) はネコシンボル空間・対応ありデザインで計算した別の値。06 の主要数値『進行軸 rho 0.204』は進行軸同士の相関でさらに別物。3.3/3.4 では 0.2401 を使うこと。'}
+- **within_modelの偏り**: IRI が9時点あるため within_model 40ペア中 36 が IRI-IRI 間。IRI-IRI を除くと n=4。参考値扱い。
+- **図**: results/figures/Fig4_distance_distributions.png (300 dpi)
+
+## 04_modules
+
+- **モジュール種間相関**: [{'pair': 'cat_rna_ctx_late x m_rna_2w', 'rho': 0.9199604743083004, 'p': 5.343059876817408e-10, 'n_modules': 23}, {'pair': 'cat_rna_med_late x m_rna_2w', 'rho': 0.9100790513833993, 'p': 1.7350925633305456e-09, 'n_modules': 23}, {'pair': 'cat_prot_ctx_late x m_prot_d21', 'rho': 0.9363636363636365, 'p': 2.2082076449177497e-05, 'n_modules': 11}]
+- **共発現が弱いモジュール**: ['Hypoxia', 'Osmotic_TonEBP', 'Urea_concentration', 'Ciliogenesis', 'MR_downstream', 'ER_proteostasis']
+- **髄質で進行有意なモジュール(p<0.05)**: [{'module': 'Tubular_injury', 'prog_delta': 0.7601, 'prog_p_perm': 0.005}, {'module': 'Osmotic_TonEBP', 'prog_delta': -0.8228, 'prog_p_perm': 0.003}, {'module': 'ER_proteostasis', 'prog_delta': 0.6419, 'prog_p_perm': 0.03}]
+- **皮質で進行有意なモジュール(p<0.05)**: [{'module': 'ECM_fibrosis', 'prog_delta': 0.7056, 'prog_p_perm': 0.047}, {'module': 'Complement', 'prog_delta': 0.4224, 'prog_p_perm': 0.019}, {'module': 'Tubular_injury', 'prog_delta': 0.7378, 'prog_p_perm': 0.019}, {'module': 'Urea_concentration', 'prog_delta': -0.5843, 'prog_p_perm': 0.02}, {'module': 'Matrix_integrin', 'prog_delta': 1.1272, 'prog_p_perm': 0.001}]
+
+## 20_null_diagnostics / 順列検定の帰無分布の診断
+
+- **結果表**: [{'label': 'RNA (cortex late x PodTRECK 2W)', 'null_type': 'quantile-matched (k=5)', 'k': 5, 'n': 9000, 'rho': 0.48957, 'null_mean': 0.02441, 'null_sd': 0.01023, 'z': 45.44926, 'p_perm': 0.001}, {'label': 'RNA (cortex late x PodTRECK 2W)', 'null_type': 'quantile-matched (k=10)', 'k': 10, 'n': 9000, 'rho': 0.48957, 'null_mean': 0.02803, 'null_sd': 0.01014, 'z': 45.49555, 'p_perm': 0.001}, {'label': 'RNA (cortex late x PodTRECK 2W)', 'null_type': 'quantile-matched (k=20)', 'k': 20, 'n': 9000, 'rho': 0.48957, 'null_mean': 0.03001, 'null_sd': 0.01005, 'z': 45.73015, 'p_perm': 0.001}, {'label': 'RNA (cortex late x PodTRECK 2W)', 'null_type': 'plain shuffle (no matching)', 'k': 0, 'n': 9000, 'rho': 0.48957, 'null_mean': 0.00021, 'null_sd': 0.01076, 'z': 45.49611, 'p_perm': 0.001}, {'label': 'Protein (cortex late x Day21)', 'null_type': 'quantile-matched (k=5)', 'k': 5, 'n': 2184, 'rho': 0.59956, 'null_mean': 0.01034, 'null_sd': 0.02152, 'z': 27.3764, 'p_perm': 0.001}, {'label': 'Protein (cortex late x Day21)', 'null_type': 'quantile-matched (k=10)', 'k': 10, 'n': 2184, 'rho': 0.59956, 'null_mean': 0.00953, 'null_sd': 0.02185, 'z': 27.00443, 'p_perm': 0.001}, {'label': 'Protein (cortex late x Day21)', 'null_type': 'quantile-matched (k=20)', 'k': 20, 'n': 2184, 'rho': 0.59956, 'null_mean': 0.01257, 'null_sd': 0.02198, 'z': 26.71069, 'p_perm': 0.001}, {'label': 'Protein (cortex late x Day21)', 'null_type': 'plain shuffle (no matching)', 'k': 0, 'n': 2184, 'rho': 0.59956, 'null_mean': -0.00086, 'null_sd': 0.02176, 'z': 27.59603, 'p_perm': 0.001}, {'label': 'RNA (medulla late x PodTRECK 2W)', 'null_type': 'quantile-matched (k=5)', 'k': 5, 'n': 9017, 'rho': 0.3889, 'null_mean': 0.00604, 'null_sd': 0.01029, 'z': 37.20209, 'p_perm': 0.001}, {'label': 'RNA (medulla late x PodTRECK 2W)', 'null_type': 'quantile-matched (k=10)', 'k': 10, 'n': 9017, 'rho': 0.3889, 'null_mean': 0.00604, 'null_sd': 0.01007, 'z': 38.01688, 'p_perm': 0.001}, {'label': 'RNA (medulla late x PodTRECK 2W)', 'null_type': 'quantile-matched (k=20)', 'k': 20, 'n': 9017, 'rho': 0.3889, 'null_mean': 0.00769, 'null_sd': 0.01045, 'z': 36.48215, 'p_perm': 0.001}, {'label': 'RNA (medulla late x PodTRECK 2W)', 'null_type': 'plain shuffle (no matching)', 'k': 0, 'n': 9017, 'rho': 0.3889, 'null_mean': -0.00017, 'null_sd': 0.01017, 'z': 38.27478, 'p_perm': 0.001}]
+- **帰無平均はゼロ近傍か**: 十分位マッチ帰無の平均は 0.006〜0.028 でゼロ近傍だが厳密なゼロではない。発現量十分位内でシャッフルしても、十分位そのものが持つ log2FC の系統差（低発現ほど推定が不安定で符号が偏る等）が残るため。この残差こそがマッチングで保存したい構造であり、平均が正に僅かにずれるのは想定内。
+- **推奨**: 本文では p ではなく **効果量（rho）と種内ベンチマークとの比較** を主に据え、順列検定は『存在量構造を保存しても偶然では説明できない』ことの補助として p_perm のみ報告するのが安全。z は n=1000 回の順列で null_sd が小さくなるほど機械的に大きくなり、生物学的な強さを表さないため本文には出さない。出す場合は必ず null_mean と null_sd を併記すること。
+
+## 21_table1 / Table 1
+
+- **行数**: 27
+- **ファイル**: results/table1_datasets.csv, results/table1_footnotes.txt
+- **脚注**: ['* UUO (GSE79443): only the obstructed (right) kidney was deposited; contralateral kidneys of UUO animals are not available. Sham-operated kidneys were therefore used as controls. Sham comprises left and right kidneys from 2 animals (4 samples); left-right difference was negligible (Spearman rho = 0.992, median |difference| = 0.19 log2), so all 4 were pooled, but they represent 2 animals (pseudo-replication).', 'GSE98622 is split across two sequencing platforms. Contrasts were always built within a platform; controls were never pooled across platforms.', 'Feline proteome values are centred per protein (row mean ~ 0), so only rank-based statistics were used for that layer.', 'Onset compartment refers to where the disease process begins, not to the compartment sampled: KPMP CKD is predominantly diabetic/hypertensive (glomerular onset) although TI and G compartments were both sampled.']
+
+## 22_fig1 / Fig1
+
+- **図**: results/figures/Fig1_design.png (300 dpi)
+- **パネルA**: 種 x onset compartment の配置。マウス各状態に傷害後日数、ネコは破線枠＋'no defined time origin' で時間軸の外、ヒトはグレーで本比較の外であることを明示。
+- **パネルB**: within-dataset contrast -> orthologue mapping -> rank-based distance -> 層分離。蛋白層で2x2が完成しないことを明記。
+
+## 24_module_level / モジュールレベルの距離と Mantel
+
+- **curated (config/modules.yaml)**: {'n_modules': 27, 'usable_all_states': 22, 'median_modules_per_pair': 23, 'distribution': [{'level': 'between_model', 'n': 51, 'min': 0.0455, 'Q1': 0.128, 'median': 0.192, 'Q3': 0.2624, 'max': 0.8289}, {'level': 'within_model', 'n': 40, 'min': 0.0418, 'Q1': 0.1161, 'median': 0.1618, 'Q3': 0.296, 'max': 0.7658}, {'level': 'cross_species', 'n': 28, 'min': 0.0885, 'Q1': 0.1328, 'median': 0.1752, 'Q3': 0.2167, 'max': 0.8063}, {'level': 'within_cat (reference)', 'n': 1, 'median': 0.0752}], 'mantel': {'onset compartment (16 states)': {'rho': 0.149, 'p': 0.4048}, 'model identity (16 states)': {'rho': 0.047, 'p': 0.7773}, 'elapsed time (14 mouse states)': {'rho': 0.535, 'p': 0.0036}, 'onset compartment (14 mouse)': {'rho': 0.193, 'p': 0.3261}, 'model identity (14 mouse)': {'rho': 0.042, 'p': 0.8244}, 'time | onset compartment': {'rho': 0.584, 'p': 0.0011}, 'onset compartment | time': {'rho': 0.121, 'p': 0.4881}}}
+- **MSigDB Hallmark**: {'n_modules': 50, 'usable_all_states': 50, 'median_modules_per_pair': 50, 'distribution': [{'level': 'between_model', 'n': 51, 'min': 0.045, 'Q1': 0.1199, 'median': 0.1641, 'Q3': 0.2935, 'max': 0.909}, {'level': 'within_model', 'n': 40, 'min': 0.0383, 'Q1': 0.1247, 'median': 0.2344, 'Q3': 0.3263, 'max': 0.6897}, {'level': 'cross_species', 'n': 28, 'min': 0.0468, 'Q1': 0.0892, 'median': 0.1716, 'Q3': 0.2142, 'max': 0.658}, {'level': 'within_cat (reference)', 'n': 1, 'median': 0.1076}], 'mantel': {'onset compartment (16 states)': {'rho': -0.135, 'p': 0.4508}, 'model identity (16 states)': {'rho': -0.157, 'p': 0.2991}, 'elapsed time (14 mouse states)': {'rho': 0.62, 'p': 0.0004}, 'onset compartment (14 mouse)': {'rho': -0.153, 'p': 0.3843}, 'model identity (14 mouse)': {'rho': -0.152, 'p': 0.3557}, 'time | onset compartment': {'rho': 0.605, 'p': 0.0005}, 'onset compartment | time': {'rho': -0.121, 'p': 0.4388}}}
+- **分布の並置**: [{'level': 'between_model', 'n': 51, 'min': 0.2164, 'Q1': 0.3203, 'median': 0.4129, 'Q3': 0.6295, 'max': 1.0535}, {'level': 'within_model', 'n': 40, 'min': 0.1081, 'Q1': 0.2728, 'median': 0.4172, 'Q3': 0.6548, 'max': 0.8379}, {'level': 'cross_species', 'n': 28, 'min': 0.4388, 'Q1': 0.5471, 'median': 0.5777, 'Q3': 0.6956, 'max': 0.8291}, {'level': 'between_model', 'n': 51, 'min': 0.0455, 'Q1': 0.128, 'median': 0.192, 'Q3': 0.2624, 'max': 0.8289}, {'level': 'within_model', 'n': 40, 'min': 0.0418, 'Q1': 0.1161, 'median': 0.1618, 'Q3': 0.296, 'max': 0.7658}, {'level': 'cross_species', 'n': 28, 'min': 0.0885, 'Q1': 0.1328, 'median': 0.1752, 'Q3': 0.2167, 'max': 0.8063}, {'level': 'between_model', 'n': 51, 'min': 0.045, 'Q1': 0.1199, 'median': 0.1641, 'Q3': 0.2935, 'max': 0.909}, {'level': 'within_model', 'n': 40, 'min': 0.0383, 'Q1': 0.1247, 'median': 0.2344, 'Q3': 0.3263, 'max': 0.6897}, {'level': 'cross_species', 'n': 28, 'min': 0.0468, 'Q1': 0.0892, 'median': 0.1716, 'Q3': 0.2142, 'max': 0.658}]
+- **定義依存性**: {'curated vs Hallmark の距離相関': 0.636, 'curated モジュール vs 遺伝子レベル距離の相関': 0.65}
+- **検出力の注記**: モジュールは 27 定義中、全状態で z が算出できたものだけが使われる。1ペアあたりの実効次元は中央値で curated 23 / Hallmark 50。Spearman rho の推定は次元数が小さいほど不安定で、Mantel の p も遺伝子レベルより弱くなる。
+
+## 25_module_power / モジュールレベルの検出力と定義依存性
+
+- **curated**: {'n_modules_usable': 22, 'point_time_rho': 0.536, 'point_entry_rho': 0.209, 'boot_time_median': 0.464, 'boot_time_CI': [0.246, 0.633], 'boot_entry_median': 0.135, 'boot_entry_CI': [-0.105, 0.424], 'k_curve': [{'k_modules': 5, 'n_draws': 120, 'time_rho_median': 0.31, 'time_rho_p2.5': -0.122, 'time_rho_p97.5': 0.535, 'sd': 0.172}, {'k_modules': 10, 'n_draws': 120, 'time_rho_median': 0.438, 'time_rho_p2.5': 0.213, 'time_rho_p97.5': 0.656, 'sd': 0.112}, {'k_modules': 15, 'n_draws': 120, 'time_rho_median': 0.485, 'time_rho_p2.5': 0.357, 'time_rho_p97.5': 0.615, 'sd': 0.069}, {'k_modules': 20, 'n_draws': 120, 'time_rho_median': 0.524, 'time_rho_p2.5': 0.455, 'time_rho_p97.5': 0.598, 'sd': 0.038}, {'k_modules': 22, 'n_draws': 120, 'time_rho_median': 0.536, 'time_rho_p2.5': 0.536, 'time_rho_p97.5': 0.536, 'sd': 0.0}, {'k_modules': 22, 'n_draws': 120, 'time_rho_median': 0.536, 'time_rho_p2.5': 0.536, 'time_rho_p97.5': 0.536, 'sd': 0.0}]}
+- **hallmark**: {'n_modules_usable': 50, 'point_time_rho': 0.62, 'point_entry_rho': -0.153, 'boot_time_median': 0.6, 'boot_time_CI': [0.471, 0.701], 'boot_entry_median': -0.136, 'boot_entry_CI': [-0.2, -0.052], 'k_curve': [{'k_modules': 5, 'n_draws': 120, 'time_rho_median': 0.314, 'time_rho_p2.5': -0.082, 'time_rho_p97.5': 0.59, 'sd': 0.194}, {'k_modules': 10, 'n_draws': 120, 'time_rho_median': 0.477, 'time_rho_p2.5': 0.185, 'time_rho_p97.5': 0.685, 'sd': 0.139}, {'k_modules': 15, 'n_draws': 120, 'time_rho_median': 0.541, 'time_rho_p2.5': 0.303, 'time_rho_p97.5': 0.721, 'sd': 0.104}, {'k_modules': 20, 'n_draws': 120, 'time_rho_median': 0.578, 'time_rho_p2.5': 0.384, 'time_rho_p97.5': 0.704, 'sd': 0.082}, {'k_modules': 30, 'n_draws': 120, 'time_rho_median': 0.618, 'time_rho_p2.5': 0.493, 'time_rho_p97.5': 0.704, 'sd': 0.054}, {'k_modules': 50, 'n_draws': 120, 'time_rho_median': 0.62, 'time_rho_p2.5': 0.62, 'time_rho_p97.5': 0.62, 'sd': 0.0}]}
+- **解釈**: 時間の効果はモジュール定義を変えても、モジュールをリサンプルしても 頑健に正で有意水準を保つ。入口は両定義とも CI がゼロを跨ぐ。ただしモジュール数が減ると rho のばらつきが急拡大するので、点推定は遺伝子レベルほど精密ではない。
+
+## 26_fig6 / Fig6
+
+- **図**: results/figures/Fig6_module_level.png (300 dpi)
+- **パネルA**: [{'level': 'gene level', 'between_median': 0.4129, 'cross_median': 0.5777, 'ratio': 1.3992, 'mw_p': 0.0002, 'n_between': 51, 'n_cross': 28}, {'level': 'module (curated, 22)', 'between_median': 0.192, 'cross_median': 0.1752, 'ratio': 0.9124, 'mw_p': 0.6439, 'n_between': 51, 'n_cross': 28}, {'level': 'module (Hallmark, 50)', 'between_median': 0.1641, 'cross_median': 0.1716, 'ratio': 1.0453, 'mw_p': 0.7065, 'n_between': 51, 'n_cross': 28}]
+- **パネルB**: [{'level': 'gene level', 'time_rho': 0.553, 'time_p': 0.005, 'onset_rho': -0.019, 'onset_p': 0.9173}, {'level': 'module (curated, 22)', 'time_rho': 0.535, 'time_p': 0.0036, 'onset_rho': 0.193, 'onset_p': 0.3261}, {'level': 'module (Hallmark, 50)', 'time_rho': 0.62, 'time_p': 0.0004, 'onset_rho': -0.153, 'onset_p': 0.3843}]
+- **パネルC**: results/module_power_curve.csv
+
+## 17_fig3 / Fig3
+
+- **図**: results/figures/Fig3_distance_structure.png (300 dpi)
+- **クラスタリング順**: PodTRECK 5d -> IRI 12mo -> IRI 14d -> IRI 28d -> UUO 2d -> UUO 8d -> PodTRECK 14d -> PodTRECK 21d -> IRI 24h -> IRI 7d -> IRI 48h -> IRI 72h -> IRI 2h -> IRI 4h
+- **入口一致ペア**: n=58, 中央値 0.419
+- **入口不一致ペア**: n=33, 中央値 0.403
+- **Mann-Whitney p**: 0.8591
+- **Mantel値**: [{'variable': 'onset compartment', 'rho': -0.0191, 'p': 0.9173}, {'variable': 'model identity', 'rho': 0.0438, 'p': 0.8078}, {'variable': 'elapsed time', 'rho': 0.5529, 'p': 0.005}, {'variable': 'onset compartment | time', 'rho': 0.0755, 'p': 0.6439}, {'variable': 'model | time', 'rho': 0.2376, 'p': 0.1227}, {'variable': 'time | onset compartment', 'rho': 0.5533, 'p': 0.0048}]
+
+## 27_fig5 / Fig5
+
+- **図**: results/figures/Fig5_iri_trajectory.png (300 dpi, 単一パネル)
+- **軌跡**: [{'state': 'IRI2h', 'days': 0.0833, 'distance_from_earliest': 0.0}, {'state': 'IRI4h', 'days': 0.1667, 'distance_from_earliest': 0.512}, {'state': 'IRI24h', 'days': 1.0, 'distance_from_earliest': 0.8379}, {'state': 'IRI48h', 'days': 2.0, 'distance_from_earliest': 0.8032}, {'state': 'IRI72h', 'days': 3.0, 'distance_from_earliest': 0.8087}, {'state': 'IRI7d', 'days': 7.0, 'distance_from_earliest': 0.68}, {'state': 'IRI14d', 'days': 14.0, 'distance_from_earliest': 0.38}, {'state': 'IRI28d', 'days': 28.0, 'distance_from_earliest': 0.7615}, {'state': 'IRI12m', 'days': 365.0, 'distance_from_earliest': 0.6929}]
+- **注記した点**: {'acute peak 24-72 h': 0.8379, '14 d': 0.38, '28 d': 0.7615, '12 mo': 0.6929}
+- **除外**: within_model_time.png はモデル内ペアが UUO 1個 / PodTRECK 3個しかなく 関係を評価できないため本図に含めず、補足資料に回す。
+
+## 28_table2 / Table 2
+
+- **行数**: 14
+- **ERCBコントラスト**: GPL22945: 全CKD vs LD
+- **ファイル**: results/table2_candidates.csv, results/table2_footnotes.txt
+- **脚注**: ["Human ERCB values are the 'GPL22945: 全CKD vs LD' contrast (all CKD diagnoses pooled versus living-donor controls) on platform GPL22945, chosen because that platform carries 18 of the 21 control biopsies; contrasts were never built across platforms. Diagnosis-specific contrasts are in results/ercb_candidate_validation.csv.", "'not measured' means the gene is absent from that platform or protein panel; 'not significant' is never abbreviated this way and can be read from the adjusted p value. An asterisk marks adjusted p < 0.05.", 'Direction concordance uses cat cortical transcript, mouse Day-21 protein and human protein (KPMP TI); where the gene is absent from the KPMP panel the human ERCB transcript is substituted, and the source used is stated in the cell.', 'Mouse symbols were resolved through the full alias list, so FAM3D is matched to Oit1 in the transcript annotation and to Fam3d in the proteome.']
+
+## 23_fig2 / Fig2
+
+- **図**: results/figures/Fig2_concordance.png (300 dpi)
+- **数値**: {'A transcripts rho': np.float64(0.49), 'A n': 9000, 'B protein rho': np.float64(0.6), 'B n': 2184, 'C cross-species, transcripts': np.float64(0.49), 'C cross-species, protein': np.float64(0.6), 'C cat RNA vs protein': 0.66, 'C mouse RNA vs protein': 0.707, 'C cat cortex vs medulla (RNA)': 0.76, 'C cross/within(min) transcripts %': np.float64(74.2), 'C cross/within(min) protein %': np.float64(90.9)}
+
+## 11_ercb / ERCB尿細管間質での候補検証
+
+- **データ**: GSE104954 (ERCB tubulointerstitium, 腎生検)
+- **プラットフォーム構成**: {'GSE104954-GPL22945': {'RPGN': 21, 'control_LD': 18, 'DN': 7, 'FSGS_MCD': 4, 'MCD': 4, 'FSGS': 3, 'control_TN': 3}, 'GSE104954-GPL24120': {'SLE': 32, 'IgAN': 25, 'HT': 20, 'MGN': 18, 'DN': 10, 'FSGS': 10, 'MCD': 9, 'TMD': 6, 'control_LD': 3, 'control_TN': 2}}
+- **目的遺伝子の検出**: {'FAM3D': '未検出（このアレイに非搭載）', 'PTN': '検出', 'ANXA3': '検出', 'TXNIP': '検出', 'ANGPTL2': '検出'}
+- **プローブ集約**: Brainarray ENTREZG カスタムCDF。プローブセットID='<EntrezID>_at' で 1プローブセット=1遺伝子。複数プローブの集約は発生しない（保険として同一シンボルは平均を取る実装）。両プラットフォームとも同一の12,074プローブセット。
+- **制約1（正規化）**: マイクロアレイなので KPMP プロテオーム・RNA-seq とは正規化が異なる。距離行列には入れず、個別遺伝子の検証にのみ使用。
+- **制約2（プラットフォーム交絡）**: 対照(LD)は GPL22945 に18検体、GPL24120 に3検体と偏在。プラットフォームをまたぐ対照プールは batch と交絡するため、全コントラストを同一プラットフォーム内で組んでいる。GPL24120 側は対照 n=5（LD3+TN2）と少ない。
+- **結果**: results/ercb_candidate_validation.csv 参照
+
+## 15_within_model_time / IRI除外版とモデル内の時間関係
+
+- **IRI除外版（PodTRECK3 + UUO2 = 5状態, 10ペア）**: {'時間 rho': 0.152, '入口 rho': 0.213, '偏(時間|入口) rho': 0.285, '注記': '検出力が無いので p 値は参考。符号と大きさのみ見る。'}
+- **ネコの扱い**: ネコには経過日数を割り当てられないため時間Mantelには含めない。距離の参照として results/time_axis_noIRI_cat_ref.csv に併記。
+- **モデル内の 距離 vs 経過時間差**: [{'model': 'PodTRECK', 'n_states': 3, 'n_pairs': 3, 'rho_vs_log10days': 1.0, 'p_vs_log10days': 0.0, 'rho_vs_lineardays': 1.0, '評価可能か': '可'}, {'model': 'IRI', 'n_states': 9, 'n_pairs': 36, 'rho_vs_log10days': 0.601, 'p_vs_log10days': 0.0001, 'rho_vs_lineardays': 0.023, '評価可能か': '可'}, {'model': 'UUO', 'n_states': 2, 'n_pairs': 1, 'rho_vs_log10days': nan, 'p_vs_log10days': nan, 'rho_vs_lineardays': nan, '評価可能か': '不可（ペア1個）'}]
+- **対数関係は3モデルで成立するか**: IRI のみ評価可能（9時点36ペア）。PodTRECK は3時点3ペアで参考値、UUO は2時点1ペアで評価不可。『3モデルすべてで成立』は現データでは検証できない。
+- **図**: results/supplementary/within_model_time.png, results/supplementary/iri_trajectory.png

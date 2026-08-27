@@ -1,0 +1,5 @@
+,cat_natural_ctx_rna,cat_natural_med_rna,mouse_podtreck_rna,mouse_iri_late_rna
+cat_natural_ctx_rna,0,14605,10581,10221
+cat_natural_med_rna,14605,0,10607,10235
+mouse_podtreck_rna,10581,10607,0,11735
+mouse_iri_late_rna,10221,10235,11735,0

@@ -1,0 +1,6 @@
+,0
+d_entry_mouse (PodTRECK vs IRI),0.6163830681736315
+d_species_tubular (cat natural vs mouse IRI),0.6237563163390463
+d_confounded (cat natural vs PodTRECK),0.5028319704878554
+結論,種差 > 病因差（入口を揃えても種が効く）
+比 (種/病因),1.012

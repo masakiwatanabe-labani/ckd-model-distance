@@ -1,0 +1,7 @@
+* UUO (GSE79443): only the obstructed (right) kidney was deposited; contralateral kidneys of UUO animals are not available. Sham-operated kidneys were therefore used as controls. Sham comprises left and right kidneys from 2 animals (4 samples); left-right difference was negligible (Spearman rho = 0.992, median |difference| = 0.19 log2), so all 4 were pooled, but they represent 2 animals (pseudo-replication).
+
+GSE98622 is split across two sequencing platforms. Contrasts were always built within a platform; controls were never pooled across platforms.
+
+Feline proteome values are centred per protein (row mean ~ 0), so only rank-based statistics were used for that layer.
+
+Onset compartment refers to where the disease process begins, not to the compartment sampled: KPMP CKD is predominantly diabetic/hypertensive (glomerular onset) although TI and G compartments were both sampled.

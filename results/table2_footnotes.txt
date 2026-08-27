@@ -1,0 +1,7 @@
+Human ERCB values are the 'GPL22945: 全CKD vs LD' contrast (all CKD diagnoses pooled versus living-donor controls) on platform GPL22945, chosen because that platform carries 18 of the 21 control biopsies; contrasts were never built across platforms. Diagnosis-specific contrasts are in results/ercb_candidate_validation.csv.
+
+'not measured' means the gene is absent from that platform or protein panel; 'not significant' is never abbreviated this way and can be read from the adjusted p value. An asterisk marks adjusted p < 0.05.
+
+Direction concordance uses cat cortical transcript, mouse Day-21 protein and human protein (KPMP TI); where the gene is absent from the KPMP panel the human ERCB transcript is substituted, and the source used is stated in the cell.
+
+Mouse symbols were resolved through the full alias list, so FAM3D is matched to Oit1 in the transcript annotation and to Fam3d in the proteome.

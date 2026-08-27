@@ -1,0 +1,15 @@
+order,state,label,model,entry,days
+1,PodTRECK_5D,PodTRECK 5d,PodTRECK,glomerular,5.0
+2,IRI12m,IRI 12mo,IRI,tubular,365.0
+3,IRI14d,IRI 14d,IRI,tubular,14.0
+4,IRI28d,IRI 28d,IRI,tubular,28.0
+5,UUO_2D,UUO 2d,UUO,tubular,2.0
+6,UUO_8D,UUO 8d,UUO,tubular,8.0
+7,PodTRECK_2W,PodTRECK 14d,PodTRECK,glomerular,14.0
+8,PodTRECK_3W,PodTRECK 21d,PodTRECK,glomerular,21.0
+9,IRI24h,IRI 24h,IRI,tubular,1.0
+10,IRI7d,IRI 7d,IRI,tubular,7.0
+11,IRI48h,IRI 48h,IRI,tubular,2.0
+12,IRI72h,IRI 72h,IRI,tubular,3.0
+13,IRI2h,IRI 2h,IRI,tubular,0.08333333333333333
+14,IRI4h,IRI 4h,IRI,tubular,0.16666666666666666

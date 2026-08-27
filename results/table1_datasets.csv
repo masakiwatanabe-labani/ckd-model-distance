@@ -1,0 +1,28 @@
+Species,Model / cohort,Onset compartment,Layer,Accession,Platform,Disease group (n),Control group (n),Days since injury,Contrast used here
+Felis catus,Natural CKD (IRIS),tubular,transcriptome,"Li et al. 2025, Commun Biol; suppl. S3 (doi:10.1038/s42003-025-09164-8)",RNA-seq (not deposited in GEO),IRIS 3/4 cortex (n=7),Control cortex (n=6),not defined (natural onset),cat_rna_ctx_late
+Felis catus,Natural CKD (IRIS),tubular,transcriptome,same as above,RNA-seq (not deposited in GEO),IRIS 3/4 medulla (n=5),Control medulla (n=6),not defined (natural onset),cat_rna_med_late
+Felis catus,Natural CKD (IRIS),tubular,proteome,same as above,LC-MS/MS (row-centred values),IRIS 3/4 cortex (n=7),Control cortex (n=6),not defined (natural onset),cat_prot_ctx_late
+Felis catus,Natural CKD (IRIS),tubular,proteome,same as above,LC-MS/MS (row-centred values),IRIS 3/4 medulla (n=6),Control medulla (n=6),not defined (natural onset),cat_prot_med_late
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 100 ng, 5D (n=3)",Non-induced control (n=3),5,m_rna_5d
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 100 ng, 2W (n=3)",Non-induced control (n=3),14,m_rna_2w
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 100 ng, 3W (n=3)",Non-induced control (n=3),21,m_rna_3w
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 250 ng, 2W (n=3)",Non-induced control (n=3),14,m_rna_2w250
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,PK25055 (in-house; not deposited),LC-MS/MS,Day14 (n=3),Control (n=3),14,m_prot_d14
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,PK25055 (in-house; not deposited),LC-MS/MS,Day21 (n=3),Control (n=3),21,m_prot_d21
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI2h (n=3),SHAM4h + SHAM24h (n=6),0.083,IRI2h
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI4h (n=3),SHAM4h + SHAM24h (n=6),0.167,IRI4h
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI24h (n=3),SHAM4h + SHAM24h (n=6),1,IRI24h
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI48h (n=3),SHAM4h + SHAM24h (n=6),2,IRI48h
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI72h (n=3),SHAM4h + SHAM24h (n=6),3,IRI72h
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI7d (n=3),SHAM4h + SHAM24h (n=6),7,IRI7d
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI14d (n=3),SHAM4h + SHAM24h (n=6),14,IRI14d
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI28d (n=3),SHAM4h + SHAM24h (n=6),28,IRI28d
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI12m (n=3),SHAM12m (n=3),365,IRI12m
+Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina NextSeq 500 (GPL19057),IRI6mN (n=4),NORM3m + NORM9m + NORM15m (n=9),180,IRI6mN
+Mus musculus,UUO (right ureteric ligation),tubular,transcriptome,GSE79443,Illumina HiSeq 2000 (GPL13112),2D obstructed kidney (n=3),Sham-operated kidneys (n=4)*,2,UUO_2D
+Mus musculus,UUO (right ureteric ligation),tubular,transcriptome,GSE79443,Illumina HiSeq 2000 (GPL13112),8D obstructed kidney (n=3),Sham-operated kidneys (n=4)*,8,UUO_8D
+Homo sapiens,KPMP regional proteomics (tubulointerstitium),glomerular (DKD/HTN),proteome,KPMP DataLake_DEPs.txt (doi:10.48698/mg7h-bc51),LC-MS/MS on LMD tissue,CKD (pre-computed contrast),Healthy reference tissue (HRT),not defined (natural onset),CKD.vs.HRT.in.TI
+Homo sapiens,KPMP regional proteomics (glomerulus),glomerular (DKD/HTN),proteome,KPMP DataLake_DEPs.txt (doi:10.48698/mg7h-bc51),LC-MS/MS on LMD tissue,CKD (pre-computed contrast),Healthy reference tissue (HRT),not defined (natural onset),CKD.vs.HRT.in.G
+Homo sapiens,ERCB tubulointerstitium,varies by diagnosis,transcriptome,GSE104954,"Affymetrix, Brainarray ENTREZG CDF (GPL22945)",Diabetic nephropathy (n=7),Living donor (n=18),not defined (natural onset),GPL22945: DN vs LD
+Homo sapiens,ERCB tubulointerstitium,varies by diagnosis,transcriptome,GSE104954,"Affymetrix, Brainarray ENTREZG CDF (GPL22945)",ANCA vasculitis (n=21),Living donor (n=18),not defined (natural onset),GPL22945: RPGN vs LD
+Homo sapiens,ERCB tubulointerstitium,varies by diagnosis,transcriptome,GSE104954,"Affymetrix, Brainarray ENTREZG CDF (GPL24120)",Hypertensive nephropathy (n=20),Living donor + tumour nephrectomy (n=5),not defined (natural onset),GPL24120: HT vs LD+TN

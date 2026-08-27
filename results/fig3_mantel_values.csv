@@ -1,0 +1,7 @@
+variable,rho,p
+onset compartment,-0.019143756814016144,0.9173
+model identity,0.043829217243428385,0.8078
+elapsed time,0.5528900273599696,0.005
+onset compartment | time,0.0754903345401594,0.6439
+model | time,0.237591986892751,0.1227
+time | onset compartment,0.5532716428594611,0.0048

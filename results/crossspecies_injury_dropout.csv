@@ -1,0 +1,3 @@
+label,rho_all,rho_wo_injury,n_all,n_kept
+cat_rna_ctx_late x m_rna_2w,0.489569221451472,0.4818524570118244,9000,8937
+cat_prot_ctx_late x m_prot_d21,0.5995627382801783,0.5913543158690622,2184,2151

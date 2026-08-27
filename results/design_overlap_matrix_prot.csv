@@ -1,0 +1,6 @@
+,cat_natural_ctx_prot,cat_natural_med_prot,mouse_podtreck_prot,human_kpmp_ti,human_kpmp_g
+cat_natural_ctx_prot,0,2427,2778,2726,2726
+cat_natural_med_prot,2427,0,2510,2477,2477
+mouse_podtreck_prot,2778,2510,0,7726,7726
+human_kpmp_ti,2726,2477,7726,0,8646
+human_kpmp_g,2726,2477,7726,8646,0

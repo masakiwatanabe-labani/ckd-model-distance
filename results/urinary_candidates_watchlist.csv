@@ -1,0 +1,6 @@
+cat_symbol,mouse_symbol,cat_ctx_early,cat_ctx_late,cat_ctx_q_late,cat_med_late,cat_med_class,has_signal_peptide,is_secreted,n_transmembrane,mouse_prot_d14,mouse_prot_d21,mouse_prot_q,mouse_prot_sign_stable,mouse_rna_2w,mouse_fpkm_ctrl,mouse_fpkm_2w,score,track
+PTN,Ptn,0.156,1.938,0.0108320233750547,1.662,other,True,True,0.0,2.6,1.577,0.00042074295650506715,True,1.34,0.5,2.8,10,free_urine
+FAM3D,Oit1,0.175,2.015,0.0178539599942994,2.428,other,True,True,0.0,3.727,4.548,3.2580320627242085e-05,True,2.739,0.2,7.03,10,free_urine
+SULF1,Sulf1,0.218,1.245,0.0290817219058408,0.717,other,True,True,0.0,2.345,2.179,9.84134416493578e-06,True,0.85,0.24,1.23,10,free_urine
+ANXA3,Anxa3,0.193,1.347,0.0298918825946675,1.087,other,False,False,0.0,1.513,1.42,2.6280349835839936e-05,True,3.278,1.91,27.17,8,free_urine
+ANGPTL2,,0.142,0.903,0.0401701335001869,0.776,other,True,True,0.0,,,,,,,,4,free_urine
