@@ -23,9 +23,11 @@ import pandas as pd
 from scipy import stats
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger, append_summary  # noqa: E402
 
 log = get_logger("15_within_model_time")
+apply_style()
 cfg = load_config()
 ROOT = Path(cfg["_root"])
 RES = ROOT / cfg["paths"]["results"]
@@ -119,7 +121,7 @@ def main():
         ax.grid(alpha=.25, zorder=0)
     fig.suptitle("Within-model: transcriptome distance vs elapsed-time difference", fontsize=12)
     fig.tight_layout()
-    fig.savefig(SUP / "within_model_time.png", dpi=160)
+    _savefig(fig, SUP / "within_model_time")
     log.info("saved results/supplementary/within_model_time.png")
 
     # IRI の時間軸に沿った軌跡（対数関係の可視化）
@@ -141,7 +143,7 @@ def main():
     ax.set_title("IRI time course: distance from earliest timepoint")
     ax.grid(alpha=.25)
     fig2.tight_layout()
-    fig2.savefig(SUP / "iri_trajectory.png", dpi=160)
+    _savefig(fig2, SUP / "iri_trajectory")
     log.info("saved results/supplementary/iri_trajectory.png")
 
     append_summary("15_within_model_time / IRI除外版とモデル内の時間関係", {

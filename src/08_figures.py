@@ -11,9 +11,11 @@ import pandas as pd
 from scipy import stats
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger  # noqa: E402
 
 log = get_logger("08_figures")
+apply_style()
 cfg = load_config()
 ROOT = Path(cfg["_root"])
 INT = ROOT / cfg["paths"]["interim"]
@@ -51,7 +53,7 @@ def fig_crossspecies():
         a.set_title(f"{title}\nSpearman rho = {rho:.3f} (n={len(idx)})")
         a.set_xlabel("Cat cortex, CKD3/4 vs Ctrl")
         a.set_ylabel("Mouse Pod-TRECK vs Ctrl")
-    plt.tight_layout(); plt.savefig(FIG / "fig_crossspecies.png", dpi=180); plt.close()
+    plt.tight_layout(); _savefig(plt, FIG / "fig_crossspecies"); plt.close()
 
 
 def fig_benchmarks():
@@ -67,7 +69,7 @@ def fig_benchmarks():
     ax.barh([lab[i] for i in o], [val[i] for i in o], color=[col[i] for i in o])
     ax.set_xlim(0, 1); ax.set_xlabel("Spearman rho of log2FC vectors")
     ax.set_title("Cross-species similarity vs internal benchmarks")
-    plt.tight_layout(); plt.savefig(FIG / "fig_benchmarks.png", dpi=180); plt.close()
+    plt.tight_layout(); _savefig(plt, FIG / "fig_benchmarks"); plt.close()
 
 
 def fig_module_stage():
@@ -85,7 +87,7 @@ def fig_module_stage():
         ax.set_yticks(y); ax.set_yticklabels(d.module, fontsize=7.5)
         ax.axvline(0, color="k", lw=.5); ax.legend(fontsize=7.5)
         ax.set_xlabel("module eigengene"); ax.set_title(f"Stage trajectory ({tis})")
-        plt.tight_layout(); plt.savefig(FIG / f"fig_module_stage_{tis}.png", dpi=180); plt.close()
+        plt.tight_layout(); _savefig(plt.gcf(), FIG / f"fig_module_stage_{tis}"); plt.close()
 
 
 def fig_progression_axis():
@@ -96,7 +98,7 @@ def fig_progression_axis():
     ax.set_yticks(range(len(d))); ax.set_yticklabels(d.mouse_axis, fontsize=8)
     ax.axvline(0, color="k", lw=.6)
     ax.set_xlabel("Spearman rho with cat progression axis")
-    plt.tight_layout(); plt.savefig(FIG / "fig_progression_axis.png", dpi=180); plt.close()
+    plt.tight_layout(); _savefig(plt, FIG / "fig_progression_axis"); plt.close()
 
 
 if __name__ == "__main__":

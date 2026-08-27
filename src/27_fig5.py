@@ -17,9 +17,11 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger, append_summary  # noqa: E402
 
 log = get_logger("27_fig5")
+apply_style()
 cfg = load_config()
 RES = Path(cfg["_root"]) / cfg["paths"]["results"]
 FIG = RES / "figures"; FIG.mkdir(parents=True, exist_ok=True)
@@ -70,8 +72,8 @@ def main():
     ax.set_ylim(-0.05, 1.0)
     ax.grid(alpha=.25)
     fig.tight_layout()
-    out = FIG / "Fig5_iri_trajectory.png"
-    fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white")
+    out = FIG / "Fig5_iri_trajectory"
+    _savefig(fig, out)
     log.info("saved %s", out)
 
     log.info("\n%s", t[["state", "days", "distance_from_earliest"]].round(4).to_string(index=False))

@@ -74,12 +74,17 @@ numbers from each step in the order they were produced (with a machine-readable
 
 | Paper item | File | Produced by |
 |---|---|---|
-| Figure 1 | `results/figures/Fig1_design.png` | `src/22_fig1.py` |
-| Figure 2 | `results/figures/Fig2_concordance.png` | `src/23_fig2.py` |
-| Figure 3 | `results/figures/Fig3_distance_structure.png` | `src/17_fig3.py` |
-| Figure 4 | `results/figures/Fig4_distance_distributions.png` | `src/19_distance_distributions.py` |
-| Figure 5 | `results/figures/Fig5_iri_trajectory.png` | `src/27_fig5.py` |
-| Figure 6 | `results/figures/Fig6_module_level.png` | `src/26_fig6.py` |
+| Figure 1 | `results/figures/Fig1_design.png` / `.pdf` | `src/22_fig1.py` |
+| Figure 2 | `results/figures/Fig2_concordance.png` / `.pdf` | `src/23_fig2.py` |
+| Figure 3 | `results/figures/Fig3_distance_structure.png` / `.pdf` | `src/17_fig3.py` |
+| Figure 4 | `results/figures/Fig4_distance_distributions.png` / `.pdf` | `src/19_distance_distributions.py` |
+| Figure 5 | `results/figures/Fig5_iri_trajectory.png` / `.pdf` | `src/27_fig5.py` |
+| Figure 6 | `results/figures/Fig6_module_level.png` / `.pdf` | `src/26_fig6.py` |
+
+Every figure is written twice, as PNG (300 dpi) and as PDF. The PDFs embed
+fonts as TrueType (`pdf.fonttype = 42`), so all labels remain live text and can
+be selected and edited in Illustrator or Inkscape rather than being converted to
+outlines. Style and output format are set in one place, `src/lib_figure.py`.
 | Table 1 | `results/table1_datasets.csv` + `table1_footnotes.txt` | `src/21_table1.py` |
 | Table 2 | `results/table2_candidates.csv` + `table2_footnotes.txt` | `src/28_table2.py` |
 

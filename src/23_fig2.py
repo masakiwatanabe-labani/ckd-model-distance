@@ -16,9 +16,11 @@ import pandas as pd
 from scipy import stats
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger, append_summary  # noqa: E402
 
 log = get_logger("23_fig2")
+apply_style()
 cfg = load_config()
 ROOT = Path(cfg["_root"])
 INT = ROOT / cfg["paths"]["interim"]
@@ -130,7 +132,7 @@ def main():
                   loc="left", fontsize=10, pad=10)
     axC.grid(axis="x", alpha=.22, zorder=0)
 
-    fig.savefig(FIG / "Fig2_concordance.png", dpi=300, bbox_inches="tight", facecolor="white")
+    _savefig(fig, FIG / "Fig2_concordance")
     log.info("saved %s", FIG / "Fig2_concordance.png")
 
     vals = {"A transcripts rho": round(rA, 3), "A n": nA,

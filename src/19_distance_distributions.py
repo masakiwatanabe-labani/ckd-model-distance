@@ -27,9 +27,11 @@ import pandas as pd
 from scipy import stats
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger, append_summary  # noqa: E402
 
 log = get_logger("19_distance_distributions")
+apply_style()
 cfg = load_config()
 ROOT = Path(cfg["_root"])
 RES = ROOT / cfg["paths"]["results"]
@@ -168,7 +170,7 @@ def main():
                  fontsize=11.5, loc="left")
     ax.grid(axis="y", alpha=.25)
     fig.tight_layout()
-    fig.savefig(FIG / "Fig4_distance_distributions.png", dpi=300, bbox_inches="tight")
+    _savefig(fig, FIG / "Fig4_distance_distributions")
     log.info("saved %s", FIG / "Fig4_distance_distributions.png")
 
     append_summary("19_distance_distributions / Results3.4", {

@@ -308,3 +308,56 @@
 - **行数**: 27
 - **ファイル**: results/table1_datasets.csv, results/table1_footnotes.txt
 - **脚注**: ['* UUO (GSE79443): only the obstructed (right) kidney was deposited; contralateral kidneys of UUO animals are not available. Sham-operated kidneys were therefore used as controls. Sham comprises left and right kidneys from 2 animals (4 samples); left-right difference was negligible (Spearman rho = 0.992, median |difference| = 0.19 log2), so all 4 were pooled, but they represent 2 animals (pseudo-replication).', 'GSE98622 is split across two sequencing platforms. Contrasts were always built within a platform; controls were never pooled across platforms.', 'Feline proteome values are centred per protein (row mean ~ 0), so only rank-based statistics were used for that layer.', 'Onset compartment refers to where the disease process begins, not to the compartment sampled: KPMP CKD is predominantly diabetic/hypertensive (glomerular onset) although TI and G compartments were both sampled.']
+
+## 22_fig1 / Fig1
+
+- **図**: results/figures/Fig1_design.png (300 dpi)
+- **パネルA**: 種 x onset compartment の配置。マウス各状態に傷害後日数、ネコは破線枠＋'no defined time origin' で時間軸の外、ヒトはグレーで本比較の外であることを明示。
+- **パネルB**: within-dataset contrast -> orthologue mapping -> rank-based distance -> 層分離。蛋白層で2x2が完成しないことを明記。
+
+## 23_fig2 / Fig2
+
+- **図**: results/figures/Fig2_concordance.png (300 dpi)
+- **数値**: {'A transcripts rho': np.float64(0.49), 'A n': 9000, 'B protein rho': np.float64(0.6), 'B n': 2184, 'C cross-species, transcripts': np.float64(0.49), 'C cross-species, protein': np.float64(0.6), 'C cat RNA vs protein': 0.66, 'C mouse RNA vs protein': 0.707, 'C cat cortex vs medulla (RNA)': 0.76, 'C cross/within(min) transcripts %': np.float64(74.2), 'C cross/within(min) protein %': np.float64(90.9)}
+
+## 17_fig3 / Fig3
+
+- **図**: results/figures/Fig3_distance_structure.png (300 dpi)
+- **クラスタリング順**: PodTRECK 5d -> IRI 12mo -> IRI 14d -> IRI 28d -> UUO 2d -> UUO 8d -> PodTRECK 14d -> PodTRECK 21d -> IRI 24h -> IRI 7d -> IRI 48h -> IRI 72h -> IRI 2h -> IRI 4h
+- **入口一致ペア**: n=58, 中央値 0.419
+- **入口不一致ペア**: n=33, 中央値 0.403
+- **Mann-Whitney p**: 0.8591
+- **Mantel値**: [{'variable': 'onset compartment', 'rho': -0.0191, 'p': 0.9173}, {'variable': 'model identity', 'rho': 0.0438, 'p': 0.8078}, {'variable': 'elapsed time', 'rho': 0.5529, 'p': 0.005}, {'variable': 'onset compartment | time', 'rho': 0.0755, 'p': 0.6439}, {'variable': 'model | time', 'rho': 0.2376, 'p': 0.1227}, {'variable': 'time | onset compartment', 'rho': 0.5533, 'p': 0.0048}]
+
+## 19_distance_distributions / Results3.4
+
+- **状態集合**: 16状態 = マウス14（PodTRECK3 + UUO2 + IRI9）+ ネコ2。3.3と統一。
+- **ペア内訳**: {'between_model': 51, 'within_model': 40, 'cross_species': 28, 'within_cat': 1}
+- **分布**: [{'group': 'between_model', 'n': 51, 'min': 0.2164, 'Q1': 0.3203, 'median': 0.4129, 'Q3': 0.6295, 'max': 1.0535}, {'group': 'within_model (IRI込み)', 'n': 40, 'min': 0.1081, 'Q1': 0.2728, 'median': 0.4172, 'Q3': 0.6548, 'max': 0.8379}, {'group': 'within_model (IRI-IRI除く)', 'n': 4, 'min': 0.1238, 'Q1': 0.2274, 'median': 0.3414, 'Q3': 0.4287, 'max': 0.4524}, {'group': 'cross_species', 'n': 28, 'min': 0.4388, 'Q1': 0.5471, 'median': 0.5777, 'Q3': 0.6956, 'max': 0.8291}]
+- **主張の確認**: {'種間がモデル間レンジ内に収まる数': '28 / 28', 'モデル間レンジ': '0.2164 - 1.0535', '種間レンジ': '0.4388 - 0.8291', 'Mann-Whitney(種間>モデル間, 片側) p': 0.0002, '中央値': '種間 0.5777 vs モデル間 0.4129', 'モデル間の最遠ペア': 'UUO 2d x IRI 2h = 1.0535', '種間の最遠ペア': 'IRI 2h x cat cortex = 0.8291', '種間パーセンタイル範囲': '58.8 - 90.2'}
+- **7状態版との比較**: [{'版': '7状態(13番)', 'between_n': 16, 'between_median': 0.465, 'between_max': 0.9563, 'cross_n': 14, 'cross_median': 0.586, 'cross_max': 0.7518, 'レンジ内': '14/14', 'MW_p': 0.0242}, {'版': '16状態(本節)', 'between_n': 51, 'between_median': 0.4129, 'between_max': 1.0535, 'cross_n': 28, 'cross_median': 0.5777, 'cross_max': 0.8291, 'レンジ内': '28/28', 'MW_p': 0.0002}]
+- **内部基準（ネコ皮質×髄質）**: {'値': 0.2401, '空間': 'ヒトシンボル空間、to_human_space（16状態版と同一定義）', '遺伝子数': 14605, 'デザイン': '晩期コントラスト（CKD3/4 vs Control）の log2FC 同士の相関であり、17頭の対応ありデザインではない。', '06_compartmentとの関係': '06 の『晩期 皮質×髄質 rho 0.763』(距離0.237) はネコシンボル空間・対応ありデザインで計算した別の値。06 の主要数値『進行軸 rho 0.204』は進行軸同士の相関でさらに別物。3.3/3.4 では 0.2401 を使うこと。'}
+- **within_modelの偏り**: IRI が9時点あるため within_model 40ペア中 36 が IRI-IRI 間。IRI-IRI を除くと n=4。参考値扱い。
+- **図**: results/figures/Fig4_distance_distributions.png (300 dpi)
+
+## 27_fig5 / Fig5
+
+- **図**: results/figures/Fig5_iri_trajectory.png (300 dpi, 単一パネル)
+- **軌跡**: [{'state': 'IRI2h', 'days': 0.0833, 'distance_from_earliest': 0.0}, {'state': 'IRI4h', 'days': 0.1667, 'distance_from_earliest': 0.512}, {'state': 'IRI24h', 'days': 1.0, 'distance_from_earliest': 0.8379}, {'state': 'IRI48h', 'days': 2.0, 'distance_from_earliest': 0.8032}, {'state': 'IRI72h', 'days': 3.0, 'distance_from_earliest': 0.8087}, {'state': 'IRI7d', 'days': 7.0, 'distance_from_earliest': 0.68}, {'state': 'IRI14d', 'days': 14.0, 'distance_from_earliest': 0.38}, {'state': 'IRI28d', 'days': 28.0, 'distance_from_earliest': 0.7615}, {'state': 'IRI12m', 'days': 365.0, 'distance_from_earliest': 0.6929}]
+- **注記した点**: {'acute peak 24-72 h': 0.8379, '14 d': 0.38, '28 d': 0.7615, '12 mo': 0.6929}
+- **除外**: within_model_time.png はモデル内ペアが UUO 1個 / PodTRECK 3個しかなく 関係を評価できないため本図に含めず、補足資料に回す。
+
+## 26_fig6 / Fig6
+
+- **図**: results/figures/Fig6_module_level.png (300 dpi)
+- **パネルA**: [{'level': 'gene level', 'between_median': 0.4129, 'cross_median': 0.5777, 'ratio': 1.3992, 'mw_p': 0.0002, 'n_between': 51, 'n_cross': 28}, {'level': 'module (curated, 22)', 'between_median': 0.192, 'cross_median': 0.1752, 'ratio': 0.9124, 'mw_p': 0.6439, 'n_between': 51, 'n_cross': 28}, {'level': 'module (Hallmark, 50)', 'between_median': 0.1641, 'cross_median': 0.1716, 'ratio': 1.0453, 'mw_p': 0.7065, 'n_between': 51, 'n_cross': 28}]
+- **パネルB**: [{'level': 'gene level', 'time_rho': 0.553, 'time_p': 0.005, 'onset_rho': -0.019, 'onset_p': 0.9173}, {'level': 'module (curated, 22)', 'time_rho': 0.535, 'time_p': 0.0036, 'onset_rho': 0.193, 'onset_p': 0.3261}, {'level': 'module (Hallmark, 50)', 'time_rho': 0.62, 'time_p': 0.0004, 'onset_rho': -0.153, 'onset_p': 0.3843}]
+- **パネルC**: results/module_power_curve.csv
+
+## 15_within_model_time / IRI除外版とモデル内の時間関係
+
+- **IRI除外版（PodTRECK3 + UUO2 = 5状態, 10ペア）**: {'時間 rho': 0.152, '入口 rho': 0.213, '偏(時間|入口) rho': 0.285, '注記': '検出力が無いので p 値は参考。符号と大きさのみ見る。'}
+- **ネコの扱い**: ネコには経過日数を割り当てられないため時間Mantelには含めない。距離の参照として results/time_axis_noIRI_cat_ref.csv に併記。
+- **モデル内の 距離 vs 経過時間差**: [{'model': 'PodTRECK', 'n_states': 3, 'n_pairs': 3, 'rho_vs_log10days': 1.0, 'p_vs_log10days': 0.0, 'rho_vs_lineardays': 1.0, '評価可能か': '可'}, {'model': 'IRI', 'n_states': 9, 'n_pairs': 36, 'rho_vs_log10days': 0.601, 'p_vs_log10days': 0.0001, 'rho_vs_lineardays': 0.023, '評価可能か': '可'}, {'model': 'UUO', 'n_states': 2, 'n_pairs': 1, 'rho_vs_log10days': nan, 'p_vs_log10days': nan, 'rho_vs_lineardays': nan, '評価可能か': '不可（ペア1個）'}]
+- **対数関係は3モデルで成立するか**: IRI のみ評価可能（9時点36ペア）。PodTRECK は3時点3ペアで参考値、UUO は2時点1ペアで評価不可。『3モデルすべてで成立』は現データでは検証できない。
+- **図**: results/supplementary/within_model_time.png, results/supplementary/iri_trajectory.png

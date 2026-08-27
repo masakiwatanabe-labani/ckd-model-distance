@@ -20,9 +20,11 @@ from scipy.cluster.hierarchy import linkage, dendrogram
 from scipy.spatial.distance import squareform
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger, append_summary  # noqa: E402
 
 log = get_logger("17_fig3")
+apply_style()
 cfg = load_config()
 ROOT = Path(cfg["_root"])
 RES = ROOT / cfg["paths"]["results"]
@@ -129,7 +131,7 @@ def main():
         res.append({"variable": nm, "rho": r, "p": pv})
     rf = pd.DataFrame(res).iloc[::-1]
 
-    fig.savefig(FIG / "Fig3_distance_structure.png", dpi=300, bbox_inches="tight")
+    _savefig(fig, FIG / "Fig3_distance_structure")
     log.info("saved %s", FIG / "Fig3_distance_structure.png")
 
     rf.iloc[::-1].to_csv(RES / "fig3_mantel_values.csv", index=False)

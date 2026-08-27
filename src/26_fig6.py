@@ -16,9 +16,11 @@ import pandas as pd
 from scipy import stats
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger, append_summary  # noqa: E402
 
 log = get_logger("26_fig6")
+apply_style()
 cfg = load_config()
 RES = Path(cfg["_root"]) / cfg["paths"]["results"]
 FIG = RES / "figures"; FIG.mkdir(parents=True, exist_ok=True)
@@ -131,7 +133,7 @@ def main():
                  arrowprops=dict(arrowstyle="->", color="0.45", lw=.9))
     axC.set_ylim(-0.32, 0.80)
 
-    fig.savefig(FIG / "Fig6_module_level.png", dpi=300, bbox_inches="tight", facecolor="white")
+    _savefig(fig, FIG / "Fig6_module_level")
     log.info("saved %s", FIG / "Fig6_module_level.png")
 
     sdf = pd.DataFrame(stats_rows)

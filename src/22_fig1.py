@@ -9,9 +9,11 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Rectangle
 
 sys.path.insert(0, str(Path(__file__).parent))
+from lib_figure import apply_style, savefig as _savefig  # noqa: E402
 from lib_stats import load_config, get_logger, append_summary  # noqa: E402
 
 log = get_logger("22_fig1")
+apply_style()
 cfg = load_config()
 RES = Path(cfg["_root"]) / cfg["paths"]["results"]
 FIG = RES / "figures"; FIG.mkdir(parents=True, exist_ok=True)
@@ -136,8 +138,8 @@ def main():
     fig, axes = plt.subplots(1, 2, figsize=(15.2, 7.4))
     panelA(axes[0]); panelB(axes[1])
     fig.tight_layout(w_pad=3.0)
-    out = FIG / "Fig1_design.png"
-    fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white")
+    out = FIG / "Fig1_design"
+    _savefig(fig, out)
     log.info("saved %s", out)
     append_summary("22_fig1 / Fig1", {
         "図": "results/figures/Fig1_design.png (300 dpi)",
