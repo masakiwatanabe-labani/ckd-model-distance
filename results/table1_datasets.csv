@@ -9,16 +9,16 @@ Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,R
 Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 250 ng, 2W (n=3)",Non-induced control (n=3),14,m_rna_2w250
 Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,PK25055 (in-house; not deposited),LC-MS/MS,Day14 (n=3),Control (n=3),14,m_prot_d14
 Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,PK25055 (in-house; not deposited),LC-MS/MS,Day21 (n=3),Control (n=3),21,m_prot_d21
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI2h (n=3),SHAM4h + SHAM24h (n=6),0.083,IRI2h
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI4h (n=3),SHAM4h + SHAM24h (n=6),0.167,IRI4h
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI24h (n=3),SHAM4h + SHAM24h (n=6),1,IRI24h
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI48h (n=3),SHAM4h + SHAM24h (n=6),2,IRI48h
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI72h (n=3),SHAM4h + SHAM24h (n=6),3,IRI72h
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI7d (n=3),SHAM4h + SHAM24h (n=6),7,IRI7d
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI14d (n=3),SHAM4h + SHAM24h (n=6),14,IRI14d
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI28d (n=3),SHAM4h + SHAM24h (n=6),28,IRI28d
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI12m (n=3),SHAM12m (n=3),365,IRI12m
-Mus musculus,Unilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina NextSeq 500 (GPL19057),IRI6mN (n=4),NORM3m + NORM9m + NORM15m (n=9),180,IRI6mN
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI2h (n=3),SHAM4h + SHAM24h (n=6),0.083,IRI2h
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI4h (n=3),SHAM4h + SHAM24h (n=6),0.167,IRI4h
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI24h (n=3),SHAM4h + SHAM24h (n=6),1,IRI24h
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI48h (n=3),SHAM4h + SHAM24h (n=6),2,IRI48h
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI72h (n=3),SHAM4h + SHAM24h (n=6),3,IRI72h
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI7d (n=3),SHAM4h + SHAM24h (n=6),7,IRI7d
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI14d (n=3),SHAM4h + SHAM24h (n=6),14,IRI14d
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI28d (n=3),SHAM4h + SHAM24h (n=6),28,IRI28d
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI12m (n=3),SHAM12m (n=3),365,IRI12m
+Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina NextSeq 500 (GPL19057),IRI6mN (n=4),NORM3m + NORM9m + NORM15m (n=9),180,IRI6mN
 Mus musculus,UUO (right ureteric ligation),tubular,transcriptome,GSE79443,Illumina HiSeq 2000 (GPL13112),2D obstructed kidney (n=3),Sham-operated kidneys (n=4)*,2,UUO_2D
 Mus musculus,UUO (right ureteric ligation),tubular,transcriptome,GSE79443,Illumina HiSeq 2000 (GPL13112),8D obstructed kidney (n=3),Sham-operated kidneys (n=4)*,8,UUO_8D
 Homo sapiens,KPMP regional proteomics (tubulointerstitium),glomerular (DKD/HTN),proteome,KPMP DataLake_DEPs.txt (doi:10.48698/mg7h-bc51),LC-MS/MS on LMD tissue,CKD (pre-computed contrast),Healthy reference tissue (HRT),not defined (natural onset),CKD.vs.HRT.in.TI

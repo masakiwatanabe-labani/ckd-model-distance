@@ -230,12 +230,6 @@
 - **帰無平均はゼロ近傍か**: 十分位マッチ帰無の平均は 0.006〜0.028 でゼロ近傍だが厳密なゼロではない。発現量十分位内でシャッフルしても、十分位そのものが持つ log2FC の系統差（低発現ほど推定が不安定で符号が偏る等）が残るため。この残差こそがマッチングで保存したい構造であり、平均が正に僅かにずれるのは想定内。
 - **推奨**: 本文では p ではなく **効果量（rho）と種内ベンチマークとの比較** を主に据え、順列検定は『存在量構造を保存しても偶然では説明できない』ことの補助として p_perm のみ報告するのが安全。z は n=1000 回の順列で null_sd が小さくなるほど機械的に大きくなり、生物学的な強さを表さないため本文には出さない。出す場合は必ず null_mean と null_sd を併記すること。
 
-## 21_table1 / Table 1
-
-- **行数**: 27
-- **ファイル**: results/table1_datasets.csv, results/table1_footnotes.txt
-- **脚注**: ['* UUO (GSE79443): only the obstructed (right) kidney was deposited; contralateral kidneys of UUO animals are not available. Sham-operated kidneys were therefore used as controls. Sham comprises left and right kidneys from 2 animals (4 samples); left-right difference was negligible (Spearman rho = 0.992, median |difference| = 0.19 log2), so all 4 were pooled, but they represent 2 animals (pseudo-replication).', 'GSE98622 is split across two sequencing platforms. Contrasts were always built within a platform; controls were never pooled across platforms.', 'Feline proteome values are centred per protein (row mean ~ 0), so only rank-based statistics were used for that layer.', 'Onset compartment refers to where the disease process begins, not to the compartment sampled: KPMP CKD is predominantly diabetic/hypertensive (glomerular onset) although TI and G compartments were both sampled.']
-
 ## 22_fig1 / Fig1
 
 - **図**: results/figures/Fig1_design.png (300 dpi)
@@ -308,3 +302,9 @@
 - **モデル内の 距離 vs 経過時間差**: [{'model': 'PodTRECK', 'n_states': 3, 'n_pairs': 3, 'rho_vs_log10days': 1.0, 'p_vs_log10days': 0.0, 'rho_vs_lineardays': 1.0, '評価可能か': '可'}, {'model': 'IRI', 'n_states': 9, 'n_pairs': 36, 'rho_vs_log10days': 0.601, 'p_vs_log10days': 0.0001, 'rho_vs_lineardays': 0.023, '評価可能か': '可'}, {'model': 'UUO', 'n_states': 2, 'n_pairs': 1, 'rho_vs_log10days': nan, 'p_vs_log10days': nan, 'rho_vs_lineardays': nan, '評価可能か': '不可（ペア1個）'}]
 - **対数関係は3モデルで成立するか**: IRI のみ評価可能（9時点36ペア）。PodTRECK は3時点3ペアで参考値、UUO は2時点1ペアで評価不可。『3モデルすべてで成立』は現データでは検証できない。
 - **図**: results/supplementary/within_model_time.png, results/supplementary/iri_trajectory.png
+
+## 21_table1 / Table 1
+
+- **行数**: 27
+- **ファイル**: results/table1_datasets.csv, results/table1_footnotes.txt
+- **脚注**: ['* UUO (GSE79443): only the obstructed (right) kidney was deposited; contralateral kidneys of UUO animals are not available. Sham-operated kidneys were therefore used as controls. Sham comprises left and right kidneys from 2 animals (4 samples); left-right difference was negligible (Spearman rho = 0.992, median |difference| = 0.19 log2), so all 4 were pooled, but they represent 2 animals (pseudo-replication).', 'GSE98622 is split across two sequencing platforms. Contrasts were always built within a platform; controls were never pooled across platforms.', 'Feline proteome values are centred per protein (row mean ~ 0), so only rank-based statistics were used for that layer.', 'Onset compartment refers to where the disease process begins, not to the compartment sampled: KPMP CKD is predominantly diabetic/hypertensive (glomerular onset) although TI and G compartments were both sampled.']

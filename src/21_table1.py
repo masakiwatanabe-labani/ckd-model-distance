@@ -69,7 +69,7 @@ for lab, _, days, ctrl, gpl in IRI:
     n = 4 if lab == "IRI6mN" else 3
     plat = ("Illumina HiSeq 2000 (GPL13112)" if gpl == "GPL13112"
             else "Illumina NextSeq 500 (GPL19057)")
-    row("Mus musculus", "Unilateral IRI (whole kidney)", "tubular", "transcriptome",
+    row("Mus musculus", "Bilateral IRI (whole kidney)", "tubular", "transcriptome",
         "GSE98622", plat, f"{lab} (n={n})", ctrl, days, lab)
 
 # ---------------- UUO (GSE79443) ----------------
