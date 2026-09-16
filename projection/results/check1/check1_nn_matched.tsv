@@ -1,0 +1,10 @@
+	value
+n_matched_pairs	1800.0
+rho_core_matched	0.5162894515296662
+rho_added_matched	0.5209066257942261
+delta_added_minus_core	0.004617174264559876
+delta_lo95	-0.05263125287473925
+delta_hi95	0.0622949590035906
+expr_rank_median_core	0.5424263680082131
+expr_rank_median_added	0.5410236001237541
+caliper	0.02

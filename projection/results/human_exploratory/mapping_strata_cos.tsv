@@ -1,0 +1,6 @@
+stratum	n	cat x human	mouse x human	cat x mouse	cat−mouse (対ヒト)
+全遺伝子	1690	0.4649	0.3898	0.4374	0.0751
+両種 perc_id 上位50%	500	0.3752	0.3967	0.363	-0.0215
+両種 perc_id 下位50%	500	0.497	0.4294	0.4618	0.0676
+cat pid >= mouse	639	0.4852	0.3756	0.4514	0.1096
+cat pid <  mouse	792	0.4651	0.4388	0.4608	0.0264

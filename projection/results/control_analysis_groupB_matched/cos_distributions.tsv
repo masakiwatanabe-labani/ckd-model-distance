@@ -1,0 +1,9 @@
+set	n_pairs	min	q25	median	q75	max
+within_dataset	45	0.1615	0.3543	0.623	0.7574	0.9449
+same_species_diff_dataset	27	0.053	0.2994	0.534	0.7177	0.7881
+cross_species	48	0.1238	0.2599	0.3268	0.3847	0.4532
+within_cat	6	0.7071	0.7217	0.7594	0.8013	0.8805
+within_podtreck	3	0.623	0.6277	0.6324	0.7886	0.9449
+within_iri	36	0.1615	0.3341	0.5707	0.7134	0.891
+shared_control_pairs	33	0.1615	0.3472	0.6212	0.7617	0.9449
+no_shared_control_pairs	87	0.053	0.2726	0.3555	0.5394	0.8131

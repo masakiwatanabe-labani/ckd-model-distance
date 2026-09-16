@@ -1,0 +1,9 @@
+state	platform	layer	n_case	n_ctrl
+hs_ERCB_allCKD_A	GPL22945	microarray	39.0	18.0
+hs_ERCB_DN_A	GPL22945	microarray	7.0	18.0
+hs_ERCB_RPGN_A	GPL22945	microarray	21.0	18.0
+hs_ERCB_allCKD_B	GPL24120	microarray	130.0	5.0
+hs_ERCB_DN_B	GPL24120	microarray	10.0	5.0
+hs_ERCB_HT_B	GPL24120	microarray	20.0	5.0
+hs_KPMP_TI	KPMP-MS	proteome		
+hs_KPMP_G	KPMP-MS	proteome		

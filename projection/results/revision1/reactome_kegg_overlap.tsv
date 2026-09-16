@@ -1,0 +1,230 @@
+reactome_set	max_jaccard_vs_kegg
+ABC Transporter Disorders	0.8
+ABC-family Proteins Mediated Transport	0.7
+APC C-mediated Degradation of Cell Cycle Proteins	0.8235
+APC C Cdc20 Mediated Degradation of Mitotic Proteins	0.8235
+APC Cdc20 Mediated Degradation of Cell Cycle Proteins Prior to Satisfation of the Checkpoint	0.8235
+AUF1 (hnRNP D0) Binds and Destabilizes mRNA	0.7368
+Activation of APC C and APC C Cdc20 Mediated Degradation of Mitotic Proteins	0.8235
+Activation of NF-kappaB in B Cells	0.8235
+mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S	0.3023
+Adaptive Immune System	0.2341
+Aerobic Respiration and Respiratory Electron Transport	0.3548
+Antigen processing-Cross Presentation	0.6222
+Antigen Processing Ubiquitination & Proteasome Degradation	0.5
+Antiviral Mechanism by IFN-stimulated Genes	0.2267
+Apoptosis	0.4
+Asparagine N-linked Glycosylation	0.163
+Assembly of the Pre-Replicative Complex	0.8235
+Asymmetric Localization of PCP Proteins	0.8235
+Autophagy	0.1139
+Axon Guidance	0.3333
+Beta-catenin Independent WNT Signaling	0.549
+Biological Oxidations	0.12
+C-type Lectin Receptors (CLRs)	0.6364
+CLEC7A (Dectin-1) Signaling	0.6667
+COPI-mediated Anterograde Transport	0.1509
+Cap-dependent Translation Initiation	0.7045
+Cargo Recognition for Clathrin-Mediated Endocytosis	0.1685
+Cdc20 Phospho-APC C Mediated Degradation of Cyclin A	0.8235
+Cell Cycle	0.2295
+Cell Cycle Checkpoints	0.4667
+Cell Cycle, Mitotic	0.2593
+Cell-Cell Communication	0.1786
+Cellular Response to Chemical Stress	0.3784
+Cellular Response to Heat Stress	0.1273
+Cellular Response to Starvation	0.7561
+Cellular Responses to Stimuli	0.2509
+Cellular Responses to Stress	0.2716
+Chaperonin-mediated Protein Folding	0.1053
+Cilium Assembly	0.1735
+Class I MHC Mediated Antigen Processing & Presentation	0.359
+Clathrin-mediated Endocytosis	0.3021
+Complex I Biogenesis	0.6444
+Cross-presentation of Soluble Exogenous Antigens (Endosomes)	0.8235
+Cyclin A Cdk2-associated Events at S Phase Entry	0.8235
+Cyclin E Associated Events During G1 S Transition	0.8235
+Cytokine Signaling in Immune System	0.1933
+DNA Repair	0.0455
+DNA Replication	0.7368
+DNA Replication Pre-Initiation	0.7568
+Dectin-1 Mediated Noncanonical NF-kB Signaling	0.8
+Defective CFTR Causes Cystic Fibrosis	0.8
+Degradation of DVL	0.8235
+Degradation of GLI1 by the Proteasome	0.8
+Degradation of GLI2 by the Proteasome	0.8235
+Degradation of Beta-Catenin by the Destruction Complex	0.7368
+Deubiquitination	0.459
+Developmental Biology	0.2792
+Diseases of Metabolism	0.1398
+Diseases of Signal Transduction by Growth Factor Receptors and Second Messengers	0.2667
+Disorders of Transmembrane Transporters	0.549
+Downstream TCR Signaling	0.8
+Downstream Signaling Events of B Cell Receptor (BCR)	0.7368
+EPH-Ephrin Signaling	0.3265
+ER to Golgi Anterograde Transport	0.1301
+ER-Phagosome Pathway	0.6829
+Eukaryotic Translation Elongation	0.8857
+Eukaryotic Translation Initiation	0.7045
+Eukaryotic Translation Termination	0.8986
+Extracellular Matrix Organization	0.2308
+FCERI Mediated NF-kB Activation	0.8
+Fatty Acid Metabolism	0.2386
+Fc Epsilon Receptor (FCERI) Signaling	0.6512
+Formation of a Pool of Free 40S Subunits	0.8052
+Formation of the Ternary Complex, and Subsequently, the 43S Complex	0.3291
+G1 S Transition	0.7
+G2 M Checkpoints	0.6512
+G2 M Transition	0.4516
+GLI3 Is Processed to GLI3R by the Proteasome	0.8235
+GPCR Downstream Signalling	0.34
+GTP Hydrolysis and Joining of the 60S Ribosomal Subunit	0.7126
+Gastrulation	0.8235
+Gene and Protein Expression by JAK-STAT Signaling After Interleukin-12 Stimulation	0.0517
+Gene Expression (Transcription)	0.1867
+Generic Transcription Pathway	0.2435
+Glucose Metabolism	0.38
+Golgi-to-ER Retrograde Transport	0.1667
+HIV Infection	0.3836
+Hedgehog 'Off' State	0.6667
+Hedgehog 'On' State	0.7778
+Hedgehog Ligand Biogenesis	0.8
+Hemostasis	0.1712
+Hh Mutants Abrogate Ligand Secretion	0.8235
+Hh Mutants Are Degraded by ERAD	0.8235
+Host Interactions of HIV Factors	0.4516
+Infectious Disease	0.2318
+Influenza Infection	0.7126
+Influenza Viral RNA Transcription and Replication	0.8158
+Innate Immune System	0.1257
+Interferon Signaling	0.2048
+Interleukin-1 Family Signaling	0.6087
+Interleukin-1 Signaling	0.6667
+Interleukin-12 Family Signaling	0.0656
+Interleukin-12 Signaling	0.0508
+Intra-Golgi and Retrograde Golgi-to-ER Traffic	0.1681
+Intracellular Signaling by Second Messengers	0.4444
+KEAP1-NFE2L2 Pathway	0.5283
+L13a-mediated Translational Silencing of Ceruloplasmin Expression	0.7209
+L1CAM Interactions	0.1486
+Leishmania Infection	0.3571
+M Phase	0.2887
+MAPK Family Signaling Cascades	0.3944
+MAPK1 MAPK3 Signaling	0.4308
+MAPK6 MAPK4 Signaling	0.7179
+MHC Class II Antigen Presentation	0.1759
+Macroautophagy	0.1111
+Major Pathway of rRNA Processing in the Nucleolus and Cytosol	0.8857
+Membrane Trafficking	0.23
+Metabolism of RNA	0.2884
+Metabolism of Amino Acids and Derivatives	0.3179
+Metabolism of Carbohydrates	0.2308
+Metabolism of Lipids	0.1411
+Metabolism of Nucleotides	0.4792
+Metabolism of Polyamines	0.8
+Metabolism of Vitamins and Cofactors	0.046
+Metabolism of Water-Soluble Vitamins and Cofactors	0.0606
+Mitochondrial Protein Degradation	0.1325
+Mitochondrial Protein Import	0.0444
+Mitotic Anaphase	0.3836
+Mitotic G1 Phase and G1 S Transition	0.6667
+Mitotic G2-G2 M Phases	0.4516
+Mitotic Metaphase and Anaphase	0.3836
+Mitotic Prometaphase	0.1471
+Muscle Contraction	0.0976
+NIK-->noncanonical NF-kB Signaling	0.8
+Neddylation	0.4828
+Negative Regulation of NOTCH4 Signaling	0.8235
+Nervous System Development	0.3298
+Neuronal System	0.137
+Neurotransmitter Receptors and Postsynaptic Signal Transmission	0.1754
+Neutrophil Degranulation	0.1156
+Nonsense Mediated Decay (NMD) Enhanced by the Exon Junction Complex (EJC)	0.8158
+Nonsense Mediated Decay (NMD) Independent of the Exon Junction Complex (EJC)	0.8732
+Nonsense-Mediated Decay (NMD)	0.8158
+Nuclear Events Mediated by NFE2L2	0.6087
+Organelle Biogenesis and Maintenance	0.1593
+PCP CE Pathway	0.6222
+PIP3 Activates AKT Signaling	0.4912
+PTEN Regulation	0.6222
+Parasitic Infection Pathways	0.3571
+Peptide Chain Elongation	0.9118
+Peroxisomal Protein Import	0.6304
+Platelet Activation, Signaling and Aggregation	0.2
+Platelet Degranulation	0.0787
+Post-translational Protein Modification	0.1413
+Processing of Capped Intron-Containing Pre-mRNA	0.6375
+Programmed Cell Death	0.359
+Proteasome Assembly	0.9697
+Protein Folding	0.1017
+Protein Localization	0.3647
+RAF MAP Kinase Cascade	0.4375
+RHO GTPase Effectors	0.3333
+RHO GTPase Cycle	0.1176
+RNA Polymerase II Transcription	0.2154
+Regulation of APC C Activators Between G1 S and Early Anaphase	0.8235
+Regulation of Apoptosis	0.8
+Regulation of PTEN Stability and Activity	0.8
+Regulation of RAS by GAPs	0.8235
+Regulation of RUNX2 Expression and Activity	0.8235
+Regulation of RUNX3 Expression and Activity	0.8235
+Regulation of Activated PAK-2p34 by Proteasome Mediated Degradation	0.8235
+Regulation of Expression of SLITs and ROBOs	0.6078
+Regulation of mRNA Stability by Proteins That Bind AU-rich Elements	0.5833
+Regulation of Mitotic Cell Cycle	0.8235
+Respiratory Electron Transport	0.5417
+Response of EIF2AK4 (GCN2) to Amino Acid Deficiency	0.9118
+Response to Elevated Platelet Cytosolic Ca2+	0.0899
+Ribosomal Scanning and Start Codon Recognition	0.3023
+S Phase	0.7
+SARS-CoV Infections	0.1902
+SARS-CoV-1 Infection	0.2788
+SARS-CoV-1-host Interactions	0.2989
+SARS-CoV-2 Infection	0.2308
+SARS-CoV-2 Modulates Host Translation Machinery	0.3662
+SARS-CoV-2-host Interactions	0.2661
+SRP-dependent Cotranslational Protein Targeting to Membrane	0.8052
+Selective Autophagy	0.1176
+Selenoamino Acid Metabolism	0.7949
+Selenocysteine Synthesis	0.9394
+Sensory Perception	0.0897
+Separation of Sister Chromatids	0.5
+Signaling by ALK Fusions and Activated Point Mutants	0.1098
+Signaling by ALK in Cancer	0.1098
+Signaling by GPCR	0.34
+Signaling by Hedgehog	0.6087
+Signaling by Interleukins	0.2816
+Signaling by NOTCH	0.6222
+Signaling by NOTCH4	0.8
+Signaling by Nuclear Receptors	0.1311
+Signaling by ROBO Receptors	0.5345
+Signaling by Receptor Tyrosine Kinases	0.3421
+Signaling by Rho GTPases	0.2
+Signaling by Rho GTPases, Miro GTPases and RHOBTB3	0.1959
+Signaling by WNT	0.4179
+Signaling by the B Cell Receptor (BCR)	0.6829
+Synthesis of DNA	0.7568
+TCF Dependent Signaling in Response to WNT	0.6222
+TCR Signaling	0.7179
+TNFR2 Non-Canonical NF-kB Pathway	0.8
+The Role of GTSE1 in G2 M Progression After G2 Checkpoint	0.7
+Transcriptional Regulation by TP53	0.1124
+Transcriptional Regulation by RUNX1	0.6364
+Transcriptional Regulation by RUNX2	0.7179
+Transcriptional Regulation by RUNX3	0.7778
+Translation	0.5238
+Translation Initiation Complex Formation	0.3023
+Transmission Across Chemical Synapses	0.1493
+Transport of Small Molecules	0.2482
+Transport to the Golgi and Subsequent Modification	0.128
+UCH Proteinases	0.7568
+Ub-specific Processing Proteases	0.5385
+Vesicle-mediated Transport	0.2201
+Vif-mediated Degradation of APOBEC3G	0.8235
+Viral Infection Pathways	0.2742
+Viral mRNA Translation	0.9254
+mRNA Splicing	0.7183
+mRNA Splicing - Major Pathway	0.7183
+rRNA Processing	0.8611
+rRNA Processing in the Nucleus and Cytosol	0.8732
+trans-Golgi Network Vesicle Budding	0.1967

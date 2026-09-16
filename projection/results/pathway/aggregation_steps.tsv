@@ -1,0 +1,9 @@
+condition	cls	n	median	q1	q3
+1. cos of Δ as analysed	within	39	0.7242	0.5727	0.8225
+1. cos of Δ as analysed	cross	48	0.4475	0.3411	0.4956
+2. Δ centred per state (= Pearson r of Δ)	within	39	0.7092	0.5283	0.8105
+2. Δ centred per state (= Pearson r of Δ)	cross	48	0.5513	0.4537	0.5992
+3. pathway means of centred Δ	within	39	0.8688	0.7914	0.934
+3. pathway means of centred Δ	cross	48	0.8818	0.7925	0.9274
+4. pathway means of uncentred Δ	within	39	0.8964	0.8292	0.9414
+4. pathway means of uncentred Δ	cross	48	0.4887	0.3551	0.5899

@@ -1,0 +1,13 @@
+state	global_cos	n_pathways	pathway_cos_median	pathway_cos_max	n_above_random_band	max_pathway	max_n_genes
+IRI_2h	0.193	422	0.282	0.625	18	Valine, leucine and isoleucine degradation	37
+IRI_4h	0.303	422	0.307	0.774	6	Transcriptional Regulation by RUNX1	40
+mouse_5D	0.346	422	0.378	0.821	15	Transcriptional Regulation by RUNX3	32
+IRI_12mo	0.442	422	0.508	0.916	35	Bacterial invasion of epithelial cells	33
+IRI_14d	0.47	422	0.536	0.912	34	Transcriptional Regulation by RUNX2	35
+mouse_3W	0.48	422	0.462	0.877	11	Valine, leucine and isoleucine degradation	37
+IRI_28d	0.484	422	0.569	0.956	42	Oxidative Phosphorylation (GO:0006119)	35
+mouse_2W	0.498	422	0.487	0.958	14	Mitochondrial ATP Synthesis Coupled Electron	37
+IRI_48h	0.51	422	0.497	0.898	26	Focal adhesion	53
+IRI_7d	0.512	422	0.57	0.935	29	Focal adhesion	53
+IRI_24h	0.518	422	0.503	0.948	20	Oxidative Phosphorylation (GO:0006119)	35
+IRI_72h	0.548	422	0.556	0.931	24	Transcriptional Regulation by RUNX3	32

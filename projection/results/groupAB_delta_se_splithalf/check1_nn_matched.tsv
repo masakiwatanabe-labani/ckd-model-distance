@@ -1,0 +1,10 @@
+	value
+n_matched_pairs	2121.0
+rho_GroupA_matched	0.66086832818322
+rho_GroupB_matched	0.4501706893355995
+delta_GroupB_minus_GroupA	-0.21069763884762055
+delta_lo95	-0.259337010732103
+delta_hi95	-0.16340998577298954
+expr_rank_median_GroupA	0.4799168320574615
+expr_rank_median_GroupB	0.47996408657026746
+caliper	0.02

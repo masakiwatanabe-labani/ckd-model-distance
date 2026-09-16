@@ -1,0 +1,4 @@
+column	species	n_all	n_groupA	pct_median	pct_q25	pct_q75	frac_below_0.25	frac_below_0.50
+cat_ctx_control	cat	15053	2016	0.8565	0.6971	0.9442	0.0139	0.0888
+podtreck_control	mouse	15213	2016	0.8098	0.6326	0.9153	0.0377	0.1582
+iri_young_sham	mouse	13298	2015	0.8277	0.6338	0.9265	0.0333	0.1444

@@ -1,0 +1,6 @@
+role	pair	cos	spearman_rho	percentile_in_within_dataset	percentile_in_IRI_pairs
+検定対象	cat_CKD12 x cat_CKD34	0.8975	0.8705	93.3333	97.2222
+上振れ対照(中央値)	IRI 時点ペア 36組	0.6574		40.0	50.0
+上振れ対照(最大)	IRI 時点ペア 36組	0.924		95.5556	97.2222
+下振れ対照(指示どおり)	cat_CKD34 x cat_med_CKD34	0.809	0.7276	77.7778	80.5556
+下振れ対照(進行軸)	cat_ctx_prog x cat_med_prog	0.1088	-0.0216	0.0	0.0

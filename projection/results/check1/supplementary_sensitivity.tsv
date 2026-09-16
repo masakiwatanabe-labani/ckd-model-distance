@@ -1,0 +1,9 @@
+variant	mapping	fpkm_filter	delta	n	rho	primary	delta_vs_primary
+S1	ortholog	on	log2FC	8815	0.489257	True	0.0
+S2	ortholog	on	z-scored	8815	0.257536	False	-0.231721
+S3	ortholog	off	log2FC	10499	0.387833	False	-0.101425
+S4	ortholog	off	z-scored	10499	0.226255	False	-0.263002
+S5	naive	on	log2FC	10483	0.499798	False	0.01054
+S6	naive	on	z-scored	10483	0.271502	False	-0.217755
+S7	naive	off	log2FC	12438	0.398166	False	-0.091091
+S8	naive	off	z-scored	12438	0.237722	False	-0.251535

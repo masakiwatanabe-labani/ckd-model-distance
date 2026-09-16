@@ -1,0 +1,15 @@
+subset	term	n_states	rho	ctrl_x_log_time	fisher_lo	fisher_hi	boot_lo	boot_hi	n_boot_ok	p_perm	fisher_ci_contains_0.553	boot_ci_contains_0.553
+all_model_states	alpha x log_time	12	-0.017513		-0.58553	0.562037	-0.781062	0.646263	5000	0.962404	True	True
+all_model_states	nrm x log_time	12	-0.210158		-0.699672	0.413632	-0.8	0.518688	5000	0.50115	False	False
+all_model_states	cos x log_time	12	0.175132		-0.443328	0.680625	-0.564652	0.793581	5000	0.587941	True	True
+all_model_states	R_perp x log_time	12	-0.175132		-0.680625	0.443328	-0.792595	0.576166	5000	0.586741	False	True
+all_model_states	cos | nrm (partial)	12	0.259985	-0.210158	-0.402694	0.74385	-0.733459	0.864434	4997	0.429757	True	True
+all_model_states	nrm | cos (partial)	12	-0.283854	0.175132	-0.755145	0.380875	-0.900394	0.416746	4990	0.39646	False	False
+all_model_states	alpha | nrm (partial)	12	0.290282	-0.210158	-0.37487	0.75814	-0.578359	0.840792	4947	0.392161	True	True
+IRI_only	alpha x log_time	9	0.0		-0.664122	0.664122	-0.982906	0.761468	4982	1.0	True	True
+IRI_only	nrm x log_time	9	-0.3		-0.803946	0.454718	-0.939667	0.684211	4983	0.437556	False	True
+IRI_only	cos x log_time	9	0.25		-0.496567	0.78396	-0.684211	0.890909	4981	0.520048	True	True
+IRI_only	R_perp x log_time	9	-0.25		-0.78396	0.496567	-0.894737	0.661017	4985	0.519348	False	True
+IRI_only	cos | nrm (partial)	9	0.38128	-0.3	-0.442203	0.855972	-0.951265	0.982488	4942	0.348565	True	True
+IRI_only	nrm | cos (partial)	9	-0.412848	0.25	-0.865676	0.411556	-0.985518	0.541202	4942	0.313969	False	False
+IRI_only	alpha | nrm (partial)	9	0.281284	-0.3	-0.528056	0.822856	-1.0	0.957918	4934	0.49895	True	True

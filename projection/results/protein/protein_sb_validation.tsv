@@ -1,0 +1,9 @@
+state	k	r_1	r_k_obs	r_k_pred	obs_minus_pred
+cat_med_prot_CKD12	2	0.1672	0.2046	0.2865	-0.0819
+cat_med_prot_CKD12	3	0.1672	0.3453	0.3759	-0.0306
+cat_med_prot_CKD34	2	0.2086	0.2914	0.3452	-0.0538
+cat_med_prot_CKD34	3	0.2086	0.4003	0.4416	-0.0413
+cat_prot_CKD12	2	0.1139	0.2341	0.2046	0.0295
+cat_prot_CKD12	3	0.1139	0.3301	0.2784	0.0517
+cat_prot_CKD34	2	0.453	0.6013	0.6236	-0.0223
+cat_prot_CKD34	3	0.453	0.6713	0.713	-0.0417

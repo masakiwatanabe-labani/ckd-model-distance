@@ -1,0 +1,11 @@
+collection	pathway	n_genes	cos
+Reactome	UCH Proteinases	33	0.5842
+Reactome	Regulation of Apoptosis	31	0.5782
+Reactome	Degradation of DVL	30	0.5767
+Reactome	Regulation of RAS by GAPs	30	0.5767
+Reactome	Vif-mediated Degradation of APOBEC3G	30	0.5566
+Reactome	Degradation of GLI2 by the Proteasome	30	0.5447
+Reactome	GLI3 Is Processed to GLI3R by the Proteasome	30	0.5447
+Reactome	Hh Mutants Abrogate Ligand Secretion	30	0.534
+Reactome	Hh Mutants Are Degraded by ERAD	30	0.534
+Reactome	Assembly of the Pre-Replicative Complex	30	0.5306

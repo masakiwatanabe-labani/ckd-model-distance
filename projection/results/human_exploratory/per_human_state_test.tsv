@@ -1,0 +1,4 @@
+human_state	n_states	n_pairs	auc	null_median	n_perm	p_exact
+hs_ERCB_allCKD_A	16	16	0.875	0.5	1820	0.0148
+hs_ERCB_DN_A	16	16	1.0	0.5	1820	0.0005
+hs_ERCB_RPGN_A	16	16	0.75	0.5	1820	0.0852

@@ -1,0 +1,423 @@
+collection	pathway	n_genes	auc
+GO_BP	DNA Damage Response (GO:0006974)	35	0.7607
+GO_BP	DNA Metabolic Process (GO:0006259)	37	0.7623
+GO_BP	DNA Repair (GO:0006281)	30	0.7906
+GO_BP	Golgi Vesicle Transport (GO:0048193)	57	0.8686
+GO_BP	RNA Processing (GO:0006396)	48	0.8606
+GO_BP	RNA Splicing (GO:0008380)	30	0.8077
+GO_BP	RNA Splicing, Via Transesterification Reactions With Bulged Adenosine As Nucleophile (GO:0000377)	55	0.7986
+GO_BP	Actin Filament Organization (GO:0007015)	44	0.7885
+GO_BP	Aerobic Electron Transport Chain (GO:0019646)	36	0.359
+GO_BP	Aerobic Respiration (GO:0009060)	36	0.3729
+GO_BP	Cellular Component Assembly (GO:0022607)	51	0.7869
+GO_BP	Cellular Respiration (GO:0045333)	45	0.3718
+GO_BP	Cellular Response To Cytokine Stimulus (GO:0071345)	34	0.7425
+GO_BP	Cellular Response To Oxygen-Containing Compound (GO:1901701)	59	0.8884
+GO_BP	Central Nervous System Development (GO:0007417)	31	0.7746
+GO_BP	Cytoplasmic Translation (GO:0002181)	67	0.7308
+GO_BP	Dicarboxylic Acid Metabolic Process (GO:0043648)	30	0.8328
+GO_BP	Endocytosis (GO:0006897)	51	0.7933
+GO_BP	Endomembrane System Organization (GO:0010256)	39	0.8499
+GO_BP	Endoplasmic Reticulum To Golgi Vesicle-Mediated Transport (GO:0006888)	37	0.8734
+GO_BP	Endosomal Transport (GO:0016197)	41	0.86
+GO_BP	Epithelium Development (GO:0060429)	30	0.969
+GO_BP	Fatty Acid Beta-Oxidation (GO:0006635)	32	0.5075
+GO_BP	Fatty Acid Catabolic Process (GO:0009062)	30	0.6084
+GO_BP	Fatty Acid Metabolic Process (GO:0006631)	44	0.688
+GO_BP	Gene Expression (GO:0010467)	97	0.7569
+GO_BP	Inorganic Cation Transmembrane Transport (GO:0098662)	30	0.8889
+GO_BP	Intracellular Protein Transport (GO:0006886)	87	0.8184
+GO_BP	mRNA Processing (GO:0006397)	61	0.7869
+GO_BP	mRNA Splicing, Via Spliceosome (GO:0000398)	61	0.8034
+GO_BP	Macromolecule Biosynthetic Process (GO:0009059)	77	0.7286
+GO_BP	Membrane Organization (GO:0061024)	58	0.8996
+GO_BP	Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775)	37	0.36
+GO_BP	Mitochondrion Organization (GO:0007005)	41	0.5059
+GO_BP	Monocarboxylic Acid Metabolic Process (GO:0032787)	36	0.7121
+GO_BP	Negative Regulation Of DNA-templated Transcription (GO:0045892)	85	0.8221
+GO_BP	Negative Regulation Of Apoptotic Process (GO:0043066)	88	0.8526
+GO_BP	Negative Regulation Of Cell Population Proliferation (GO:0008285)	32	0.9434
+GO_BP	Negative Regulation Of Cellular Biosynthetic Process (GO:0031327)	32	0.6202
+GO_BP	Negative Regulation Of Cellular Process (GO:0048523)	64	0.8686
+GO_BP	Negative Regulation Of Gene Expression (GO:0010629)	54	0.8312
+GO_BP	Negative Regulation Of Intracellular Signal Transduction (GO:1902532)	30	0.7853
+GO_BP	Negative Regulation Of Nucleic Acid-Templated Transcription (GO:1903507)	45	0.7543
+GO_BP	Negative Regulation Of Programmed Cell Death (GO:0043069)	79	0.9097
+GO_BP	Negative Regulation Of Protein Metabolic Process (GO:0051248)	38	0.7682
+GO_BP	Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	53	0.82
+GO_BP	Nervous System Development (GO:0007399)	31	0.8889
+GO_BP	Organelle Assembly (GO:0070925)	47	0.7105
+GO_BP	Organelle Organization (GO:0006996)	79	0.7842
+GO_BP	Oxidative Phosphorylation (GO:0006119)	35	0.3622
+GO_BP	Peptide Biosynthetic Process (GO:0043043)	70	0.7452
+GO_BP	Phosphate-Containing Compound Metabolic Process (GO:0006796)	39	0.8681
+GO_BP	Phosphorylation (GO:0016310)	39	0.7655
+GO_BP	Plasma Membrane Bounded Cell Projection Assembly (GO:0120031)	31	0.836
+GO_BP	Positive Regulation Of DNA-binding Transcription Factor Activity (GO:0051091)	31	0.7447
+GO_BP	Positive Regulation Of DNA-templated Transcription (GO:0045893)	108	0.789
+GO_BP	Positive Regulation Of MAPK Cascade (GO:0043410)	30	0.719
+GO_BP	Positive Regulation Of Apoptotic Process (GO:0043065)	40	0.7687
+GO_BP	Positive Regulation Of Cell Differentiation (GO:0045597)	32	0.8018
+GO_BP	Positive Regulation Of Cell Migration (GO:0030335)	48	0.8429
+GO_BP	Positive Regulation Of Cell Motility (GO:2000147)	39	0.8243
+GO_BP	Positive Regulation Of Cell Population Proliferation (GO:0008284)	58	0.8878
+GO_BP	Positive Regulation Of Cellular Biosynthetic Process (GO:0031328)	38	0.7073
+GO_BP	Positive Regulation Of Cellular Process (GO:0048522)	82	0.8307
+GO_BP	Positive Regulation Of Cytokine Production (GO:0001819)	36	0.7121
+GO_BP	Positive Regulation Of Developmental Process (GO:0051094)	32	0.7596
+GO_BP	Positive Regulation Of Gene Expression (GO:0010628)	70	0.8616
+GO_BP	Positive Regulation Of Intracellular Protein Transport (GO:0090316)	30	0.8141
+GO_BP	Positive Regulation Of Intracellular Signal Transduction (GO:1902533)	76	0.7837
+GO_BP	Positive Regulation Of Macromolecule Metabolic Process (GO:0010604)	49	0.8729
+GO_BP	Positive Regulation Of Multicellular Organismal Process (GO:0051240)	48	0.7927
+GO_BP	Positive Regulation Of Nucleic Acid-Templated Transcription (GO:1903508)	48	0.797
+GO_BP	Positive Regulation Of Programmed Cell Death (GO:0043068)	36	0.7618
+GO_BP	Positive Regulation Of Protein Metabolic Process (GO:0051247)	45	0.8355
+GO_BP	Positive Regulation Of Protein Modification Process (GO:0031401)	30	0.7457
+GO_BP	Positive Regulation Of Protein Phosphorylation (GO:0001934)	45	0.8066
+GO_BP	Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	70	0.7468
+GO_BP	Positive Regulation Of Translation (GO:0045727)	33	0.805
+GO_BP	Proteasomal Protein Catabolic Process (GO:0010498)	45	0.6309
+GO_BP	Proteasome-Mediated Ubiquitin-Dependent Protein Catabolic Process (GO:0043161)	57	0.7196
+GO_BP	Protein Homooligomerization (GO:0051260)	35	0.8392
+GO_BP	Protein Localization (GO:0008104)	88	0.8125
+GO_BP	Protein Localization To Cell Periphery (GO:1990778)	30	0.8526
+GO_BP	Protein Localization To Membrane (GO:0072657)	45	0.8419
+GO_BP	Protein Localization To Organelle (GO:0033365)	32	0.7527
+GO_BP	Protein Modification By Small Protein Conjugation (GO:0032446)	43	0.6271
+GO_BP	Protein Modification Process (GO:0036211)	86	0.813
+GO_BP	Protein Phosphorylation (GO:0006468)	42	0.8285
+GO_BP	Protein Stabilization (GO:0050821)	59	0.7885
+GO_BP	Protein Transport (GO:0015031)	85	0.7639
+GO_BP	Protein Ubiquitination (GO:0016567)	32	0.6512
+GO_BP	protein-RNA Complex Assembly (GO:0022618)	45	0.7879
+GO_BP	Protein-Containing Complex Assembly (GO:0065003)	74	0.7292
+GO_BP	Proteolysis (GO:0006508)	53	0.812
+GO_BP	Proton Motive Force-Driven ATP Synthesis (GO:0015986)	32	0.367
+GO_BP	Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776)	32	0.367
+GO_BP	Receptor-Mediated Endocytosis (GO:0006898)	38	0.8125
+GO_BP	Regulation Of DNA-templated Transcription (GO:0006355)	126	0.7991
+GO_BP	Regulation Of GTPase Activity (GO:0043087)	31	0.7639
+GO_BP	Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043122)	32	0.8851
+GO_BP	Regulation Of Angiogenesis (GO:0045765)	35	0.9145
+GO_BP	Regulation Of Apoptotic Process (GO:0042981)	131	0.8499
+GO_BP	Regulation Of Autophagy (GO:0010506)	47	0.9738
+GO_BP	Regulation Of Cell Migration (GO:0030334)	70	0.8333
+GO_BP	Regulation Of Cell Population Proliferation (GO:0042127)	84	0.9012
+GO_BP	Regulation Of Cytoskeleton Organization (GO:0051493)	31	0.8034
+GO_BP	Regulation Of Gene Expression (GO:0010468)	116	0.8451
+GO_BP	Regulation Of Macroautophagy (GO:0016241)	30	0.6902
+GO_BP	Regulation Of Nucleic Acid-Templated Transcription (GO:1903506)	33	0.906
+GO_BP	Regulation Of Organelle Organization (GO:0033043)	31	0.7041
+GO_BP	Regulation Of Programmed Cell Death (GO:0043067)	40	0.7949
+GO_BP	Regulation Of Protein Catabolic Process (GO:0042176)	32	0.8189
+GO_BP	Regulation Of Protein Phosphorylation (GO:0001932)	36	0.9696
+GO_BP	Regulation Of Translation (GO:0006417)	63	0.9391
+GO_BP	Supramolecular Fiber Organization (GO:0097435)	60	0.7949
+GO_BP	Translation (GO:0006412)	93	0.7329
+GO_BP	Ubiquitin-Dependent Protein Catabolic Process (GO:0006511)	61	0.6506
+GO_BP	Vesicle-Mediated Transport (GO:0016192)	83	0.8681
+KEGG	Alzheimer disease	108	0.758
+KEGG	Amyotrophic lateral sclerosis	120	0.6918
+KEGG	Bacterial invasion of epithelial cells	33	0.7634
+KEGG	Chemical carcinogenesis	30	0.7575
+KEGG	Coronavirus disease	77	0.6998
+KEGG	Diabetic cardiomyopathy	62	0.8237
+KEGG	Endocytosis	70	0.8552
+KEGG	Epstein-Barr virus infection	31	0.6496
+KEGG	Focal adhesion	53	0.711
+KEGG	Glycolysis / Gluconeogenesis	36	0.7746
+KEGG	Human cytomegalovirus infection	32	0.8526
+KEGG	Human immunodeficiency virus 1 infection	32	0.8066
+KEGG	Human papillomavirus infection	55	0.758
+KEGG	Huntington disease	103	0.735
+KEGG	Insulin signaling pathway	30	0.8878
+KEGG	Lipid and atherosclerosis	31	0.8082
+KEGG	Lysosome	43	0.9209
+KEGG	MAPK signaling pathway	34	0.9979
+KEGG	Non-alcoholic fatty liver disease	46	0.4621
+KEGG	Oxidative phosphorylation	55	0.4893
+KEGG	PI3K-Akt signaling pathway	52	0.8013
+KEGG	Parkinson disease	100	0.7014
+KEGG	Pathogenic Escherichia coli infection	54	0.7703
+KEGG	Pathways in cancer	61	0.9081
+KEGG	Pathways of neurodegeneration	131	0.7607
+KEGG	Peroxisome	42	0.6998
+KEGG	Phagosome	44	0.7885
+KEGG	Prion disease	99	0.6474
+KEGG	Propanoate metabolism	30	0.5817
+KEGG	Proteasome	32	0.5743
+KEGG	Protein processing in endoplasmic reticulum	59	0.7927
+KEGG	Proteoglycans in cancer	47	0.7885
+KEGG	Purine metabolism	32	0.7612
+KEGG	Pyruvate metabolism	33	0.8739
+KEGG	RNA transport	46	0.7783
+KEGG	Rap1 signaling pathway	31	0.7382
+KEGG	Regulation of actin cytoskeleton	62	0.8104
+KEGG	Retrograde endocannabinoid signaling	40	0.6261
+KEGG	Ribosome	66	0.7292
+KEGG	Salmonella infection	79	0.7537
+KEGG	Shigellosis	51	0.7532
+KEGG	Spinocerebellar ataxia	44	0.6624
+KEGG	Spliceosome	52	0.7917
+KEGG	Thermogenesis	60	0.6517
+KEGG	Tight junction	47	0.8472
+KEGG	Valine, leucine and isoleucine degradation	37	0.5134
+KEGG	Viral carcinogenesis	36	0.7596
+KEGG	Yersinia infection	34	0.7505
+Hallmark	Hypoxia	53	0.7821
+Hallmark	Mitotic Spindle	45	0.8547
+Hallmark	DNA Repair	36	0.7821
+Hallmark	G2-M Checkpoint	34	0.8638
+Hallmark	Apoptosis	40	0.899
+Hallmark	Adipogenesis	86	0.7212
+Hallmark	Estrogen Response Late	33	0.8098
+Hallmark	Myogenesis	47	0.8066
+Hallmark	Protein Secretion	54	0.9119
+Hallmark	Apical Junction	44	0.875
+Hallmark	Complement	40	0.8777
+Hallmark	Unfolded Protein Response	31	0.8889
+Hallmark	mTORC1 Signaling	91	0.8499
+Hallmark	E2F Targets	40	0.7404
+Hallmark	Myc Targets V1	129	0.7965
+Hallmark	Epithelial Mesenchymal Transition	49	0.765
+Hallmark	Xenobiotic Metabolism	71	0.7938
+Hallmark	Fatty Acid Metabolism	93	0.6907
+Hallmark	Oxidative Phosphorylation	121	0.5011
+Hallmark	Glycolysis	67	0.7217
+Hallmark	p53 Pathway	33	0.7762
+Hallmark	UV Response Up	34	0.8707
+Hallmark	heme Metabolism	47	0.8323
+Hallmark	Coagulation	37	0.7853
+Hallmark	IL-2/STAT5 Signaling	33	0.7334
+Hallmark	Bile Acid Metabolism	39	0.7431
+Hallmark	Pperoxisome	44	0.7222
+Reactome	ABC Transporter Disorders	31	0.6736
+Reactome	ABC-family Proteins Mediated Transport	36	0.6474
+Reactome	APC C-mediated Degradation of Cell Cycle Proteins	30	0.6736
+Reactome	APC C Cdc20 Mediated Degradation of Mitotic Proteins	30	0.6736
+Reactome	APC Cdc20 Mediated Degradation of Cell Cycle Proteins Prior to Satisfation of the Checkpoint	30	0.6736
+Reactome	AUF1 (hnRNP D0) Binds and Destabilizes mRNA	34	0.7783
+Reactome	Activation of APC C and APC C Cdc20 Mediated Degradation of Mitotic Proteins	30	0.6736
+Reactome	Activation of NF-kappaB in B Cells	30	0.6987
+Reactome	mRNA Activation Upon Binding of the Cap-Binding Complex and eIFs, and Subsequent Binding to 43S	46	0.7233
+Reactome	Adaptive Immune System	150	0.8061
+Reactome	Aerobic Respiration and Respiratory Electron Transport	106	0.4802
+Reactome	Antigen processing-Cross Presentation	41	0.5887
+Reactome	Antigen Processing Ubiquitination & Proteasome Degradation	52	0.7377
+Reactome	Antiviral Mechanism by IFN-stimulated Genes	46	0.7585
+Reactome	Apoptosis	66	0.8483
+Reactome	Asparagine N-linked Glycosylation	98	0.8884
+Reactome	Assembly of the Pre-Replicative Complex	30	0.7281
+Reactome	Asymmetric Localization of PCP Proteins	30	0.7244
+Reactome	Autophagy	44	0.7933
+Reactome	Axon Guidance	182	0.7943
+Reactome	Beta-catenin Independent WNT Signaling	47	0.8029
+Reactome	Biological Oxidations	54	0.8189
+Reactome	C-type Lectin Receptors (CLRs)	40	0.7137
+Reactome	CLEC7A (Dectin-1) Signaling	38	0.6838
+Reactome	COPI-mediated Anterograde Transport	43	0.8328
+Reactome	Cap-dependent Translation Initiation	84	0.7233
+Reactome	Cargo Recognition for Clathrin-Mediated Endocytosis	34	0.68
+Reactome	Cdc20 Phospho-APC C Mediated Degradation of Cyclin A	30	0.6736
+Reactome	Cell Cycle	118	0.7997
+Reactome	Cell Cycle Checkpoints	56	0.7692
+Reactome	Cell Cycle, Mitotic	104	0.7847
+Reactome	Cell-Cell Communication	33	0.8114
+Reactome	Cellular Response to Chemical Stress	70	0.6763
+Reactome	Cellular Response to Heat Stress	31	0.8948
+Reactome	Cellular Response to Starvation	78	0.7484
+Reactome	Cellular Responses to Stimuli	257	0.7965
+Reactome	Cellular Responses to Stress	232	0.7831
+Reactome	Chaperonin-mediated Protein Folding	31	0.7959
+Reactome	Cilium Assembly	36	0.8007
+Reactome	Class I MHC Mediated Antigen Processing & Presentation	74	0.6811
+Reactome	Clathrin-mediated Endocytosis	55	0.7837
+Reactome	Complex I Biogenesis	34	0.3734
+Reactome	Cross-presentation of Soluble Exogenous Antigens (Endosomes)	30	0.5545
+Reactome	Cyclin A Cdk2-associated Events at S Phase Entry	30	0.6902
+Reactome	Cyclin E Associated Events During G1 S Transition	30	0.6902
+Reactome	Cytokine Signaling in Immune System	147	0.8056
+Reactome	DNA Repair	33	0.7169
+Reactome	DNA Replication	34	0.734
+Reactome	DNA Replication Pre-Initiation	33	0.7345
+Reactome	Dectin-1 Mediated Noncanonical NF-kB Signaling	31	0.7003
+Reactome	Defective CFTR Causes Cystic Fibrosis	31	0.6736
+Reactome	Degradation of DVL	30	0.6752
+Reactome	Degradation of GLI1 by the Proteasome	31	0.6944
+Reactome	Degradation of GLI2 by the Proteasome	30	0.679
+Reactome	Degradation of Beta-Catenin by the Destruction Complex	34	0.727
+Reactome	Deubiquitination	57	0.6335
+Reactome	Developmental Biology	230	0.836
+Reactome	Diseases of Metabolism	69	0.7596
+Reactome	Diseases of Signal Transduction by Growth Factor Receptors and Second Messengers	101	0.7196
+Reactome	Disorders of Transmembrane Transporters	47	0.5208
+Reactome	Downstream TCR Signaling	31	0.7137
+Reactome	Downstream Signaling Events of B Cell Receptor (BCR)	34	0.7399
+Reactome	EPH-Ephrin Signaling	32	0.9081
+Reactome	ER to Golgi Anterograde Transport	60	0.8894
+Reactome	ER-Phagosome Pathway	37	0.5657
+Reactome	Eukaryotic Translation Elongation	66	0.727
+Reactome	Eukaryotic Translation Initiation	84	0.7233
+Reactome	Eukaryotic Translation Termination	65	0.7318
+Reactome	Extracellular Matrix Organization	59	0.8066
+Reactome	FCERI Mediated NF-kB Activation	31	0.7137
+Reactome	Fatty Acid Metabolism	67	0.64
+Reactome	Fc Epsilon Receptor (FCERI) Signaling	39	0.7575
+Reactome	Formation of a Pool of Free 40S Subunits	73	0.7174
+Reactome	Formation of the Ternary Complex, and Subsequently, the 43S Complex	39	0.6934
+Reactome	G1 S Transition	36	0.7372
+Reactome	G2 M Checkpoints	39	0.7569
+Reactome	G2 M Transition	58	0.7612
+Reactome	GLI3 Is Processed to GLI3R by the Proteasome	30	0.679
+Reactome	GPCR Downstream Signalling	35	0.883
+Reactome	GTP Hydrolysis and Joining of the 60S Ribosomal Subunit	83	0.7228
+Reactome	Gastrulation	30	0.6181
+Reactome	Gene and Protein Expression by JAK-STAT Signaling After Interleukin-12 Stimulation	30	0.8216
+Reactome	Gene Expression (Transcription)	147	0.7735
+Reactome	Generic Transcription Pathway	111	0.7842
+Reactome	Glucose Metabolism	33	0.7719
+Reactome	Golgi-to-ER Retrograde Transport	47	0.8007
+Reactome	HIV Infection	69	0.7762
+Reactome	Hedgehog 'Off' State	38	0.6629
+Reactome	Hedgehog 'On' State	32	0.6843
+Reactome	Hedgehog Ligand Biogenesis	31	0.6859
+Reactome	Hemostasis	118	0.7457
+Reactome	Hh Mutants Abrogate Ligand Secretion	30	0.6875
+Reactome	Hh Mutants Are Degraded by ERAD	30	0.6875
+Reactome	Host Interactions of HIV Factors	58	0.7778
+Reactome	Infectious Disease	295	0.7714
+Reactome	Influenza Infection	83	0.7473
+Reactome	Influenza Viral RNA Transcription and Replication	72	0.7201
+Reactome	Innate Immune System	272	0.836
+Reactome	Interferon Signaling	54	0.8419
+Reactome	Interleukin-1 Family Signaling	42	0.7543
+Reactome	Interleukin-1 Signaling	38	0.7244
+Reactome	Interleukin-12 Family Signaling	34	0.8034
+Reactome	Interleukin-12 Signaling	31	0.8226
+Reactome	Intra-Golgi and Retrograde Golgi-to-ER Traffic	53	0.8397
+Reactome	Intracellular Signaling by Second Messengers	59	0.766
+Reactome	KEAP1-NFE2L2 Pathway	49	0.7254
+Reactome	L13a-mediated Translational Silencing of Ceruloplasmin Expression	82	0.7233
+Reactome	L1CAM Interactions	38	0.9108
+Reactome	Leishmania Infection	42	0.7885
+Reactome	M Phase	93	0.766
+Reactome	MAPK Family Signaling Cascades	67	0.6763
+Reactome	MAPK1 MAPK3 Signaling	61	0.6581
+Reactome	MAPK6 MAPK4 Signaling	35	0.7329
+Reactome	MHC Class II Antigen Presentation	48	0.9049
+Reactome	Macroautophagy	39	0.7826
+Reactome	Major Pathway of rRNA Processing in the Nucleolus and Cytosol	66	0.7057
+Reactome	Membrane Trafficking	176	0.8707
+Reactome	Metabolism of RNA	211	0.7607
+Reactome	Metabolism of Amino Acids and Derivatives	191	0.8045
+Reactome	Metabolism of Carbohydrates	76	0.7196
+Reactome	Metabolism of Lipids	144	0.7233
+Reactome	Metabolism of Nucleotides	39	0.6448
+Reactome	Metabolism of Polyamines	31	0.6063
+Reactome	Metabolism of Vitamins and Cofactors	61	0.7222
+Reactome	Metabolism of Water-Soluble Vitamins and Cofactors	40	0.7959
+Reactome	Mitochondrial Protein Degradation	57	0.688
+Reactome	Mitochondrial Protein Import	32	0.4476
+Reactome	Mitotic Anaphase	69	0.7521
+Reactome	Mitotic G1 Phase and G1 S Transition	38	0.7409
+Reactome	Mitotic G2-G2 M Phases	58	0.7612
+Reactome	Mitotic Metaphase and Anaphase	69	0.7521
+Reactome	Mitotic Prometaphase	38	0.7495
+Reactome	Muscle Contraction	37	0.89
+Reactome	NIK-->noncanonical NF-kB Signaling	31	0.7003
+Reactome	Neddylation	54	0.6656
+Reactome	Negative Regulation of NOTCH4 Signaling	30	0.6859
+Reactome	Nervous System Development	184	0.7949
+Reactome	Neuronal System	51	0.8932
+Reactome	Neurotransmitter Receptors and Postsynaptic Signal Transmission	35	0.8819
+Reactome	Neutrophil Degranulation	179	0.8884
+Reactome	Nonsense Mediated Decay (NMD) Enhanced by the Exon Junction Complex (EJC)	72	0.7313
+Reactome	Nonsense Mediated Decay (NMD) Independent of the Exon Junction Complex (EJC)	67	0.7297
+Reactome	Nonsense-Mediated Decay (NMD)	72	0.7313
+Reactome	Nuclear Events Mediated by NFE2L2	42	0.7324
+Reactome	Organelle Biogenesis and Maintenance	52	0.7901
+Reactome	PCP CE Pathway	41	0.7746
+Reactome	PIP3 Activates AKT Signaling	53	0.7623
+Reactome	PTEN Regulation	41	0.6811
+Reactome	Parasitic Infection Pathways	42	0.7885
+Reactome	Peptide Chain Elongation	64	0.7228
+Reactome	Peroxisomal Protein Import	33	0.6426
+Reactome	Platelet Activation, Signaling and Aggregation	70	0.7361
+Reactome	Platelet Degranulation	43	0.7329
+Reactome	Post-translational Protein Modification	281	0.7858
+Reactome	Processing of Capped Intron-Containing Pre-mRNA	79	0.8013
+Reactome	Programmed Cell Death	74	0.8098
+Reactome	Proteasome Assembly	33	0.5732
+Reactome	Protein Folding	33	0.7933
+Reactome	Protein Localization	74	0.6052
+Reactome	RAF MAP Kinase Cascade	60	0.656
+Reactome	RHO GTPase Effectors	78	0.7842
+Reactome	RHO GTPase Cycle	109	0.8787
+Reactome	RNA Polymerase II Transcription	126	0.7837
+Reactome	Regulation of APC C Activators Between G1 S and Early Anaphase	30	0.6736
+Reactome	Regulation of Apoptosis	31	0.7035
+Reactome	Regulation of PTEN Stability and Activity	31	0.6928
+Reactome	Regulation of RAS by GAPs	30	0.6752
+Reactome	Regulation of RUNX2 Expression and Activity	30	0.6287
+Reactome	Regulation of RUNX3 Expression and Activity	30	0.6934
+Reactome	Regulation of Activated PAK-2p34 by Proteasome Mediated Degradation	30	0.7473
+Reactome	Regulation of Expression of SLITs and ROBOs	98	0.7041
+Reactome	Regulation of mRNA Stability by Proteins That Bind AU-rich Elements	44	0.8002
+Reactome	Regulation of Mitotic Cell Cycle	30	0.6736
+Reactome	Respiratory Electron Transport	65	0.406
+Reactome	Response of EIF2AK4 (GCN2) to Amino Acid Deficiency	64	0.7078
+Reactome	Response to Elevated Platelet Cytosolic Ca2+	44	0.7329
+Reactome	Ribosomal Scanning and Start Codon Recognition	46	0.7153
+Reactome	S Phase	36	0.7089
+Reactome	SARS-CoV Infections	117	0.7804
+Reactome	SARS-CoV-1 Infection	56	0.7265
+Reactome	SARS-CoV-1-host Interactions	47	0.7297
+Reactome	SARS-CoV-2 Infection	83	0.7548
+Reactome	SARS-CoV-2 Modulates Host Translation Machinery	31	0.7009
+Reactome	SARS-CoV-2-host Interactions	61	0.7521
+Reactome	SRP-dependent Cotranslational Protein Targeting to Membrane	73	0.7724
+Reactome	Selective Autophagy	32	0.7821
+Reactome	Selenoamino Acid Metabolism	74	0.766
+Reactome	Selenocysteine Synthesis	62	0.7233
+Reactome	Sensory Perception	38	0.7516
+Reactome	Separation of Sister Chromatids	52	0.7099
+Reactome	Signaling by ALK Fusions and Activated Point Mutants	30	0.7569
+Reactome	Signaling by ALK in Cancer	30	0.7569
+Reactome	Signaling by GPCR	35	0.883
+Reactome	Signaling by Hedgehog	42	0.6613
+Reactome	Signaling by Interleukins	100	0.8061
+Reactome	Signaling by NOTCH	41	0.6645
+Reactome	Signaling by NOTCH4	31	0.7196
+Reactome	Signaling by Nuclear Receptors	37	0.8328
+Reactome	Signaling by ROBO Receptors	112	0.7244
+Reactome	Signaling by Receptor Tyrosine Kinases	98	0.7788
+Reactome	Signaling by Rho GTPases	166	0.8563
+Reactome	Signaling by Rho GTPases, Miro GTPases and RHOBTB3	170	0.8568
+Reactome	Signaling by WNT	63	0.797
+Reactome	Signaling by the B Cell Receptor (BCR)	37	0.7308
+Reactome	Synthesis of DNA	33	0.7212
+Reactome	TCF Dependent Signaling in Response to WNT	41	0.711
+Reactome	TCR Signaling	35	0.6875
+Reactome	TNFR2 Non-Canonical NF-kB Pathway	31	0.7003
+Reactome	The Role of GTSE1 in G2 M Progression After G2 Checkpoint	36	0.6613
+Reactome	Transcriptional Regulation by TP53	47	0.8504
+Reactome	Transcriptional Regulation by RUNX1	40	0.8007
+Reactome	Transcriptional Regulation by RUNX2	35	0.6084
+Reactome	Transcriptional Regulation by RUNX3	32	0.5817
+Reactome	Translation	126	0.75
+Reactome	Translation Initiation Complex Formation	46	0.7233
+Reactome	Transmission Across Chemical Synapses	45	0.899
+Reactome	Transport of Small Molecules	132	0.6891
+Reactome	Transport to the Golgi and Subsequent Modification	62	0.8782
+Reactome	UCH Proteinases	33	0.6448
+Reactome	Ub-specific Processing Proteases	48	0.6325
+Reactome	Vesicle-mediated Transport	185	0.8376
+Reactome	Vif-mediated Degradation of APOBEC3G	30	0.6816
+Reactome	Viral Infection Pathways	239	0.7799
+Reactome	Viral mRNA Translation	63	0.7153
+Reactome	mRNA Splicing	70	0.8114
+Reactome	mRNA Splicing - Major Pathway	70	0.8114
+Reactome	rRNA Processing	68	0.7596
+Reactome	rRNA Processing in the Nucleus and Cytosol	67	0.7585
+Reactome	trans-Golgi Network Vesicle Budding	30	0.8627

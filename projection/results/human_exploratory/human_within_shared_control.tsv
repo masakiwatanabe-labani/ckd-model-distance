@@ -1,0 +1,4 @@
+pair	case_nested	cos_shared_control	cos_split_control
+hs_ERCB_allCKD_A x hs_ERCB_DN_A	True	0.9297	0.8774
+hs_ERCB_allCKD_A x hs_ERCB_RPGN_A	True	0.9819	0.9317
+hs_ERCB_DN_A x hs_ERCB_RPGN_A	False	0.8836	0.844

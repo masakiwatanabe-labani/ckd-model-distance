@@ -1,0 +1,17 @@
+state	hours
+cat_CKD12	NA
+cat_CKD34	NA
+cat_med_CKD12	NA
+cat_med_CKD34	NA
+mouse_5D	120.0
+mouse_2W	336.0
+mouse_3W	504.0
+IRI_2h	2.0
+IRI_4h	4.0
+IRI_24h	24.0
+IRI_48h	48.0
+IRI_72h	72.0
+IRI_7d	168.0
+IRI_14d	336.0
+IRI_28d	672.0
+IRI_12mo	8760.0

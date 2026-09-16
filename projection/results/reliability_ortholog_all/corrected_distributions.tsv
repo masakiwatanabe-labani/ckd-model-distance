@@ -1,0 +1,10 @@
+set	metric	n	min	median	max
+within_dataset	cos	45	0.1808	0.6803	0.9539
+within_dataset	ceiling_median	45	0.7231	0.905	0.9792
+within_dataset	cos_corrected	45	0.2022	0.7509	1.0923
+same_species_diff_dataset	cos	27	0.0646	0.6448	0.836
+same_species_diff_dataset	ceiling_median	27	0.872	0.937	0.98
+same_species_diff_dataset	cos_corrected	27	0.0724	0.6934	0.8862
+cross_species	cos	48	0.1795	0.3771	0.5719
+cross_species	ceiling_median	48	0.7652	0.8542	0.945
+cross_species	cos_corrected	48	0.2108	0.4347	0.7045

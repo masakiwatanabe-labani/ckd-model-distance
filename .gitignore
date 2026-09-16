@@ -23,8 +23,10 @@ data/ref/*
 logs/*
 !logs/.gitkeep
 
-# Manuscript text is kept out of the public repository until publication.
-manuscript/
+# Manuscript text is kept out of the public repository. The manuscript of record is
+# the docx; keeping a Markdown copy here as well produced version drift once already.
+/manuscript/
+projection/manuscript/
 
 # Local project instructions, not part of the published analysis.
 CLAUDE.md
@@ -45,3 +47,13 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Gene set collections are downloaded, not redistributed. MSigDB's KEGG collection
+# carries redistribution restrictions, and the Enrichr-hosted Reactome library is a
+# redistribution whose terms are not stated; data/ref/ is excluded wholesale above and
+# src/00_fetch_refs.py regenerates all four collections.
+projection/**/*.gmt
+
+# Caches and OS cruft inside the projection tree
+projection/**/__pycache__/
+projection/**/.DS_Store

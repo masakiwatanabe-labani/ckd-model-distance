@@ -1,0 +1,172 @@
+a	b	class	n_genes	cos	ceiling_SB	ceiling_estimable	layer_mismatch
+cat_CKD12	cat_CKD34	within cat	1690	0.9048	0.8134	True	False
+cat_CKD12	cat_med_CKD12	within cat	1690	0.7589	0.816	True	False
+cat_CKD12	cat_med_CKD34	within cat	1690	0.7895	0.743	True	False
+cat_CKD12	mouse_5D	cat x mouse	1690	0.2732	0.8284	True	False
+cat_CKD12	mouse_2W	cat x mouse	1690	0.466	0.848	True	False
+cat_CKD12	mouse_3W	cat x mouse	1690	0.4414	0.8303	True	False
+cat_CKD12	IRI_2h	cat x mouse	1690	0.276	0.7648	True	False
+cat_CKD12	IRI_4h	cat x mouse	1690	0.3153	0.7959	True	False
+cat_CKD12	IRI_24h	cat x mouse	1690	0.4587	0.8395	True	False
+cat_CKD12	IRI_48h	cat x mouse	1690	0.4758	0.8351	True	False
+cat_CKD12	IRI_72h	cat x mouse	1690	0.4989	0.8061	True	False
+cat_CKD12	IRI_7d	cat x mouse	1690	0.5064	0.8407	True	False
+cat_CKD12	IRI_14d	cat x mouse	1690	0.4891	0.8264	True	False
+cat_CKD12	IRI_28d	cat x mouse	1690	0.4622	0.8264	True	False
+cat_CKD12	IRI_12mo	cat x mouse	1690	0.4895	0.8062	True	False
+cat_CKD12	hs_ERCB_allCKD_A	cat x human	1690	0.4216	0.8254	True	False
+cat_CKD12	hs_ERCB_DN_A	cat x human	1690	0.4901	0.7917	True	False
+cat_CKD12	hs_ERCB_RPGN_A	cat x human	1690	0.4502	0.8327	True	False
+cat_CKD34	cat_med_CKD12	within cat	1690	0.7926	0.9164	True	False
+cat_CKD34	cat_med_CKD34	within cat	1690	0.8593	0.8344	True	False
+cat_CKD34	mouse_5D	cat x mouse	1690	0.3383	0.9303	True	False
+cat_CKD34	mouse_2W	cat x mouse	1690	0.4926	0.9523	True	False
+cat_CKD34	mouse_3W	cat x mouse	1690	0.4732	0.9324	True	False
+cat_CKD34	IRI_2h	cat x mouse	1690	0.2198	0.8589	True	False
+cat_CKD34	IRI_4h	cat x mouse	1690	0.3305	0.8938	True	False
+cat_CKD34	IRI_24h	cat x mouse	1690	0.5216	0.9428	True	False
+cat_CKD34	IRI_48h	cat x mouse	1690	0.5049	0.9379	True	False
+cat_CKD34	IRI_72h	cat x mouse	1690	0.5425	0.9053	True	False
+cat_CKD34	IRI_7d	cat x mouse	1690	0.5132	0.9442	True	False
+cat_CKD34	IRI_14d	cat x mouse	1690	0.4691	0.9281	True	False
+cat_CKD34	IRI_28d	cat x mouse	1690	0.4829	0.928	True	False
+cat_CKD34	IRI_12mo	cat x mouse	1690	0.4334	0.9054	True	False
+cat_CKD34	hs_ERCB_allCKD_A	cat x human	1690	0.4736	0.9269	True	False
+cat_CKD34	hs_ERCB_DN_A	cat x human	1690	0.5433	0.8891	True	False
+cat_CKD34	hs_ERCB_RPGN_A	cat x human	1690	0.5024	0.9351	True	False
+cat_med_CKD12	cat_med_CKD34	within cat	1690	0.831	0.8371	True	False
+cat_med_CKD12	mouse_5D	cat x mouse	1690	0.1711	0.9333	True	False
+cat_med_CKD12	mouse_2W	cat x mouse	1690	0.3905	0.9554	True	False
+cat_med_CKD12	mouse_3W	cat x mouse	1690	0.393	0.9354	True	False
+cat_med_CKD12	IRI_2h	cat x mouse	1690	0.2228	0.8617	True	False
+cat_med_CKD12	IRI_4h	cat x mouse	1690	0.2878	0.8967	True	False
+cat_med_CKD12	IRI_24h	cat x mouse	1690	0.4468	0.9458	True	False
+cat_med_CKD12	IRI_48h	cat x mouse	1690	0.403	0.9409	True	False
+cat_med_CKD12	IRI_72h	cat x mouse	1690	0.4212	0.9082	True	False
+cat_med_CKD12	IRI_7d	cat x mouse	1690	0.3889	0.9472	True	False
+cat_med_CKD12	IRI_14d	cat x mouse	1690	0.3647	0.9311	True	False
+cat_med_CKD12	IRI_28d	cat x mouse	1690	0.3607	0.931	True	False
+cat_med_CKD12	IRI_12mo	cat x mouse	1690	0.2776	0.9083	True	False
+cat_med_CKD12	hs_ERCB_allCKD_A	cat x human	1690	0.4342	0.9299	True	False
+cat_med_CKD12	hs_ERCB_DN_A	cat x human	1690	0.503	0.8919	True	False
+cat_med_CKD12	hs_ERCB_RPGN_A	cat x human	1690	0.4636	0.9382	True	False
+cat_med_CKD34	mouse_5D	cat x mouse	1690	0.3131	0.8498	True	False
+cat_med_CKD34	mouse_2W	cat x mouse	1690	0.4559	0.8698	True	False
+cat_med_CKD34	mouse_3W	cat x mouse	1690	0.478	0.8516	True	False
+cat_med_CKD34	IRI_2h	cat x mouse	1690	0.2279	0.7845	True	False
+cat_med_CKD34	IRI_4h	cat x mouse	1690	0.2776	0.8164	True	False
+cat_med_CKD34	IRI_24h	cat x mouse	1690	0.503	0.8611	True	False
+cat_med_CKD34	IRI_48h	cat x mouse	1690	0.5056	0.8566	True	False
+cat_med_CKD34	IRI_72h	cat x mouse	1690	0.5131	0.8269	True	False
+cat_med_CKD34	IRI_7d	cat x mouse	1690	0.4858	0.8624	True	False
+cat_med_CKD34	IRI_14d	cat x mouse	1690	0.4275	0.8477	True	False
+cat_med_CKD34	IRI_28d	cat x mouse	1690	0.3749	0.8476	True	False
+cat_med_CKD34	IRI_12mo	cat x mouse	1690	0.4067	0.827	True	False
+cat_med_CKD34	hs_ERCB_allCKD_A	cat x human	1690	0.4254	0.8466	True	False
+cat_med_CKD34	hs_ERCB_DN_A	cat x human	1690	0.4662	0.8121	True	False
+cat_med_CKD34	hs_ERCB_RPGN_A	cat x human	1690	0.4606	0.8541	True	False
+mouse_5D	mouse_2W	within mouse	1690	0.7629	0.9699	True	False
+mouse_5D	mouse_3W	within mouse	1690	0.7719	0.9496	True	False
+mouse_5D	IRI_2h	within mouse	1690	-0.0378	0.8748	True	False
+mouse_5D	IRI_4h	within mouse	1690	0.3503	0.9103	True	False
+mouse_5D	IRI_24h	within mouse	1690	0.707	0.9602	True	False
+mouse_5D	IRI_48h	within mouse	1690	0.6927	0.9552	True	False
+mouse_5D	IRI_72h	within mouse	1690	0.7215	0.922	True	False
+mouse_5D	IRI_7d	within mouse	1690	0.6762	0.9616	True	False
+mouse_5D	IRI_14d	within mouse	1690	0.4532	0.9452	True	False
+mouse_5D	IRI_28d	within mouse	1690	0.5992	0.9451	True	False
+mouse_5D	IRI_12mo	within mouse	1690	0.5375	0.9221	True	False
+mouse_5D	hs_ERCB_allCKD_A	mouse x human	1690	0.3418	0.944	True	False
+mouse_5D	hs_ERCB_DN_A	mouse x human	1690	0.2608	0.9055	True	False
+mouse_5D	hs_ERCB_RPGN_A	mouse x human	1690	0.3858	0.9524	True	False
+mouse_2W	mouse_3W	within mouse	1690	0.9555	0.972	True	False
+mouse_2W	IRI_2h	within mouse	1690	0.1119	0.8954	True	False
+mouse_2W	IRI_4h	within mouse	1690	0.3955	0.9318	True	False
+mouse_2W	IRI_24h	within mouse	1690	0.8631	0.9829	True	False
+mouse_2W	IRI_48h	within mouse	1690	0.8285	0.9777	True	False
+mouse_2W	IRI_72h	within mouse	1690	0.8499	0.9438	True	False
+mouse_2W	IRI_7d	within mouse	1690	0.8855	0.9843	True	False
+mouse_2W	IRI_14d	within mouse	1690	0.7127	0.9675	True	False
+mouse_2W	IRI_28d	within mouse	1690	0.8443	0.9675	True	False
+mouse_2W	IRI_12mo	within mouse	1690	0.7036	0.9439	True	False
+mouse_2W	hs_ERCB_allCKD_A	mouse x human	1690	0.4401	0.9663	True	False
+mouse_2W	hs_ERCB_DN_A	mouse x human	1690	0.396	0.9269	True	False
+mouse_2W	hs_ERCB_RPGN_A	mouse x human	1690	0.4888	0.9749	True	False
+mouse_3W	IRI_2h	within mouse	1690	0.0876	0.8767	True	False
+mouse_3W	IRI_4h	within mouse	1690	0.3716	0.9123	True	False
+mouse_3W	IRI_24h	within mouse	1690	0.8358	0.9623	True	False
+mouse_3W	IRI_48h	within mouse	1690	0.8611	0.9573	True	False
+mouse_3W	IRI_72h	within mouse	1690	0.8679	0.924	True	False
+mouse_3W	IRI_7d	within mouse	1690	0.8608	0.9637	True	False
+mouse_3W	IRI_14d	within mouse	1690	0.67	0.9473	True	False
+mouse_3W	IRI_28d	within mouse	1690	0.7948	0.9472	True	False
+mouse_3W	IRI_12mo	within mouse	1690	0.7163	0.9242	True	False
+mouse_3W	hs_ERCB_allCKD_A	mouse x human	1690	0.4189	0.9461	True	False
+mouse_3W	hs_ERCB_DN_A	mouse x human	1690	0.37	0.9075	True	False
+mouse_3W	hs_ERCB_RPGN_A	mouse x human	1690	0.47	0.9545	True	False
+IRI_2h	IRI_4h	within mouse	1690	0.5155	0.8404	True	False
+IRI_2h	IRI_24h	within mouse	1690	0.1674	0.8865	True	False
+IRI_2h	IRI_48h	within mouse	1690	0.1966	0.8818	True	False
+IRI_2h	IRI_72h	within mouse	1690	0.206	0.8512	True	False
+IRI_2h	IRI_7d	within mouse	1690	0.3329	0.8878	True	False
+IRI_2h	IRI_14d	within mouse	1690	0.6219	0.8726	True	False
+IRI_2h	IRI_28d	within mouse	1690	0.2689	0.8726	True	False
+IRI_2h	IRI_12mo	within mouse	1690	0.2631	0.8513	True	False
+IRI_2h	hs_ERCB_allCKD_A	mouse x human	1690	0.0222	0.8716	True	False
+IRI_2h	hs_ERCB_DN_A	mouse x human	1690	0.0704	0.836	True	False
+IRI_2h	hs_ERCB_RPGN_A	mouse x human	1690	0.0403	0.8793	True	False
+IRI_4h	IRI_24h	within mouse	1690	0.4391	0.9224	True	False
+IRI_4h	IRI_48h	within mouse	1690	0.4248	0.9176	True	False
+IRI_4h	IRI_72h	within mouse	1690	0.453	0.8858	True	False
+IRI_4h	IRI_7d	within mouse	1690	0.4834	0.9238	True	False
+IRI_4h	IRI_14d	within mouse	1690	0.4081	0.9081	True	False
+IRI_4h	IRI_28d	within mouse	1690	0.4085	0.908	True	False
+IRI_4h	IRI_12mo	within mouse	1690	0.3512	0.8859	True	False
+IRI_4h	hs_ERCB_allCKD_A	mouse x human	1690	0.2203	0.9069	True	False
+IRI_4h	hs_ERCB_DN_A	mouse x human	1690	0.2414	0.8699	True	False
+IRI_4h	hs_ERCB_RPGN_A	mouse x human	1690	0.255	0.915	True	False
+IRI_24h	IRI_48h	within mouse	1690	0.8854	0.9679	True	False
+IRI_24h	IRI_72h	within mouse	1690	0.8517	0.9343	True	False
+IRI_24h	IRI_7d	within mouse	1690	0.8304	0.9744	True	False
+IRI_24h	IRI_14d	within mouse	1690	0.6534	0.9578	True	False
+IRI_24h	IRI_28d	within mouse	1690	0.7254	0.9578	True	False
+IRI_24h	IRI_12mo	within mouse	1690	0.6024	0.9344	True	False
+IRI_24h	hs_ERCB_allCKD_A	mouse x human	1690	0.4567	0.9567	True	False
+IRI_24h	hs_ERCB_DN_A	mouse x human	1690	0.4198	0.9176	True	False
+IRI_24h	hs_ERCB_RPGN_A	mouse x human	1690	0.5049	0.9651	True	False
+IRI_48h	IRI_72h	within mouse	1690	0.9492	0.9295	True	False
+IRI_48h	IRI_7d	within mouse	1690	0.8693	0.9694	True	False
+IRI_48h	IRI_14d	within mouse	1690	0.6957	0.9528	True	False
+IRI_48h	IRI_28d	within mouse	1690	0.7592	0.9528	True	False
+IRI_48h	IRI_12mo	within mouse	1690	0.723	0.9296	True	False
+IRI_48h	hs_ERCB_allCKD_A	mouse x human	1690	0.3962	0.9517	True	False
+IRI_48h	hs_ERCB_DN_A	mouse x human	1690	0.3652	0.9128	True	False
+IRI_48h	hs_ERCB_RPGN_A	mouse x human	1690	0.4484	0.9601	True	False
+IRI_72h	IRI_7d	within mouse	1690	0.8977	0.9357	True	False
+IRI_72h	IRI_14d	within mouse	1690	0.7253	0.9198	True	False
+IRI_72h	IRI_28d	within mouse	1690	0.8117	0.9197	True	False
+IRI_72h	IRI_12mo	within mouse	1690	0.7244	0.8973	True	False
+IRI_72h	hs_ERCB_allCKD_A	mouse x human	1690	0.4104	0.9186	True	False
+IRI_72h	hs_ERCB_DN_A	mouse x human	1690	0.4025	0.8811	True	False
+IRI_72h	hs_ERCB_RPGN_A	mouse x human	1690	0.4581	0.9268	True	False
+IRI_7d	IRI_14d	within mouse	1690	0.8548	0.9593	True	False
+IRI_7d	IRI_28d	within mouse	1690	0.9076	0.9592	True	False
+IRI_7d	IRI_12mo	within mouse	1690	0.7999	0.9358	True	False
+IRI_7d	hs_ERCB_allCKD_A	mouse x human	1690	0.4119	0.9581	True	False
+IRI_7d	hs_ERCB_DN_A	mouse x human	1690	0.4001	0.9189	True	False
+IRI_7d	hs_ERCB_RPGN_A	mouse x human	1690	0.4509	0.9666	True	False
+IRI_14d	IRI_28d	within mouse	1690	0.8446	0.9428	True	False
+IRI_14d	IRI_12mo	within mouse	1690	0.7534	0.9199	True	False
+IRI_14d	hs_ERCB_allCKD_A	mouse x human	1690	0.3073	0.9417	True	False
+IRI_14d	hs_ERCB_DN_A	mouse x human	1690	0.3182	0.9033	True	False
+IRI_14d	hs_ERCB_RPGN_A	mouse x human	1690	0.3399	0.9501	True	False
+IRI_28d	IRI_12mo	within mouse	1690	0.7879	0.9198	True	False
+IRI_28d	hs_ERCB_allCKD_A	mouse x human	1690	0.3851	0.9417	True	False
+IRI_28d	hs_ERCB_DN_A	mouse x human	1690	0.3938	0.9032	True	False
+IRI_28d	hs_ERCB_RPGN_A	mouse x human	1690	0.4172	0.95	True	False
+IRI_12mo	hs_ERCB_allCKD_A	mouse x human	1690	0.3054	0.9187	True	False
+IRI_12mo	hs_ERCB_DN_A	mouse x human	1690	0.3091	0.8812	True	False
+IRI_12mo	hs_ERCB_RPGN_A	mouse x human	1690	0.3369	0.9269	True	False
+hs_ERCB_allCKD_A	hs_ERCB_DN_A	within human	1690	0.9297	0.9022	True	False
+hs_ERCB_allCKD_A	hs_ERCB_RPGN_A	within human	1690	0.9819	0.9489	True	False
+hs_ERCB_DN_A	hs_ERCB_RPGN_A	within human	1690	0.8836	0.9101	True	False

@@ -1,0 +1,3 @@
+label	n_sets	n_within	n_cross	pathway_auc_median	pathway_auc_q25	pathway_auc_q75	frac_ge_090	n_le_060	size_auc_spearman	auc[cos_raw]	within_med[cos_raw]	cross_med[cos_raw]	auc[cos_centred]	within_med[cos_centred]	cross_med[cos_centred]	auc[cos_agg_centred]	within_med[cos_agg_centred]	cross_med[cos_agg_centred]	auc[cos_agg_raw]	within_med[cos_agg_raw]	cross_med[cos_agg_raw]
+GO+KEGG+Hallmark (193)	193	39	48	0.7885	0.7329	0.8392	0.0674	15	0.0348	0.813	0.7242	0.4475	0.7591	0.7092	0.5513	0.5112	0.8688	0.8818	0.8985	0.8964	0.4887
++ Reactome (422)	422	39	48	0.7596	0.7074	0.8081	0.0379	25	0.1975	0.813	0.7242	0.4475	0.7591	0.7092	0.5513	0.5112	0.8314	0.8324	0.8675	0.8698	0.4619

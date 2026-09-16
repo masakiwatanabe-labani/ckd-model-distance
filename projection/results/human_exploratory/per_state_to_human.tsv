@@ -1,0 +1,17 @@
+nh	cos_median_vs_human
+cat_CKD34	0.5024
+cat_med_CKD12	0.4636
+cat_med_CKD34	0.4606
+IRI_24h	0.4567
+cat_CKD12	0.4502
+mouse_2W	0.4401
+mouse_3W	0.4189
+IRI_7d	0.4119
+IRI_72h	0.4104
+IRI_48h	0.3962
+IRI_28d	0.3938
+mouse_5D	0.3418
+IRI_14d	0.3182
+IRI_12mo	0.3091
+IRI_4h	0.2414
+IRI_2h	0.0403

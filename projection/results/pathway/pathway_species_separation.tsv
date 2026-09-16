@@ -1,0 +1,194 @@
+pathway	n_genes	auc_cat_over_mouse	cat_median	mouse_median
+Actin Filament Organization (GO:0007015)	44	0.9722	0.9068	0.7487
+Adipogenesis	86	1.0	0.8995	0.5738
+Aerobic Electron Transport Chain (GO:0019646)	36	0.9167	0.9649	0.7671
+Aerobic Respiration (GO:0009060)	36	0.9167	0.9622	0.7169
+Alzheimer disease	108	1.0	0.8507	0.5771
+Amyotrophic lateral sclerosis	120	1.0	0.8388	0.5709
+Apical Junction	44	1.0	0.8889	0.6393
+Apoptosis	40	1.0	0.8623	0.6464
+Bacterial invasion of epithelial cells	33	0.8056	0.8258	0.7256
+Bile Acid Metabolism	39	1.0	0.9123	0.3908
+Cellular Component Assembly (GO:0022607)	51	0.9167	0.8487	0.5814
+Cellular Respiration (GO:0045333)	45	0.9167	0.9551	0.77
+Cellular Response To Cytokine Stimulus (GO:0071345)	34	1.0	0.9339	0.6004
+Cellular Response To Oxygen-Containing Compound (GO:1901701)	59	1.0	0.9038	0.4091
+Central Nervous System Development (GO:0007417)	31	1.0	0.9019	0.581
+Chemical carcinogenesis	30	1.0	0.9075	0.4356
+Coagulation	37	0.7778	0.8799	0.7348
+Complement	40	1.0	0.8743	0.6852
+Coronavirus disease	77	0.9444	0.8301	0.6493
+Cytoplasmic Translation (GO:0002181)	67	1.0	0.7903	0.5943
+DNA Damage Response (GO:0006974)	35	1.0	0.8119	0.3872
+DNA Metabolic Process (GO:0006259)	37	1.0	0.873	0.2653
+DNA Repair	36	1.0	0.7544	0.1591
+DNA Repair (GO:0006281)	30	1.0	0.8323	0.1789
+Diabetic cardiomyopathy	62	1.0	0.92	0.6261
+Dicarboxylic Acid Metabolic Process (GO:0043648)	30	1.0	0.9279	0.3036
+E2F Targets	40	1.0	0.8173	0.453
+Endocytosis	70	1.0	0.7671	0.0148
+Endocytosis (GO:0006897)	51	1.0	0.9014	0.6892
+Endomembrane System Organization (GO:0010256)	39	1.0	0.8912	0.4281
+Endoplasmic Reticulum To Golgi Vesicle-Mediated Transport (GO:0006888)	37	1.0	0.8169	0.0911
+Endosomal Transport (GO:0016197)	41	1.0	0.8008	0.1078
+Epithelial Mesenchymal Transition	49	0.8889	0.8419	0.771
+Epithelium Development (GO:0060429)	30	1.0	0.8868	0.3917
+Epstein-Barr virus infection	31	1.0	0.9715	0.7301
+Estrogen Response Late	33	1.0	0.8163	0.3979
+Fatty Acid Beta-Oxidation (GO:0006635)	32	0.9722	0.9429	0.7538
+Fatty Acid Catabolic Process (GO:0009062)	30	1.0	0.9519	0.6556
+Fatty Acid Metabolic Process (GO:0006631)	44	1.0	0.9257	0.469
+Fatty Acid Metabolism	93	1.0	0.9248	0.485
+Focal adhesion	53	0.7222	0.8682	0.8584
+G2-M Checkpoint	34	1.0	0.6977	0.0846
+Gene Expression (GO:0010467)	97	1.0	0.8362	0.4828
+Glycolysis	67	1.0	0.9005	0.4996
+Glycolysis / Gluconeogenesis	36	1.0	0.878	0.2932
+Golgi Vesicle Transport (GO:0048193)	57	1.0	0.7765	0.0312
+Human cytomegalovirus infection	32	1.0	0.8534	0.5302
+Human immunodeficiency virus 1 infection	32	1.0	0.9142	0.3425
+Human papillomavirus infection	55	0.8889	0.8686	0.8361
+Huntington disease	103	1.0	0.8516	0.5568
+Hypoxia	53	0.9722	0.7997	0.612
+IL-2/STAT5 Signaling	33	1.0	0.9191	0.7603
+Inorganic Cation Transmembrane Transport (GO:0098662)	30	1.0	0.8264	0.5544
+Insulin signaling pathway	30	1.0	0.8069	-0.0278
+Intracellular Protein Transport (GO:0006886)	87	1.0	0.8563	0.2018
+Lipid and atherosclerosis	31	0.9722	0.6657	0.4213
+Lysosome	43	1.0	0.6922	-0.0597
+MAPK signaling pathway	34	1.0	0.7989	0.184
+Macromolecule Biosynthetic Process (GO:0009059)	77	1.0	0.7143	0.5602
+Membrane Organization (GO:0061024)	58	1.0	0.821	0.4129
+Mitochondrial ATP Synthesis Coupled Electron Transport (GO:0042775)	37	0.9167	0.9658	0.7649
+Mitochondrion Organization (GO:0007005)	41	1.0	0.9513	0.5767
+Mitotic Spindle	45	0.9722	0.7988	0.507
+Monocarboxylic Acid Metabolic Process (GO:0032787)	36	1.0	0.9256	0.4762
+Myc Targets V1	129	1.0	0.7979	0.2172
+Myogenesis	47	0.8889	0.8943	0.737
+Negative Regulation Of Apoptotic Process (GO:0043066)	88	1.0	0.8905	0.5386
+Negative Regulation Of Cell Population Proliferation (GO:0008285)	32	1.0	0.8343	0.4418
+Negative Regulation Of Cellular Biosynthetic Process (GO:0031327)	32	1.0	0.7959	0.5085
+Negative Regulation Of Cellular Process (GO:0048523)	64	1.0	0.8766	0.5238
+Negative Regulation Of DNA-templated Transcription (GO:0045892)	85	1.0	0.7927	0.4888
+Negative Regulation Of Gene Expression (GO:0010629)	54	1.0	0.8115	0.517
+Negative Regulation Of Intracellular Signal Transduction (GO:1902532)	30	1.0	0.8691	0.5968
+Negative Regulation Of Nucleic Acid-Templated Transcription (GO:1903507)	45	1.0	0.7805	0.2762
+Negative Regulation Of Programmed Cell Death (GO:0043069)	79	1.0	0.8759	0.4454
+Negative Regulation Of Protein Metabolic Process (GO:0051248)	38	1.0	0.891	0.6456
+Negative Regulation Of Transcription By RNA Polymerase II (GO:0000122)	53	1.0	0.845	0.4844
+Nervous System Development (GO:0007399)	31	1.0	0.7662	0.5529
+Non-alcoholic fatty liver disease	46	1.0	0.9569	0.6556
+Organelle Assembly (GO:0070925)	47	0.9722	0.8485	0.5566
+Organelle Organization (GO:0006996)	79	1.0	0.8377	0.3984
+Oxidative Phosphorylation	121	1.0	0.9458	0.6754
+Oxidative Phosphorylation (GO:0006119)	35	0.9167	0.9631	0.7625
+Oxidative phosphorylation	55	1.0	0.893	0.6083
+PI3K-Akt signaling pathway	52	0.7222	0.874	0.7649
+Parkinson disease	100	0.9722	0.8092	0.5854
+Pathogenic Escherichia coli infection	54	0.8611	0.8349	0.7386
+Pathways in cancer	61	1.0	0.8396	0.4444
+Pathways of neurodegeneration	131	1.0	0.7827	0.529
+Peptide Biosynthetic Process (GO:0043043)	70	0.7222	0.7628	0.5586
+Peroxisome	42	1.0	0.8732	0.5273
+Phagosome	44	1.0	0.84	0.6914
+Phosphate-Containing Compound Metabolic Process (GO:0006796)	39	1.0	0.9174	0.4334
+Phosphorylation (GO:0016310)	39	1.0	0.9157	0.5459
+Plasma Membrane Bounded Cell Projection Assembly (GO:0120031)	31	1.0	0.7612	0.4608
+Positive Regulation Of Apoptotic Process (GO:0043065)	40	1.0	0.88	0.6492
+Positive Regulation Of Cell Differentiation (GO:0045597)	32	0.7222	0.8389	0.5996
+Positive Regulation Of Cell Migration (GO:0030335)	48	0.8056	0.8073	0.6844
+Positive Regulation Of Cell Motility (GO:2000147)	39	0.8333	0.8273	0.6744
+Positive Regulation Of Cell Population Proliferation (GO:0008284)	58	1.0	0.8503	0.4543
+Positive Regulation Of Cellular Biosynthetic Process (GO:0031328)	38	1.0	0.8722	0.6374
+Positive Regulation Of Cellular Process (GO:0048522)	82	0.8333	0.8078	0.6358
+Positive Regulation Of Cytokine Production (GO:0001819)	36	1.0	0.8999	0.5088
+Positive Regulation Of DNA-binding Transcription Factor Activity (GO:0051091)	31	1.0	0.938	0.632
+Positive Regulation Of DNA-templated Transcription (GO:0045893)	108	1.0	0.8975	0.6302
+Positive Regulation Of Developmental Process (GO:0051094)	32	0.9167	0.7334	0.4468
+Positive Regulation Of Gene Expression (GO:0010628)	70	1.0	0.8688	0.579
+Positive Regulation Of Intracellular Protein Transport (GO:0090316)	30	1.0	0.8932	0.5834
+Positive Regulation Of Intracellular Signal Transduction (GO:1902533)	76	1.0	0.8379	0.6048
+Positive Regulation Of MAPK Cascade (GO:0043410)	30	0.7222	0.8594	0.787
+Positive Regulation Of Macromolecule Metabolic Process (GO:0010604)	49	1.0	0.8931	0.6049
+Positive Regulation Of Multicellular Organismal Process (GO:0051240)	48	1.0	0.9199	0.6586
+Positive Regulation Of Nucleic Acid-Templated Transcription (GO:1903508)	48	1.0	0.9558	0.6746
+Positive Regulation Of Programmed Cell Death (GO:0043068)	36	1.0	0.885	0.6948
+Positive Regulation Of Protein Metabolic Process (GO:0051247)	45	1.0	0.931	0.4846
+Positive Regulation Of Protein Modification Process (GO:0031401)	30	1.0	0.8328	0.4773
+Positive Regulation Of Protein Phosphorylation (GO:0001934)	45	1.0	0.9157	0.3614
+Positive Regulation Of Transcription By RNA Polymerase II (GO:0045944)	70	1.0	0.7629	0.5761
+Positive Regulation Of Translation (GO:0045727)	33	1.0	0.8693	0.6038
+Pperoxisome	44	1.0	0.9115	0.3379
+Prion disease	99	1.0	0.8696	0.6607
+Propanoate metabolism	30	1.0	0.9504	0.8082
+Proteasomal Protein Catabolic Process (GO:0010498)	45	0.9167	0.6041	-0.0446
+Proteasome	32	0.9167	0.8822	0.2534
+Proteasome-Mediated Ubiquitin-Dependent Protein Catabolic Process (GO:0043161)	57	1.0	0.6471	-0.0129
+Protein Homooligomerization (GO:0051260)	35	1.0	0.8862	0.4824
+Protein Localization (GO:0008104)	88	1.0	0.8295	0.3618
+Protein Localization To Cell Periphery (GO:1990778)	30	1.0	0.7762	0.547
+Protein Localization To Membrane (GO:0072657)	45	1.0	0.7743	0.4902
+Protein Localization To Organelle (GO:0033365)	32	1.0	0.9196	0.7106
+Protein Modification By Small Protein Conjugation (GO:0032446)	43	1.0	0.8916	0.2548
+Protein Modification Process (GO:0036211)	86	1.0	0.8227	0.6449
+Protein Phosphorylation (GO:0006468)	42	0.9167	0.6967	0.4361
+Protein Secretion	54	1.0	0.799	0.2842
+Protein Stabilization (GO:0050821)	59	1.0	0.8516	0.5387
+Protein Transport (GO:0015031)	85	0.8056	0.853	0.6912
+Protein Ubiquitination (GO:0016567)	32	1.0	0.8667	0.1893
+Protein processing in endoplasmic reticulum	59	1.0	0.6993	0.3507
+Protein-Containing Complex Assembly (GO:0065003)	74	0.8333	0.8915	0.6626
+Proteoglycans in cancer	47	0.7222	0.8357	0.768
+Proteolysis (GO:0006508)	53	1.0	0.8112	0.4629
+Proton Motive Force-Driven ATP Synthesis (GO:0015986)	32	0.9167	0.9588	0.7625
+Proton Motive Force-Driven Mitochondrial ATP Synthesis (GO:0042776)	32	0.9167	0.9588	0.7625
+Purine metabolism	32	1.0	0.7937	0.2897
+Pyruvate metabolism	33	1.0	0.9015	0.4907
+RNA Processing (GO:0006396)	48	1.0	0.5452	0.2312
+RNA Splicing (GO:0008380)	30	0.9444	0.6088	0.3952
+RNA Splicing, Via Transesterification Reactions With Bulged Adenosine As Nucleophile (GO:0000377)	55	1.0	0.6522	0.2742
+RNA transport	46	1.0	0.6786	0.249
+Rap1 signaling pathway	31	0.5	0.8099	0.7972
+Receptor-Mediated Endocytosis (GO:0006898)	38	1.0	0.8588	0.6088
+Regulation Of Angiogenesis (GO:0045765)	35	0.9444	0.6055	0.5297
+Regulation Of Apoptotic Process (GO:0042981)	131	1.0	0.8936	0.4434
+Regulation Of Autophagy (GO:0010506)	47	1.0	0.7926	0.1437
+Regulation Of Cell Migration (GO:0030334)	70	0.9722	0.822	0.6845
+Regulation Of Cell Population Proliferation (GO:0042127)	84	1.0	0.8859	0.5038
+Regulation Of Cytoskeleton Organization (GO:0051493)	31	0.9444	0.8108	0.623
+Regulation Of DNA-templated Transcription (GO:0006355)	126	1.0	0.8916	0.5809
+Regulation Of GTPase Activity (GO:0043087)	31	1.0	0.7864	0.4392
+Regulation Of Gene Expression (GO:0010468)	116	1.0	0.8125	0.5712
+Regulation Of I-kappaB kinase/NF-kappaB Signaling (GO:0043122)	32	1.0	0.8935	0.4231
+Regulation Of Macroautophagy (GO:0016241)	30	1.0	0.8581	0.4148
+Regulation Of Nucleic Acid-Templated Transcription (GO:1903506)	33	1.0	0.791	0.3918
+Regulation Of Organelle Organization (GO:0033043)	31	1.0	0.8087	0.5116
+Regulation Of Programmed Cell Death (GO:0043067)	40	1.0	0.9448	0.5502
+Regulation Of Protein Catabolic Process (GO:0042176)	32	1.0	0.8222	0.3166
+Regulation Of Protein Phosphorylation (GO:0001932)	36	1.0	0.8066	0.4019
+Regulation Of Translation (GO:0006417)	63	1.0	0.8778	0.2674
+Regulation of actin cytoskeleton	62	0.6667	0.7617	0.6456
+Retrograde endocannabinoid signaling	40	1.0	0.9471	0.4833
+Ribosome	66	0.8333	0.7598	0.612
+Salmonella infection	79	1.0	0.8213	0.6715
+Shigellosis	51	1.0	0.8475	0.6596
+Spinocerebellar ataxia	44	0.9167	0.5405	0.1456
+Spliceosome	52	0.9167	0.6533	0.2327
+Supramolecular Fiber Organization (GO:0097435)	60	0.8056	0.8631	0.7866
+Thermogenesis	60	1.0	0.9016	0.4656
+Tight junction	47	1.0	0.8184	0.5669
+Translation (GO:0006412)	93	1.0	0.6782	0.464
+UV Response Up	34	1.0	0.9081	0.2386
+Ubiquitin-Dependent Protein Catabolic Process (GO:0006511)	61	0.9167	0.6991	0.317
+Unfolded Protein Response	31	1.0	0.8298	0.0888
+Valine, leucine and isoleucine degradation	37	1.0	0.9442	0.8333
+Vesicle-Mediated Transport (GO:0016192)	83	1.0	0.8081	0.3365
+Viral carcinogenesis	36	0.9722	0.8717	0.6645
+Xenobiotic Metabolism	71	1.0	0.8874	0.4832
+Yersinia infection	34	0.4444	0.6646	0.7524
+heme Metabolism	47	1.0	0.877	0.3792
+mRNA Processing (GO:0006397)	61	1.0	0.6207	0.3485
+mRNA Splicing, Via Spliceosome (GO:0000398)	61	1.0	0.6419	0.239
+mTORC1 Signaling	91	1.0	0.8844	0.3757
+p53 Pathway	33	1.0	0.8904	0.4389
+protein-RNA Complex Assembly (GO:0022618)	45	0.9722	0.6493	0.195

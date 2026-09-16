@@ -1,3 +1,8 @@
+> **Note added for the manuscript version.** These are the results of the exploratory stage of
+> this analysis, the state recorded by the tag `v0.1-exploratory`. The analysis reported in the
+> manuscript uses a different method, and some of the quantities recorded here do not correspond
+> to the conclusions of that analysis. See in particular the notes attached to the module
+> cross-species correlation and to the Mantel statistics below.
 
 ## 01_load / ID対応QC
 
@@ -174,6 +179,11 @@
 ## 14_time_axis_full / GSE98622全時点での時間軸 vs 入口
 
 - **A: IRI6mo込み(15状態)**: {'状態数': 15, 'ペア数': 105, '交絡 rho(時間, 入口)': -0.172, '時間差 |Δlog10(日数)|': {'rho': 0.608, 'p': 0.0005}, '入口不一致': {'rho': -0.046, 'p': 0.7813}, 'モデル不一致': {'rho': -0.003, 'p': 0.9859}, '時間 | 入口を統制': {'rho': 0.607, 'p': 0.0003}, '入口 | 時間を統制': {'rho': 0.097, 'p': 0.5642}, '時間（モデル内制限並べ替え）': {'rho': 0.608, 'p': 0.0005}, '判定': '時間軸が距離をより説明する'}
+> **Note.** The Mantel statistic below is computed over 14 states in the gene space of the
+> exploratory pipeline. The manuscript reports the corresponding quantity over 12 states in a
+> fixed gene space (Table 3), where it is +0.596. The difference is one of state set and gene
+> space, not of method.
+
 - **B: IRI6mo除く(14状態, 全て同一プラットフォーム内)**: {'状態数': 14, 'ペア数': 91, '交絡 rho(時間, 入口)': -0.144, '時間差 |Δlog10(日数)|': {'rho': 0.553, 'p': 0.005}, '入口不一致': {'rho': -0.019, 'p': 0.9173}, 'モデル不一致': {'rho': 0.044, 'p': 0.8078}, '時間 | 入口を統制': {'rho': 0.553, 'p': 0.0048}, '入口 | 時間を統制': {'rho': 0.075, 'p': 0.6439}, '時間（モデル内制限並べ替え）': {'rho': 0.553, 'p': 0.0024}, '判定': '時間軸が距離をより説明する'}
 - **C: 感度 全shamプール(IRI6mo除く)**: {'状態数': 14, 'ペア数': 91, '交絡 rho(時間, 入口)': -0.144, '時間差 |Δlog10(日数)|': {'rho': 0.662, 'p': 0.0002}, '入口不一致': {'rho': -0.05, 'p': 0.7754}, 'モデル不一致': {'rho': 0.026, 'p': 0.8772}, '時間 | 入口を統制': {'rho': 0.665, 'p': 0.0002}, '入口 | 時間を統制': {'rho': 0.082, 'p': 0.6048}, '時間（モデル内制限並べ替え）': {'rho': 0.662, 'p': 0.0003}, '判定': '時間軸が距離をより説明する'}
 - **対照の取り方**: IRI 2h-28d は若齢sham(SHAM4h+SHAM24h, n=6)、IRI 12mo は同週齢SHAM12m(n=3)、IRI 6mo は NORM3m/9m/15m(n=9, GPL19057)。全shamをプールすると IRI12m だけが加齢+傷害 vs 若齢の比較になり、加齢シグナルが時間差として混入して時間効果を過大評価する（仮説に有利な方向のバイアス）ため、主解析では避けた。感度解析Cがその影響の大きさを示す。
@@ -218,6 +228,15 @@
 - **図**: results/figures/Fig4_distance_distributions.png (300 dpi)
 
 ## 04_modules
+
+> **Note.** The correlation below is computed after aggregating genes into modules, and reads a
+> high value as agreement between the species. The manuscript examines whether that reading is
+> available at all. In Section 2.3 it shows that averaging genes within a set gives an area under
+> the curve of 0.899 or of 0.511 for the same data, depending only on whether each state's mean
+> change across genes is removed before the averaging, and that the agreement seen after
+> aggregation is not present at gene resolution. This value was produced before that check
+> existed; it is left here as the record of the exploratory stage and is not used in the
+> manuscript.
 
 - **モジュール種間相関**: [{'pair': 'cat_rna_ctx_late x m_rna_2w', 'rho': 0.9199604743083004, 'p': 5.343059876817408e-10, 'n_modules': 23}, {'pair': 'cat_rna_med_late x m_rna_2w', 'rho': 0.9100790513833993, 'p': 1.7350925633305456e-09, 'n_modules': 23}, {'pair': 'cat_prot_ctx_late x m_prot_d21', 'rho': 0.9363636363636365, 'p': 2.2082076449177497e-05, 'n_modules': 11}]
 - **共発現が弱いモジュール**: ['Hypoxia', 'Osmotic_TonEBP', 'Urea_concentration', 'Ciliogenesis', 'MR_downstream', 'ER_proteostasis']

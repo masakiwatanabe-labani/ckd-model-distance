@@ -1,0 +1,7 @@
+subset	class	n_pairs	cos_median	cos_min	cos_max	ceiling_median	gap_min	n_above_ceiling
+all_ERCB	cat x human	24	0.4235	0.1385	0.5433	0.7431	-0.2034	6
+all_ERCB	mouse x human	72	0.3443	0.0222	0.5147	0.7788	-0.3507	22
+all_ERCB	cat x mouse	48	0.4374	0.1711	0.5425	0.862	0.3072	0
+reliable_only	cat x human	12	0.4649	0.4216	0.5433	0.8716	0.3016	0
+reliable_only	mouse x human	36	0.3898	0.0222	0.5049	0.9268	0.4603	0
+reliable_only	cat x mouse	48	0.4374	0.1711	0.5425	0.862	0.3072	0

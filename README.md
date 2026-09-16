@@ -1,5 +1,19 @@
 # Cross-species distances in chronic kidney disease
 
+This repository was first published at an earlier, exploratory stage of the analysis (tag
+`v0.1-exploratory`). The analysis reported in the manuscript is a substantially extended
+version; the code and results corresponding to the submitted manuscript are tagged
+`v1.0-submitted`.
+
+The files under `results/` are the output of that earlier stage. Two of them name quantities
+that also appear, with different values, in the manuscript, because the method was not yet
+fixed when they were produced: `summary.md` reports a module-level cross-species Spearman
+correlation of 0.92, and `fig3_mantel_values.csv` reports a Mantel correlation of 0.553 between
+pairwise distance and elapsed time over 14 states. The manuscript reports the corresponding
+recomputation over 12 states in a fixed gene space, and treats agreement measured after
+aggregation as a consequence of the preprocessing rather than as evidence that the species
+agree. Neither file is cited in the manuscript.
+
 Analysis code for:
 
 > **[Manuscript title]**

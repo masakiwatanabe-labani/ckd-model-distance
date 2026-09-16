@@ -1,0 +1,7 @@
+dissimilarity	class	n	median	min	max
+D_rho (1-Spearman)	within species	72	0.3886	0.0952	1.0297
+D_rho (1-Spearman)	cross species	48	0.5845	0.4437	0.8203
+D_cos (1-cos)	within species	72	0.3253	0.0461	0.9354
+D_cos (1-cos)	cross species	48	0.6229	0.4281	0.8205
+D_nrm (|log2 norm ratio|)	within species	72	0.4189	0.0123	1.522
+D_nrm (|log2 norm ratio|)	cross species	48	0.3578	0.007	1.1751

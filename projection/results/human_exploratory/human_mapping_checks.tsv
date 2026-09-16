@@ -1,0 +1,6 @@
+subset	n_genes	n_states	n_pairs	auc	null_median	n_perm	p_exact	size_null_median	size_null_p5	explained_by_size
+両種とも perc_id 上位50%	500	16	48	0.4676	0.5023	1820	0.6011	0.8519	0.5507	False
+両種とも perc_id 上位25%	199	0	0			0				
+両種とも perc_id 下位50%	500	16	48	0.9398	0.5023	1820	0.0005	0.8588	0.5716	True
+cat の perc_id >= mouse	639	16	48	0.8981	0.5023	1820	0.0022	0.8773	0.6502	True
+cat の perc_id <  mouse	792	16	48	0.6736	0.5093	1820	0.1324	0.8796	0.7036	False

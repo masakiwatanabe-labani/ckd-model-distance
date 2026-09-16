@@ -1,0 +1,10 @@
+	value
+rho_GroupB	0.45045815098997816
+n_GroupB	8460
+matched_GroupA_rho_mean	0.6655903972732122
+matched_GroupA_rho_lo95	0.6503090359465447
+matched_GroupA_rho_hi95	0.680956939493451
+GroupB_minus_matched_GroupA	-0.21513224628323407
+p_two_sided_empirical	0.0009995002498750624
+n_resample	2000
+deciles_with_insufficient_GroupA	{1: 573, 2: 610, 3: 620, 4: 632, 5: 644, 6: 678, 7: 655, 8: 657, 9: 634, 10: 636}
