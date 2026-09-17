@@ -1,0 +1,8 @@
+figure	width_in	height_in	min_font_pt	max_font_pt	font_sizes_pt	family_requested	embedded_fonts	raster_images
+Fig1_alpha_decomposition	6.15	7.93	8.0	10.0	8 10	Arial	BWGHJF+Arial-ItalicMT(CIDFontType2,emb=yes) GOFYPY+Arial-BoldMT(CIDFontType2,emb=yes) GOFYPY+ArialMT(CIDFontType2,emb=yes)	0
+Fig2_controls_and_ceiling	6.01	8.63	8.0	10.0	8 9 10	Arial	BWGHJF+Arial-ItalicMT(CIDFontType2,emb=yes) GOFYPY+Arial-BoldMT(CIDFontType2,emb=yes) GOFYPY+ArialMT(CIDFontType2,emb=yes)	0
+Fig3_pathway_alignment	6.10	5.41	8.0	10.0	8 9 10	Arial	BWGHJF+Arial-ItalicMT(CIDFontType2,emb=yes) GOFYPY+Arial-BoldMT(CIDFontType2,emb=yes) GOFYPY+ArialMT(CIDFontType2,emb=yes)	0
+Fig4_pathway_ranking_and_aggregation	6.10	8.30	8.0	10.0	8 9 10	Arial	BWGHJF+Arial-ItalicMT(CIDFontType2,emb=yes) GOFYPY+Arial-BoldMT(CIDFontType2,emb=yes) GOFYPY+ArialMT(CIDFontType2,emb=yes)	0
+Fig5_confounders	6.10	7.90	8.0	10.0	8 9 10	Arial	BWGHJF+Arial-ItalicMT(CIDFontType2,emb=yes) GOFYPY+Arial-BoldMT(CIDFontType2,emb=yes) GOFYPY+ArialMT(CIDFontType2,emb=yes)	0
+Fig6_time_direction_amplitude	6.10	3.54	8.0	10.0	8 9 10	Arial	BWGHJF+Arial-ItalicMT(CIDFontType2,emb=yes) GOFYPY+Arial-BoldMT(CIDFontType2,emb=yes) GOFYPY+ArialMT(CIDFontType2,emb=yes)	0
+FigS1_cosine_attenuation	6.09	4.58	8.0	10.0	8 9 10	Arial	GOFYPY+Arial-BoldMT(CIDFontType2,emb=yes) GOFYPY+ArialMT(CIDFontType2,emb=yes)	0

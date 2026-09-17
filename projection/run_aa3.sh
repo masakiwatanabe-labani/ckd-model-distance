@@ -1,6 +1,7 @@
 #!/bin/zsh
 set -e
-cd /Users/masaki/Downloads/ckd_xspecies/projection
+cd "$(cd "$(dirname "$0")" && pwd)"
+while [ ! -f make_figures.py ] && [ "$PWD" != / ]; do cd ..; done
 V=../.venv/bin/python
 while pgrep -f run_aa2.sh > /dev/null; do sleep 10; done
 echo "### run_aa2 完了。天井検証を 3 空間で実行"

@@ -1,0 +1,30 @@
+quantity	value
+replicates drawn	2000.0
+replicates undefined (some group empty)	0.0
+replicates used	2000.0
+alpha medulla > alpha cortex	0.9365
+cos medulla < cos cortex	0.823
+both, i.e. the reversal holds	0.7595
+alpha medulla > 1.000 (passes the reference)	0.468
+alpha cortex median	0.5246
+alpha cortex 2.5th percentile	0.1954
+alpha cortex 97.5th percentile	0.9198
+alpha medulla median	0.9771
+alpha medulla 2.5th percentile	0.5057
+alpha medulla 97.5th percentile	1.3966
+cos cortex median	0.8469
+cos cortex 2.5th percentile	0.4777
+cos cortex 97.5th percentile	0.9454
+cos medulla median	0.7565
+cos medulla 2.5th percentile	0.571
+cos medulla 97.5th percentile	0.8519
+nu cortex median	0.6151
+nu cortex 2.5th percentile	0.3778
+nu cortex 97.5th percentile	1.0607
+nu medulla median	1.3011
+nu medulla 2.5th percentile	0.6573
+nu medulla 97.5th percentile	2.1589
+alpha medulla - alpha cortex, median	0.4472
+alpha medulla - alpha cortex, 2.5th percentile	-0.1224
+cos cortex - cos medulla, median	0.091
+cos cortex - cos medulla, 2.5th percentile	-0.2502

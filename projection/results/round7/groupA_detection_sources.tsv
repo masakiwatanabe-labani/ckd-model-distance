@@ -1,0 +1,4 @@
+proteome	source_table	genes_in_native_space	n_samples	genes_detected_native	genes_mapped_to_human
+cat_cortex	cat_prot_ctx	2967	23	2937	2957
+cat_medulla	cat_prot_med	2698	19	2661	2689
+podtreck	mouse_prot	12635	9	12309	12627

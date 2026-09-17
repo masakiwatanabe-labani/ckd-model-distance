@@ -2,7 +2,8 @@
 # AA. 遺伝子空間の感度解析。既定空間（Group A）の再実行で回帰がないことを確かめてから、
 # 全 1:1 orthologue と発現量マッチ Group B で同じ 4 量を再計算する。
 set -e
-cd /Users/masaki/Downloads/ckd_xspecies/projection
+cd "$(cd "$(dirname "$0")" && pwd)"
+while [ ! -f make_figures.py ] && [ "$PWD" != / ]; do cd ..; done
 V=../.venv/bin/python
 
 echo "########## 0. 既定空間の再実行（回帰確認）"

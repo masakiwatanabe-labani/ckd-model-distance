@@ -23,7 +23,20 @@ def norm(s: str) -> str:
 
 
 def wrap(s: str) -> str:
-    return '\n'.join(textwrap.wrap(' '.join(s.split()), WIDTH))
+    """段落内で折り返す。空行は段落の区切りとして保つ。
+
+    置換文字列に \n\n を含めて段落を分けられるようにするため、空行で分割してから
+    それぞれを折り返す。表・見出し・数式ブロックはそのまま通す。
+    """
+    out = []
+    for part in re.split(r'\n\s*\n', s):
+        if not part.strip():
+            continue
+        if part.lstrip().startswith(('|', '##', '$$')):   # 表・見出し・数式はそのまま
+            out.append(part.strip())
+        else:
+            out.append('\n'.join(textwrap.wrap(' '.join(part.split()), WIDTH)))
+    return '\n\n'.join(out)
 
 
 def _pattern(old: str) -> re.Pattern:

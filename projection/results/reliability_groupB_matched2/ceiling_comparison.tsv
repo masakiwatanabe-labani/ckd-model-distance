@@ -1,0 +1,4 @@
+class	n	cos_median	cos_max	ceiling_raw_median	ceiling_raw_min	n_exceed_ceiling_raw	ceiling_SB_median	ceiling_SB_min	n_exceed_ceiling_SB	ceiling_sat_median	ceiling_sat_min	n_exceed_ceiling_sat
+within_dataset	45	0.6329	0.9488	0.7958	0.5602	7	0.8842	0.7181	4	0.7692	0.6658	3
+same_species_diff_dataset	27	0.5885	0.8071	0.8682	0.7889	0	0.929	0.88	0			0
+cross_species	48	0.3264	0.4379	0.7439	0.6203	0	0.8487	0.7646	0			0

@@ -1,0 +1,13 @@
+config	true_cos	theta_gap	n_sim	coverage_95	miss_theta_below_interval	miss_theta_above_interval	frac_interval_excludes_zero	mean_frac_undefined	mean_interval_width
+cat CKD3/4 cortex x IRI (7v6, 3v6)	0.2	0.6336	120	0.0083	0.0	0.9917	1.0	0.1137	0.0606
+cat CKD3/4 cortex x IRI (7v6, 3v6)	0.35	0.4943	120	0.0417	0.0	0.9583	1.0	0.1088	0.0535
+cat CKD3/4 cortex x IRI (7v6, 3v6)	0.5	0.3738	120	0.075	0.0	0.925	1.0	0.1097	0.0493
+cat CKD1/2 cortex x IRI (8v6, 3v6)	0.2	0.5031	120	0.0083	0.0	0.9917	1.0	0.1112	0.0917
+cat CKD1/2 cortex x IRI (8v6, 3v6)	0.35	0.3887	120	0.0583	0.0	0.9417	1.0	0.1119	0.0825
+cat CKD1/2 cortex x IRI (8v6, 3v6)	0.5	0.2705	120	0.2167	0.0	0.7833	1.0	0.1117	0.0738
+cat CKD3/4 medulla x Pod-TRECK (5v6, 3v3)	0.2	0.5331	120	0.05	0.0	0.95	1.0	0.2125	0.0942
+cat CKD3/4 medulla x Pod-TRECK (5v6, 3v3)	0.35	0.4131	120	0.1	0.0	0.9	1.0	0.2087	0.0817
+cat CKD3/4 medulla x Pod-TRECK (5v6, 3v3)	0.5	0.2944	120	0.325	0.0	0.675	1.0	0.2082	0.0731
+cat CKD1/2 medulla x IRI 2 h (7v6, 3v6)	0.2	0.5441	120	0.0167	0.0	0.9833	1.0	0.1098	0.0728
+cat CKD1/2 medulla x IRI 2 h (7v6, 3v6)	0.35	0.4187	120	0.0667	0.0	0.9333	1.0	0.1101	0.0639
+cat CKD1/2 medulla x IRI 2 h (7v6, 3v6)	0.5	0.2966	120	0.1667	0.0	0.8333	1.0	0.1108	0.0561

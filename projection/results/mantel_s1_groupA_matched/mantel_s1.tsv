@@ -1,0 +1,22 @@
+subset	n_states	dissimilarity	predictor	mantel_rho	p_perm
+16 states (all)	16	D_rho (1-Spearman)	onset compartment	-0.0598	0.7379
+16 states (all)	16	D_rho (1-Spearman)	model identity	0.2646	0.0298
+16 states (all)	16	D_cos (1-cos)	onset compartment	-0.0008	0.9971
+16 states (all)	16	D_cos (1-cos)	model identity	0.357	0.0071
+16 states (all)	16	D_nrm (|log2 norm ratio|)	onset compartment	0.0413	0.7987
+16 states (all)	16	D_nrm (|log2 norm ratio|)	model identity	-0.0812	0.3594
+12 model states (time defined)	12	D_rho (1-Spearman)	onset compartment	-0.0332	0.8421
+12 model states (time defined)	12	D_rho (1-Spearman)	model identity	-0.0332	0.8412
+12 model states (time defined)	12	D_rho (1-Spearman)	elapsed time |Δlog10 h|	0.581	0.0049
+12 model states (time defined)	12	D_rho (1-Spearman)	time | onset compartment	0.5832	0.0023
+12 model states (time defined)	12	D_rho (1-Spearman)	onset compartment | time	0.0997	0.5521
+12 model states (time defined)	12	D_cos (1-cos)	onset compartment	0.004	0.9953
+12 model states (time defined)	12	D_cos (1-cos)	model identity	0.004	0.9962
+12 model states (time defined)	12	D_cos (1-cos)	elapsed time |Δlog10 h|	0.6127	0.0031
+12 model states (time defined)	12	D_cos (1-cos)	time | onset compartment	0.6276	0.0007
+12 model states (time defined)	12	D_cos (1-cos)	onset compartment | time	0.1077	0.5255
+12 model states (time defined)	12	D_nrm (|log2 norm ratio|)	onset compartment	-0.0008	1.0
+12 model states (time defined)	12	D_nrm (|log2 norm ratio|)	model identity	-0.0008	1.0
+12 model states (time defined)	12	D_nrm (|log2 norm ratio|)	elapsed time |Δlog10 h|	0.2835	0.0307
+12 model states (time defined)	12	D_nrm (|log2 norm ratio|)	time | onset compartment	0.2929	0.0279
+12 model states (time defined)	12	D_nrm (|log2 norm ratio|)	onset compartment | time	0.1017	0.3571

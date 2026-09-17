@@ -1,0 +1,41 @@
+figure	panel	item	printed
+Fig3	A	pathway sets in the size histogram	422
+Fig3	A	sets below 50 Group A genes	244
+Fig3	B	columns (pathways drawn)	74
+Fig3	B	collections drawn	GO_BP+Hallmark+KEGG
+Fig3	B	cells drawn	1184
+Fig3	B	cells below zero (dotted)	43
+Fig4	A	pathways ranked	422
+Fig4	A	mouse states ranked	12
+Fig4	A	Kendall W	0.320
+Fig4	A	leads share IRI_28d	22%
+Fig4	A	leads share IRI_14d	8%
+Fig4	A	leads share IRI_7d	6%
+Fig4	A	leads share IRI_12mo	21%
+Fig4	A	leads share IRI_72h	8%
+Fig4	A	leads share IRI_48h	8%
+Fig4	A	leads share IRI_24h	6%
+Fig4	A	leads share mouse_2W	4%
+Fig4	A	leads share mouse_3W	1%
+Fig4	A	leads share mouse_5D	1%
+Fig4	A	leads share IRI_2h	11%
+Fig4	A	leads share IRI_4h	3%
+Fig4	B	pathways in the AUC histogram	422
+Fig4	B	AUC aggregated centred	0.511
+Fig4	B	AUC whole panel 2,016 genes	0.813
+Fig4	B	AUC per pathway median	0.760
+Fig4	B	AUC per pathway Q1	0.707
+Fig4	B	AUC per pathway Q3	0.808
+Fig4	C	Spearman rho AUC vs set size	+0.198
+Fig4	D	median gene level [within species]	0.724
+Fig4	D	median centred [within species]	0.709
+Fig4	D	median pathway means of centred [within species]	0.831
+Fig4	D	median pathway means of uncentred [within species]	0.870
+Fig4	D	median gene level [cat vs mouse]	0.448
+Fig4	D	median centred [cat vs mouse]	0.551
+Fig4	D	median pathway means of centred [cat vs mouse]	0.832
+Fig4	D	median pathway means of uncentred [cat vs mouse]	0.462
+Fig4	D	AUC gene level	0.813
+Fig4	D	AUC centred	0.759
+Fig4	D	AUC pathway means of centred	0.511
+Fig4	D	AUC pathway means of uncentred	0.868

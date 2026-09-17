@@ -1,0 +1,4 @@
+restriction	n_pairs	n_within	n_cross	pathway_auc_median	pathway_auc_q25	pathway_auc_q75	pathway_frac_ge_090	aggregated_auc	within_med_agg	cross_med_agg
+all pairs (旧版と同じ制限なし)	120	72	48	0.7876	0.7219	0.8533	0.1157	0.6071	0.8865	0.8479
+exclude shared controls	87	39	48	0.7991	0.7607	0.8563	0.124	0.5716	0.8719	0.8479
+exclude shared cohort	83	35	48	0.7851	0.7423	0.8411	0.0909	0.5524	0.8658	0.8479

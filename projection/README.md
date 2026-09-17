@@ -55,7 +55,7 @@ results/           全出力（TSV ＋ 生成レポート）
 ## 再現手順
 
 ```bash
-cd /Users/masaki/Downloads/ckd_xspecies/projection
+cd ckd_xspecies/projection
 V=../.venv/bin/python
 
 $V build_delta_matrix.py        # Δ行列（16状態）＋ 進行軸補助行列

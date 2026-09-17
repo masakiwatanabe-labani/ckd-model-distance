@@ -1,0 +1,5 @@
+config	true_cos_at_zero_gap	theta_gap	n_sim	false_positive_rate	median_bootstrap_gap
+cat CKD3/4 cortex x IRI (7v6, 3v6)	0.9974	0.0	150	0.76	0.0123
+cat CKD1/2 cortex x IRI (8v6, 3v6)	0.9979	0.0	150	0.5067	0.0222
+cat CKD3/4 medulla x Pod-TRECK (5v6, 3v3)	0.9948	-0.0003	150	0.38	0.0184
+cat CKD1/2 medulla x IRI 2 h (7v6, 3v6)	0.9924	0.0	150	0.72	0.0208

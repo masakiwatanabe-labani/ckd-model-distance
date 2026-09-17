@@ -1,0 +1,17 @@
+state	species	n_case	n_ctrl	half_case	half_ctrl	frac_r_half_nonpositive	r_half_median	reliability_SB_median	reliability_SB_lo95	reliability_SB_hi95	n_splits
+cat_CKD12	cat	8	6	4	3	0.036	0.5614	0.7191	0.0	0.8517	500
+cat_CKD34	cat	7	6	3	3	0.0	0.8066	0.8929	0.7945	0.9369	500
+cat_med_CKD12	cat	7	6	3	3	0.0	0.813	0.8968	0.6947	0.9458	500
+cat_med_CKD34	cat	5	6	2	3	0.016	0.5591	0.7172	0.1281	0.8891	500
+mouse_5D	mouse	3	3	1	1	0.0	0.9045	0.9499	0.9332	0.9689	500
+mouse_2W	mouse	3	3	1	1	0.0	0.9828	0.9913	0.9877	0.9942	500
+mouse_3W	mouse	3	3	1	1	0.0	0.9236	0.9603	0.793	0.9716	500
+IRI_2h	mouse	3	6	1	3	0.0	0.6927	0.8185	0.5548	0.9004	500
+IRI_4h	mouse	3	6	1	3	0.0	0.8161	0.8987	0.6487	0.9411	500
+IRI_24h	mouse	3	6	1	3	0.0	0.9336	0.9657	0.8489	0.9788	500
+IRI_48h	mouse	3	6	1	3	0.0	0.8668	0.9287	0.8105	0.969	500
+IRI_72h	mouse	3	6	1	3	0.0	0.6881	0.8152	0.61	0.9355	500
+IRI_7d	mouse	3	6	1	3	0.0	0.9142	0.9552	0.8272	0.9719	500
+IRI_14d	mouse	3	6	1	3	0.0	0.8433	0.915	0.7821	0.9549	500
+IRI_28d	mouse	3	6	1	3	0.0	0.7574	0.8619	0.462	0.9325	500
+IRI_12mo	mouse	3	3	1	1	0.0	0.718	0.8359	0.7279	0.894	500

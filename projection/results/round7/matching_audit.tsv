@@ -1,0 +1,4 @@
+matching	n_pairs	left_set	right_set	left_unmatched	smd_before	smd_after	right_equals_published_B
+A -> all B (the direction Section 4.14 describes)	1632	Group A	Group B	384	0.3	-0.0174	False
+published matched B -> A (used for Table 4 in round 5)	1578	matched B	Group A	40	0.3	-0.0328	False
+A -> published matched B (symmetric restriction)	1509	Group A	matched B	507	0.3	-0.0331	False

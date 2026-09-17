@@ -233,7 +233,12 @@ def fetch_uniprot_secretome(taxon: int, name: str):
 
 
 def fetch_msigdb():
-    """gseapy 経由で Hallmark / GO BP / KEGG の GMT をローカルに保存。"""
+    """gseapy 経由で Hallmark / GO BP / KEGG / Reactome の GMT をローカルに保存。
+
+    4 つとも Enrichr のライブラリを取得する。Enrichr 版は再配布条件が明示されていないので
+    リポジトリには同梱せず（.gitignore の data/ref/*）、ここで取り直す。取得後の項目数は
+    50 / 5,406 / 320 / 2,100 で、本稿の解析はこの版で行った。
+    """
     try:
         import gseapy as gp
     except ImportError:
@@ -243,7 +248,9 @@ def fetch_msigdb():
         "hallmark": "MSigDB_Hallmark_2020",
         "gobp": "GO_Biological_Process_2023",
         "kegg": "KEGG_2021_Human",
+        "reactome": "Reactome_Pathways_2024",
     }
+    expected = {"hallmark": 50, "gobp": 5406, "kegg": 320, "reactome": 2100}
     for name, lib in sets.items():
         out = REF / f"geneset_{name}.gmt"
         if out.exists():
@@ -254,7 +261,10 @@ def fetch_msigdb():
             with open(out, "w", encoding="utf-8") as fh:
                 for term, genes in d.items():
                     fh.write("\t".join([term, ""] + list(genes)) + "\n")
-            log.info("%s: %d terms", name, len(d))
+            log.info("%s: %d terms (expected %d)", name, len(d), expected[name])
+            if len(d) != expected[name]:
+                log.warning("%s の項目数が解析時と違う（%d != %d）。Enrichr が版を"
+                            " 更新した可能性がある", name, len(d), expected[name])
         except Exception as exc:  # noqa: BLE001
             log.warning("%s 取得失敗: %s", name, exc)
 

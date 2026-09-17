@@ -1,11 +1,34 @@
-# Cross-species distances in chronic kidney disease
+# Measurement reliability and preprocessing limit what cross-species model comparisons can establish in chronic kidney disease
+
+Analysis code and derived results for:
+
+> **Measurement Reliability and Preprocessing Limit What Cross-Species Model Comparisons Can
+> Establish in Chronic Kidney Disease**
+> Masaki Watanabe, Takeru Sasaki, Ryuya Nakagawa and Nobuya Sasaki
+> Laboratory of Laboratory Animal Science and Medicine, School of Veterinary Medicine,
+> Kitasato University, Towada, Aomori, Japan
+>
+> Submitted to *International Journal of Molecular Sciences*. The DOI will be added here on
+> acceptance.
+
+## Two stages, two tags
 
 This repository was first published at an earlier, exploratory stage of the analysis (tag
 `v0.1-exploratory`). The analysis reported in the manuscript is a substantially extended
 version; the code and results corresponding to the submitted manuscript are tagged
-`v1.0-submitted`.
+`v1.0-submitted`. Both tags are kept: the exploratory history is part of the record.
 
-The files under `results/` are the output of that earlier stage. Two of them name quantities
+The two stages live in different directories.
+
+directory | stage | what it is
+--- | --- | ---
+`projection/` | submitted | every number, figure and table in the manuscript
+`src/`, `results/` | exploratory | the earlier stage, superseded
+
+**Paths cited in the manuscript are relative to `projection/`.** Where the article says
+`results/round7/scale_sensitivity.tsv`, the file is `projection/results/round7/scale_sensitivity.tsv`.
+
+The files under `results/` are the output of the earlier stage. Two of them name quantities
 that also appear, with different values, in the manuscript, because the method was not yet
 fixed when they were produced: `summary.md` reports a module-level cross-species Spearman
 correlation of 0.92, and `fig3_mantel_values.csv` reports a Mantel correlation of 0.553 between
@@ -14,131 +37,110 @@ recomputation over 12 states in a fixed gene space, and treats agreement measure
 aggregation as a consequence of the preprocessing rather than as evidence that the species
 agree. Neither file is cited in the manuscript.
 
-Analysis code for:
+## What the analysis does
 
-> **[Manuscript title]**
-> [Author list]
->
-> *Citation details will be added on acceptance.*
-
-## What this code does
-
-It measures how far apart chronic kidney disease states are from one another —
-across species (cat, mouse, human) and across mouse models — using rank-based
-distances between differential-expression profiles projected into a common human
-gene space. It then asks what actually structures those distances: the
-compartment where disease begins, the model used, or the time elapsed since
-injury.
+It takes one feline spontaneous chronic kidney disease state as a fixed reference axis and
+compares sixteen feline, podocyte-injury and ischaemia-reperfusion states against it, asking
+what a similarity score of that kind can settle. The three results are that a projection onto a
+reference axis ranks direction and amplitude together and can invert the ranking; that how far
+an observed similarity falls below a reliability-derived benchmark is interpretable only where
+the reference state is itself well measured; and that averaging genes within pathways separates
+cat-mouse pairs of states from same-species pairs at AUC 0.868 or 0.511 according to whether
+each state's mean change across genes is removed first.
 
 ## Data
 
-**No primary data are included in this repository.** Some are third-party
-copyright, some belong in the repository that hosts them. Four of the six
-inputs download automatically; two need a browser.
+**No primary data are in this repository.** See [`data/README.md`](data/README.md) for where to
+get each input, what to name it, where to put it and its MD5 checksum.
 
-See **[`data/README.md`](data/README.md)** for where to get each file, what to
-name it, where to put it, and its MD5 checksum.
+source | accession | how
+--- | --- | ---
+feline spontaneous CKD | GSE303653 | supplementary workbook, manual download
+feline proteome | PXD066590 | ProteomeXchange
+Pod-TRECK podocyte injury, transcriptome | GSE299326 | automatic
+murine ischaemia-reperfusion | GSE98622 | automatic
+human tubulointerstitial | GSE104954 | automatic
+orthologues | Ensembl BioMart | `src/00_fetch_refs.py`
+gene sets | Enrichr: MSigDB_Hallmark_2020, GO_Biological_Process_2023, KEGG_2021_Human, Reactome_Pathways_2024 | `src/00_fetch_refs.py`
+
+Two inputs are deliberately absent and cannot be regenerated from this repository.
+
+- **The Pod-TRECK proteome.** It is author-held data from a parallel study that is accepted but
+  not yet published, so its abundance tables are supplied on request rather than deposited here.
+  What the manuscript needs in order for the reader to check the definition of Group A is the
+  per-gene detection call, and that is published, as
+  `projection/results/round7/groupA_detection_calls.tsv`: for every gene, how many samples of
+  each proteome it was detected in and whether it therefore enters Group A.
+- **Gene-set collections and orthologue tables.** Retrieved from Enrichr and Ensembl BioMart,
+  whose redistribution terms are not ours to grant. `src/00_fetch_refs.py` downloads them and
+  warns if a collection has changed size since the analysis was run.
 
 ## Requirements
 
-Python 3.9 or newer. Install with:
+Python 3.9 or newer.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-`requirements.txt` lists direct dependencies. `requirements-lock.txt` is the
-exact environment (`pip freeze`) used to produce the published numbers; install
-from that if you need bit-for-bit agreement.
+`requirements.txt` lists direct dependencies. `requirements-lock.txt` is the exact environment
+(`pip freeze`) used to produce the published numbers. The numbers here were produced with
+Python 3.9.6, numpy 2.0.2, pandas 2.3.3, scipy 1.13.1, statsmodels 0.14.6, matplotlib 3.9.4 and
+gseapy 1.3.1.
 
-## Running it
+## Running the submitted analysis
 
 ```bash
-# 1. reference tables (Ensembl BioMart, UniProt, MSigDB) and public GEO series
-make refs            # ~10 min, network required, writes data/ref/ and data/external/
+cd projection
+V=../.venv/bin/python
 
-# 2. obtain the two manual downloads - see data/README.md
-#    (feline supplementary workbook, KPMP DataLake_DEPs.txt)
-
-# 3. everything else
-make analysis        # ~15 min on a laptop, no network required
+$V build_delta_matrix.py       # the 16-state Δ matrix and the gene-space lists   ~2 min
+$V build_precision.py          # per-gene standard errors                         ~3 min
+$V alpha_decomp.py --delta delta_matrix.tsv --ref cat_CKD34 \
+     --genes groupA_intersection.txt --time time_map.tsv --out results/alpha_groupA
+$V cos_matrix.py               # all 120 pairs, shared-control split              ~2 min
+$V reliability.py              # split-half reliability, 500 splits per state     ~8 min
+$V ceiling_validation.py       # the benchmark in both forms                      ~3 min
+$V mantel_s1.py                # Mantel and partial Mantel                        ~3 min
+$V pathway_separation.py       # pathway-level and aggregated separation          ~6 min
+$V pair_uncertainty.py         # animal-level resampling                          ~10 min
+$V verify_numbers.py           # the check described below                        ~1 min
+$V make_figures.py             # Figures 1 to 6                                   ~1 min
 ```
 
-`make all` runs both stages. Individual steps are plain scripts and can be run
-on their own, in numerical order, e.g. `python src/02_de.py`.
+About 40 minutes end to end on a laptop, once the reference tables are in place. The
+simulations behind Section 4.10 and Section 4.11 are separate and slower; they are in
+`projection/code/revision1/` and each writes into `projection/results/round5/` or `round7/`.
 
-`data/ref/` is created on first run of `src/00_fetch_refs.py` and is not stored
-in this repository. It includes MSigDB gene set collections; retrieving them
-means accepting the MSigDB terms of use, and the KEGG collection in particular
-carries redistribution conditions, which is why we do not ship a copy.
+The earlier stage still runs as it did: `make refs` then `make analysis` from the repository
+root, about 25 minutes in total.
 
-Random seeds, thresholds and the number of permutations are all set in
-`config/config.yaml`; gene set definitions are in `config/modules.yaml`.
+## Checking the numbers
 
-## Output
+```bash
+cd projection && ../.venv/bin/python verify_numbers.py
+```
 
-Everything is written to `results/`. Figures for the paper are in
-`results/figures/`, exploratory figures that were not used are in
-`results/supplementary/`, and `results/summary.md` accumulates the principal
-numbers from each step in the order they were produced (with a machine-readable
-`results/summary.json` alongside).
+It prints a count of agreements and disagreements and exits non-zero if anything disagrees. It
+makes **440 checks** and they cover four things:
 
-Bibliographic data for the manuscript are kept separately in `docs/`, as
-`references.bib` (BibTeX) and `references_mdpi.txt` (plain text, MDPI style);
-`results/` holds analysis output only.
+1. **every number reported in the article** against the result table it came from, to a stated
+   tolerance;
+2. **every number printed inside a figure**, recorded by `make_figures.py` at the moment it is
+   drawn into `projection/results/revision1/pathway_reactome/figure_printed_numbers.tsv`, against
+   the caption and the body text;
+3. **every cell of Tables 1 to 4**, extracted from the manuscript source, against the result
+   files and against the body text, including a rule that no cell may concatenate two numbers;
+4. **the structure of the manuscript**: that section, figure and table cross-references resolve,
+   that the reference list is continuous and fully cited, that no supplementary item is cited
+   without a caption, that no sentence is duplicated and that no working note remains.
 
-### Where each figure and table comes from
-
-| Paper item | File | Produced by |
-|---|---|---|
-| Figure 1 | `results/figures/Fig1_design.png` / `.pdf` | `src/22_fig1.py` |
-| Figure 2 | `results/figures/Fig2_concordance.png` / `.pdf` | `src/23_fig2.py` |
-| Figure 3 | `results/figures/Fig3_distance_structure.png` / `.pdf` | `src/17_fig3.py` |
-| Figure 4 | `results/figures/Fig4_distance_distributions.png` / `.pdf` | `src/19_distance_distributions.py` |
-| Figure 5 | `results/figures/Fig5_iri_trajectory.png` / `.pdf` | `src/27_fig5.py` |
-| Figure 6 | `results/figures/Fig6_module_level.png` / `.pdf` | `src/26_fig6.py` |
-
-Every figure is written twice, as PNG (300 dpi) and as PDF. The PDFs embed
-fonts as TrueType (`pdf.fonttype = 42`), so all labels remain live text and can
-be selected and edited in Illustrator or Inkscape rather than being converted to
-outlines. Style and output format are set in one place, `src/lib_figure.py`.
-| Table 1 | `results/table1_datasets.csv` + `table1_footnotes.txt` | `src/21_table1.py` |
-| Table 2 | `results/table2_candidates.csv` + `table2_footnotes.txt` | `src/28_table2.py` |
-
-### Principal result files
-
-| Result | File |
-|---|---|
-| All differential expression contrasts | `results/de_all.csv.gz` |
-| Cross-species concordance and within-species benchmarks | `results/crossspecies_concordance.csv`, `within_species_benchmarks.csv` |
-| Permutation nulls and their diagnostics | `results/crossspecies_permutation.csv`, `null_diagnostics.csv` |
-| Species x onset-compartment decomposition | `results/design_decomposition_rna.csv`, `design_decomposition_prot.csv` |
-| Distance distributions by pair class | `results/distance_distributions_16state.csv`, `distance_distribution_summary.csv` |
-| Elapsed time versus onset compartment (Mantel) | `results/time_axis_full_pairs_no6mo.csv`, `fig3_mantel_values.csv` |
-| Module-level distances and power | `results/module_distance_pairs_*.csv`, `module_power_curve.csv` |
-| Candidate validation in human cohorts | `results/candidates_human_validation.csv`, `ercb_candidate_validation.csv` |
-
-## Pipeline
-
-| Step | Script | Purpose |
-|---|---|---|
-| 00 | `00_fetch_refs.py` | Orthologues, synonyms, secretome, gene sets |
-| 00b | `00b_fetch_external.py` | GSE98622, GSE79443, GSE104954 |
-| 01 | `01_load.py` | Read primary data, resolve gene identifiers |
-| 02 | `02_de.py` | Moderated *t* contrasts, leave-one-out stability |
-| 03 | `03_crossspecies.py` | Cross-species concordance, benchmarks, permutations |
-| 04 | `04_modules.py` | Module scores and coherence tests |
-| 05-07 | `05_stage.py`, `06_compartment.py`, `07_candidates.py` | Disease stage, compartment, candidate selection |
-| 09-12 | `09_dataset_matrix.py` … `12_model_distance.py` | Distance matrices, human validation, ERCB, model distances |
-| 13-16 | `13_time_axis.py` … `16_entry_model_checks.py` | Elapsed time versus onset compartment |
-| 18-21 | `18_monotonic_genes.py` … `21_table1.py` | Trajectory classes, distributions, null diagnostics, Table 1 |
-| 24-28 | `24_module_level_distance.py` … `28_table2.py` | Module-level distances, power, Table 2 |
-| 17, 22-27 | `17_fig3.py`, `22_fig1.py`, `23_fig2.py`, `26_fig6.py`, `27_fig5.py` | Paper figures |
-| 08 | `08_figures.py` | Exploratory figures (superseded by Figures 1-6; some labels are not in English) |
+Quantities that appear in more than one section are registered so that correcting one and
+leaving the other stale fails the script.
 
 ## Licence
 
-Code is released under the MIT Licence; see [`LICENSE`](LICENSE). The licence
-covers this code only. The primary data are not redistributed here and remain
-subject to the terms of their respective sources.
+Code is under the **MIT** licence (`LICENSE`). Derived data — everything under
+`projection/results/`, `results/` and the gene-space lists — are under **CC BY 4.0**
+(`LICENSE-DATA`). Primary data carry the terms of their own repositories.

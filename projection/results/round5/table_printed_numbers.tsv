@@ -1,0 +1,148 @@
+table	row	column	printed
+Table1	header	0	Pair class
+Table1	header	1	n pairs
+Table1	header	2	cos θ median
+Table1	header	3	cos θ max
+Table1	header	4	Benchmark, Spearman–Brown: median [min]
+Table1	header	5	Benchmark, uncorrected: median [min]
+Table1	header	6	Pairs above the Spearman–Brown benchmark
+Table1	header	7	Pairs above the uncorrected benchmark
+Table1	Within dataset	n pairs	45
+Table1	Within dataset	cos θ median	0.755
+Table1	Within dataset	cos θ max	0.958
+Table1	Within dataset	Benchmark, Spearman–Brown: median [min]	0.920
+Table1	Within dataset	Benchmark, uncorrected: median [min]	0.852
+Table1	Within dataset	Pairs above the Spearman–Brown benchmark	4
+Table1	Within dataset	Pairs above the uncorrected benchmark	8
+Table1	Same species, different dataset	n pairs	27
+Table1	Same species, different dataset	cos θ median	0.707
+Table1	Same species, different dataset	cos θ max	0.884
+Table1	Same species, different dataset	Benchmark, Spearman–Brown: median [min]	0.945
+Table1	Same species, different dataset	Benchmark, uncorrected: median [min]	0.896 [0.781]
+Table1	Same species, different dataset	Pairs above the Spearman–Brown benchmark	0
+Table1	Same species, different dataset	Pairs above the uncorrected benchmark	1
+Table1	Cross-species (cat vs mouse)	n pairs	48
+Table1	Cross-species (cat vs mouse)	cos θ median	0.448
+Table1	Cross-species (cat vs mouse)	cos θ max	0.548
+Table1	Cross-species (cat vs mouse)	Benchmark, Spearman–Brown: median [min]	0.862 [0.765]
+Table1	Cross-species (cat vs mouse)	Benchmark, uncorrected: median [min]	0.765 [0.620]
+Table1	Cross-species (cat vs mouse)	Pairs above the Spearman–Brown benchmark	0
+Table1	Cross-species (cat vs mouse)	Pairs above the uncorrected benchmark	0
+Table2	header	0	Test
+Table2	header	1	Result
+Table2	cos θ by orthologue sequence-identity quartile	Result	0.479 / 0.496 / 0.495 / 0.327 — not monotonic, lowest where identity is highest, so stratifying by identity does not narrow the deficit
+Table2	same, same-species pairs	Result	0.743 / 0.700 / 0.724 / 0.685 — nearly flat, so the separation between the classes is widest in the top quartile
+Table2	high-confidence 1:1 orthologues only (1,550 genes)	Result	cross-species 0.462, same-species 0.709 — unchanged
+Table2b2	header	0	Test
+Table2b2	header	1	Result
+Table2b2	balance on the empirical Bayes SE of Δ	Result	median rank 0.479 vs 0.493 — the sets do not differ
+Table2b2	balance on the empirical split-half noise of Δ	Result	0.480 vs 0.492 — the sets do not differ
+Table2b2	balance on mean expression	Result	median rank 0.774 vs 0.428 — the sets differ
+Table2b2	1:1 nearest-neighbour matching on expression rank	Result	Δρ +0.2104 → +0.1564 (0.1024–0.2127); about a quarter of the Group A − Group B difference
+Table2b2	decile-stratified weighting	Result	+0.1735, Group A higher in 8 of 10 deciles
+Table2b2	procedure control: orthologue-backed vs symbol-matched genes	Result	Δρ +0.0046 (−0.0526 to +0.0623) — the same machinery returns a null
+Table3	header	0	Predictor
+Table3	header	1	Direction, rank
+Table3	header	2	Direction, linear
+Table3	header	3	Amplitude
+Table3	elapsed time \	Direction, rank	Δlog10 h\
+Table3	elapsed time \	Direction, linear	
+Table3	elapsed time \	Amplitude	+0.596 (p = 0.0044)
+Table3	elapsed time \	4	+0.599 (p = 0.0040)
+Table3	elapsed time \	5	+0.312 (p = 0.0250)
+Table3	time \	Direction, rank	onset compartment
+Table3	time \	Direction, linear	+0.594 (p = 0.0021)
+Table3	time \	Amplitude	+0.610 (p = 0.0019)
+Table3	time \	4	+0.317 (p = 0.0232)
+Table3	onset compartment	Direction, rank	−0.064 (p = 0.727)
+Table3	onset compartment	Direction, linear	+0.001 (p = 1.000)
+Table3	onset compartment	Amplitude	−0.027 (p = 0.860)
+Table4	header	0	Quantity
+Table4	header	1	Group A (2,016)
+Table4	header	2	All 1:1 orthologues (7,897)
+Table4	header	3	Matched Group B (1,632)
+Table4	header	4	Matched Group A (1,632)
+Table4	Feline cortical CKD1/2: α	Group A (2,016)	0.544
+Table4	Feline cortical CKD1/2: α	All 1:1 orthologues (7,897)	0.604
+Table4	Feline cortical CKD1/2: α	Matched Group B (1,632)	0.546
+Table4	Feline cortical CKD1/2: α	Matched Group A (1,632)	0.566
+Table4	Feline cortical CKD1/2: cos θ	Group A (2,016)	0.907
+Table4	Feline cortical CKD1/2: cos θ	All 1:1 orthologues (7,897)	0.898
+Table4	Feline cortical CKD1/2: cos θ	Matched Group B (1,632)	0.876
+Table4	Feline cortical CKD1/2: cos θ	Matched Group A (1,632)	0.901
+Table4	Feline cortical CKD1/2: ν	Group A (2,016)	0.600
+Table4	Feline cortical CKD1/2: ν	All 1:1 orthologues (7,897)	0.673
+Table4	Feline cortical CKD1/2: ν	Matched Group B (1,632)	0.623
+Table4	Feline cortical CKD1/2: ν	Matched Group A (1,632)	0.629
+Table4	Feline medullary CKD1/2: α	Group A (2,016)	1.020
+Table4	Feline medullary CKD1/2: α	All 1:1 orthologues (7,897)	0.796
+Table4	Feline medullary CKD1/2: α	Matched Group B (1,632)	0.987
+Table4	Feline medullary CKD1/2: α	Matched Group A (1,632)	0.947
+Table4	Feline medullary CKD1/2: cos θ	Group A (2,016)	0.790
+Table4	Feline medullary CKD1/2: cos θ	All 1:1 orthologues (7,897)	0.730
+Table4	Feline medullary CKD1/2: cos θ	Matched Group B (1,632)	0.734
+Table4	Feline medullary CKD1/2: cos θ	Matched Group A (1,632)	0.776
+Table4	Feline medullary CKD1/2: ν	Group A (2,016)	1.291
+Table4	Feline medullary CKD1/2: ν	All 1:1 orthologues (7,897)	1.091
+Table4	Feline medullary CKD1/2: ν	Matched Group B (1,632)	1.345
+Table4	Feline medullary CKD1/2: ν	Matched Group A (1,632)	1.221
+Table4	α and cos θ ordered oppositely (the two states above)	Group A (2,016)	yes
+Table4	α and cos θ ordered oppositely (the two states above)	All 1:1 orthologues (7,897)	yes
+Table4	α and cos θ ordered oppositely (the two states above)	Matched Group B (1,632)	yes
+Table4	α and cos θ ordered oppositely (the two states above)	Matched Group A (1,632)	yes
+Table4	ν needed for α > 1, i.e. 1/cos θ (medullary)	Group A (2,016)	1.266
+Table4	ν needed for α > 1, i.e. 1/cos θ (medullary)	All 1:1 orthologues (7,897)	1.371
+Table4	ν needed for α > 1, i.e. 1/cos θ (medullary)	Matched Group B (1,632)	1.362
+Table4	ν needed for α > 1, i.e. 1/cos θ (medullary)	Matched Group A (1,632)	1.289
+Table4	margin, ν − 1/cos θ (medullary)	Group A (2,016)	+0.025
+Table4	margin, ν − 1/cos θ (medullary)	All 1:1 orthologues (7,897)	−0.280
+Table4	margin, ν − 1/cos θ (medullary)	Matched Group B (1,632)	−0.017
+Table4	margin, ν − 1/cos θ (medullary)	Matched Group A (1,632)	−0.069
+Table4	α above the reference’s own 1.000	Group A (2,016)	yes
+Table4	α above the reference’s own 1.000	All 1:1 orthologues (7,897)	no
+Table4	α above the reference’s own 1.000	Matched Group B (1,632)	no
+Table4	α above the reference’s own 1.000	Matched Group A (1,632)	no
+Table4	Mantel, elapsed time, direction (ρ)	Group A (2,016)	+0.599
+Table4	Mantel, elapsed time, direction (ρ)	All 1:1 orthologues (7,897)	+0.637
+Table4	Mantel, elapsed time, direction (ρ)	Matched Group B (1,632)	+0.646
+Table4	Mantel, elapsed time, direction (ρ)	Matched Group A (1,632)	+0.613
+Table4	Mantel, elapsed time, direction (permutation p)	Group A (2,016)	0.0040
+Table4	Mantel, elapsed time, direction (permutation p)	All 1:1 orthologues (7,897)	0.0011
+Table4	Mantel, elapsed time, direction (permutation p)	Matched Group B (1,632)	0.0009
+Table4	Mantel, elapsed time, direction (permutation p)	Matched Group A (1,632)	0.0031
+Table4	cos θ against log time, per state	Group A (2,016)	+0.074
+Table4	cos θ against log time, per state	All 1:1 orthologues (7,897)	+0.627
+Table4	cos θ against log time, per state	Matched Group B (1,632)	+0.147
+Table4	cos θ against log time, per state	Matched Group A (1,632)	+0.210
+Table4	same, 95% interval lower	Group A (2,016)	−0.72
+Table4	same, 95% interval lower	All 1:1 orthologues (7,897)	−0.00
+Table4	same, 95% interval lower	Matched Group B (1,632)	−0.61
+Table4	same, 95% interval lower	Matched Group A (1,632)	−0.55
+Table4	same, 95% interval upper	Group A (2,016)	+0.72
+Table4	same, 95% interval upper	All 1:1 orthologues (7,897)	+0.96
+Table4	same, 95% interval upper	Matched Group B (1,632)	+0.77
+Table4	same, 95% interval upper	Matched Group A (1,632)	+0.78
+Table4	Cat–mouse cos θ, maximum	Group A (2,016)	0.548
+Table4	Cat–mouse cos θ, maximum	All 1:1 orthologues (7,897)	0.572
+Table4	Cat–mouse cos θ, maximum	Matched Group B (1,632)	0.438
+Table4	Cat–mouse cos θ, maximum	Matched Group A (1,632)	0.534
+Table4	Lowest Spearman–Brown benchmark, cat–mouse	Group A (2,016)	0.765
+Table4	Lowest Spearman–Brown benchmark, cat–mouse	All 1:1 orthologues (7,897)	0.780
+Table4	Lowest Spearman–Brown benchmark, cat–mouse	Matched Group B (1,632)	0.765
+Table4	Lowest Spearman–Brown benchmark, cat–mouse	Matched Group A (1,632)	0.769
+Table4	Cat–mouse pairs above their benchmark, of 48	Group A (2,016)	0
+Table4	Cat–mouse pairs above their benchmark, of 48	All 1:1 orthologues (7,897)	0
+Table4	Cat–mouse pairs above their benchmark, of 48	Matched Group B (1,632)	0
+Table4	Cat–mouse pairs above their benchmark, of 48	Matched Group A (1,632)	0
+Table4	AUC over the 75 cross-dataset pairs (no permutation test, Section 2.2)	Group A (2,016)	0.7909
+Table4	AUC over the 75 cross-dataset pairs (no permutation test, Section 2.2)	All 1:1 orthologues (7,897)	0.7616
+Table4	AUC over the 75 cross-dataset pairs (no permutation test, Section 2.2)	Matched Group B (1,632)	0.7708
+Table4	AUC over the 75 cross-dataset pairs (no permutation test, Section 2.2)	Matched Group A (1,632)	0.8102
+Table4	Pathway-level AUC, median	Group A (2,016)	0.760
+Table4	Pathway-level AUC, median	All 1:1 orthologues (7,897)	0.782
+Table4	Pathway-level AUC, median	Matched Group B (1,632)	0.780
+Table4	Pathway-level AUC, median	Matched Group A (1,632)	0.781
+Table4	AUC after aggregation, centred (Section 2.3)	Group A (2,016)	0.511
+Table4	AUC after aggregation, centred (Section 2.3)	All 1:1 orthologues (7,897)	0.600
+Table4	AUC after aggregation, centred (Section 2.3)	Matched Group B (1,632)	0.624
+Table4	AUC after aggregation, centred (Section 2.3)	Matched Group A (1,632)	0.529

@@ -16,7 +16,10 @@ from pathway_cos import read_gmt, COLLECTIONS, MIN_GENES  # noqa: E402
 OUT = HERE / "results" / "revision1"
 SPACES = [("Group A", "groupA_intersection.txt", "control_analysis"),
           ("all 1:1 orthologues", "aa_ortholog_all.txt", "control_analysis_ortholog_all"),
-          ("matched Group B", "aa_groupB_matched.txt", "control_analysis_groupB_matched")]
+          # Round 7 Part 4: 保存された 1 つの対応表から定義し直した 2 空間。
+          # 旧 aa_groupB_matched.txt（1,618）は対応表が残っていないので置き換えた。
+          ("matched Group B", "aa_groupB_matched2.txt", "control_analysis_groupB_matched2"),
+          ("matched Group A", "aa_groupA_matched.txt", "control_analysis_groupA_matched")]
 
 
 def auc(a, b):

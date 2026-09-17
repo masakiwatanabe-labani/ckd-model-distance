@@ -57,3 +57,40 @@ projection/**/*.gmt
 # Caches and OS cruft inside the projection tree
 projection/**/__pycache__/
 projection/**/.DS_Store
+
+# ---------------------------------------------------------------------------
+# Round 9 (release). Three further exclusions, decided when the repository was
+# made public alongside the submitted manuscript.
+# ---------------------------------------------------------------------------
+
+# The Pod-TRECK proteome is author-held data from a parallel study that is
+# accepted but not yet published (Ito et al., FEBS J). Its per-sample tables are
+# already excluded with data/raw and data/interim above; what the manuscript
+# needs in order for Group A to be checkable is the per-gene detection call, and
+# that is published as projection/results/round7/groupA_detection_calls.tsv.
+# The abundance tables themselves are supplied on request, not here.
+
+# A separate, unfinished analysis of a feline urine proteome, which quotes
+# unpublished values from the same accepted study. Not part of this manuscript.
+results/urine_proteome/
+src/29_urine_proteome.py
+src/30_febs_signature_urine.py
+src/31_urine_reannotation.py
+PHASE2_PLAN.md
+
+# Internal handover notes: they name a local machine and refer to files that are
+# deliberately outside the repository.
+HANDOVER.md
+
+# Run logs under the analysis tree carry absolute paths, like logs/ above.
+projection/**/*.log
+
+# The paragraph-order manifest is derived from the manuscript text, which this
+# repository deliberately does not carry.
+projection/extracted/
+
+# Per-protein fold changes from the Pod-TRECK proteome. Detection calls are
+# published (they are what Group A rests on); abundance and fold-change values
+# from that unpublished dataset are not. protein_decomp.py regenerates this file
+# from the proteome tables once they are obtained.
+projection/results/protein/delta_matrix_protein.tsv

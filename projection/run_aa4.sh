@@ -1,6 +1,7 @@
 #!/bin/zsh
 set -e
-cd /Users/masaki/Downloads/ckd_xspecies/projection
+cd "$(cd "$(dirname "$0")" && pwd)"
+while [ ! -f make_figures.py ] && [ "$PWD" != / ]; do cd ..; done
 V=../.venv/bin/python
 L=/private/tmp/claude-501/-Users-masaki/f7fba45f-f8e1-4d4a-b8f2-da5834e0fbe6/scratchpad/aa4.log
 : > $L

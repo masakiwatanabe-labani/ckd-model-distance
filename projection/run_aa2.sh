@@ -1,6 +1,7 @@
 #!/bin/zsh
 set -e
-cd /Users/masaki/Downloads/ckd_xspecies/projection
+cd "$(cd "$(dirname "$0")" && pwd)"
+while [ ! -f make_figures.py ] && [ "$PWD" != / ]; do cd ..; done
 V=../.venv/bin/python
 
 echo "### ortholog_all: pathway_separation のみ再開"

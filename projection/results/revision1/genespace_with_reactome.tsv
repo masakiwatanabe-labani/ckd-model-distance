@@ -1,4 +1,5 @@
 space	n_genes	n_sets	whole_panel_auc	pathway_auc_median	aggregated_auc_centred
 Group A	2016	422	0.813	0.7596	0.5112
 all 1:1 orthologues	7897	1534	0.7943	0.7821	0.6004
-matched Group B	1618	140	0.7826	0.7711	0.6255
+matched Group B	1632	163	0.8024	0.7799	0.6239
+matched Group A	1632	261	0.8296	0.781	0.5294

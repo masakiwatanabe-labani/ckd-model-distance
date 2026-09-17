@@ -75,6 +75,36 @@ def one_state(delta, n_case, n_ctrl, sigma, rng, p=P_GENES):
     return full, float(np.nanmedian(vals))
 
 
+def plot(T):
+    """図 S1 を描く。シミュレーションを回し直さずに描き直せるよう分離してある。"""
+    shifts = sorted(T["shift"].unique())
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from make_figures import S1, S2, S3, INK, INK2, FIGW, clean, savefig
+    palette = [S1, S2, S3, INK2, "#7a5cc4"]
+    fig, axes = plt.subplots(1, len(shifts), figsize=(FIGW, 2.55), sharey=True)
+    for ax, shift in zip(np.atleast_1d(axes), shifts):
+        e = T[(T["shift"] == shift) & (T.design == "mouse-like (3 vs 6)")]
+        for col, tc in zip(palette, TRUE_COS):
+            g = e[e.true_cos == tc].sort_values("mean_r_half")
+            ax.plot(g.mean_r_half, g.frac_obs_above_ceiling, marker="o", markersize=4.0,
+                    linewidth=1.5, color=col, label=f"{tc:.1f}")
+        ax.axhline(0.01, color=INK, linestyle=(0, (4, 3)), linewidth=1.0)
+        ax.set_title(f"mean shift = {shift:g}", loc="left", pad=4)
+        ax.set_xlabel("estimated split-half reliability")
+        clean(ax)
+    np.atleast_1d(axes)[0].set_ylabel("fraction of replicates with\nobserved above ceiling")
+    # 3 パネル共通の符号化なので、パネル内ではなく図下部に置く（曲線に重なるのを避ける）
+    h, l = np.atleast_1d(axes)[0].get_legend_handles_labels()
+    fig.legend(h, l, title=r"true $\cos\theta$", loc="lower center", ncol=5,
+               frameon=False, handlelength=1.6, columnspacing=1.4,
+               bbox_to_anchor=(0.5, -0.03))
+    fig.tight_layout(rect=(0, 0.10, 1, 1), w_pad=0.6)
+    print("\nFigS1:", savefig(fig, FIGDIR / "FigS1_cosine_attenuation")[0].name)
+    plt.close(fig)
+
+
 def main():
     sh = observed_shift_range()
     print("実データの |mean(Δ)|/sd(Δ): 中央 %.3f, 範囲 [%.3f, %.3f]"
@@ -116,31 +146,7 @@ def main():
     print("  超過割合 最大 %.4f / 中央 %.4f （%d 条件）"
           % (band.frac_obs_above_ceiling.max(), band.frac_obs_above_ceiling.median(), len(band)))
 
-    import matplotlib
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-    from make_figures import S1, S2, S3, INK, INK2, clean, savefig
-    palette = [S1, S2, S3, INK2, "#7a5cc4"]
-    fig, axes = plt.subplots(1, len(shifts), figsize=(7.4, 2.8), sharey=True)
-    for ax, shift in zip(np.atleast_1d(axes), shifts):
-        e = T[(T["shift"] == shift) & (T.design == "mouse-like (3 vs 6)")]
-        for col, tc in zip(palette, TRUE_COS):
-            g = e[e.true_cos == tc].sort_values("mean_r_half")
-            ax.plot(g.mean_r_half, g.frac_obs_above_ceiling, marker="o", markersize=3.2,
-                    linewidth=1.2, color=col, label=f"{tc:.1f}")
-        ax.axhline(0.01, color=INK, linestyle=(0, (4, 3)), linewidth=1.0)
-        ax.set_title(f"mean shift = {shift:g}", fontsize=9, color=INK, loc="left", pad=4)
-        ax.set_xlabel(r"estimated $r_{\rm half}$", fontsize=8.5, color=INK2)
-        clean(ax)
-    np.atleast_1d(axes)[0].set_ylabel("fraction of replicates with\nobserved above ceiling",
-                                      fontsize=8.5, color=INK2)
-    np.atleast_1d(axes)[-1].legend(title=r"true $\cos\theta$", fontsize=7, title_fontsize=7,
-                                   frameon=False, loc="upper right")
-    fig.suptitle("Does sqrt(r_X r_Y) bound an uncentred cosine? Mouse-like design, 3 vs 6",
-                 fontsize=10.5, color=INK, x=0.012, ha="left", y=0.995)
-    fig.tight_layout(rect=(0, 0, 1, 0.93))
-    print("\nFigS1:", savefig(fig, FIGDIR / "FigS1_cosine_attenuation")[0].name)
-    plt.close(fig)
+    plot(T)
     print(f"書き出し: {OUT}")
 
 

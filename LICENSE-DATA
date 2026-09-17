@@ -1,0 +1,26 @@
+# Licence for the derived data in this repository
+
+The derived data files in this repository — everything under `projection/results/`,
+`results/`, `projection/*.tsv` and `projection/*.txt` — are made available under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt them for any purpose, including commercially, provided you give
+appropriate credit to the article they accompany and indicate whether changes were made.
+
+The code in this repository is under the MIT licence instead; see LICENSE.
+
+## What this licence does not cover
+
+These files are derived from four public datasets and one author-held dataset. The
+licence above applies to the derived tables as compiled here, not to the primary data,
+which carry their own terms:
+
+- GSE303653, GSE299326, GSE98622 and GSE104954 at the Gene Expression Omnibus
+- PXD066590 at ProteomeXchange
+- the Pod-TRECK proteome, which is author-held and is not in this repository
+
+Orthologue tables from Ensembl BioMart and gene-set collections retrieved through
+Enrichr are not redistributed here at all; `src/00_fetch_refs.py` downloads them from
+the original sources, and their own terms apply.

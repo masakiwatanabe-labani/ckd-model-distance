@@ -1,0 +1,12 @@
+quantity	value
+complete case genes	9480.0
+Group A genes	2016.0
+Group B genes	7464.0
+matched pairs	1632.0
+Group A genes with no partner	384.0
+median expression rank of those	0.9495
+median expression rank, matched Group A	0.7059
+median expression rank, matched Group B	0.7061
+SMD, all Group A vs all Group B	1.2361
+SMD, matched Group A vs matched Group B	-0.0174
+largest absolute rank difference within a pair	0.019998

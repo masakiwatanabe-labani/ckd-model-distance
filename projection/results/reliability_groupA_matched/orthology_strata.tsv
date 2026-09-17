@@ -1,0 +1,9 @@
+pid_quartile	n_genes	class	median_cos	min_pid	max_pid
+1	346	cross_species	0.4212	33.6219	76.9006
+1	346	same_species_diff_dataset	0.7406	33.6219	76.9006
+2	345	cross_species	0.4432	76.9022	86.8712
+2	345	same_species_diff_dataset	0.7301	76.9022	86.8712
+3	345	cross_species	0.4537	86.875	93.695
+3	345	same_species_diff_dataset	0.7263	86.875	93.695
+4	346	cross_species	0.3148	93.7226	100.0
+4	346	same_species_diff_dataset	0.7054	93.7226	100.0

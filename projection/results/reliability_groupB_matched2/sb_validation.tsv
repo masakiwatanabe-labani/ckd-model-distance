@@ -1,0 +1,8 @@
+state	k	r_1	r_k_observed	r_k_SB_predicted	observed_minus_predicted
+cat_CKD12	2	0.16	0.3046	0.2759	0.0286
+cat_CKD12	3	0.16	0.4618	0.3637	0.0981
+cat_CKD34	2	0.5411	0.7122	0.7022	0.01
+cat_CKD34	3	0.5411	0.7964	0.7796	0.0169
+cat_med_CKD12	2	0.5218	0.6948	0.6858	0.009
+cat_med_CKD12	3	0.5218	0.8011	0.766	0.0351
+cat_med_CKD34	2	0.3509	0.4847	0.5195	-0.0348

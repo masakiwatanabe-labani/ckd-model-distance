@@ -1,0 +1,61 @@
+subset	n_states	dissimilarity	predictor	mantel_rho	p_perm
+12 model states (as published)	12	D_rho (1-Spearman)	onset compartment	-0.0639	0.7261
+12 model states (as published)	12	D_rho (1-Spearman)	model identity	-0.0639	0.7288
+12 model states (as published)	12	D_rho (1-Spearman)	elapsed time |Δlog10 h|	0.5964	0.0044
+12 model states (as published)	12	D_rho (1-Spearman)	time | onset compartment	0.5942	0.0036
+12 model states (as published)	12	D_rho (1-Spearman)	onset compartment | time	0.0754	0.6415
+12 model states (as published)	12	D_cos (1-cos)	onset compartment	0.0008	1.0
+12 model states (as published)	12	D_cos (1-cos)	model identity	0.0008	1.0
+12 model states (as published)	12	D_cos (1-cos)	elapsed time |Δlog10 h|	0.5993	0.0038
+12 model states (as published)	12	D_cos (1-cos)	time | onset compartment	0.6104	0.0018
+12 model states (as published)	12	D_cos (1-cos)	onset compartment | time	0.1078	0.5217
+12 model states (as published)	12	D_nrm (|log2 norm ratio|)	onset compartment	-0.0267	0.863
+12 model states (as published)	12	D_nrm (|log2 norm ratio|)	model identity	-0.0267	0.8631
+12 model states (as published)	12	D_nrm (|log2 norm ratio|)	elapsed time |Δlog10 h|	0.3118	0.0281
+12 model states (as published)	12	D_nrm (|log2 norm ratio|)	time | onset compartment	0.3174	0.023
+12 model states (as published)	12	D_nrm (|log2 norm ratio|)	onset compartment | time	0.0818	0.4864
+IRI only (9 states)	9	D_rho (1-Spearman)	onset compartment		0.0001
+IRI only (9 states)	9	D_rho (1-Spearman)	model identity		0.0001
+IRI only (9 states)	9	D_rho (1-Spearman)	elapsed time |Δlog10 h|	0.57	0.0073
+IRI only (9 states)	9	D_rho (1-Spearman)	time | onset compartment	0.5773	0.0071
+IRI only (9 states)	9	D_rho (1-Spearman)	onset compartment | time		0.0001
+IRI only (9 states)	9	D_cos (1-cos)	onset compartment		0.0001
+IRI only (9 states)	9	D_cos (1-cos)	model identity		0.0001
+IRI only (9 states)	9	D_cos (1-cos)	elapsed time |Δlog10 h|	0.6267	0.0009
+IRI only (9 states)	9	D_cos (1-cos)	time | onset compartment	0.6334	0.0011
+IRI only (9 states)	9	D_cos (1-cos)	onset compartment | time		0.0001
+IRI only (9 states)	9	D_nrm (|log2 norm ratio|)	onset compartment		0.0001
+IRI only (9 states)	9	D_nrm (|log2 norm ratio|)	model identity		0.0001
+IRI only (9 states)	9	D_nrm (|log2 norm ratio|)	elapsed time |Δlog10 h|	0.5079	0.0095
+IRI only (9 states)	9	D_nrm (|log2 norm ratio|)	time | onset compartment	0.508	0.0082
+IRI only (9 states)	9	D_nrm (|log2 norm ratio|)	onset compartment | time		0.0001
+12 model states minus IRI 12 mo (11 states)	11	D_rho (1-Spearman)	onset compartment	-0.0462	0.7933
+12 model states minus IRI 12 mo (11 states)	11	D_rho (1-Spearman)	model identity	-0.0462	0.7935
+12 model states minus IRI 12 mo (11 states)	11	D_rho (1-Spearman)	elapsed time |Δlog10 h|	0.6127	0.0042
+12 model states minus IRI 12 mo (11 states)	11	D_rho (1-Spearman)	time | onset compartment	0.6151	0.004
+12 model states minus IRI 12 mo (11 states)	11	D_rho (1-Spearman)	onset compartment | time	0.0282	0.8334
+12 model states minus IRI 12 mo (11 states)	11	D_cos (1-cos)	onset compartment	0.0115	0.936
+12 model states minus IRI 12 mo (11 states)	11	D_cos (1-cos)	model identity	0.0115	0.9299
+12 model states minus IRI 12 mo (11 states)	11	D_cos (1-cos)	elapsed time |Δlog10 h|	0.6273	0.0043
+12 model states minus IRI 12 mo (11 states)	11	D_cos (1-cos)	time | onset compartment	0.6387	0.0033
+12 model states minus IRI 12 mo (11 states)	11	D_cos (1-cos)	onset compartment | time	0.0923	0.5667
+12 model states minus IRI 12 mo (11 states)	11	D_nrm (|log2 norm ratio|)	onset compartment	-0.0023	0.9816
+12 model states minus IRI 12 mo (11 states)	11	D_nrm (|log2 norm ratio|)	model identity	-0.0023	0.9826
+12 model states minus IRI 12 mo (11 states)	11	D_nrm (|log2 norm ratio|)	elapsed time |Δlog10 h|	0.2912	0.0591
+12 model states minus IRI 12 mo (11 states)	11	D_nrm (|log2 norm ratio|)	time | onset compartment	0.3092	0.0498
+12 model states minus IRI 12 mo (11 states)	11	D_nrm (|log2 norm ratio|)	onset compartment | time	0.0587	0.6567
+IRI only minus 12 mo (8 states)	8	D_rho (1-Spearman)	onset compartment		0.0001
+IRI only minus 12 mo (8 states)	8	D_rho (1-Spearman)	model identity		0.0001
+IRI only minus 12 mo (8 states)	8	D_rho (1-Spearman)	elapsed time |Δlog10 h|	0.6716	0.0012
+IRI only minus 12 mo (8 states)	8	D_rho (1-Spearman)	time | onset compartment	0.6826	0.0012
+IRI only minus 12 mo (8 states)	8	D_rho (1-Spearman)	onset compartment | time		0.0001
+IRI only minus 12 mo (8 states)	8	D_cos (1-cos)	onset compartment		0.0001
+IRI only minus 12 mo (8 states)	8	D_cos (1-cos)	model identity		0.0001
+IRI only minus 12 mo (8 states)	8	D_cos (1-cos)	elapsed time |Δlog10 h|	0.7368	0.0005
+IRI only minus 12 mo (8 states)	8	D_cos (1-cos)	time | onset compartment	0.7462	0.0011
+IRI only minus 12 mo (8 states)	8	D_cos (1-cos)	onset compartment | time		0.0001
+IRI only minus 12 mo (8 states)	8	D_nrm (|log2 norm ratio|)	onset compartment		0.0001
+IRI only minus 12 mo (8 states)	8	D_nrm (|log2 norm ratio|)	model identity		0.0001
+IRI only minus 12 mo (8 states)	8	D_nrm (|log2 norm ratio|)	elapsed time |Δlog10 h|	0.6299	0.0156
+IRI only minus 12 mo (8 states)	8	D_nrm (|log2 norm ratio|)	time | onset compartment	0.6305	0.0176
+IRI only minus 12 mo (8 states)	8	D_nrm (|log2 norm ratio|)	onset compartment | time		0.0001

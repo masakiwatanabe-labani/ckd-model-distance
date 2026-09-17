@@ -44,29 +44,75 @@ def is_heading(s: str) -> bool:
     return bool(re.match(r'^\d+\.\d+\.\s', s.strip()))
 
 
-def emit(paras, table_for=None):
-    """段落リストを Markdown に。見出しは ## に、表キャプションの直後に表を挿入。"""
+def _match_run(paras, i, cells):
+    """paras[i:] が cells の並びと一致するか調べ、一致した長さを返す（0 なら不一致）。"""
+    j, k = i, 0
+    while k < len(cells):
+        if j >= len(paras):
+            return 0
+        if not paras[j].strip():
+            j += 1
+            continue
+        if ' '.join(paras[j].split()) != cells[k]:
+            return 0
+        j += 1
+        k += 1
+    return j - i
+
+
+def drop_flat_tables(paras, tables):
+    """docx から平文化して流れ込む表セルの連なりを、pipe 表に置き換える。
+
+    rev4 のテキスト抽出では表のセルが 1 セル 1 段落として本文に混ざる。これを
+    そのまま残すと、更新前の値を持つ平文コピーが pipe 表の隣に残り続ける。
+    """
+    flats = []
+    for tb in tables:
+        cells = [' '.join(c.split()) for r in tb for c in r if c.strip()]
+        if len(cells) >= 4:
+            flats.append((cells, tb))
+    out, i, dropped = [], 0, 0
+    while i < len(paras):
+        hit = None
+        for cells, tb in flats:
+            n = _match_run(paras, i, cells)
+            if n:
+                hit = (n, tb)
+                break
+        if hit:
+            n, tb = hit
+            out.append(md_table(tb))
+            dropped += n
+            i += n
+        else:
+            out.append(paras[i])
+            i += 1
+    return out, dropped
+
+
+def emit(paras, tables=(), table_for=None):
+    """段落リストを Markdown に。見出しは ## に、表キャプションの直後に表を置く。"""
+    paras, dropped = drop_flat_tables(list(paras), list(tables))
     out = []
     for p in paras:
         s = p.strip()
-        if is_heading(s):
+        if s.startswith('|'):
+            out.append(s)
+        elif is_heading(s):
             out.append('## ' + s)
         elif re.match(r'^Table \d+\.', s):
             num = int(re.match(r'^Table (\d+)\.', s).group(1))
             body = re.sub(r'^Table \d+\.\s*', '', s)
             out.append(f'**Table {num}.** *{body}*')
-            if table_for and num in table_for:
-                out.append(md_table(table_for[num]))
         else:
             out.append(wrap(s))
+    emit.dropped = dropped
     return '\n\n'.join(x for x in out if x) + '\n'
 
 
 def main():
     lines, tables = load()
     m = json.loads((SCR / 'marks.json').read_text())
-    tab = {1: tables[1], 2: tables[2], 3: tables[4], 4: tables[5]}
-    methods_table = tables[6]
 
     # ---- FRONTMATTER ----
     abstract = re.sub(r'^Abstract:\s*', '', lines[m['abstract']].strip())
@@ -87,7 +133,7 @@ def main():
 
     # ---- RESULTS (+ figure legends) ----
     res = section(lines, m['results'], m['disc'])
-    body = emit(res, tab)
+    body = emit(res, tables[1:])
     figs = section(lines, m['figleg'], m['supptab'])
     caps = '\n\n'.join(
         re.sub(r'^Figure (\d+)\.\s*', lambda mm: f'**Figure {mm.group(1)}.** ', wrap(f))
@@ -97,14 +143,11 @@ def main():
 
     # ---- DISCUSSION ----
     disc = section(lines, m['disc'], m['methods'])
-    (OUT / 'DISCUSSION.md').write_text('# 3. Discussion\n\n' + emit(disc))
+    (OUT / 'DISCUSSION.md').write_text('# 3. Discussion\n\n' + emit(disc, tables[1:]))
 
     # ---- METHODS ----
     met = section(lines, m['methods'], m['concl'])
-    txt = emit(met)
-    # 4.5 の検体数表を差し込む
-    anchor = '## 4.6. Definition of Group A'
-    txt = txt.replace(anchor, md_table(methods_table) + '\n\n' + anchor)
+    txt = emit(met, tables[1:])
     (OUT / 'METHODS.md').write_text('# 4. Materials and Methods\n\n' + txt)
 
     # ---- CONCLUSIONS ----

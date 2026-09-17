@@ -54,3 +54,48 @@ rp(D, "The cross-species shortfall is continuous with the same-species one, and 
       "understated of the two. The +0.219 we report is therefore smaller than the difference would "
       "be if both groups were measured equally well.")
 print('Part B and C applied')
+
+# ---- 図表の初出順（Table 4 が Table 1 より前に出るのを避ける。rev4 から持ち越しの不整合）----
+rp(R, "so the ordering should be read against Table 4, where it holds in all three gene spaces, "
+      "rather than against this cohort alone.",
+      "so the ordering should be read against the gene-space comparison of Section 2.6, where it "
+      "holds in all three spaces, rather than against this cohort alone.")
+print('table order fixed')
+
+# ---- R-2: リード率を補助的な記述に落とし、Kendall の W を主根拠にする ----
+rp(R, "The ranking of mouse states is pathway-dependent. Kendall's W across the 422 pathways is "
+      "0.320, and the median rank correlation between two pathways is +0.336 (5th-95th percentile "
+      "-0.385 to +0.888). No state leads more than a quarter of pathways (Figure 4A): IRI 28 d "
+      "leads 22%, IRI 12 mo 21%, IRI 2 h 11%, and nine further states share the remainder. IRI 28 d "
+      "has a mid-ranked whole-panel cos θ of 0.484 yet leads the most pathways, and IRI 2 h, the "
+      "lowest-aligned state of the panel at 0.193, leads 11%. That last figure is an artefact of "
+      "set redundancy rather than a broad signal: 47 of the 48 sets IRI 2 h leads are Reactome "
+      "sets, and the ten highest are proteasomal and ubiquitin-degradation sets of 30 to 33 genes "
+      "that share most of their members. We note it and draw nothing from it. There is no single "
+      "best model in these data; which model is closest depends on which pathway is asked about.",
+      "The ranking of mouse states is pathway-dependent, and we rest that on the concordance of "
+      "the rankings rather than on which state comes first. Kendall's W across the 422 pathways is "
+      "0.320, and the median rank correlation between two pathways is +0.336 (5th-95th percentile "
+      "-0.385 to +0.888): two pathways chosen at random order the twelve mouse states only loosely "
+      "alike, and for a fifth of pairs the orders are unrelated or opposed. There is no single best "
+      "model in these data; which model is closest depends on which pathway is asked about. Which "
+      "state leads the most pathways (Figure 4A) is a weaker statement of the same thing and we "
+      "report it only descriptively, because a leading share counts overlapping sets more than "
+      "once: IRI 2 h leads 11% of sets, but 47 of those 48 are Reactome sets, and the ten highest "
+      "are proteasomal and ubiquitin-degradation sets of 30 to 33 genes that share most of their "
+      "members. The shares are IRI 28 d 22%, IRI 12 mo 21%, IRI 2 h 11%, with nine further states "
+      "sharing the remainder; no claim rests on them.")
+
+# ---- R-3: 74 セット固定の理由に判読性を併記 ----
+rp(M, "Figure 3B, which displays cells rather than summarising them, is held to the 74 sets of the "
+      "three original collections that pass the size criterion rather than to all 178: the "
+      "Reactome sets that would be added overlap one another heavily, so the extra columns would "
+      "not add independent information and would make the panel unreadable.",
+      "Figure 3B, which displays cells rather than summarising them, is held to the 74 sets of the "
+      "three original collections that pass the size criterion rather than to all 178, for two "
+      "reasons. The first is practical: 178 columns is 2.4 times the present width, which at a "
+      "legible cell size does not fit the page, and shrinking the cells to fit would put the column "
+      "labels below the size at which they can be read. The second is that the columns that would "
+      "be added are largely redundant with one another, so the panel would grow without carrying "
+      "more independent information.")
+print('R-2 and R-3 applied')
