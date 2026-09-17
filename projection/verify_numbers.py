@@ -469,7 +469,6 @@ def main():
     # 本文・表・図の文言と突き合わせる検査はそれが要るので、無ければそこだけ飛ばし、
     # 結果ファイルどうしの照合は最後まで走らせる。件数は最後に内訳を出す。
     HAVE_MD = (HERE / "manuscript").exists()
-    n_before_text = len(ok) + len(bad)
 
     if HAVE_MD:
         # ---- 改訂5 Part 0: 表のセルと本文の突合 ----
@@ -813,7 +812,8 @@ def main():
         print("原稿の Markdown が無いので、本文・表・図の文言との突合は飛ばした。"
               "結果ファイルどうしの照合だけを実行している。")
     if HAVE_MD:
-        print(f"うち本文・表・図の文言との突合 {len(ok) + len(bad) - n_before_text} 件")
+        print("原稿の Markdown があるので、結果ファイルどうしの照合に加えて "
+              "本文・表・図の文言との突合も実行した。")
     print(f"一致 {len(ok)} 件 / 不一致 {len(bad)} 件")
     for b in bad:
         print("  ✗", b)
