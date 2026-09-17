@@ -465,191 +465,198 @@ def main():
         ]:
             (ok if phrase in body else bad).append(f"{where} の文言が見つからない: {phrase}")
 
-    # ---- 改訂5 Part 0: 表のセルと本文の突合 ----
-    # 図は figure_printed_numbers.tsv を通して本文と照合できるが、表は見ていなかった。
-    # rev8 で見つかった 2 件（Table 4 の集約後 AUC と、サイズ条件を満たすセル数）は
-    # どちらもその穴から漏れた。ここで表側も同じ扱いにする。
-    sys.path.insert(0, str(HERE / "code" / "revision1"))
-    import extract_tables                                   # noqa: E402
-    extract_tables.main()                                   # 常に作り直す（古い値を残さない）
-    TP = tsv("round5/table_printed_numbers.tsv")
+    # 原稿の Markdown はこのリポジトリに置いていない（.gitignore の projection/manuscript/）。
+    # 本文・表・図の文言と突き合わせる検査はそれが要るので、無ければそこだけ飛ばし、
+    # 結果ファイルどうしの照合は最後まで走らせる。件数は最後に内訳を出す。
+    HAVE_MD = (HERE / "manuscript").exists()
+    n_before_text = len(ok) + len(bad)
 
-    MD5 = HERE / "manuscript"
-    import re as _re
+    if HAVE_MD:
+        # ---- 改訂5 Part 0: 表のセルと本文の突合 ----
+        # 図は figure_printed_numbers.tsv を通して本文と照合できるが、表は見ていなかった。
+        # rev8 で見つかった 2 件（Table 4 の集約後 AUC と、サイズ条件を満たすセル数）は
+        # どちらもその穴から漏れた。ここで表側も同じ扱いにする。
+        sys.path.insert(0, str(HERE / "code" / "revision1"))
+        import extract_tables                                   # noqa: E402
+        extract_tables.main()                                   # 常に作り直す（古い値を残さない）
+        TP = tsv("round5/table_printed_numbers.tsv")
 
-    def flat(name):
-        return _re.sub(r"\s+", " ", (MD5 / name).read_text())
+        MD5 = HERE / "manuscript"
+        import re as _re
 
-    prose_results = _re.sub(
-        r"\s+", " ", "\n".join(l for l in (MD5 / "RESULTS.md").read_text().split("\n")
-                                if not l.strip().startswith("|")))
-    BODY = " ".join([prose_results] + [flat(f) for f in
-                    ("DISCUSSION.md", "METHODS.md", "CONCLUSIONS.md",
-                     "FRONTMATTER.md", "SUPPLEMENTARY.md")])
-    BODY = BODY.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
+        def flat(name):
+            return _re.sub(r"\s+", " ", (MD5 / name).read_text())
 
-    # 表にしか出さない値。ここに挙げたものだけが本文に無くてよい。
-    TABLE_ONLY = {
-        ("Table1", "0.755"), ("Table1", "0.884"), ("Table1", "0.781"), ("Table1", "0.945"),
-        ("Table1", "0.862"),
-        # Part A-5 で「群間差も下限」の一文を撤回した結果、この 2 つは表だけの値になった
-        ("Table1", "0.852"), ("Table1", "0.896"),
-        ("Table3", "0.610"), ("Table3", "0.0019"), ("Table3", "0.317"), ("Table3", "0.0232"),
-        ("Table3", "0.0250"), ("Table3", "0.027"), ("Table3", "0.860"),
-        ("Table4", "0.604"), ("Table4", "0.673"), ("Table4", "0.559"), ("Table4", "0.881"),
-        ("Table4", "0.635"), ("Table4", "0.730"),
-        # matched Group A 列の状態ごとの内訳。他の空間と同じく表だけに出す。
-        # 2 つの matched 空間の状態ごとの内訳。他の空間と同じく表だけに出す。
-        ("Table4", "0.546"), ("Table4", "0.876"), ("Table4", "0.623"),
-        ("Table4", "0.566"), ("Table4", "0.901"), ("Table4", "0.629"),
-        ("Table4", "0.987"), ("Table4", "0.734"), ("Table4", "1.345"),
-        ("Table4", "0.947"), ("Table4", "0.776"), ("Table4", "1.221"),
-    }
-    NUMTOK = _re.compile(r"\d+\.\d+|\d[\d,]*")
-    n_tok = 0
-    for r in TP.itertuples():
-        if r.row == "header":
-            continue
-        for tok in NUMTOK.findall(str(r.printed)):
-            n_tok += 1
-            tab = _re.sub(r"b\d+$", "", str(r.table))
-            if (tab, tok) in TABLE_ONLY or tok in BODY:
-                ok.append(f"表 {r.table} の {tok} は本文と整合")
-            else:
-                bad.append(f"表 {r.table}「{str(r.row)[:40]}」の {tok} が本文のどこにも無い "
-                           f"（表だけ更新されて本文が古い可能性。表専用なら TABLE_ONLY に登録する）")
-    assert n_tok > 100, f"表のセルから数値が {n_tok} 個しか取れていない"
+        prose_results = _re.sub(
+            r"\s+", " ", "\n".join(l for l in (MD5 / "RESULTS.md").read_text().split("\n")
+                                    if not l.strip().startswith("|")))
+        BODY = " ".join([prose_results] + [flat(f) for f in
+                        ("DISCUSSION.md", "METHODS.md", "CONCLUSIONS.md",
+                         "FRONTMATTER.md", "SUPPLEMENTARY.md")])
+        BODY = BODY.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
 
-    # 表のセルに数値を連結しない。α / cos θ / ν を 1 セルに詰めていたために、docx 側で
-    # 新旧の値が混ざる事故が起きた。1 セルに数値が 2 つ以上並んだら落とす。
-    # 区間・比・p 値をひとつのセルに書く行は、意図が明示された場合だけ許す。
-    MULTI_OK = {
-        # 中央値と最小値を [ ] で併記する 2 列だけは、意図が列名に書いてあるので許す。
-        ("Table1", "Benchmark, Spearman–Brown: median [min]"),
-        ("Table1", "Benchmark, uncorrected: median [min]"),
-    }
-    NUMTOK2 = _re.compile(r"^[+\-\u2212]?\d+(?:\.\d+)?$")
-    joined_cells = []
-    for r in TP.itertuples():
-        if r.row == "header" or str(r.table).startswith("Table2"):
-            continue                                   # Table 2 は散文セルなので対象外
-        cell = str(r.printed)
-        if (_re.sub(r"b\d+$", "", str(r.table)), str(r.column)) in MULTI_OK:
-            continue
-        toks = [t for t in cell.replace("\u2212", "-").replace("/", " ").replace(",", " ").split()
-                if NUMTOK2.match(t)]
-        if len(toks) >= 2:
-            joined_cells.append(f"{r.table} 「{str(r.row)[:40]}」x「{str(r.column)[:24]}」= {cell}")
-    (ok if not joined_cells else bad).append(
-        "表のセルに数値の連結がない" if not joined_cells
-        else "数値を連結したセルがある: " + "; ".join(joined_cells[:4]))
-    assert len([r for r in TP.itertuples() if str(r.table) == "Table4"]) >= 80, \
-        "Table 4 のセルが少なすぎる（1 セル 1 値への作り直しが効いていない）"
+        # 表にしか出さない値。ここに挙げたものだけが本文に無くてよい。
+        TABLE_ONLY = {
+            ("Table1", "0.755"), ("Table1", "0.884"), ("Table1", "0.781"), ("Table1", "0.945"),
+            ("Table1", "0.862"),
+            # Part A-5 で「群間差も下限」の一文を撤回した結果、この 2 つは表だけの値になった
+            ("Table1", "0.852"), ("Table1", "0.896"),
+            ("Table3", "0.610"), ("Table3", "0.0019"), ("Table3", "0.317"), ("Table3", "0.0232"),
+            ("Table3", "0.0250"), ("Table3", "0.027"), ("Table3", "0.860"),
+            ("Table4", "0.604"), ("Table4", "0.673"), ("Table4", "0.559"), ("Table4", "0.881"),
+            ("Table4", "0.635"), ("Table4", "0.730"),
+            # matched Group A 列の状態ごとの内訳。他の空間と同じく表だけに出す。
+            # 2 つの matched 空間の状態ごとの内訳。他の空間と同じく表だけに出す。
+            ("Table4", "0.546"), ("Table4", "0.876"), ("Table4", "0.623"),
+            ("Table4", "0.566"), ("Table4", "0.901"), ("Table4", "0.629"),
+            ("Table4", "0.987"), ("Table4", "0.734"), ("Table4", "1.345"),
+            ("Table4", "0.947"), ("Table4", "0.776"), ("Table4", "1.221"),
+        }
+        NUMTOK = _re.compile(r"\d+\.\d+|\d[\d,]*")
+        n_tok = 0
+        for r in TP.itertuples():
+            if r.row == "header":
+                continue
+            for tok in NUMTOK.findall(str(r.printed)):
+                n_tok += 1
+                tab = _re.sub(r"b\d+$", "", str(r.table))
+                if (tab, tok) in TABLE_ONLY or tok in BODY:
+                    ok.append(f"表 {r.table} の {tok} は本文と整合")
+                else:
+                    bad.append(f"表 {r.table}「{str(r.row)[:40]}」の {tok} が本文のどこにも無い "
+                               f"（表だけ更新されて本文が古い可能性。表専用なら TABLE_ONLY に登録する）")
+        assert n_tok > 100, f"表のセルから数値が {n_tok} 個しか取れていない"
 
-    # 同じ量が複数の節に出るものは、全出現箇所を検査する。1 か所だけ直す事故を防ぐ。
-    for label, phrases in [
-        ("集約後 AUC（3 遺伝子空間）", [
-            ("Table 4", "| AUC after aggregation, centred (Section 2.3) | 0.511 | 0.600 | 0.624 | 0.529 |"),
-            ("§2.3", "the aggregated values there being 0.600, 0.624 and 0.529"),
-            ("§2.6", "in the other three spaces it falls to 0.600, 0.624 and 0.529")]),
-        ("サイズ条件を満たすセル数", [
-            ("§2.3", "Of the 2,136 cells meeting the size condition"),
-            ("§3.2", "in three of the 2,136 qualifying mouse")]),
-        ("経路単位 AUC の中央値", [
-            ("Table 4", "| Pathway-level AUC, median | 0.760 |"),
-            ("§2.3", "0.760 in the median"),
-            ("§3.3", "a median AUC of 0.760")]),
-        ("種間 cos θ の最大値", [
-            ("Table 1", "| Cross-species (cat vs mouse) | 48 | 0.448 | 0.548 |"),
-            ("Table 4", "| Cat-mouse cos θ, maximum | 0.548 | 0.572 | 0.438 | 0.534 |"),
-            ("§2.2", "a median of 0.448 and a maximum of 0.548"),
-            ("§2.6", "0.548 vs 0.765; 0.572 vs 0.780; 0.438 vs 0.765; 0.534 vs 0.769")]),
-        ("Mantel（経過時間・方向）", [
-            ("Table 3", "+0.599 (p = 0.0040)"),
-            ("Table 4", "| Mantel, elapsed time, direction (ρ) | +0.599 |"),
-            ("§2.5", "+0.599")]),
-    ]:
-        whole = " ".join([BODY] + [_re.sub(r"\s+", " ", (MD5 / "RESULTS.md").read_text())])
-        whole = whole.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
-        for where, phrase in phrases:
+        # 表のセルに数値を連結しない。α / cos θ / ν を 1 セルに詰めていたために、docx 側で
+        # 新旧の値が混ざる事故が起きた。1 セルに数値が 2 つ以上並んだら落とす。
+        # 区間・比・p 値をひとつのセルに書く行は、意図が明示された場合だけ許す。
+        MULTI_OK = {
+            # 中央値と最小値を [ ] で併記する 2 列だけは、意図が列名に書いてあるので許す。
+            ("Table1", "Benchmark, Spearman–Brown: median [min]"),
+            ("Table1", "Benchmark, uncorrected: median [min]"),
+        }
+        NUMTOK2 = _re.compile(r"^[+\-\u2212]?\d+(?:\.\d+)?$")
+        joined_cells = []
+        for r in TP.itertuples():
+            if r.row == "header" or str(r.table).startswith("Table2"):
+                continue                                   # Table 2 は散文セルなので対象外
+            cell = str(r.printed)
+            if (_re.sub(r"b\d+$", "", str(r.table)), str(r.column)) in MULTI_OK:
+                continue
+            toks = [t for t in cell.replace("\u2212", "-").replace("/", " ").replace(",", " ").split()
+                    if NUMTOK2.match(t)]
+            if len(toks) >= 2:
+                joined_cells.append(f"{r.table} 「{str(r.row)[:40]}」x「{str(r.column)[:24]}」= {cell}")
+        (ok if not joined_cells else bad).append(
+            "表のセルに数値の連結がない" if not joined_cells
+            else "数値を連結したセルがある: " + "; ".join(joined_cells[:4]))
+        assert len([r for r in TP.itertuples() if str(r.table) == "Table4"]) >= 80, \
+            "Table 4 のセルが少なすぎる（1 セル 1 値への作り直しが効いていない）"
+
+        # 同じ量が複数の節に出るものは、全出現箇所を検査する。1 か所だけ直す事故を防ぐ。
+        for label, phrases in [
+            ("集約後 AUC（3 遺伝子空間）", [
+                ("Table 4", "| AUC after aggregation, centred (Section 2.3) | 0.511 | 0.600 | 0.624 | 0.529 |"),
+                ("§2.3", "the aggregated values there being 0.600, 0.624 and 0.529"),
+                ("§2.6", "in the other three spaces it falls to 0.600, 0.624 and 0.529")]),
+            ("サイズ条件を満たすセル数", [
+                ("§2.3", "Of the 2,136 cells meeting the size condition"),
+                ("§3.2", "in three of the 2,136 qualifying mouse")]),
+            ("経路単位 AUC の中央値", [
+                ("Table 4", "| Pathway-level AUC, median | 0.760 |"),
+                ("§2.3", "0.760 in the median"),
+                ("§3.3", "a median AUC of 0.760")]),
+            ("種間 cos θ の最大値", [
+                ("Table 1", "| Cross-species (cat vs mouse) | 48 | 0.448 | 0.548 |"),
+                ("Table 4", "| Cat-mouse cos θ, maximum | 0.548 | 0.572 | 0.438 | 0.534 |"),
+                ("§2.2", "a median of 0.448 and a maximum of 0.548"),
+                ("§2.6", "0.548 vs 0.765; 0.572 vs 0.780; 0.438 vs 0.765; 0.534 vs 0.769")]),
+            ("Mantel（経過時間・方向）", [
+                ("Table 3", "+0.599 (p = 0.0040)"),
+                ("Table 4", "| Mantel, elapsed time, direction (ρ) | +0.599 |"),
+                ("§2.5", "+0.599")]),
+        ]:
+            whole = " ".join([BODY] + [_re.sub(r"\s+", " ", (MD5 / "RESULTS.md").read_text())])
+            whole = whole.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
+            for where, phrase in phrases:
+                want = _re.sub(r"\s+", " ", phrase)
+                (ok if want in whole else bad).append(
+                    f"{label} / {where} の文言が見つからない: {want}")
+
+        # 表の値そのものを結果ファイルと照合する
+        GS = tsv("revision1/genespace_with_reactome.tsv").set_index("space")
+        t4 = {(r.row, r.column): r.printed for r in TP.itertuples() if r.table == "Table4"}
+        for space, col in [("Group A", "Group A (2,016)"),
+                           ("all 1:1 orthologues", "All 1:1 orthologues (7,897)"),
+                           ("matched Group B", "Matched Group B (1,632)"),
+                           ("matched Group A", "Matched Group A (1,632)")]:
+            chk(f"Table 4 集約後 AUC {space}",
+                float(t4[("AUC after aggregation, centred (Section 2.3)", col)]),
+                float(GS.loc[space, "aggregated_auc_centred"]), 6e-4)
+            chk(f"Table 4 経路単位 AUC 中央値 {space}",
+                float(t4[("Pathway-level AUC, median", col)]),
+                float(GS.loc[space, "pathway_auc_median"]), 6e-4)
+
+        PCE = tsv("reliability/pairs_ceilings.tsv")
+        t1 = {(r.row, r.column): r.printed for r in TP.itertuples() if r.table == "Table1"}
+        for cls, row in [("within_dataset", "Within dataset"),
+                         ("same_species_diff_dataset", "Same species, different dataset"),
+                         ("cross_species", "Cross-species (cat vs mouse)")]:
+            d = PCE[PCE["class"] == cls]
+            chk(f"Table 1 ペア数 {row}", float(t1[(row, "n pairs")]), float(len(d)), 0.5)
+            chk(f"Table 1 cos 中央値 {row}", float(t1[(row, "cos θ median")]),
+                float(d.cos.median()), 6e-4)
+            chk(f"Table 1 cos 最大 {row}", float(t1[(row, "cos θ max")]), float(d.cos.max()), 6e-4)
+
+        # ---- 改訂5: 節・図・表の相互参照、作業用注記、Abstract の語数 ----
+        all_md = {f: (MD5 / f).read_text() for f in
+                  ("FRONTMATTER.md", "INTRODUCTION.md", "RESULTS.md", "DISCUSSION.md",
+                   "METHODS.md", "CONCLUSIONS.md", "SUPPLEMENTARY.md", "BACKMATTER.md")}
+        joined = _re.sub(r"\s+", " ", " ".join(all_md.values()))   # 改行で参照が割れるのを防ぐ
+        heads = set()
+        for f in ("METHODS.md", "RESULTS.md", "DISCUSSION.md"):
+            heads |= set(_re.findall(r"^## (\d+\.\d+)\.", all_md[f], _re.M))
+        refs = set(_re.findall(r"Section (\d+\.\d+)", joined))
+        missing = sorted(refs - heads)
+        (ok if not missing else bad).append(
+            f"本文が参照する節がすべて実在する（欠落: {missing}）" if not missing
+            else f"存在しない節への参照: {missing}")
+        figs = set(_re.findall(r"\*\*(Figure S?\d+)\.\*\*", joined))
+        figrefs = set(_re.findall(r"\b(Figure S?\d+)[A-D]?\b", joined))
+        miss_f = sorted(figrefs - figs)
+        (ok if not miss_f else bad).append(
+            "本文が参照する図がすべて実在する" if not miss_f else f"存在しない図への参照: {miss_f}")
+        tabs = set(_re.findall(r"\*\*(Table S?\d+)\.\*\*", joined))
+        tabs |= set(_re.findall(r"\*\*(Table S\d+)\.\*\*", all_md["SUPPLEMENTARY.md"]))
+        tabrefs = set(_re.findall(r"\b(Table S?\d+)\b", joined))
+        miss_t = sorted(tabrefs - tabs)
+        (ok if not miss_t else bad).append(
+            "本文が参照する表がすべて実在する" if not miss_t else f"存在しない表への参照: {miss_t}")
+
+        for pat, label in [(r"\[VERIFY[^\]]*\]", "VERIFY 注記"),
+                           (r"\[REPOSITORY[^\]]*\]", "REPOSITORY 注記"),
+                           (r"to be supplied", "to be supplied"),
+                           (r"(?i)\bceiling\b", "ceiling（benchmark に統一済みのはず）")]:
+            hit = _re.findall(pat, joined)
+            (ok if not hit else bad).append(
+                f"{label} は残っていない" if not hit else f"{label} が {len(hit)} 箇所残っている")
+
+        abst = _re.search(r"## Abstract\n\n(.*?)\n\n\*\*Keywords", all_md["FRONTMATTER.md"], _re.S)
+        nw = len(abst.group(1).split())
+        (ok if nw <= 200 else bad).append(
+            f"Abstract は {nw} 語（200 語以内）" if nw <= 200 else f"Abstract が {nw} 語ある")
+
+        # 四条件の AUC は §2.3・§3.3・Abstract・Conclusions の 4 箇所に出る。全部を検査する。
+        for where, phrase in [
+            ("§2.3", "separating at AUC 0.868"),
+            ("§3.3", "pathway means separate at 0.868"),
+            ("Abstract", "at AUC 0.868 when each state's mean change"),
+            ("Conclusions", "at AUC 0.868 or at 0.511"),
+        ]:
             want = _re.sub(r"\s+", " ", phrase)
-            (ok if want in whole else bad).append(
-                f"{label} / {where} の文言が見つからない: {want}")
-
-    # 表の値そのものを結果ファイルと照合する
-    GS = tsv("revision1/genespace_with_reactome.tsv").set_index("space")
-    t4 = {(r.row, r.column): r.printed for r in TP.itertuples() if r.table == "Table4"}
-    for space, col in [("Group A", "Group A (2,016)"),
-                       ("all 1:1 orthologues", "All 1:1 orthologues (7,897)"),
-                       ("matched Group B", "Matched Group B (1,632)"),
-                       ("matched Group A", "Matched Group A (1,632)")]:
-        chk(f"Table 4 集約後 AUC {space}",
-            float(t4[("AUC after aggregation, centred (Section 2.3)", col)]),
-            float(GS.loc[space, "aggregated_auc_centred"]), 6e-4)
-        chk(f"Table 4 経路単位 AUC 中央値 {space}",
-            float(t4[("Pathway-level AUC, median", col)]),
-            float(GS.loc[space, "pathway_auc_median"]), 6e-4)
-
-    PCE = tsv("reliability/pairs_ceilings.tsv")
-    t1 = {(r.row, r.column): r.printed for r in TP.itertuples() if r.table == "Table1"}
-    for cls, row in [("within_dataset", "Within dataset"),
-                     ("same_species_diff_dataset", "Same species, different dataset"),
-                     ("cross_species", "Cross-species (cat vs mouse)")]:
-        d = PCE[PCE["class"] == cls]
-        chk(f"Table 1 ペア数 {row}", float(t1[(row, "n pairs")]), float(len(d)), 0.5)
-        chk(f"Table 1 cos 中央値 {row}", float(t1[(row, "cos θ median")]),
-            float(d.cos.median()), 6e-4)
-        chk(f"Table 1 cos 最大 {row}", float(t1[(row, "cos θ max")]), float(d.cos.max()), 6e-4)
-
-    # ---- 改訂5: 節・図・表の相互参照、作業用注記、Abstract の語数 ----
-    all_md = {f: (MD5 / f).read_text() for f in
-              ("FRONTMATTER.md", "INTRODUCTION.md", "RESULTS.md", "DISCUSSION.md",
-               "METHODS.md", "CONCLUSIONS.md", "SUPPLEMENTARY.md", "BACKMATTER.md")}
-    joined = _re.sub(r"\s+", " ", " ".join(all_md.values()))   # 改行で参照が割れるのを防ぐ
-    heads = set()
-    for f in ("METHODS.md", "RESULTS.md", "DISCUSSION.md"):
-        heads |= set(_re.findall(r"^## (\d+\.\d+)\.", all_md[f], _re.M))
-    refs = set(_re.findall(r"Section (\d+\.\d+)", joined))
-    missing = sorted(refs - heads)
-    (ok if not missing else bad).append(
-        f"本文が参照する節がすべて実在する（欠落: {missing}）" if not missing
-        else f"存在しない節への参照: {missing}")
-    figs = set(_re.findall(r"\*\*(Figure S?\d+)\.\*\*", joined))
-    figrefs = set(_re.findall(r"\b(Figure S?\d+)[A-D]?\b", joined))
-    miss_f = sorted(figrefs - figs)
-    (ok if not miss_f else bad).append(
-        "本文が参照する図がすべて実在する" if not miss_f else f"存在しない図への参照: {miss_f}")
-    tabs = set(_re.findall(r"\*\*(Table S?\d+)\.\*\*", joined))
-    tabs |= set(_re.findall(r"\*\*(Table S\d+)\.\*\*", all_md["SUPPLEMENTARY.md"]))
-    tabrefs = set(_re.findall(r"\b(Table S?\d+)\b", joined))
-    miss_t = sorted(tabrefs - tabs)
-    (ok if not miss_t else bad).append(
-        "本文が参照する表がすべて実在する" if not miss_t else f"存在しない表への参照: {miss_t}")
-
-    for pat, label in [(r"\[VERIFY[^\]]*\]", "VERIFY 注記"),
-                       (r"\[REPOSITORY[^\]]*\]", "REPOSITORY 注記"),
-                       (r"to be supplied", "to be supplied"),
-                       (r"(?i)\bceiling\b", "ceiling（benchmark に統一済みのはず）")]:
-        hit = _re.findall(pat, joined)
-        (ok if not hit else bad).append(
-            f"{label} は残っていない" if not hit else f"{label} が {len(hit)} 箇所残っている")
-
-    abst = _re.search(r"## Abstract\n\n(.*?)\n\n\*\*Keywords", all_md["FRONTMATTER.md"], _re.S)
-    nw = len(abst.group(1).split())
-    (ok if nw <= 200 else bad).append(
-        f"Abstract は {nw} 語（200 語以内）" if nw <= 200 else f"Abstract が {nw} 語ある")
-
-    # 四条件の AUC は §2.3・§3.3・Abstract・Conclusions の 4 箇所に出る。全部を検査する。
-    for where, phrase in [
-        ("§2.3", "separating at AUC 0.868"),
-        ("§3.3", "pathway means separate at 0.868"),
-        ("Abstract", "at AUC 0.868 when each state's mean change"),
-        ("Conclusions", "at AUC 0.868 or at 0.511"),
-    ]:
-        want = _re.sub(r"\s+", " ", phrase)
-        hay = _re.sub(r"\s+", " ", joined).replace("\u2019", "'")
-        (ok if want in hay else bad).append(
-            f"集約前後の AUC / {where} の文言が見つからない: {want}")
+            hay = _re.sub(r"\s+", " ", joined).replace("\u2019", "'")
+            (ok if want in hay else bad).append(
+                f"集約前後の AUC / {where} の文言が見つからない: {want}")
 
     # ---- 査読第2便: Spearman-Brown 補正済み基準の較正 ----
     CD = tsv("round5/ceiling_decomposition_sim.tsv")
@@ -688,118 +695,125 @@ def main():
         float(CVs.miss_theta_below_interval.max()) == 0.0, \
         "区間の外れ方が一方向でなくなった（§4.11 の記述と食い違う）"
 
-    for where, phrase in [
-        ("§4.10", "neither exceeded the corrected benchmark in a single replicate"),
-        ("§4.10", "in 78.7% and 78.7% of replicates"),
-        ("§2.2", "median difference of 0.487 with an interquartile range of 0.437 to 0.561"),
-        ("§2.2", "The lowest Spearman-Brown benchmark among the 48 cross-species pairs is 0.765"),
-        ("§2.2", "a gap of 0.297"),
-        ("§2.2", "in 9.4% of datasets on average against the uncorrected benchmark and in 49.0%"),
-        ("§3.2", "the four pairs above their corrected benchmark, by up to 0.094"),
-    ]:
-        want = _re.sub(r"\s+", " ", phrase)
-        hay = _re.sub(r"\s+", " ", " ".join((MD5 / f).read_text() for f in
-                      ("RESULTS.md", "DISCUSSION.md", "METHODS.md")))
-        hay = hay.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
-        (ok if want in hay else bad).append(
-            f"SB 基準 / {where} の文言が見つからない: {want}")
+    if HAVE_MD:
+        for where, phrase in [
+            ("§4.10", "neither exceeded the corrected benchmark in a single replicate"),
+            ("§4.10", "in 78.7% and 78.7% of replicates"),
+            ("§2.2", "median difference of 0.487 with an interquartile range of 0.437 to 0.561"),
+            ("§2.2", "The lowest Spearman-Brown benchmark among the 48 cross-species pairs is 0.765"),
+            ("§2.2", "a gap of 0.297"),
+            ("§2.2", "in 9.4% of datasets on average against the uncorrected benchmark and in 49.0%"),
+            ("§3.2", "the four pairs above their corrected benchmark, by up to 0.094"),
+        ]:
+            want = _re.sub(r"\s+", " ", phrase)
+            hay = _re.sub(r"\s+", " ", " ".join((MD5 / f).read_text() for f in
+                          ("RESULTS.md", "DISCUSSION.md", "METHODS.md")))
+            hay = hay.replace("\u2019", "'").replace("\u2013", "-").replace("\u2014", "-")
+            (ok if want in hay else bad).append(
+                f"SB 基準 / {where} の文言が見つからない: {want}")
 
-    # ---- 改訂6 Part 3-2: 補足要素の参照とキャプションの突合 ----
-    # rev10 では Table S3 と S4 が、キャプションなしで本文から参照されていた。
-    # 図・表と同じ考え方で、参照とキャプションと背表紙の一覧を三方向で突き合わせる。
-    body_files = ("FRONTMATTER.md", "INTRODUCTION.md", "RESULTS.md", "DISCUSSION.md",
-                  "METHODS.md", "CONCLUSIONS.md")
-    body_txt = _re.sub(r"\s+", " ", " ".join(all_md[f] for f in body_files))
-    supp_txt = all_md["SUPPLEMENTARY.md"]
-    back_txt = _re.sub(r"\s+", " ", all_md["BACKMATTER.md"])
+    if HAVE_MD:
+        # ---- 改訂6 Part 3-2: 補足要素の参照とキャプションの突合 ----
+        # rev10 では Table S3 と S4 が、キャプションなしで本文から参照されていた。
+        # 図・表と同じ考え方で、参照とキャプションと背表紙の一覧を三方向で突き合わせる。
+        body_files = ("FRONTMATTER.md", "INTRODUCTION.md", "RESULTS.md", "DISCUSSION.md",
+                      "METHODS.md", "CONCLUSIONS.md")
+        body_txt = _re.sub(r"\s+", " ", " ".join(all_md[f] for f in body_files))
+        supp_txt = all_md["SUPPLEMENTARY.md"]
+        back_txt = _re.sub(r"\s+", " ", all_md["BACKMATTER.md"])
 
-    supp_caps = set(_re.findall(r"\*\*((?:Table|Figure) S\d+)\.\*\*", supp_txt))
-    supp_refs = set(_re.findall(r"\b((?:Table|Figure) S\d+)\b", body_txt))
-    back_list = set(_re.findall(r"\b((?:Table|Figure|File) S\d+)\b", back_txt))
+        supp_caps = set(_re.findall(r"\*\*((?:Table|Figure) S\d+)\.\*\*", supp_txt))
+        supp_refs = set(_re.findall(r"\b((?:Table|Figure) S\d+)\b", body_txt))
+        back_list = set(_re.findall(r"\b((?:Table|Figure|File) S\d+)\b", back_txt))
 
-    no_cap = sorted(supp_refs - supp_caps)
-    (ok if not no_cap else bad).append(
-        "本文が参照する補足要素にはすべてキャプションがある" if not no_cap
-        else f"キャプションの無い補足要素が参照されている: {no_cap}")
-    no_ref = sorted(supp_caps - supp_refs)
-    (ok if not no_ref else bad).append(
-        "キャプションのある補足要素はすべて本文から参照されている" if not no_ref
-        else f"本文から一度も参照されない補足要素: {no_ref}")
-    # 背表紙の一覧は、キャプションの集合に File S1 を足したものと一致すべき
-    want_back = supp_caps | {"File S1"}
-    miss_back = sorted(want_back - back_list)
-    extra_back = sorted(back_list - want_back)
-    (ok if not miss_back else bad).append(
-        "背表紙の Supplementary Materials に漏れがない" if not miss_back
-        else f"背表紙の一覧に無い補足要素: {miss_back}")
-    (ok if not extra_back else bad).append(
-        "背表紙の一覧に余分な項目がない" if not extra_back
-        else f"キャプションの無い項目が背表紙の一覧にある: {extra_back}")
-    # 抽出そのものが失敗していないかだけを見る。過不足の報告は上の 4 検査が行う。
-    assert supp_caps, "SUPPLEMENTARY.md から補足要素のキャプションが 1 件も取れない"
-    # 補足要素が指す出典ファイルが実在するか
-    for m in _re.finditer(r"\(results/[\w./-]+\.tsv\)", supp_txt + " " + back_txt):
-        rel = m.group(0).strip("()")
-        (ok if (HERE / rel).exists() else bad).append(
-            f"補足の出典 {rel} が存在する" if (HERE / rel).exists()
-            else f"補足が指す出典ファイルが無い: {rel}")
+        no_cap = sorted(supp_refs - supp_caps)
+        (ok if not no_cap else bad).append(
+            "本文が参照する補足要素にはすべてキャプションがある" if not no_cap
+            else f"キャプションの無い補足要素が参照されている: {no_cap}")
+        no_ref = sorted(supp_caps - supp_refs)
+        (ok if not no_ref else bad).append(
+            "キャプションのある補足要素はすべて本文から参照されている" if not no_ref
+            else f"本文から一度も参照されない補足要素: {no_ref}")
+        # 背表紙の一覧は、キャプションの集合に File S1 を足したものと一致すべき
+        want_back = supp_caps | {"File S1"}
+        miss_back = sorted(want_back - back_list)
+        extra_back = sorted(back_list - want_back)
+        (ok if not miss_back else bad).append(
+            "背表紙の Supplementary Materials に漏れがない" if not miss_back
+            else f"背表紙の一覧に無い補足要素: {miss_back}")
+        (ok if not extra_back else bad).append(
+            "背表紙の一覧に余分な項目がない" if not extra_back
+            else f"キャプションの無い項目が背表紙の一覧にある: {extra_back}")
+        # 抽出そのものが失敗していないかだけを見る。過不足の報告は上の 4 検査が行う。
+        assert supp_caps, "SUPPLEMENTARY.md から補足要素のキャプションが 1 件も取れない"
+        # 補足要素が指す出典ファイルが実在するか
+        for m in _re.finditer(r"\(results/[\w./-]+\.tsv\)", supp_txt + " " + back_txt):
+            rel = m.group(0).strip("()")
+            (ok if (HERE / rel).exists() else bad).append(
+                f"補足の出典 {rel} が存在する" if (HERE / rel).exists()
+                else f"補足が指す出典ファイルが無い: {rel}")
 
-    # ---- 改訂7 Part 0: 文献番号が 1 から順に連続し、抜け番がないこと ----
-    reftxt = (MD5 / "REFERENCES.md").read_text()
-    refnums = [int(m.group(1)) for m in _re.finditer(r"^(\d{1,2})\.\s+[A-Z]", reftxt, _re.M)]
-    dup = sorted({n for n in refnums if refnums.count(n) > 1})
-    gaps = sorted(set(range(1, max(refnums) + 1)) - set(refnums))
-    (ok if not gaps and not dup else bad).append(
-        f"文献リストは 1 から {max(refnums)} まで連続（{len(refnums)} 件）"
-        if not gaps and not dup else f"文献番号に抜け {gaps} / 重複 {dup}")
-    cited = set()
-    for m in _re.finditer(r"\[([0-9][0-9,\u2013\u2014 -]*)\]", joined):
-        for tok in _re.split(r"[,\u2013\u2014 -]", m.group(1)):
-            if tok.isdigit():
-                cited.add(int(tok))
-    over = sorted(n for n in cited if n > max(refnums))
-    under = sorted(set(range(1, max(refnums) + 1)) - cited)
-    (ok if not over else bad).append(
-        "本文の引用番号が文献リストの範囲に収まっている" if not over
-        else f"文献リストに無い番号が引用されている: {over}")
-    (ok if not under else bad).append(
-        "文献リストの全件が本文から引用されている" if not under
-        else f"一度も引用されない文献: {under}")
-    assert len(refnums) == 34, f"文献が {len(refnums)} 件（34 件体系のはず）"
+        # ---- 改訂7 Part 0: 文献番号が 1 から順に連続し、抜け番がないこと ----
+        reftxt = (MD5 / "REFERENCES.md").read_text()
+        refnums = [int(m.group(1)) for m in _re.finditer(r"^(\d{1,2})\.\s+[A-Z]", reftxt, _re.M)]
+        dup = sorted({n for n in refnums if refnums.count(n) > 1})
+        gaps = sorted(set(range(1, max(refnums) + 1)) - set(refnums))
+        (ok if not gaps and not dup else bad).append(
+            f"文献リストは 1 から {max(refnums)} まで連続（{len(refnums)} 件）"
+            if not gaps and not dup else f"文献番号に抜け {gaps} / 重複 {dup}")
+        cited = set()
+        for m in _re.finditer(r"\[([0-9][0-9,\u2013\u2014 -]*)\]", joined):
+            for tok in _re.split(r"[,\u2013\u2014 -]", m.group(1)):
+                if tok.isdigit():
+                    cited.add(int(tok))
+        over = sorted(n for n in cited if n > max(refnums))
+        under = sorted(set(range(1, max(refnums) + 1)) - cited)
+        (ok if not over else bad).append(
+            "本文の引用番号が文献リストの範囲に収まっている" if not over
+            else f"文献リストに無い番号が引用されている: {over}")
+        (ok if not under else bad).append(
+            "文献リストの全件が本文から引用されている" if not under
+            else f"一度も引用されない文献: {under}")
+        assert len(refnums) == 34, f"文献が {len(refnums)} 件（34 件体系のはず）"
 
-    # ---- 改訂8 最終校正: 重複文、定義式の位置、作業用注記 ----
-    sent_where = {}
-    for f in ("FRONTMATTER.md", "INTRODUCTION.md", "RESULTS.md", "DISCUSSION.md",
-              "METHODS.md", "CONCLUSIONS.md", "SUPPLEMENTARY.md", "BACKMATTER.md"):
-        flat = _re.sub(r"\s+", " ", all_md[f])
-        for sent in _re.split(r"(?<=[.]) ", flat):
-            sent = sent.strip()
-            if len(sent) > 70 and not sent.startswith("|"):
-                sent_where.setdefault(sent, []).append(f)
-    dups = {k: v for k, v in sent_where.items() if len(v) > 1}
-    (ok if not dups else bad).append(
-        "同じ文が二度出てこない" if not dups
-        else f"重複した文が {len(dups)} 件: " + list(dups)[0][:70])
+        # ---- 改訂8 最終校正: 重複文、定義式の位置、作業用注記 ----
+        sent_where = {}
+        for f in ("FRONTMATTER.md", "INTRODUCTION.md", "RESULTS.md", "DISCUSSION.md",
+                  "METHODS.md", "CONCLUSIONS.md", "SUPPLEMENTARY.md", "BACKMATTER.md"):
+            flat = _re.sub(r"\s+", " ", all_md[f])
+            for sent in _re.split(r"(?<=[.]) ", flat):
+                sent = sent.strip()
+                if len(sent) > 70 and not sent.startswith("|"):
+                    sent_where.setdefault(sent, []).append(f)
+        dups = {k: v for k, v in sent_where.items() if len(v) > 1}
+        (ok if not dups else bad).append(
+            "同じ文が二度出てこない" if not dups
+            else f"重複した文が {len(dups)} 件: " + list(dups)[0][:70])
 
-    # §2.1 の定義式は、導入する文の直後の段落でなければならない。
-    res_paras = [p.strip() for p in all_md["RESULTS.md"].split("\n\n") if p.strip()]
-    for lead, what in [("the projection of a state vector", "α / cos θ / ν / R⊥ の定義式"),
-                       ("These four quantities are not independent", "恒等式 (1)")]:
-        idx = [i for i, p in enumerate(res_paras) if lead in _re.sub(r"\s+", " ", p)]
-        good = bool(idx) and idx[0] + 1 < len(res_paras) and \
-            res_paras[idx[0] + 1].lstrip().startswith("$$")
-        (ok if good else bad).append(
-            f"{what} が導入文の直後にある" if good
-            else f"{what} が導入文の直後にない（§2.1 の数式ブロックが離れている）")
+        # §2.1 の定義式は、導入する文の直後の段落でなければならない。
+        res_paras = [p.strip() for p in all_md["RESULTS.md"].split("\n\n") if p.strip()]
+        for lead, what in [("the projection of a state vector", "α / cos θ / ν / R⊥ の定義式"),
+                           ("These four quantities are not independent", "恒等式 (1)")]:
+            idx = [i for i, p in enumerate(res_paras) if lead in _re.sub(r"\s+", " ", p)]
+            good = bool(idx) and idx[0] + 1 < len(res_paras) and \
+                res_paras[idx[0] + 1].lstrip().startswith("$$")
+            (ok if good else bad).append(
+                f"{what} が導入文の直後にある" if good
+                else f"{what} が導入文の直後にない（§2.1 の数式ブロックが離れている）")
 
-    # 角括弧の作業用注記。文献の引用番号だけは除く。
-    notes = [m.group(0) for m in _re.finditer(r"\[[^\]]{4,}\]", joined)
-             if not _re.fullmatch(r"\[[0-9][0-9,\u2013\u2014 -]*\]", m.group(0))
-             and not _re.fullmatch(r"\[\d+\.\d+\]", m.group(0))]   # 表の [min] 値は注記でない
-    (ok if not notes else bad).append(
-        "角括弧の作業用注記が残っていない" if not notes
-        else f"作業用注記らしき角括弧が {len(notes)} 件: {notes[:3]}")
+        # 角括弧の作業用注記。文献の引用番号だけは除く。
+        notes = [m.group(0) for m in _re.finditer(r"\[[^\]]{4,}\]", joined)
+                 if not _re.fullmatch(r"\[[0-9][0-9,\u2013\u2014 -]*\]", m.group(0))
+                 and not _re.fullmatch(r"\[\d+\.\d+\]", m.group(0))]   # 表の [min] 値は注記でない
+        (ok if not notes else bad).append(
+            "角括弧の作業用注記が残っていない" if not notes
+            else f"作業用注記らしき角括弧が {len(notes)} 件: {notes[:3]}")
 
+    if not HAVE_MD:
+        print("原稿の Markdown が無いので、本文・表・図の文言との突合は飛ばした。"
+              "結果ファイルどうしの照合だけを実行している。")
+    if HAVE_MD:
+        print(f"うち本文・表・図の文言との突合 {len(ok) + len(bad) - n_before_text} 件")
     print(f"一致 {len(ok)} 件 / 不一致 {len(bad)} 件")
     for b in bad:
         print("  ✗", b)
