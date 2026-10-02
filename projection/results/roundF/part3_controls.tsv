@@ -1,0 +1,12 @@
+analysis	quantity	observed_all_422	median	lo95	hi95	min	max	n
+163 of the 422 Group A sets	auc_agg_centred	0.5112	0.5075	0.4912	0.524	0.4872	0.5315	300
+163 of the 422 Group A sets	auc_agg_uncentred	0.8675	0.8659	0.8437	0.8878	0.8344	0.8921	300
+163 of the 422 Group A sets	difference	0.3563	0.359	0.3323	0.3825	0.3259	0.3905	300
+87 pairs (as reported)	auc_gene_level	0.813						87
+87 pairs (as reported)	auc_agg_centred	0.5112						87
+87 pairs (as reported)	auc_agg_uncentred	0.8675						87
+87 pairs (as reported)	difference	0.3563						87
+without the IRI 12-month state	auc_gene_level	0.7979						72
+without the IRI 12-month state	auc_agg_centred	0.5463						72
+without the IRI 12-month state	auc_agg_uncentred	0.858						72
+without the IRI 12-month state	difference	0.3117						72

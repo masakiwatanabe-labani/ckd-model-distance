@@ -1,0 +1,6 @@
+quantity	value
+source paper	Liu et al., JCI Insight 2017;2:e94716
+doi	10.1172/jci.insight.94716
+full text	Europe PMC PMC5612583
+genes stated in the paper	43,309
+verbatim statement	we analyzed RNA-seq data at the gene level by quantifying fragments per kilobase of transcript per million mapped reads (FPKM) values from 43,309 genes. The full table containing FPKM values for all samples has been deposited in the NCBI Gene Expression Omnibus (GEO accession GSE98622 )

@@ -1,0 +1,7 @@
+space	pairs	collection	n_genes	n_sets	n_pairs	n_within	n_cross	auc_gene_level	auc_gene_centred	auc_agg_centred	auc_agg_uncentred	pathway_auc_median	centring_drop	cross_med_agg_centred	cross_med_agg_uncentred	within_med_agg_centred	within_med_agg_uncentred
+Group A (2,016)	87 (no shared controls)	422 (+Reactome)	2016	422	87	39	48	0.813	0.7591	0.5112	0.8675	0.7596	0.3563	0.8324	0.4619	0.8314	0.8698
+Group A (2,016)	83 (also no shared cohort)	422 (+Reactome)	2016	422	83	35	48	0.7917	0.7315	0.4911	0.8524	0.7438	0.3613	0.8324	0.4619	0.7798	0.8779
+Group A (2,016)	83 (also no shared cohort)	193 (GO+KEGG+Hallmark, superseded)	2016	193	83	35	48	0.7917	0.7315	0.4815	0.8869	0.7655	0.4054	0.8818	0.4887	0.8558	0.8964
+All 1:1 orthologues (7,897)	87 (no shared controls)	422 (+Reactome)	7897	1534	87	39	48	0.7943	0.7585	0.6004	0.8632	0.7821	0.2628	0.7675	0.5331	0.8247	0.8783
+Matched Group B (1,632)	87 (no shared controls)	422 (+Reactome)	1632	163	87	39	48	0.8024	0.7682	0.6239	0.9963	0.7799	0.3723	0.7026	-0.1636	0.7747	0.804
+Matched Group A (1,632)	87 (no shared controls)	422 (+Reactome)	1632	261	87	39	48	0.8296	0.7762	0.5294	0.8841	0.781	0.3547	0.7817	0.4716	0.8005	0.8785

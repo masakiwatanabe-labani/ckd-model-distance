@@ -1,0 +1,354 @@
+result_file	bytes	producer	matched_by	status
+results/aa_genespace/genespace_comparison.tsv	657	projection/aa_summary.py	exact filename literal	ok
+results/alpha_groupA/projection.tsv	1769	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_groupA/report.md	5779	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/alpha_groupA/time_association.tsv	1672	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_groupA_matched/projection.tsv	1763	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_groupA_matched/report.md	5777	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/alpha_groupA_matched/time_association.tsv	1672	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_groupB_matched/projection.tsv	1761	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_groupB_matched/report.md	5778	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/alpha_groupB_matched/time_association.tsv	1632	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_groupB_matched2/projection.tsv	1761	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_groupB_matched2/report.md	5779	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/alpha_groupB_matched2/time_association.tsv	1668	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_ortholog_all/projection.tsv	1762	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_ortholog_all/report.md	5776	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/alpha_ortholog_all/time_association.tsv	1648	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_union/projection.tsv	1764	projection/alpha_decomp.py	exact filename literal	ok
+results/alpha_union/report.md	5772	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/alpha_union/time_association.tsv	1671	projection/alpha_decomp.py	exact filename literal	ok
+results/build_report.md	1020	projection/build_delta_matrix.py	exact filename literal	ok
+results/check1/check1_by_decile.tsv	762	projection/check1_geneset.py	exact filename literal	ok
+results/check1/check1_matched.tsv	316	projection/check1_geneset.py	exact filename literal	ok
+results/check1/check1_matched_null.tsv	37891	projection/check1_geneset.py	exact filename literal	ok
+results/check1/check1_nn_matched.tsv	305	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/check1/check1_stratified.tsv	197	projection/check1_geneset.py	exact filename literal	ok
+results/check1/check1_summary.tsv	470	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/check1/check1_unmatched_delta.tsv	162	projection/check1_geneset.py	exact filename literal	ok
+results/check1/check1_verdict.md	1763	projection/check1_geneset.py	exact filename literal	ok
+results/check1/supplementary_sensitivity.md	1172	projection/check1b_recipe.py	exact filename literal	ok
+results/check1/supplementary_sensitivity.tsv	478	projection/check1b_recipe.py / projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis/auc_null_state_level.tsv	34492	projection/auc_permutation.py	f-string pattern	ok
+results/control_analysis/auc_permutation.tsv	395	projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis/controls.tsv	452	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis/cos_distributions.tsv	471	projection/cos_matrix.py / projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis/cos_matrix.tsv	2501	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis/pairs.tsv	8590	projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis/report.md	2886	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis/spearman_matrix.tsv	2483	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis/split_control.tsv	1825	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupA_matched/auc_null_state_level.tsv	34533	projection/auc_permutation.py	f-string pattern	ok
+results/control_analysis_groupA_matched/auc_permutation.tsv	396	projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_groupA_matched/controls.tsv	450	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupA_matched/cos_distributions.tsv	476	projection/cos_matrix.py / projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_groupA_matched/cos_matrix.tsv	2487	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupA_matched/pairs.tsv	8587	projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_groupA_matched/report.md	2885	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_groupA_matched/spearman_matrix.tsv	2491	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupA_matched/split_control.tsv	1820	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched/auc_null_state_level.tsv	34467	projection/auc_permutation.py	f-string pattern	ok
+results/control_analysis_groupB_matched/auc_permutation.tsv	397	projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_groupB_matched/controls.tsv	450	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched/cos_distributions.tsv	469	projection/cos_matrix.py / projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_groupB_matched/cos_matrix.tsv	2491	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched/pairs.tsv	8586	projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_groupB_matched/report.md	2883	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_groupB_matched/spearman_matrix.tsv	2485	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched/split_control.tsv	1820	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/auc_null_state_level.tsv	34422	projection/auc_permutation.py	f-string pattern	ok
+results/control_analysis_groupB_matched2/auc_permutation.tsv	397	projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/controls.tsv	448	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/cos_distributions.tsv	472	projection/cos_matrix.py / projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/cos_matrix.tsv	2493	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/pairs.tsv	8587	projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/report.md	2883	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/spearman_matrix.tsv	2485	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_groupB_matched2/split_control.tsv	1818	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_ortholog_all/auc_null_state_level.tsv	34364	projection/auc_permutation.py	f-string pattern	ok
+results/control_analysis_ortholog_all/auc_permutation.tsv	396	projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_ortholog_all/controls.tsv	449	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_ortholog_all/cos_distributions.tsv	471	projection/cos_matrix.py / projection/verify_numbers.py	exact filename literal	ok
+results/control_analysis_ortholog_all/cos_matrix.tsv	2493	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_ortholog_all/pairs.tsv	8589	projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_ortholog_all/report.md	2883	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/control_analysis_ortholog_all/spearman_matrix.tsv	2489	projection/cos_matrix.py	exact filename literal	ok
+results/control_analysis_ortholog_all/split_control.tsv	1815	projection/cos_matrix.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_by_decile.tsv	760	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_matched.tsv	397	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_matched_null.tsv	37779	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_nn_matched.tsv	317	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_stratified.tsv	202	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_summary.tsv	468	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_unmatched_delta.tsv	160	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_control_log2cpm/check1_verdict.md	1808	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_by_decile.tsv	759	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_matched.tsv	404	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_matched_null.tsv	37779	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_nn_matched.tsv	315	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_stratified.tsv	203	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_summary.tsv	470	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_unmatched_delta.tsv	160	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_moderated/check1_verdict.md	1816	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_by_decile.tsv	762	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_matched.tsv	405	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_matched_null.tsv	37774	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_nn_matched.tsv	313	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_stratified.tsv	202	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_summary.tsv	468	projection/check1_geneset.py / projection/verify_numbers.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_unmatched_delta.tsv	160	projection/check1_geneset.py	exact filename literal	ok
+results/groupAB_delta_se_splithalf/check1_verdict.md	1816	projection/check1_geneset.py	exact filename literal	ok
+results/human_exploratory/cat_vs_mouse_to_human.tsv	342	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/gene_space.tsv	187	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/human_cos_summary.tsv	473	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/human_mapping_checks.tsv	492	projection/human_checks.py	exact filename literal	ok
+results/human_exploratory/human_pairs.tsv	17409	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/human_pairs_reliable.tsv	10769	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/human_reliability.tsv	581	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/human_states.tsv	359	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/human_within_shared_control.tsv	207	projection/human_checks.py	exact filename literal	ok
+results/human_exploratory/mapping_matched_test.tsv	750	projection/human_mapping_matched.py	exact filename literal	ok
+results/human_exploratory/per_human_state_test.tsv	186	projection/human_checks.py	exact filename literal	ok
+results/human_exploratory/per_state_to_human.tsv	280	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/platform_effect.tsv	271	projection/human_extrapolation.py	exact filename literal	ok
+results/human_exploratory/state_reliability_vs_human.tsv	492	projection/human_checks.py	exact filename literal	ok
+results/intermediate/README.md	1276	projection/code/revision1/build_file_s1.py	exact filename literal	ok
+results/intermediate/aggregation_distributions.tsv	335	—	intermediate; see results/intermediate/README.md	intermediate, not used by the article
+results/intermediate/mapping_strata_cos.tsv	329	—	intermediate; see results/intermediate/README.md	intermediate, not used by the article
+results/mantel_s1/distance_distributions.tsv	383	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1/distance_pairs.tsv	7166	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1/mantel_s1.tsv	1807	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupA_matched/distance_distributions.tsv	385	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupA_matched/distance_pairs.tsv	7170	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupA_matched/mantel_s1.tsv	1809	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupB_matched/distance_distributions.tsv	384	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupB_matched/distance_pairs.tsv	7159	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupB_matched/mantel_s1.tsv	1810	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupB_matched2/distance_distributions.tsv	383	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupB_matched2/distance_pairs.tsv	7155	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_groupB_matched2/mantel_s1.tsv	1812	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_ortholog_all/distance_distributions.tsv	384	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_ortholog_all/distance_pairs.tsv	7164	projection/mantel_s1.py	exact filename literal	ok
+results/mantel_s1_ortholog_all/mantel_s1.tsv	1809	projection/mantel_s1.py	exact filename literal	ok
+results/pair_uncertainty/pair_uncertainty.tsv	16462	projection/pair_uncertainty.py	exact filename literal	ok
+results/pathway/aggregated_module_cos.tsv	4777	projection/code/revision1/pathway_analysis.py / projection/pathway_analysis.py	exact filename literal	ok
+results/pathway/aggregation_steps.tsv	538	projection/code/revision1/pathway_centering_steps.py	exact filename literal	ok
+results/pathway/cos_before_after.tsv	2631	projection/code/revision1/pathway_centering_steps.py	exact filename literal	ok
+results/pathway/pathway_cos.tsv	299004	projection/code/revision1/pathway_cos.py / projection/pathway_cos.py	exact filename literal	ok
+results/pathway/pathway_cos_matrix.tsv	30199	projection/code/revision1/pathway_cos.py / projection/pathway_cos.py	exact filename literal	ok
+results/pathway/pathway_separation_paired.tsv	21574	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py / projection/verify_numbers.py	exact filename literal	ok
+results/pathway/pathway_species_separation.tsv	11655	projection/code/revision1/pathway_analysis.py / projection/pathway_analysis.py	exact filename literal	ok
+results/pathway/random_set_null.tsv	3181	projection/code/revision1/pathway_cos.py / projection/make_figures.py / projection/pathway_cos.py	exact filename literal	ok
+results/pathway/separation_summary.tsv	413	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py	exact filename literal	ok
+results/pathway/state_pathway_summary.tsv	889	projection/code/revision1/pathway_analysis.py / projection/pathway_analysis.py	exact filename literal	ok
+results/pathway_groupA_matched/pathway_separation_paired.tsv	13476	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py / projection/verify_numbers.py	exact filename literal	ok
+results/pathway_groupA_matched/separation_summary.tsv	412	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py	exact filename literal	ok
+results/pathway_groupB_matched/pathway_separation_paired.tsv	10665	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py / projection/verify_numbers.py	exact filename literal	ok
+results/pathway_groupB_matched/separation_summary.tsv	412	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py	exact filename literal	ok
+results/pathway_groupB_matched2/pathway_separation_paired.tsv	11651	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py / projection/verify_numbers.py	exact filename literal	ok
+results/pathway_groupB_matched2/separation_summary.tsv	410	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py	exact filename literal	ok
+results/pathway_ortholog_all/pathway_separation_paired.tsv	112532	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py / projection/verify_numbers.py	exact filename literal	ok
+results/pathway_ortholog_all/separation_summary.tsv	409	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py	exact filename literal	ok
+results/protein/delta_matrix_protein.tsv	137669	projection/protein_decomp.py	exact filename literal	ok
+results/protein/projection_protein.tsv	766	projection/protein_decomp.py	exact filename literal	ok
+results/protein/protein_r_curve.tsv	490	projection/protein_ceiling_check.py	exact filename literal	ok
+results/protein/protein_reliability_extrapolated.tsv	275	projection/protein_ceiling_check.py	exact filename literal	ok
+results/protein/protein_sb_validation.tsv	423	projection/protein_ceiling_check.py	exact filename literal	ok
+results/protein/protein_vs_rna.tsv	485	projection/protein_decomp.py	exact filename literal	ok
+results/provenance.tsv	44628	projection/code/revision1/build_provenance.py	exact filename literal	ok
+results/r_sessioninfo.txt	3462	projection/code/revision1/reference_impl_all.R / projection/code/revision1/reference_impl_compare.R	exact filename literal	ok
+results/reliability/auc_null_state_level_cos_corrected.tsv	34374	projection/auc_permutation.py	f-string pattern	ok
+results/reliability/auc_permutation_cos_corrected.tsv	395	projection/auc_permutation.py	f-string pattern	ok
+results/reliability/ceiling_comparison.tsv	414	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability/ceiling_validation.md	5604	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability/corrected_distributions.tsv	505	projection/reliability.py	exact filename literal	ok
+results/reliability/orthology_high_confidence.tsv	157	projection/reliability.py	exact filename literal	ok
+results/reliability/orthology_strata.tsv	442	projection/reliability.py	exact filename literal	ok
+results/reliability/pairs_ceilings.tsv	16399	projection/ceiling_validation.py / projection/code/revision1/apply_C_part5b.py	exact filename literal	ok
+results/reliability/pairs_corrected.tsv	13864	projection/ceiling_validation.py / projection/reliability.py	exact filename literal	ok
+results/reliability/r_curve.tsv	2226	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability/reliability.tsv	1085	projection/ceiling_validation.py / projection/code/revision1/ceiling_decomposition_sim.py / projection/reliability.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability/report.md	3004	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/reliability/sb_validation.tsv	358	projection/ceiling_validation.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability/sb_validation_ctrl_only.tsv	1005	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupA_matched/ceiling_comparison.tsv	418	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupA_matched/ceiling_validation.md	5604	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupA_matched/corrected_distributions.tsv	509	projection/reliability.py	exact filename literal	ok
+results/reliability_groupA_matched/orthology_high_confidence.tsv	157	projection/reliability.py	exact filename literal	ok
+results/reliability_groupA_matched/orthology_strata.tsv	438	projection/reliability.py	exact filename literal	ok
+results/reliability_groupA_matched/pairs_ceilings.tsv	16408	projection/ceiling_validation.py / projection/code/revision1/apply_C_part5b.py	exact filename literal	ok
+results/reliability_groupA_matched/pairs_corrected.tsv	13859	projection/ceiling_validation.py / projection/reliability.py	exact filename literal	ok
+results/reliability_groupA_matched/r_curve.tsv	2227	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupA_matched/reliability.tsv	1089	projection/ceiling_validation.py / projection/code/revision1/ceiling_decomposition_sim.py / projection/reliability.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_groupA_matched/report.md	3004	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/reliability_groupA_matched/sb_validation.tsv	358	projection/ceiling_validation.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_groupA_matched/sb_validation_ctrl_only.tsv	1017	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched/ceiling_comparison.tsv	413	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched/ceiling_validation.md	5604	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched/corrected_distributions.tsv	501	projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched/orthology_high_confidence.tsv	157	projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched/orthology_strata.tsv	440	projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched/pairs_ceilings.tsv	16371	projection/ceiling_validation.py / projection/code/revision1/apply_C_part5b.py	exact filename literal	ok
+results/reliability_groupB_matched/pairs_corrected.tsv	13827	projection/ceiling_validation.py / projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched/r_curve.tsv	2235	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched/reliability.tsv	1084	projection/ceiling_validation.py / projection/code/revision1/ceiling_decomposition_sim.py / projection/reliability.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_groupB_matched/report.md	3002	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched/sb_validation.tsv	359	projection/ceiling_validation.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_groupB_matched/sb_validation_ctrl_only.tsv	1016	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched2/ceiling_comparison.tsv	415	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched2/ceiling_validation.md	5604	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched2/corrected_distributions.tsv	507	projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched2/orthology_high_confidence.tsv	157	projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched2/orthology_strata.tsv	428	projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched2/pairs_ceilings.tsv	16388	projection/ceiling_validation.py / projection/code/revision1/apply_C_part5b.py	exact filename literal	ok
+results/reliability_groupB_matched2/pairs_corrected.tsv	13848	projection/ceiling_validation.py / projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched2/r_curve.tsv	2231	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_groupB_matched2/reliability.tsv	1086	projection/ceiling_validation.py / projection/code/revision1/ceiling_decomposition_sim.py / projection/reliability.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_groupB_matched2/report.md	3002	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/reliability_groupB_matched2/sb_validation.tsv	352	projection/ceiling_validation.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_groupB_matched2/sb_validation_ctrl_only.tsv	1012	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_ortholog_all/ceiling_comparison.tsv	416	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_ortholog_all/ceiling_validation.md	5523	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_ortholog_all/corrected_distributions.tsv	501	projection/reliability.py	exact filename literal	ok
+results/reliability_ortholog_all/orthology_high_confidence.tsv	157	projection/reliability.py	exact filename literal	ok
+results/reliability_ortholog_all/orthology_strata.tsv	444	projection/reliability.py	exact filename literal	ok
+results/reliability_ortholog_all/pairs_ceilings.tsv	16430	projection/ceiling_validation.py / projection/code/revision1/apply_C_part5b.py	exact filename literal	ok
+results/reliability_ortholog_all/pairs_corrected.tsv	13888	projection/ceiling_validation.py / projection/reliability.py	exact filename literal	ok
+results/reliability_ortholog_all/r_curve.tsv	2233	projection/ceiling_validation.py	exact filename literal	ok
+results/reliability_ortholog_all/reliability.tsv	1089	projection/ceiling_validation.py / projection/code/revision1/ceiling_decomposition_sim.py / projection/reliability.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_ortholog_all/report.md	3010	projection/alpha_decomp.py / projection/cos_matrix.py / projection/reliability.py	exact filename literal	ok
+results/reliability_ortholog_all/sb_validation.tsv	356	projection/ceiling_validation.py / projection/verify_numbers.py	exact filename literal	ok
+results/reliability_ortholog_all/sb_validation_ctrl_only.tsv	1013	projection/ceiling_validation.py	exact filename literal	ok
+results/revision1/cosine_attenuation_sim.tsv	9078	projection/code/revision1/cosine_attenuation_sim.py	exact filename literal	ok
+results/revision1/feline_filter_sensitivity.tsv	449	projection/code/revision1/feline_filter_check.py	exact filename literal	ok
+results/revision1/figure_typography.tsv	1346	projection/code/revision1/check_figure_fonts.py	exact filename literal	ok
+results/revision1/gap_by_group.tsv	670	projection/code/revision1/gap_by_group.py	exact filename literal	ok
+results/revision1/gap_group_permutation.tsv	261	projection/code/revision1/gap_by_group.py	exact filename literal	ok
+results/revision1/genespace_with_reactome.tsv	258	projection/code/revision1/genespace_with_reactome.py	exact filename literal	ok
+results/revision1/groupA_expression_by_species.tsv	291	projection/code/revision1/feline_filter_check.py	exact filename literal	ok
+results/revision1/leads_IRI_2h_top10.tsv	533	projection/code/revision1/pathway_leads.py	exact filename literal	ok
+results/revision1/leads_by_state_breakdown.tsv	373	projection/code/revision1/pathway_leads.py	exact filename literal	ok
+results/revision1/pair_uncertainty_both_ceilings.tsv	19669	projection/code/revision1/pair_uncertainty_both_ceilings.py	exact filename literal	ok
+results/revision1/pathway_reactome/aggregated_module_cos.tsv	4772	projection/code/revision1/pathway_analysis.py / projection/pathway_analysis.py	exact filename literal	ok
+results/revision1/pathway_reactome/cos_before_after.tsv	2631	projection/code/revision1/pathway_centering_steps.py	exact filename literal	ok
+results/revision1/pathway_reactome/figure_printed_numbers.tsv	1880	projection/make_figures.py	exact filename literal	ok
+results/revision1/pathway_reactome/figure_printed_numbers_C.tsv	2620	projection/code/revision1/make_figures_C.py	exact filename literal	ok
+results/revision1/pathway_reactome/pathway_cos.tsv	645272	projection/code/revision1/pathway_cos.py / projection/pathway_cos.py	exact filename literal	ok
+results/revision1/pathway_reactome/pathway_cos_matrix.tsv	65707	projection/code/revision1/pathway_cos.py / projection/pathway_cos.py	exact filename literal	ok
+results/revision1/pathway_reactome/pathway_separation_paired.tsv	46292	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py / projection/verify_numbers.py	exact filename literal	ok
+results/revision1/pathway_reactome/pathway_species_separation.tsv	24358	projection/code/revision1/pathway_analysis.py / projection/pathway_analysis.py	exact filename literal	ok
+results/revision1/pathway_reactome/random_set_null.tsv	3181	projection/code/revision1/pathway_cos.py / projection/make_figures.py / projection/pathway_cos.py	exact filename literal	ok
+results/revision1/pathway_reactome/separation_summary.tsv	410	projection/code/revision1/pathway_separation.py / projection/pathway_separation.py	exact filename literal	ok
+results/revision1/pathway_reactome/state_pathway_summary.tsv	957	projection/code/revision1/pathway_analysis.py / projection/pathway_analysis.py	exact filename literal	ok
+results/revision1/pathway_with_reactome_per_set.tsv	22504	projection/code/revision1/pathway_with_reactome.py	exact filename literal	ok
+results/revision1/pathway_with_reactome_summary.tsv	678	projection/code/revision1/pathway_with_reactome.py	exact filename literal	ok
+results/revision1/reactome_kegg_overlap.tsv	9136	projection/code/revision1/pathway_with_reactome.py	exact filename literal	ok
+results/round10/pathway/aggregation_steps.tsv	538	projection/code/revision1/pathway_centering_steps.py	exact filename literal	ok
+results/round10/pathway/cos_before_after.tsv	2631	projection/code/revision1/pathway_centering_steps.py	exact filename literal	ok
+results/round10/pathway_reactome/cos_before_after.tsv	2631	projection/code/revision1/pathway_centering_steps.py	exact filename literal	ok
+results/round10/regeneration_comparison.tsv	376	projection/code/revision1/compare_round10.py	exact filename literal	ok
+results/round10/revision1/leads_IRI_2h_top10.tsv	533	projection/code/revision1/pathway_leads.py	exact filename literal	ok
+results/round10/revision1/leads_by_state_breakdown.tsv	373	projection/code/revision1/pathway_leads.py	exact filename literal	ok
+results/round5/ceiling_decomposition_sim.log	3346	src/lib_stats.py	f-string pattern	ok
+results/round5/ceiling_decomposition_sim.tsv	26246	projection/code/revision1/ceiling_decomposition_sim.py / projection/code/revision1/figure_s1_decomposition.py	exact filename literal	ok
+results/round5/focal_adhesion_animal_bootstrap.tsv	342	projection/code/revision1/focal_adhesion_bootstrap.py	exact filename literal	ok
+results/round5/genespace_f1.log	490	src/lib_stats.py	f-string pattern	ok
+results/round5/groupA_groupB_matched_pairs.tsv	47661	projection/code/revision1/build_groupA_matched.py	exact filename literal	ok
+results/round5/interval_coverage_sim.log	2122	src/lib_stats.py	f-string pattern	ok
+results/round5/interval_coverage_sim.tsv	1222	projection/code/revision1/interval_coverage_sim.py	exact filename literal	ok
+results/round5/interval_coverage_sim_SB.log	2155	src/lib_stats.py	f-string pattern	ok
+results/round5/interval_coverage_sim_SB.tsv	1226	projection/code/revision1/interval_coverage_sim.py	exact filename literal	ok
+results/round5/interval_null_rate.log	720	src/lib_stats.py	f-string pattern	ok
+results/round5/interval_null_rate.tsv	358	projection/code/revision1/interval_null_rate.py	exact filename literal	ok
+results/round5/interval_null_rate_SB.log	753	src/lib_stats.py	f-string pattern	ok
+results/round5/interval_null_rate_SB.tsv	351	projection/code/revision1/interval_null_rate.py	exact filename literal	ok
+results/round5/mantel_subsets.tsv	5316	projection/code/revision1/mantel_subsets.py	exact filename literal	ok
+results/round5/reversal_animal_bootstrap.tsv	1040	projection/code/revision1/reversal_animal_bootstrap.py	exact filename literal	ok
+results/round5/reversal_animal_bootstrap_replicates.tsv	94681	projection/code/revision1/reversal_animal_bootstrap.py	exact filename literal	ok
+results/round5/run_groupA_matched.log	103	src/lib_stats.py	f-string pattern	ok
+results/round5/table_printed_numbers.tsv	10077	projection/code/revision1/extract_tables.py	exact filename literal	ok
+results/round7/centering_auc.log	1418	src/lib_stats.py	f-string pattern	ok
+results/round7/centering_auc_animal_bootstrap.tsv	727	projection/code/revision1/centering_auc_animal_bootstrap.py	exact filename literal	ok
+results/round7/centering_auc_animal_bootstrap_75pairs.tsv	727	projection/code/revision1/centering_auc_animal_bootstrap.py	f-string pattern	ok
+results/round7/centering_auc_animal_bootstrap_75pairs_replicates.tsv	23668	projection/code/revision1/centering_auc_animal_bootstrap.py	f-string pattern	ok
+results/round7/centering_auc_animal_bootstrap_replicates.tsv	23711	projection/code/revision1/centering_auc_animal_bootstrap.py	f-string pattern	ok
+results/round7/groupA_detection_calls.tsv	875829	projection/code/revision1/af_detection_calls.py / projection/code/revision1/build_supplement.py / projection/code/revision1/groupA_detection_evidence.py	exact filename literal	ok
+results/round7/groupA_detection_sources.tsv	223	projection/code/revision1/groupA_detection_evidence.py	exact filename literal	ok
+results/round7/matched_pairs.tsv	49215	projection/code/revision1/audit_matching.py / projection/code/revision1/build_matched_spaces.py	exact filename literal	ok
+results/round7/matched_spaces_summary.tsv	417	projection/code/revision1/build_matched_spaces.py	exact filename literal	ok
+results/round7/matching_audit.tsv	383	projection/code/revision1/audit_matching.py	exact filename literal	ok
+results/round7/run_matched_spaces.log	118	src/lib_stats.py	f-string pattern	ok
+results/round7/scale_sensitivity.log	1411	src/lib_stats.py	f-string pattern	ok
+results/round7/scale_sensitivity.tsv	1068	projection/code/revision1/scale_sensitivity.py	exact filename literal	ok
+results/round8/table4.md	1674	projection/code/revision1/build_table4.py	exact filename literal	ok
+results/round8/table4.tsv	1388	projection/code/revision1/build_table4.py	exact filename literal	ok
+results/round9/quantity_to_file.tsv	14967	projection/verify_numbers.py	exact filename literal	ok
+results/round9/readme_file_map.md	12064	projection/code/revision1/build_readme_map.py	exact filename literal	ok
+results/round9/readme_file_map.tsv	10706	projection/code/revision1/build_readme_map.py	exact filename literal	ok
+results/roundC/centering_controls.tsv	1172	projection/code/revision1/centering_controls.py	exact filename literal	ok
+results/roundF/part3_controls.tsv	781	projection/code/revision1/part3_controls.py	exact filename literal	ok
+results/roundF/random_set_aggregation.tsv	316	projection/code/revision1/random_set_aggregation.py	exact filename literal	ok
+results/roundF/random_set_aggregation_draws.tsv	7326	projection/code/revision1/random_set_aggregation.py	exact filename literal	ok
+results/roundF/state_mean_shift.tsv	834	projection/code/revision1/state_mean_shift.py	exact filename literal	ok
+results/roundF/subset163_draws.tsv	6253	projection/code/revision1/part3_controls.py	exact filename literal	ok
+results/roundR/aa_unit_evidence.tsv	522	projection/code/revision1/aa_unit_evidence.py	exact filename literal	ok
+results/roundR/ad_implementation_audit.tsv	1412	projection/code/revision1/ad_implementation_audit.py	exact filename literal	ok
+results/roundR/ad_rank_invariance.tsv	94	projection/code/revision1/ad_implementation_audit.py	exact filename literal	ok
+results/roundR/ad_ssgsea_options.tsv	513	projection/code/revision1/ad_implementation_audit.py	exact filename literal	ok
+results/roundR/af7_attached_table.tsv	457	projection/code/revision1/af7_attach_source_table.py / projection/code/revision1/build_response_letter.py	exact filename literal	ok
+results/roundR/af_groupA_from_published.txt	13450	projection/code/revision1/af_reconstruct_groupA.py	exact filename literal	ok
+results/roundR/af_groupA_reconstruction.tsv	554	projection/code/revision1/af_reconstruct_groupA.py	exact filename literal	ok
+results/roundR/af_published_vs_source.tsv	408	projection/code/revision1/af_published_vs_source.py	exact filename literal	ok
+results/roundR/an_block_map.tsv	74048	projection/code/revision1/an_build_from_base.py / projection/code/revision1/at_package_tracked.py	exact filename literal	ok
+results/roundR/an_format_lost.tsv	29	projection/code/revision1/an_build_from_base.py	exact filename literal	ok
+results/roundR/citation_inventory.tsv	6982	projection/code/revision1/ay_citation_inventory.py	exact filename literal	ok
+results/roundR/crossref_records.json	331304	projection/code/revision1/bi_add_references.py	exact filename literal	ok
+results/roundR/delta_definitions.tsv	614	projection/code/revision1/build_response_letter.py / projection/code/revision1/delta_definitions.py	exact filename literal	ok
+results/roundR/delta_definitions_cosines.tsv	967	projection/code/revision1/delta_definitions.py	exact filename literal	ok
+results/roundR/delta_definitions_state_means.tsv	2849	projection/code/revision1/delta_definitions.py	exact filename literal	ok
+results/roundR/detection_rule.tsv	658	projection/code/revision1/av_detection_rule.py	exact filename literal	ok
+results/roundR/duplicate_symbol_sensitivity.tsv	932	projection/code/revision1/duplicate_symbol_sensitivity.py	exact filename literal	ok
+results/roundR/duplicate_symbol_shuffles.tsv	6239	projection/code/revision1/duplicate_symbol_sensitivity.py	exact filename literal	ok
+results/roundR/figure_data_summary.tsv	1316	projection/code/revision1/bd_figures.py	exact filename literal	ok
+results/roundR/figure_s4_drawn_in_band.tsv	2852	projection/code/revision1/figure_s1_decomposition.py	exact filename literal	ok
+results/roundR/figure_vs_submitted.tsv	563	projection/code/revision1/bd_figures.py	exact filename literal	ok
+results/roundR/groupA_detection_calls.tsv	577593	projection/code/revision1/af_detection_calls.py / projection/code/revision1/build_supplement.py / projection/code/revision1/groupA_detection_evidence.py	exact filename literal	ok
+results/roundR/groupA_detection_summary.tsv	344	projection/code/revision1/af_detection_calls.py / projection/code/revision1/apply_AF.py	exact filename literal	ok
+results/roundR/groupA_materials.tsv	1166	projection/code/revision1/aw_materials.py	exact filename literal	ok
+results/roundR/iri_source_statement.tsv	468	projection/code/revision1/av_iri_source_statement.py	exact filename literal	ok
+results/roundR/pathway_scoring_methods.tsv	1414	projection/code/revision1/pathway_scoring_methods.py	exact filename literal	ok
+results/roundR/pathway_set_design.tsv	769	projection/code/revision1/pathway_set_design.py	exact filename literal	ok
+results/roundR/r_gsva_centered.tsv	144133	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_gsva_uncentered.tsv	144323	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_gsvaauto_centered.tsv	144133	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_gsvaauto_uncentered.tsv	144323	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_input/delta_centered.tsv	447897	projection/code/revision1/export_for_r.py	exact filename literal	ok
+results/roundR/r_input/delta_uncentered.tsv	445553	projection/code/revision1/export_for_r.py	exact filename literal	ok
+results/roundR/r_input/pathways_422.gmt	169642	projection/code/revision1/export_for_r.py	exact filename literal	ok
+results/roundR/r_input/py_plage_centered.tsv	124823	projection/code/revision1/export_for_r.py	f-string pattern	ok
+results/roundR/r_input/py_plage_uncentered.tsv	124252	projection/code/revision1/export_for_r.py	f-string pattern	ok
+results/roundR/r_input/py_singscore_centered.tsv	125317	projection/code/revision1/export_for_r.py	f-string pattern	ok
+results/roundR/r_input/py_singscore_uncentered.tsv	125317	projection/code/revision1/export_for_r.py	f-string pattern	ok
+results/roundR/r_plage_centered.tsv	145080	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_plage_uncentered.tsv	144519	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_singscore_centered.tsv	145455	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_singscore_uncentered.tsv	145455	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_ssgsea_centered.tsv	134332	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_ssgsea_uncentered.tsv	134332	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_ssgseanorm_centered.tsv	143548	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_ssgseanorm_uncentered.tsv	143548	projection/code/revision1/reference_impl_auc.py	f-string pattern	ok
+results/roundR/r_versions.tsv	256	projection/code/revision1/reference_impl_all.R	exact filename literal	ok
+results/roundR/random_set_designs.tsv	534	projection/code/revision1/build_numbers_review.py / projection/code/revision1/random_set_designs.py	exact filename literal	ok
+results/roundR/random_set_designs_draws_labelperm.tsv	7326	projection/code/revision1/random_set_designs.py	f-string pattern	ok
+results/roundR/random_set_designs_draws_sizematched.tsv	7326	projection/code/revision1/random_set_designs.py	f-string pattern	ok
+results/roundR/random_set_designs_overlap.tsv	140	projection/code/revision1/random_set_designs.py	exact filename literal	ok
+results/roundR/reference_implementation_auc.tsv	1207	projection/code/revision1/reference_impl_auc.py	exact filename literal	ok
+results/roundR/reference_implementation_cells.tsv	1438	projection/code/revision1/reference_impl_cells.py	exact filename literal	ok
+results/roundR/reference_implementation_comparison.tsv	794	projection/code/revision1/reference_impl_compare.py	exact filename literal	ok
+results/roundR/response_letter_todo.tsv	12	projection/code/revision1/build_response_letter.py	exact filename literal	ok
+results/roundR/simulation_exceedance.tsv	9501	projection/code/revision1/be_simulation_summary.py	exact filename literal	ok
+results/roundR/submission_manifest.tsv	1339	projection/code/revision1/al_manifest.py	exact filename literal	ok
+results/roundR/supp_labels.tsv	3363	projection/code/revision1/at_supp_labels.py	exact filename literal	ok
+results/roundR/supplementary_number_map.tsv	1790	projection/code/revision1/ao_supp_map.py / projection/code/revision1/build_response_letter.py	exact filename literal	ok
+results/roundR/table_s4_rows.tsv	849	projection/code/revision1/build_response_letter.py / projection/code/revision1/build_table_s4.py	exact filename literal	ok
+results/roundR/verification_counts.tsv	108	projection/code/revision1/bn_clone_counts.py / projection/verify_numbers.py	exact filename literal	ok

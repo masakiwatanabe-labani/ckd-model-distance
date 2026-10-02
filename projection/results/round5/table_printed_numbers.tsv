@@ -10,14 +10,14 @@ Table1	header	7	Pairs above the uncorrected benchmark
 Table1	Within dataset	n pairs	45
 Table1	Within dataset	cos θ median	0.755
 Table1	Within dataset	cos θ max	0.958
-Table1	Within dataset	Benchmark, Spearman–Brown: median [min]	0.920
-Table1	Within dataset	Benchmark, uncorrected: median [min]	0.852
+Table1	Within dataset	Benchmark, Spearman–Brown: median [min]	0.920 [0.743]
+Table1	Within dataset	Benchmark, uncorrected: median [min]	0.852 [0.591]
 Table1	Within dataset	Pairs above the Spearman–Brown benchmark	4
 Table1	Within dataset	Pairs above the uncorrected benchmark	8
 Table1	Same species, different dataset	n pairs	27
 Table1	Same species, different dataset	cos θ median	0.707
 Table1	Same species, different dataset	cos θ max	0.884
-Table1	Same species, different dataset	Benchmark, Spearman–Brown: median [min]	0.945
+Table1	Same species, different dataset	Benchmark, Spearman–Brown: median [min]	0.945 [0.875]
 Table1	Same species, different dataset	Benchmark, uncorrected: median [min]	0.896 [0.781]
 Table1	Same species, different dataset	Pairs above the Spearman–Brown benchmark	0
 Table1	Same species, different dataset	Pairs above the uncorrected benchmark	1

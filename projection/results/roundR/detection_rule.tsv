@@ -1,0 +1,24 @@
+quantity	value
+pod_treck cells	114516
+pod_treck blank cells	0
+pod_treck zero cells	4465
+pod_treck data rows	12724
+pod_treck rows without a gene symbol	90
+pod_treck samples	9
+pod_treck threshold	5
+pod_treck proteins	12634
+pod_treck detected	12308
+pod_treck exact zeros kept	0
+pod_treck missing cells	4357
+feline cortex samples	23
+feline cortex threshold	12
+feline cortex proteins	2967
+feline cortex detected	2937
+feline cortex exact zeros kept	5
+feline cortex missing cells	2831
+feline medulla samples	19
+feline medulla threshold	10
+feline medulla proteins	2698
+feline medulla detected	2661
+feline medulla exact zeros kept	4
+feline medulla missing cells	2860

@@ -1,0 +1,5 @@
+definition	n_genes	n_sets	cat_mean_min	cat_mean_max	mouse_mean_min	mouse_mean_max	mean_separates_species	mean_gap	auc_gene_level	auc_gene_centered	auc_agg_uncentered	auc_agg_centered	centering_drop
+log2FC (main analysis)	2016	422	-0.3247	-0.0876	-0.0679	0.4261	True	0.0198	0.813	0.7591	0.8675	0.5112	0.3563
+per-gene standardization	2016	422	-0.8562	-0.4153	-0.3733	0.9242	True	0.0421	0.7276	0.6394	0.6122	0.4696	0.1426
+rank within state	2016	422	0.5	0.5	0.5	0.5	False	-0.0	0.7393	0.7393	0.4899	0.4802	0.0096
+quantile normalization	2016	422	0.0789	0.0789	0.0789	0.0789	False	-0.0	0.7628	0.7628	0.4909	0.4899	0.0011

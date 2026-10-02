@@ -36,9 +36,11 @@ Download the supplementary file from the article page and place it at:
 data/raw/42003_2025_9164_MOESM3_ESM.xlsx
 ```
 
-| File | MD5 |
-|---|---|
-| `42003_2025_9164_MOESM3_ESM.xlsx` | `300b8dab4290dc034f84d7caeba4709d` |
+| File | MD5 | SHA-256 |
+|---|---|---|
+| `42003_2025_9164_MOESM3_ESM.xlsx` | `300b8dab4290dc034f84d7caeba4709d` | `0037263600ec06f688a453ddbc2732e754c9034df7b4486713bfc76663ebf136` |
+
+The file is the publisher's supplementary file and is not redistributed here; download it from the article page and check it against both digests. Downloaded 2026-08-26 for the analysis reported in the revision.
 
 The workbook supplies four sheets used here: `S3 RNA cortex`, `S4 RNA medulla`,
 `S5 Protein cortex`, `S6 Protein medulla`. Sheet names are configurable in
@@ -51,28 +53,30 @@ statistics; see the Methods of the paper.
 ## 2. Pod-TRECK mouse (manual, on request)
 
 The Pod-TRECK transcriptome (GSE299326) and the matching in-house proteome are
-not redistributed here. The transcriptome is available from GEO; the proteome
-(`PK25055`) is available from the corresponding author on reasonable request.
+not redistributed here. The transcriptome is available from GEO.
+
+The quantification table the pipeline reads is published with the article as
+**Supplementary Data S1**, `Supplementary_Data_S1_PodTRECK_proteome.xlsx`
+(1,683,246 bytes, SHA-256
+`6194c68111856b1e4e01cb94084b2eeb0f1e6b12fb1682fd8f1faace4a6a49bc`). It carries the
+same values as the source table, with the document properties cleared, and the
+analysis can be reproduced from it: `af7_attach_source_table.py` recomputes the
+Group A selection from that file and obtains 2,240 genes and 2,016 complete cases.
 
 ```
 data/raw/all_fpkm_TRECK.xlsx
-data/raw/PK25055_解析結果.xlsx
-data/raw/PK25055-1_全タンパク質.xlsx
-data/raw/PK25055-2_全タンパク質.xlsx
-data/raw/PK25055-3_全タンパク質.xlsx
+data/raw/<the proteome quantification table>     # = Supplementary Data S1
+data/raw/<three pairwise-comparison workbooks>   # provenance only, not read
 ```
 
 | File | MD5 |
 |---|---|
 | `all_fpkm_TRECK.xlsx` | `dd41c4d866cab8bd48e8254b01dc8ac6` |
-| `PK25055_解析結果.xlsx` | `404ef0f4811076063dec19d3aee836a2` |
-| `PK25055-1_全タンパク質.xlsx` | `a0fb5a2ba5c43ab966b15e60ace59577` |
-| `PK25055-2_全タンパク質.xlsx` | `684abe42d89d4614d5596dfedfe656f4` |
-| `PK25055-3_全タンパク質.xlsx` | `3b07245a9184ffea988d6949d5d3d416` |
 
-Only `PK25055_解析結果.xlsx` is read by the pipeline; the three
-`PK25055-1..3` workbooks are the underlying pairwise comparisons and are kept
-for provenance.
+The source table is a contract analysis whose file name carries the provider's job
+number, so the name is not given here; `projection/code/revision1/local_source.py`
+reads it from a local file or from `CKD_PODTRECK_SOURCE`. Working from
+Supplementary Data S1 instead needs neither.
 
 ## 3-5. GEO series (automatic)
 
@@ -85,6 +89,8 @@ fetches the three GEO series below into `data/external/`.
 | Series | What it is | File written | MD5 |
 |---|---|---|---|
 | GSE98622 | Mouse IRI time course, 2 h to 12 mo | `GSE98622/GSE98622_mouse-iri-master.xlsx` | `0b322db99d35d812c5a4437b9934b589` |
+
+SHA-256 of the one file the manuscript uses: `GSE98622/GSE98622_mouse-iri-master.xlsx` = `f24d20bc3dcd36115c7273a0303d788db630a5190cf92840e07dc74cce30e58a` (the single supplementary file of GSE98622; its values are FPKM). It is fetched by `src/00b_fetch_external.py`, not redistributed here.
 | GSE79443 | Mouse UUO, sham / 2 d / 8 d | `GSE79443/GSE79443_SO_2D_8D_norm_counts.txt` | `ef4f01fb7b1e6ad58e7bc6747f021bab` |
 | GSE79443 | platform / sample annotation | `GSE79443/GSE79443_series_matrix.txt` | `858cef7442edbd015077a2288416ce07` |
 | GSE104954 | ERCB tubulointerstitium, platform GPL22945 | `GSE104954/GSE104954-GPL22945.txt` | `ce228202920c17adf82f6360615591c0` |

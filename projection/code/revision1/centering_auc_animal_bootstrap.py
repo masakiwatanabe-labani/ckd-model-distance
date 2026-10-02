@@ -35,6 +35,9 @@ OUT = HERE / "results" / "round7"
 OUT.mkdir(parents=True, exist_ok=True)
 SEED = 20260917
 N_BOOT = int(os.environ.get("CA_BOOT", 1000))
+# CA_SUBSET=75 で、データセットも共有しない 75 ペアに絞る（AE1）
+SUBSET = os.environ.get("CA_SUBSET", "87")
+TAG = "" if SUBSET == "87" else f"_{SUBSET}pairs"
 
 
 def cosine(u, v):
@@ -74,7 +77,10 @@ def main() -> int:
     print(f"経路セット {len(rows)}")
 
     pairs = pd.read_csv(HERE / "results" / "control_analysis" / "pairs.tsv", sep="\t")
-    keep = pairs[~pairs.shared_control].reset_index(drop=True)
+    keep = pairs[~pairs.shared_control]
+    if SUBSET == "75":
+        keep = keep[keep.dataset_a != keep.dataset_b]
+    keep = keep.reset_index(drop=True)
     within = (keep["class"] != "cross_species").to_numpy()
     print(f"対照非共有ペア {len(keep)}（種内 {int(within.sum())} / 種間 {int((~within).sum())}）")
 
@@ -150,8 +156,9 @@ def main() -> int:
         ("replicates with uncentred AUC above 0.80", round(float((Rb["raw"] > 0.80).mean()), 4)),
     ]
     T = pd.DataFrame(out, columns=["quantity", "value"])
-    T.to_csv(OUT / "centering_auc_animal_bootstrap.tsv", sep="\t", index=False)
-    Rb.round(5).to_csv(OUT / "centering_auc_animal_bootstrap_replicates.tsv", sep="\t", index=False)
+    T.to_csv(OUT / f"centering_auc_animal_bootstrap{TAG}.tsv", sep="\t", index=False)
+    Rb.round(5).to_csv(OUT / f"centering_auc_animal_bootstrap{TAG}_replicates.tsv",
+                   sep="\t", index=False)
     print("\n" + T.to_string(index=False))
     print(f"\n書き出し: {OUT / 'centering_auc_animal_bootstrap.tsv'}")
     return 0

@@ -27,6 +27,8 @@ logs/*
 # the docx; keeping a Markdown copy here as well produced version drift once already.
 /manuscript/
 projection/manuscript/
+# C draft of the same manuscript; kept out for the same reason.
+projection/manuscript_C/*
 
 # Local project instructions, not part of the published analysis.
 CLAUDE.md
@@ -94,3 +96,59 @@ projection/extracted/
 # from that unpublished dataset are not. protein_decomp.py regenerates this file
 # from the proteome tables once they are obtained.
 projection/results/protein/delta_matrix_protein.tsv
+
+# ---------------------------------------------------------------------------
+# Revision 1. What the revision adds, and what stays out of the repository.
+# ---------------------------------------------------------------------------
+
+# Peer review is confidential. The reviewers' comments, the submitted documents
+# they refer to, and the scripts that read them are not published.
+projection/data/base/
+projection/code/revision1/ao_check_quotes.py
+projection/code/revision1/ao_extract_comments.py
+
+# The response letter and the cover letter, and the scripts that hold their text.
+# (The manuscript sources themselves are already excluded with manuscript_C above.)
+projection/code/revision1/build_response_letter.py
+projection/code/revision1/build_cover_letter.py
+projection/code/revision1/build_letters_docx.py
+
+# Working directory of the tracked-changes and blue builds. base.xml / rev.xml /
+# tracked.xml / blue.xml are the manuscript body in OOXML, i.e. the manuscript text.
+projection/results/roundR/tracked_build/
+
+# The plotting data behind the supplementary figures is published; the manuscript
+# sources and the rendered figures in the same tree are not.
+!projection/manuscript_C/figure_data/
+
+# Third-party primary files are named with their origin and checksum in
+# data/README.md and fetched by src/00b_fetch_external.py; the files themselves
+# (Li et al. MOESM3, GSE98622) stay under data/raw and data/external, excluded above.
+
+# Scripts whose content is the manuscript text itself. The revision was applied by
+# editing scripts that carry the old and the new wording verbatim; publishing them
+# would publish the manuscript body piecemeal, which this repository does not do.
+# (The ones already published from the submitted round carry almost no prose and
+# stay published; git ignores only untracked files.)
+projection/code/revision1/apply_*.py
+
+# Derived files that are the manuscript text in another container.
+projection/results/roundR/an_block_map.tsv
+projection/results/roundR/an_format_lost.tsv
+projection/results/roundR/limitations_paragraph.txt
+projection/results/roundR/supp_labels.tsv
+projection/results/roundR/supplementary_number_map.tsv
+projection/results/roundR/response_letter_todo.tsv
+
+# Terms searched for when checking that no third party's name reaches a submitted
+# file. The list names people outside the author group, so it stays local.
+projection/leak_terms.txt
+
+# Mapping from the contract analysis's own file name to the published
+# Supplementary Data S1. The source file name carries the provider's job number.
+projection/results/roundR/local/
+
+# Tools that assemble, align and check the manuscript docx. They cannot run without
+# the manuscript sources, which this repository does not carry, and they name the
+# publisher's paragraph styles. Same treatment as apply_*.py above.
+projection/code/revision1/an_*.py

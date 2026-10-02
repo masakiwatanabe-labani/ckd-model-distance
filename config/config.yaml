@@ -9,7 +9,9 @@ paths:
 files:
   cat_omics: 42003_2025_9164_MOESM3_ESM.xlsx
   mouse_rna: all_fpkm_TRECK.xlsx
-  mouse_prot: PK25055_解析結果.xlsx
+  # 自家プロテオームの定量表。ファイル名は受託先の案件番号を含むので置かない。
+  # 手元の名前をここに書くか、Supplementary Data S1 を data/raw に置いて指す。
+  mouse_prot: Supplementary_Data_S1_PodTRECK_proteome.xlsx
 
 cat_sheets:
   rna_cortex: "S3 RNA cortex"

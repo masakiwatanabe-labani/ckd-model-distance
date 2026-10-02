@@ -1,0 +1,4 @@
+file	shape_old	shape_new	columns_identical	text_columns_identical	numeric_cells	cells_differing	max_abs_difference	identical
+results/pathway/cos_before_after.tsv	(87, 5)	(87, 5)	True	True	435	0	0.0	True
+results/pathway/aggregation_steps.tsv	(8, 6)	(8, 6)	True	True	32	0	0.0	True
+results/revision1/pathway_reactome/cos_before_after.tsv	(87, 5)	(87, 5)	True	True	435	0	0.0	True

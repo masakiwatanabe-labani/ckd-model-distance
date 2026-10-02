@@ -1,0 +1,13 @@
+definition	condition	within_median	cross_median	min	max	spread
+log2FC (main analysis)	gene level	0.7242	0.4475	-0.0332	0.8841	0.9173
+log2FC (main analysis)	aggregate, uncentered	0.8698	0.4619	-0.4572	0.9835	1.4407
+log2FC (main analysis)	aggregate, centered	0.8314	0.8324	-0.0673	0.9729	1.0402
+per-gene standardization	gene level	0.0176	-0.2604	-0.71	0.6585	1.3686
+per-gene standardization	aggregate, uncentered	-0.0358	-0.3362	-0.9824	0.9716	1.954
+per-gene standardization	aggregate, centered	-0.1537	-0.0781	-0.9392	0.924	1.8632
+rank within state	gene level	0.9235	0.8932	0.7487	0.9685	0.2198
+rank within state	aggregate, uncentered	0.9914	0.9931	0.9571	0.9985	0.0414
+rank within state	aggregate, centered	0.845	0.8803	-0.2245	0.9794	1.2039
+quantile normalization	gene level	0.7221	0.5821	0.0564	0.8857	0.8293
+quantile normalization	aggregate, uncentered	0.9027	0.9209	0.2838	0.9821	0.6983
+quantile normalization	aggregate, centered	0.8716	0.888	0.048	0.9766	0.9286

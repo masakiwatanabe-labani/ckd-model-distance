@@ -1,0 +1,12 @@
+quantity	value
+attached file name	Supplementary_Data_S1_PodTRECK_proteome.xlsx
+attached file bytes	1683246
+attached file sha256	6194c68111856b1e4e01cb94084b2eeb0f1e6b12fb1682fd8f1faace4a6a49bc
+gene symbols in the attached table	12635
+sample columns	9
+matrix matches the pipeline input	True
+largest value difference	0.0
+detected mouse symbols	12309
+Group A from the attached table	2240
+Group A complete in 16 states	2016
+matches groupA_intersection.txt	True

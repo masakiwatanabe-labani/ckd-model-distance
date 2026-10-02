@@ -48,9 +48,15 @@ PRINTED: list[tuple[str, str, str, str]] = []
 
 
 def col_name(c: str) -> str:
+    """rec() の項目名。verify_numbers.py が鍵として使うので変えない。"""
     return {"cos_raw": "gene level", "cos_centred": "centred",
             "cos_agg_centred": "pathway means of centred",
             "cos_agg_raw": "pathway means of uncentred"}.get(c, c)
+
+
+def col_label(c: str) -> str:
+    """図に描く見出し。本文の綴り（米式）にそろえる。"""
+    return col_name(c).replace("centred", "centered")
 
 
 def rec(figure: str, panel: str, item: str, value) -> None:
@@ -71,7 +77,7 @@ S1, S2, S3 = "#2a78d6", "#eb6834", "#1baf7a"
 INK, INK2, MUTED, NEUTRAL = "#000000", "#52514e", "#b8b7b2", "#d9d8d4"
 # INK は文字色として残っている箇所の保険。図中の文字色は lib_figure の rcParams が黒に
 # 統一しており、INK2 と MUTED は線と縁にしか使わない（薄いグレーの文字を作らないため）。
-FIGW = MAX_WIDTH_IN   # 全図の幅。MDPI 本文幅 6.3 インチを上限とする
+FIGW = MAX_WIDTH_IN   # 全図の幅。投稿先の本文幅 6.3 インチを上限とする
 
 ORDER = [
     ("cat_CKD12", "Cat cortex CKD1/2", "Cat cortex"),
@@ -306,8 +312,8 @@ def fig3():
                         "computed against\ndisjoint control halves"])
     ax.set_xlim(-0.34, 1.78); ax.set_ylim(0.05, 1.24)
     ax.set_ylabel(r"$\cos\theta$ between states")
-    ax.set_title("(A)  Sharing controls inflates similarity; the same treatment\n"
-                 "applied to both removes the outlier", loc="left", pad=6)
+    ax.set_title("(A)  Cosine depends on the control assignment; the same treatment\n"
+                 "is applied to the comparison pairs", loc="left", pad=6)
     clean(ax, grid="y")
 
     # ---- (B)(C) 観測 cos vs 天井
@@ -354,7 +360,7 @@ def fig3():
                               edgecolor="none", alpha=0.88))
         else:
             ax.text(0.558, 0.035, f"{n_above} pairs above the benchmark;\n"
-                    "this form sits below the\ncalibrated one (Section 4.10)",
+                    "this form is the uncorrected\none (Section 4.10)",
                     ha="left", va="bottom", zorder=5,
                     bbox=dict(boxstyle="round,pad=0.25", facecolor="white",
                               edgecolor="none", alpha=0.88))
@@ -570,7 +576,7 @@ def fig5():
     handles_ = [Line2D([0], [0], color=S2, linewidth=2.2)]
     ax.legend(handles=[Line2D([0], [0], color=S2, linewidth=2.2),
                        Line2D([0], [0], color=INK, linestyle=(0, (4, 3)), linewidth=1.4)],
-              labels=[f"collapsed to one score per pathway, centred: {auc_agg:.3f}",
+              labels=[f"collapsed to one score per pathway, centered: {auc_agg:.3f}",
                       f"all 2,016 genes together: {auc_panel:.3f}"], frameon=False, loc="upper left", handlelength=1.4,
               borderaxespad=0.3)
     ax.text(0.315, ym * 1.08, f"per pathway: median {a.median():.3f}, "
@@ -586,7 +592,7 @@ def fig5():
     ax.set_ylabel("pathways")
     ax.set_xlim(0.30, 1.02)
     ax.set_title("(B)  Pathway resolution holds it;\n"
-                 "aggregation depends on centring", loc="left", pad=6)
+                 "aggregation depends on centering", loc="left", pad=6)
     clean(ax, grid="y")
 
     # ---- (C) サイズ非依存
@@ -622,9 +628,9 @@ def fig5():
     ax.axvline(2.5, color=MUTED, linewidth=0.9, linestyle=(0, (4, 3)), zorder=1)
     ax.set_xlim(-0.55, 3.62); ax.set_xticks(xs)
     ax.set_xticklabels(["Δ as analysed\n(2,016 genes)",
-                        "Δ centred per state\n(= Pearson $r$ of Δ)",
-                        "pathway means of\ncentred Δ",
-                        "pathway means of\nuncentred Δ"])
+                        "Δ centered per state\n(= Pearson $r$ of Δ)",
+                        "pathway means of\ncentered Δ",
+                        "pathway means of\nuncentered Δ"])
     ax.set_ylabel(r"$\cos\theta$ between states")
     ax.legend( frameon=False, loc="lower left", handlelength=1.4,
               borderaxespad=0.3)

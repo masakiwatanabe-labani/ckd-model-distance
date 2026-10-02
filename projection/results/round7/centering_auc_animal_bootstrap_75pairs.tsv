@@ -1,0 +1,20 @@
+quantity	value
+replicates drawn	1000.0
+replicates undefined	0.0
+replicates used	1000.0
+observed AUC, uncentred pathway means	0.8557
+observed AUC, centred pathway means	0.5185
+observed drop	0.3372
+bootstrap uncentred median	0.8364
+bootstrap uncentred 2.5th percentile	0.7407
+bootstrap uncentred 97.5th percentile	0.8904
+bootstrap centred median	0.5463
+bootstrap centred 2.5th percentile	0.4452
+bootstrap centred 97.5th percentile	0.7631
+bootstrap drop median	0.2843
+bootstrap drop 2.5th percentile	0.0547
+bootstrap drop 97.5th percentile	0.4198
+replicates with uncentred AUC above centred	0.987
+replicates with drop at least 0.20	0.785
+replicates with centred AUC below 0.60	0.742
+replicates with uncentred AUC above 0.80	0.737

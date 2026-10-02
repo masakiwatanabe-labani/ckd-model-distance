@@ -1,0 +1,9 @@
+quantity	value
+gene symbols in both tables	12404.0
+cells with a value in both	108721.0
+Pearson r of shared cells	0.9987791648412868
+median published minus source	-0.12232541999539492
+IQR of the difference	0.3825515257903831
+cells missing in source but present in published	2915.0
+median within-gene percentile of those published values	0.4444444444444444
+cells present in source but missing in published	0.0

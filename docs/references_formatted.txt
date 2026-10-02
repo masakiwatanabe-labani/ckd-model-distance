@@ -1,11 +1,11 @@
-References in MDPI style -- 26 entries
+References in the submission's citation style -- 26 entries
 Verified against PubMed (efetch) / Crossref REST on 2026-08-27. Nothing filled in from memory.
 
 Notes:
   * Lists of 11 or more authors are truncated to the first 10 plus 'et al.'; the full
     list follows in brackets for those entries.
   * Journal names are the ISO abbreviations returned by PubMed, which omit full stops
-    (e.g. 'Ann Rheum Dis'). MDPI house style punctuates them ('Ann. Rheum. Dis.');
+    (e.g. 'Ann Rheum Dis'). the submission's house style punctuates them ('Ann. Rheum. Dis.');
     check punctuation against the journal's own list before submission.
   * Smyth 2004: see the note in references.bib regarding 'Article 3' versus pages 1-25.
 

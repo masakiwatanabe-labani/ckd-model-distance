@@ -1,0 +1,65 @@
+definition	state	species	mean_delta
+log2FC (main analysis)	cat_CKD12	feline	-0.0876
+log2FC (main analysis)	cat_CKD34	feline	-0.1735
+log2FC (main analysis)	cat_med_CKD12	feline	-0.3247
+log2FC (main analysis)	cat_med_CKD34	feline	-0.1551
+log2FC (main analysis)	mouse_5D	mouse	0.1693
+log2FC (main analysis)	mouse_2W	mouse	0.4261
+log2FC (main analysis)	mouse_3W	mouse	0.2734
+log2FC (main analysis)	IRI_2h	mouse	-0.0679
+log2FC (main analysis)	IRI_4h	mouse	0.0043
+log2FC (main analysis)	IRI_24h	mouse	0.2228
+log2FC (main analysis)	IRI_48h	mouse	0.2157
+log2FC (main analysis)	IRI_72h	mouse	0.1422
+log2FC (main analysis)	IRI_7d	mouse	0.2357
+log2FC (main analysis)	IRI_14d	mouse	0.1269
+log2FC (main analysis)	IRI_28d	mouse	0.1539
+log2FC (main analysis)	IRI_12mo	mouse	0.1015
+per-gene standardization	cat_CKD12	feline	-0.4153
+per-gene standardization	cat_CKD34	feline	-0.6457
+per-gene standardization	cat_med_CKD12	feline	-0.8562
+per-gene standardization	cat_med_CKD34	feline	-0.4219
+per-gene standardization	mouse_5D	mouse	0.2551
+per-gene standardization	mouse_2W	mouse	0.9242
+per-gene standardization	mouse_3W	mouse	0.5436
+per-gene standardization	IRI_2h	mouse	-0.3733
+per-gene standardization	IRI_4h	mouse	-0.233
+per-gene standardization	IRI_24h	mouse	0.3829
+per-gene standardization	IRI_48h	mouse	0.3124
+per-gene standardization	IRI_72h	mouse	0.058
+per-gene standardization	IRI_7d	mouse	0.3233
+per-gene standardization	IRI_14d	mouse	0.0525
+per-gene standardization	IRI_28d	mouse	0.0747
+per-gene standardization	IRI_12mo	mouse	0.0189
+rank within state	cat_CKD12	feline	0.5
+rank within state	cat_CKD34	feline	0.5
+rank within state	cat_med_CKD12	feline	0.5
+rank within state	cat_med_CKD34	feline	0.5
+rank within state	mouse_5D	mouse	0.5
+rank within state	mouse_2W	mouse	0.5
+rank within state	mouse_3W	mouse	0.5
+rank within state	IRI_2h	mouse	0.5
+rank within state	IRI_4h	mouse	0.5
+rank within state	IRI_24h	mouse	0.5
+rank within state	IRI_48h	mouse	0.5
+rank within state	IRI_72h	mouse	0.5
+rank within state	IRI_7d	mouse	0.5
+rank within state	IRI_14d	mouse	0.5
+rank within state	IRI_28d	mouse	0.5
+rank within state	IRI_12mo	mouse	0.5
+quantile normalization	cat_CKD12	feline	0.0789
+quantile normalization	cat_CKD34	feline	0.0789
+quantile normalization	cat_med_CKD12	feline	0.0789
+quantile normalization	cat_med_CKD34	feline	0.0789
+quantile normalization	mouse_5D	mouse	0.0789
+quantile normalization	mouse_2W	mouse	0.0789
+quantile normalization	mouse_3W	mouse	0.0789
+quantile normalization	IRI_2h	mouse	0.0789
+quantile normalization	IRI_4h	mouse	0.0789
+quantile normalization	IRI_24h	mouse	0.0789
+quantile normalization	IRI_48h	mouse	0.0789
+quantile normalization	IRI_72h	mouse	0.0789
+quantile normalization	IRI_7d	mouse	0.0789
+quantile normalization	IRI_14d	mouse	0.0789
+quantile normalization	IRI_28d	mouse	0.0789
+quantile normalization	IRI_12mo	mouse	0.0789

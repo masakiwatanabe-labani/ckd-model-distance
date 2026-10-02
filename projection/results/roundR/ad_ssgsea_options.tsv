@@ -1,0 +1,7 @@
+option	n_sets	max_abs_ES_difference	max_abs_NES_difference	ES_invariant	NES_invariant
+sample_norm_method='rank', correl_norm_type='rank' (used)	60	0.0	0.0	True	True
+correl_norm_type='zscore'	60	0.0	0.0	True	True
+correl_norm_type='symrank'	60	0.0	0.0	True	True
+sample_norm_method='log_rank'	60	0.0	0.0	True	True
+sample_norm_method='log' (values, not ranks)	60	270.8570651075096	0.23830708919751073	False	False
+sample_norm_method=None (input used as the metric)	60	120.28383331384839	0.0776927482618034	False	False

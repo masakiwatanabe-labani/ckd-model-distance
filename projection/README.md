@@ -13,7 +13,7 @@
 ## 構成
 
 ```
-manuscript/        本文（IJMS 形式・英語）
+manuscript/        本文（投稿先の形式・英語）
   INTRODUCTION.md    §1
   RESULTS.md         §2.1–2.6 ＋ 図表キャプション
   DISCUSSION.md      §3.1–3.9

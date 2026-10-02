@@ -1,0 +1,62 @@
+figure	panel	item	printed
+Fig1	A	AUC cos_raw	0.813
+Fig1	A	AUC cos_centred	0.759
+Fig1	A	AUC cos_agg_centred	0.511
+Fig1	A	AUC cos_agg_raw	0.868
+Fig1	B	median cos_raw [within species]	0.724
+Fig1	B	median cos_centred [within species]	0.709
+Fig1	B	median cos_agg_centred [within species]	0.831
+Fig1	B	median cos_agg_raw [within species]	0.870
+Fig1	B	median cos_raw [cat vs mouse]	0.448
+Fig1	B	median cos_centred [cat vs mouse]	0.551
+Fig1	B	median cos_agg_centred [cat vs mouse]	0.832
+Fig1	B	median cos_agg_raw [cat vs mouse]	0.462
+Fig1	C	observed uncentered minus centered	0.356
+Fig1	C	resampled median	0.302
+Fig1	C	resampled 2.5th percentile	0.037
+Fig1	C	resampled 97.5th percentile	0.438
+Fig1	C	replicates with uncentered above centered	98.6%
+Fig1	D	centered aggregate AUC Group A (2,016)	0.511
+Fig1	D	uncentered aggregate AUC Group A (2,016)	0.868
+Fig1	D	difference Group A (2,016)	0.356
+Fig1	D	pathway sets Group A (2,016)	422
+Fig1	D	centered aggregate AUC All 1:1 orthologues (7,897)	0.600
+Fig1	D	uncentered aggregate AUC All 1:1 orthologues (7,897)	0.863
+Fig1	D	difference All 1:1 orthologues (7,897)	0.263
+Fig1	D	pathway sets All 1:1 orthologues (7,897)	1,534
+Fig1	D	centered aggregate AUC Matched Group B (1,632)	0.624
+Fig1	D	uncentered aggregate AUC Matched Group B (1,632)	0.996
+Fig1	D	difference Matched Group B (1,632)	0.372
+Fig1	D	pathway sets Matched Group B (1,632)	163
+Fig1	D	centered aggregate AUC Matched Group A (1,632)	0.529
+Fig1	D	uncentered aggregate AUC Matched Group A (1,632)	0.884
+Fig1	D	difference Matched Group A (1,632)	0.355
+Fig1	D	pathway sets Matched Group A (1,632)	261
+Fig2	A	alpha cat_CKD12	0.544
+Fig2	A	nu cat_CKD12	0.600
+Fig2	A	alpha cat_med_CKD12	1.020
+Fig2	A	nu cat_med_CKD12	1.291
+Fig2	B	alpha cat_CKD12 Group A	0.544
+Fig2	B	alpha cat_CKD12 All 1:1	0.604
+Fig2	B	alpha cat_CKD12 Match B	0.546
+Fig2	B	alpha cat_CKD12 Match A	0.566
+Fig2	B	alpha cat_med_CKD12 Group A	1.020
+Fig2	B	alpha cat_med_CKD12 All 1:1	0.796
+Fig2	B	alpha cat_med_CKD12 Match B	0.987
+Fig2	B	alpha cat_med_CKD12 Match A	0.947
+Fig2	C	cos cat_CKD12 Group A	0.907
+Fig2	C	cos cat_CKD12 All 1:1	0.898
+Fig2	C	cos cat_CKD12 Match B	0.876
+Fig2	C	cos cat_CKD12 Match A	0.901
+Fig2	C	cos cat_med_CKD12 Group A	0.790
+Fig2	C	cos cat_med_CKD12 All 1:1	0.730
+Fig2	C	cos cat_med_CKD12 Match B	0.734
+Fig2	C	cos cat_med_CKD12 Match A	0.776
+Fig2	D	nrm cat_CKD12 Group A	0.600
+Fig2	D	nrm cat_CKD12 All 1:1	0.673
+Fig2	D	nrm cat_CKD12 Match B	0.623
+Fig2	D	nrm cat_CKD12 Match A	0.629
+Fig2	D	nrm cat_med_CKD12 Group A	1.291
+Fig2	D	nrm cat_med_CKD12 All 1:1	1.091
+Fig2	D	nrm cat_med_CKD12 Match B	1.345
+Fig2	D	nrm cat_med_CKD12 Match A	1.221

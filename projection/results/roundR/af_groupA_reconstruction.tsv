@@ -1,0 +1,17 @@
+quantity	value
+published table, gene symbols	12404
+published table, sample columns	9
+published table, missing cells	0
+published table, detected symbols	12404
+source table, gene symbols	12635
+source table, detected symbols	12309
+source table, symbols with any missing sample	1387
+one-gene difference	CRABP1
+detected symbols in common	12284
+detected only in published	120
+detected only in source	25
+Group A, current file	2240
+Group A, recomputed from source	2240
+Group A, reconstructed from published	2241
+Group A, published only	1
+Group A, current only	0

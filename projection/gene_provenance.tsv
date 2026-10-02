@@ -1,5 +1,4 @@
 gene	cat_CKD12	cat_CKD34	cat_med_CKD12	cat_med_CKD34	mouse_5D	mouse_2W	mouse_3W	IRI_2h	IRI_4h	IRI_24h	IRI_48h	IRI_72h	IRI_7d	IRI_14d	IRI_28d	IRI_12mo
--	NA	NA	NA	NA	fallback	fallback	fallback	NA	NA	NA	NA	NA	NA	NA	NA	NA
 0610005C13RIK	NA	NA	NA	NA	fallback	fallback	fallback	fallback	fallback	fallback	fallback	fallback	fallback	fallback	fallback	fallback
 0610006L08RIK	NA	NA	NA	NA	fallback	fallback	fallback	NA	NA	NA	NA	NA	NA	NA	NA	NA
 0610007P14RIK	NA	NA	NA	NA	NA	NA	NA	fallback	fallback	fallback	fallback	fallback	fallback	fallback	fallback	fallback

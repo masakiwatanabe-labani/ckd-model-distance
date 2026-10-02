@@ -51,7 +51,7 @@ row("Mus musculus", "Pod-TRECK (podocyte DT injury)", "glomerular", "transcripto
     "14", "m_rna_2w250")
 for d, lab in [(14, "Day14"), (21, "Day21")]:
     row("Mus musculus", "Pod-TRECK (podocyte DT injury)", "glomerular", "proteome",
-        "PK25055 (in-house; not deposited)", "LC-MS/MS", f"{lab} (n=3)", "Control (n=3)",
+        "in-house proteome (not deposited; published as Supplementary Data S1)", "LC-MS/MS", f"{lab} (n=3)", "Control (n=3)",
         str(d), f"m_prot_d{d}")
 
 # ---------------- IRI (GSE98622) ----------------

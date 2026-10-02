@@ -1,0 +1,1562 @@
+panel	panel_title	artist	series	reference	index	sub	x	y	w	h	value
+0	(A)  How much a pathway score can move by chance alone	line	_child0	True	0	0	30.0	0.65185			
+0	(A)  How much a pathway score can move by chance alone	line	_child0	True	1	0	50.0	0.5398499999999999			
+0	(A)  How much a pathway score can move by chance alone	line	_child0	True	2	0	100.0	0.41874999999999996			
+0	(A)  How much a pathway score can move by chance alone	line	_child0	True	3	0	200.0	0.26295			
+0	(A)  How much a pathway score can move by chance alone	line	_child0	True	4	0	400.0	0.19275000000000003			
+0	(A)  How much a pathway score can move by chance alone	line	_child0	True	5	0	800.0	0.10800000000000001			
+0	(A)  How much a pathway score can move by chance alone	line	_child1	True	0	0	50.0	0.0			
+0	(A)  How much a pathway score can move by chance alone	line	_child1	True	1	0	50.0	1.0			
+0	(A)  How much a pathway score can move by chance alone	text	n = 50 244 of 422 pathways fall below	False	0	0	54	0.37			
+0	(A)  How much a pathway score can move by chance alone	xtick	20	False	0	0	20.0				
+0	(A)  How much a pathway score can move by chance alone	xtick	40	False	1	0	40.0				
+0	(A)  How much a pathway score can move by chance alone	xtick	60	False	2	0	60.0				
+0	(A)  How much a pathway score can move by chance alone	xtick	80	False	3	0	80.0				
+0	(A)  How much a pathway score can move by chance alone	xtick	100	False	4	0	100.0				
+0	(A)  How much a pathway score can move by chance alone	xtick	120	False	5	0	120.0				
+0	(A)  How much a pathway score can move by chance alone	xtick	140	False	6	0	140.0				
+0	(A)  How much a pathway score can move by chance alone	ytick	0.0	False	0	0		0.0			
+0	(A)  How much a pathway score can move by chance alone	ytick	0.1	False	1	0		0.1			
+0	(A)  How much a pathway score can move by chance alone	ytick	0.2	False	2	0		0.2			
+0	(A)  How much a pathway score can move by chance alone	ytick	0.3	False	3	0		0.30000000000000004			
+0	(A)  How much a pathway score can move by chance alone	ytick	0.4	False	4	0		0.4			
+0	(A)  How much a pathway score can move by chance alone	ytick	0.5	False	5	0		0.5			
+0	(A)  How much a pathway score can move by chance alone	ytick	0.6	False	6	0		0.6000000000000001			
+0	(A)  How much a pathway score can move by chance alone	ytick	0.7	False	7	0		0.7000000000000001			
+1		bar	_nolegend_	True	0	0	30.0	0.0	6.0	130.0	
+1		bar	_nolegend_	True	1	0	36.0	0.0	6.0	59.0	
+1		bar	_nolegend_	True	2	0	42.0	0.0	6.0	46.0	
+1		bar	_nolegend_	True	3	0	48.0	0.0	6.0	24.0	
+1		bar	_nolegend_	True	4	0	54.0	0.0	6.0	26.0	
+1		bar	_nolegend_	True	5	0	60.0	0.0	6.0	23.0	
+1		bar	_nolegend_	True	6	0	66.0	0.0	6.0	25.0	
+1		bar	_nolegend_	True	7	0	72.0	0.0	6.0	14.0	
+1		bar	_nolegend_	True	8	0	78.0	0.0	6.0	12.0	
+1		bar	_nolegend_	True	9	0	84.0	0.0	6.0	10.0	
+1		bar	_nolegend_	True	10	0	90.0	0.0	6.0	4.0	
+1		bar	_nolegend_	True	11	0	96.0	0.0	6.0	8.0	
+1		bar	_nolegend_	True	12	0	102.0	0.0	6.0	3.0	
+1		bar	_nolegend_	True	13	0	108.0	0.0	6.0	5.0	
+1		bar	_nolegend_	True	14	0	114.0	0.0	6.0	4.0	
+1		bar	_nolegend_	True	15	0	120.0	0.0	6.0	2.0	
+1		bar	_nolegend_	True	16	0	126.0	0.0	6.0	6.0	
+1		bar	_nolegend_	True	17	0	132.0	0.0	6.0	1.0	
+1		xtick	20	False	0	0	20.0				
+1		xtick	40	False	1	0	40.0				
+1		xtick	60	False	2	0	60.0				
+1		xtick	80	False	3	0	80.0				
+1		xtick	100	False	4	0	100.0				
+1		xtick	120	False	5	0	120.0				
+1		xtick	140	False	6	0	140.0				
+1		ytick	0	False	0	0		0.0			
+1		ytick	25	False	1	0		25.0			
+1		ytick	50	False	2	0		50.0			
+1		ytick	75	False	3	0		75.0			
+1		ytick	100	False	4	0		100.0			
+1		ytick	125	False	5	0		125.0			
+1		ytick	150	False	6	0		150.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	0	0.0	0.0			0.8563
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	1	1.0	0.0			0.9011
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	2	2.0	0.0			0.8914
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	3	3.0	0.0			0.8184
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	4	4.0	0.0			0.8563
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	5	5.0	0.0			0.7801
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	6	6.0	0.0			0.7859
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	7	7.0	0.0			0.904
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	8	8.0	0.0			0.8225
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	9	9.0	0.0			0.8778
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	10	10.0	0.0			0.8649
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	11	11.0	0.0			0.7974
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	12	12.0	0.0			0.8552
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	13	13.0	0.0			0.9102
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	14	14.0	0.0			0.92
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	15	15.0	0.0			0.9384
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	16	16.0	0.0			0.9413
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	17	17.0	0.0			0.929
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	18	18.0	0.0			0.9129
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	19	19.0	0.0			0.9276
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	20	20.0	0.0			0.9295
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	21	21.0	0.0			0.9324
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	22	22.0	0.0			0.9537
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	23	23.0	0.0			0.9104
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	24	24.0	0.0			0.9059
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	25	25.0	0.0			0.9355
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	26	26.0	0.0			0.9201
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	27	27.0	0.0			0.8509
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	28	28.0	0.0			0.9219
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	29	29.0	0.0			0.9625
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	30	30.0	0.0			0.9344
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	31	31.0	0.0			0.9008
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	32	32.0	0.0			0.917
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	33	33.0	0.0			0.9318
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	34	34.0	0.0			0.9016
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	35	35.0	0.0			0.9167
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	36	36.0	0.0			0.9029
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	37	37.0	0.0			0.8706
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	38	38.0	0.0			0.9214
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	39	39.0	0.0			0.8865
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	40	40.0	0.0			0.9384
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	41	41.0	0.0			0.9001
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	42	42.0	0.0			0.8878
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	43	43.0	0.0			0.94
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	44	44.0	0.0			0.9322
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	45	45.0	0.0			0.8995
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	46	46.0	0.0			0.9221
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	47	47.0	0.0			0.9481
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	48	48.0	0.0			0.8936
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	49	49.0	0.0			0.9359
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	50	50.0	0.0			0.9346
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	51	51.0	0.0			0.8936
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	52	52.0	0.0			0.9459
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	53	53.0	0.0			0.9721
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	54	54.0	0.0			0.9019
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	55	55.0	0.0			0.9201
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	56	56.0	0.0			0.9486
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	57	57.0	0.0			0.9516
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	58	58.0	0.0			0.9051
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	59	59.0	0.0			0.9044
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	60	60.0	0.0			0.9657
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	61	61.0	0.0			0.9491
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	62	62.0	0.0			0.9196
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	63	63.0	0.0			0.901
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	64	64.0	0.0			0.897
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	65	65.0	0.0			0.9234
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	66	66.0	0.0			0.9395
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	67	67.0	0.0			0.9247
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	68	68.0	0.0			0.8832
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	69	69.0	0.0			0.936
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	70	70.0	0.0			0.9362
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	71	71.0	0.0			0.9631
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	72	72.0	0.0			0.9633
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	0	73	73.0	0.0			0.9588
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	0	0.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	1	1.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	2	2.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	3	3.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	4	4.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	5	5.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	6	6.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	7	7.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	8	8.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	9	9.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	10	10.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	11	11.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	12	12.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	13	13.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	14	14.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	15	15.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	16	16.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	17	17.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	18	18.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	19	19.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	20	20.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	21	21.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	22	22.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	23	23.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	24	24.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	25	25.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	26	26.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	27	27.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	28	28.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	29	29.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	30	30.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	31	31.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	32	32.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	33	33.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	34	34.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	35	35.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	36	36.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	37	37.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	38	38.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	39	39.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	40	40.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	41	41.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	42	42.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	43	43.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	44	44.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	45	45.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	46	46.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	47	47.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	48	48.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	49	49.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	50	50.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	51	51.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	52	52.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	53	53.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	54	54.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	55	55.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	56	56.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	57	57.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	58	58.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	59	59.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	60	60.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	61	61.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	62	62.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	63	63.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	64	64.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	65	65.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	66	66.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	67	67.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	68	68.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	69	69.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	70	70.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	71	71.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	72	72.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	1	73	73.0	1.0			1.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	0	0.0	2.0			0.6471
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	1	1.0	2.0			0.7559
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	2	2.0	2.0			0.7746
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	3	3.0	2.0			0.3192
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	4	4.0	2.0			0.8605
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	5	5.0	2.0			0.4973
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	6	6.0	2.0			0.5374
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	7	7.0	2.0			0.7979
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	8	8.0	2.0			0.799
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	9	9.0	2.0			0.8901
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	10	10.0	2.0			0.6991
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	11	11.0	2.0			0.5555
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	12	12.0	2.0			0.6468
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	13	13.0	2.0			0.8534
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	14	14.0	2.0			0.8295
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	15	15.0	2.0			0.7612
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	16	16.0	2.0			0.8377
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	17	17.0	2.0			0.9008
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	18	18.0	2.0			0.8539
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	19	19.0	2.0			0.7049
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	20	20.0	2.0			0.5882
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	21	21.0	2.0			0.7832
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	22	22.0	2.0			0.845
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	23	23.0	2.0			0.7604
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	24	24.0	2.0			0.7908
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	25	25.0	2.0			0.7701
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	26	26.0	2.0			0.7939
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	27	27.0	2.0			0.6782
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	28	28.0	2.0			0.8362
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	29	29.0	2.0			0.893
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	30	30.0	2.0			0.9123
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	31	31.0	2.0			0.8413
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	32	32.0	2.0			0.792
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	33	33.0	2.0			0.9005
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	34	34.0	2.0			0.7146
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	35	35.0	2.0			0.8137
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	36	36.0	2.0			0.7523
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	37	37.0	2.0			0.6178
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	38	38.0	2.0			0.8115
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	39	39.0	2.0			0.8382
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	40	40.0	2.0			0.7827
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	41	41.0	2.0			0.6897
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	42	42.0	2.0			0.4644
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	43	43.0	2.0			0.7067
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	44	44.0	2.0			0.8516
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	45	45.0	2.0			0.9328
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	46	46.0	2.0			0.742
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	47	47.0	2.0			0.6641
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	48	48.0	2.0			0.6479
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	49	49.0	2.0			0.8388
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	50	50.0	2.0			0.7792
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	51	51.0	2.0			0.6977
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	52	52.0	2.0			0.719
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	53	53.0	2.0			0.8124
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	54	54.0	2.0			0.6146
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	55	55.0	2.0			0.6867
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	56	56.0	2.0			0.7918
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	57	57.0	2.0			0.8507
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	58	58.0	2.0			0.6613
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	59	59.0	2.0			0.6348
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	60	60.0	2.0			0.9458
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	61	61.0	2.0			0.8696
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	62	62.0	2.0			0.8436
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	63	63.0	2.0			0.8227
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	64	64.0	2.0			0.6148
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	65	65.0	2.0			0.8068
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	66	66.0	2.0			0.8213
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	67	67.0	2.0			0.7585
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	68	68.0	2.0			0.7617
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	69	69.0	2.0			0.8349
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	70	70.0	2.0			0.7636
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	71	71.0	2.0			0.6627
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	72	72.0	2.0			0.8643
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	2	73	73.0	2.0			0.8682
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	0	0.0	3.0			0.4547
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	1	1.0	3.0			0.7671
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	2	2.0	3.0			0.7765
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	3	3.0	3.0			0.6533
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	4	4.0	3.0			0.739
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	5	5.0	3.0			0.6522
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	6	6.0	3.0			0.6419
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	7	7.0	3.0			0.7206
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	8	8.0	3.0			0.7346
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	9	9.0	3.0			0.7708
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	10	10.0	3.0			0.3933
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	11	11.0	3.0			0.6207
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	12	12.0	3.0			0.6993
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	13	13.0	3.0			0.8844
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	14	14.0	3.0			0.8144
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	15	15.0	3.0			0.8081
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	16	16.0	3.0			0.8218
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	17	17.0	3.0			0.9016
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	18	18.0	3.0			0.8759
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	19	19.0	3.0			0.8396
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	20	20.0	3.0			0.8503
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	21	21.0	3.0			0.8936
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	22	22.0	3.0			0.7942
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	23	23.0	3.0			0.9038
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	24	24.0	3.0			0.7927
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	25	25.0	3.0			0.821
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	26	26.0	3.0			0.8112
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	27	27.0	3.0			0.6586
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	28	28.0	3.0			0.7421
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	29	29.0	3.0			0.8679
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	30	30.0	3.0			0.9248
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	31	31.0	3.0			0.8516
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	32	32.0	3.0			0.8874
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	33	33.0	3.0			0.8894
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	34	34.0	3.0			0.8859
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	35	35.0	3.0			0.8905
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	36	36.0	3.0			0.7629
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	37	37.0	3.0			0.8487
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	38	38.0	3.0			0.7397
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	39	39.0	3.0			0.8766
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	40	40.0	3.0			0.7804
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	41	41.0	3.0			0.7143
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	42	42.0	3.0			0.7628
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	43	43.0	3.0			0.8916
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	44	44.0	3.0			0.7901
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	45	45.0	3.0			0.886
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	46	46.0	3.0			0.8301
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	47	47.0	3.0			0.8688
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	48	48.0	3.0			0.7903
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	49	49.0	3.0			0.8113
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	50	50.0	3.0			0.8379
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	51	51.0	3.0			0.7997
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	52	52.0	3.0			0.8975
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	53	53.0	3.0			0.92
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	54	54.0	3.0			0.7598
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	55	55.0	3.0			0.8125
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	56	56.0	3.0			0.8092
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	57	57.0	3.0			0.8154
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	58	58.0	3.0			0.8915
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	59	59.0	3.0			0.8078
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	60	60.0	3.0			0.9214
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	61	61.0	3.0			0.8548
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	62	62.0	3.0			0.8475
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	63	63.0	3.0			0.792
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	64	64.0	3.0			0.853
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	65	65.0	3.0			0.9014
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	66	66.0	3.0			0.791
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	67	67.0	3.0			0.822
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	68	68.0	3.0			0.5903
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	69	69.0	3.0			0.7888
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	70	70.0	3.0			0.8631
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	71	71.0	3.0			0.874
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	72	72.0	3.0			0.8686
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	3	73	73.0	3.0			0.8611
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	0	0.0	4.0			-0.4275
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	1	1.0	4.0			-0.1382
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	2	2.0	4.0			-0.103
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	3	3.0	4.0			0.302
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	4	4.0	4.0			-0.0466
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	5	5.0	4.0			0.3124
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	6	6.0	4.0			0.2289
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	7	7.0	4.0			0.1498
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	8	8.0	4.0			-0.0211
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	9	9.0	4.0			0.1981
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	10	10.0	4.0			-0.1175
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	11	11.0	4.0			0.3535
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	12	12.0	4.0			0.1126
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	13	13.0	4.0			0.2123
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	14	14.0	4.0			0.0821
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	15	15.0	4.0			0.2005
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	16	16.0	4.0			0.2076
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	17	17.0	4.0			-0.0794
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	18	18.0	4.0			0.2151
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	19	19.0	4.0			0.4835
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	20	20.0	4.0			0.4565
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	21	21.0	4.0			0.369
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	22	22.0	4.0			0.2308
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	23	23.0	4.0			0.2486
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	24	24.0	4.0			0.2672
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	25	25.0	4.0			0.2683
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	26	26.0	4.0			0.2843
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	27	27.0	4.0			0.3244
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	28	28.0	4.0			0.4367
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	29	29.0	4.0			0.1959
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	30	30.0	4.0			0.2261
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	31	31.0	4.0			0.2609
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	32	32.0	4.0			0.3031
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	33	33.0	4.0			0.4386
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	34	34.0	4.0			0.4924
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	35	35.0	4.0			0.292
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	36	36.0	4.0			0.4058
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	37	37.0	4.0			0.5849
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	38	38.0	4.0			0.34
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	39	39.0	4.0			0.4507
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	40	40.0	4.0			0.3909
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	41	41.0	4.0			0.4502
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	42	42.0	4.0			0.4808
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	43	43.0	4.0			0.6256
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	44	44.0	4.0			0.4172
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	45	45.0	4.0			0.3956
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	46	46.0	4.0			0.5408
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	47	47.0	4.0			0.5578
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	48	48.0	4.0			0.5286
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	49	49.0	4.0			0.4203
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	50	50.0	4.0			0.5623
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	51	51.0	4.0			0.4395
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	52	52.0	4.0			0.6159
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	53	53.0	4.0			0.6818
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	54	54.0	4.0			0.5076
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	55	55.0	4.0			0.4124
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	56	56.0	4.0			0.4462
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	57	57.0	4.0			0.4389
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	58	58.0	4.0			0.4854
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	59	59.0	4.0			0.4785
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	60	60.0	4.0			0.1909
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	61	61.0	4.0			0.5112
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	62	62.0	4.0			0.6295
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	63	63.0	4.0			0.5747
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	64	64.0	4.0			0.4896
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	65	65.0	4.0			0.4817
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	66	66.0	4.0			0.6543
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	67	67.0	4.0			0.6033
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	68	68.0	4.0			0.5563
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	69	69.0	4.0			0.6905
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	70	70.0	4.0			0.6168
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	71	71.0	4.0			0.6949
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	72	72.0	4.0			0.749
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	4	73	73.0	4.0			0.8144
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	0	0.0	5.0			-0.2925
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	1	1.0	5.0			-0.0636
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	2	2.0	5.0			-0.1496
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	3	3.0	5.0			0.1942
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	4	4.0	5.0			-0.0203
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	5	5.0	5.0			0.2378
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	6	6.0	5.0			0.2004
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	7	7.0	5.0			0.2089
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	8	8.0	5.0			0.0136
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	9	9.0	5.0			0.2426
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	10	10.0	5.0			0.0136
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	11	11.0	5.0			0.3151
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	12	12.0	5.0			0.2778
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	13	13.0	5.0			0.5081
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	14	14.0	5.0			0.2258
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	15	15.0	5.0			0.2121
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	16	16.0	5.0			0.397
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	17	17.0	5.0			0.5079
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	18	18.0	5.0			0.3932
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	19	19.0	5.0			0.502
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	20	20.0	5.0			0.4888
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	21	21.0	5.0			0.4535
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	22	22.0	5.0			0.4884
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	23	23.0	5.0			0.4033
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	24	24.0	5.0			0.4896
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	25	25.0	5.0			0.2761
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	26	26.0	5.0			0.4351
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	27	27.0	5.0			0.4492
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	28	28.0	5.0			0.5036
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	29	29.0	5.0			0.6779
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	30	30.0	5.0			0.489
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	31	31.0	5.0			0.4618
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	32	32.0	5.0			0.4862
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	33	33.0	5.0			0.6618
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	34	34.0	5.0			0.548
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	35	35.0	5.0			0.4925
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	36	36.0	5.0			0.5761
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	37	37.0	5.0			0.5116
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	38	38.0	5.0			0.4943
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	39	39.0	5.0			0.5487
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	40	40.0	5.0			0.5742
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	41	41.0	5.0			0.5575
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	42	42.0	5.0			0.5424
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	43	43.0	5.0			0.5707
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	44	44.0	5.0			0.6411
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	45	45.0	5.0			0.6611
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	46	46.0	5.0			0.7379
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	47	47.0	5.0			0.6039
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	48	48.0	5.0			0.5638
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	49	49.0	5.0			0.652
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	50	50.0	5.0			0.6585
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	51	51.0	5.0			0.7099
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	52	52.0	5.0			0.6206
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	53	53.0	5.0			0.7495
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	54	54.0	5.0			0.5925
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	55	55.0	5.0			0.5585
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	56	56.0	5.0			0.6496
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	57	57.0	5.0			0.6066
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	58	58.0	5.0			0.65
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	59	59.0	5.0			0.6076
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	60	60.0	5.0			0.672
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	61	61.0	5.0			0.7559
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	62	62.0	5.0			0.7112
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	63	63.0	5.0			0.6563
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	64	64.0	5.0			0.5904
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	65	65.0	5.0			0.6721
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	66	66.0	5.0			0.6553
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	67	67.0	5.0			0.6614
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	68	68.0	5.0			0.6413
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	69	69.0	5.0			0.7306
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	70	70.0	5.0			0.762
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	71	71.0	5.0			0.7173
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	72	72.0	5.0			0.8189
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	5	73	73.0	5.0			0.8408
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	0	0.0	6.0			-0.2674
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	1	1.0	6.0			0.0133
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	2	2.0	6.0			-0.0782
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	3	3.0	6.0			0.2659
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	4	4.0	6.0			0.0519
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	5	5.0	6.0			0.3074
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	6	6.0	6.0			0.2795
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	7	7.0	6.0			0.2254
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	8	8.0	6.0			0.1061
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	9	9.0	6.0			0.2678
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	10	10.0	6.0			-0.0511
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	11	11.0	6.0			0.3775
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	12	12.0	6.0			0.3331
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	13	13.0	6.0			0.4354
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	14	14.0	6.0			0.2919
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	15	15.0	6.0			0.3134
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	16	16.0	6.0			0.3998
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	17	17.0	6.0			0.243
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	18	18.0	6.0			0.3378
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	19	19.0	6.0			0.4198
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	20	20.0	6.0			0.4521
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	21	21.0	6.0			0.4202
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	22	22.0	6.0			0.4804
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	23	23.0	6.0			0.449
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	24	24.0	6.0			0.4881
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	25	25.0	6.0			0.377
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	26	26.0	6.0			0.4778
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	27	27.0	6.0			0.4428
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	28	28.0	6.0			0.4686
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	29	29.0	6.0			0.3498
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	30	30.0	6.0			0.3752
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	31	31.0	6.0			0.5409
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	32	32.0	6.0			0.4021
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	33	33.0	6.0			0.5677
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	34	34.0	6.0			0.5434
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	35	35.0	6.0			0.4665
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	36	36.0	6.0			0.5762
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	37	37.0	6.0			0.5622
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	38	38.0	6.0			0.4668
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	39	39.0	6.0			0.5674
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	40	40.0	6.0			0.4257
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	41	41.0	6.0			0.5239
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	42	42.0	6.0			0.5377
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	43	43.0	6.0			0.5911
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	44	44.0	6.0			0.4661
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	45	45.0	6.0			0.5792
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	46	46.0	6.0			0.5924
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	47	47.0	6.0			0.5782
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	48	48.0	6.0			0.5477
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	49	49.0	6.0			0.5005
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	50	50.0	6.0			0.6275
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	51	51.0	6.0			0.6553
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	52	52.0	6.0			0.6397
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	53	53.0	6.0			0.6175
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	54	54.0	6.0			0.5637
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	55	55.0	6.0			0.5373
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	56	56.0	6.0			0.4764
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	57	57.0	6.0			0.4703
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	58	58.0	6.0			0.6752
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	59	59.0	6.0			0.578
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	60	60.0	6.0			0.5514
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	61	61.0	6.0			0.617
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	62	62.0	6.0			0.6721
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	63	63.0	6.0			0.6072
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	64	64.0	6.0			0.6894
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	65	65.0	6.0			0.7215
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	66	66.0	6.0			0.6877
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	67	67.0	6.0			0.7049
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	68	68.0	6.0			0.631
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	69	69.0	6.0			0.7465
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	70	70.0	6.0			0.7866
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	71	71.0	6.0			0.7183
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	72	72.0	6.0			0.8169
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	6	73	73.0	6.0			0.8606
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	0	0.0	7.0			0.3066
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	1	1.0	7.0			-0.0109
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	2	2.0	7.0			0.0981
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	3	3.0	7.0			-0.2712
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	4	4.0	7.0			0.2025
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	5	5.0	7.0			-0.1866
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	6	6.0	7.0			-0.0427
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	7	7.0	7.0			0.0823
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	8	8.0	7.0			0.3553
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	9	9.0	7.0			-0.0806
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	10	10.0	7.0			0.303
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	11	11.0	7.0			-0.1232
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	12	12.0	7.0			-0.0469
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	13	13.0	7.0			0.1262
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	14	14.0	7.0			0.3117
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	15	15.0	7.0			0.2926
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	16	16.0	7.0			0.2897
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	17	17.0	7.0			0.2911
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	18	18.0	7.0			0.1954
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	19	19.0	7.0			0.247
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	20	20.0	7.0			0.2613
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	21	21.0	7.0			0.2022
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	22	22.0	7.0			0.0634
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	23	23.0	7.0			0.1569
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	24	24.0	7.0			0.1061
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	25	25.0	7.0			0.3302
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	26	26.0	7.0			0.2038
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	27	27.0	7.0			0.2118
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	28	28.0	7.0			0.1008
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	29	29.0	7.0			0.1526
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	30	30.0	7.0			0.481
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	31	31.0	7.0			0.2844
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	32	32.0	7.0			0.398
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	33	33.0	7.0			0.2023
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	34	34.0	7.0			0.3175
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	35	35.0	7.0			0.2103
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	36	36.0	7.0			-0.0592
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	37	37.0	7.0			-0.1565
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	38	38.0	7.0			0.1725
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	39	39.0	7.0			0.2329
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	40	40.0	7.0			0.2413
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	41	41.0	7.0			0.2292
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	42	42.0	7.0			0.1959
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	43	43.0	7.0			0.091
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	44	44.0	7.0			0.2492
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	45	45.0	7.0			0.4189
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	46	46.0	7.0			-0.2685
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	47	47.0	7.0			0.3124
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	48	48.0	7.0			0.2184
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	49	49.0	7.0			0.2361
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	50	50.0	7.0			0.2939
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	51	51.0	7.0			0.1209
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	52	52.0	7.0			0.0271
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	53	53.0	7.0			0.2095
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	54	54.0	7.0			0.2347
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	55	55.0	7.0			0.3743
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	56	56.0	7.0			0.2706
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	57	57.0	7.0			0.3386
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	58	58.0	7.0			0.21
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	59	59.0	7.0			0.301
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	60	60.0	7.0			0.604
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	61	61.0	7.0			0.1547
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	62	62.0	7.0			-0.0276
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	63	63.0	7.0			0.4114
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	64	64.0	7.0			0.2605
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	65	65.0	7.0			0.2433
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	66	66.0	7.0			0.1999
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	67	67.0	7.0			0.3202
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	68	68.0	7.0			0.4629
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	69	69.0	7.0			0.27
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	70	70.0	7.0			0.3319
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	71	71.0	7.0			0.4427
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	72	72.0	7.0			0.4417
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	7	73	73.0	7.0			0.4884
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	0	0.0	8.0			0.0506
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	1	1.0	8.0			-0.1136
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	2	2.0	8.0			0.322
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	3	3.0	8.0			-0.1029
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	4	4.0	8.0			0.3323
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	5	5.0	8.0			-0.1237
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	6	6.0	8.0			-0.0833
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	7	7.0	8.0			-0.0239
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	8	8.0	8.0			0.3518
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	9	9.0	8.0			-0.0521
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	10	10.0	8.0			0.2397
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	11	11.0	8.0			0.0
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	12	12.0	8.0			-0.1493
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	13	13.0	8.0			0.1055
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	14	14.0	8.0			0.2878
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	15	15.0	8.0			0.5032
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	16	16.0	8.0			0.2972
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	17	17.0	8.0			0.5102
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	18	18.0	8.0			0.1792
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	19	19.0	8.0			0.0755
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	20	20.0	8.0			0.1635
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	21	21.0	8.0			0.1182
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	22	22.0	8.0			0.1919
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	23	23.0	8.0			0.3949
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	24	24.0	8.0			0.1665
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	25	25.0	8.0			0.3516
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	26	26.0	8.0			0.3626
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	27	27.0	8.0			0.2974
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	28	28.0	8.0			0.0857
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	29	29.0	8.0			0.5947
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	30	30.0	8.0			0.3306
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	31	31.0	8.0			0.0898
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	32	32.0	8.0			0.4865
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	33	33.0	8.0			0.3652
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	34	34.0	8.0			0.2648
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	35	35.0	8.0			0.2183
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	36	36.0	8.0			0.2549
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	37	37.0	8.0			-0.1145
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	38	38.0	8.0			0.3944
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	39	39.0	8.0			0.3559
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	40	40.0	8.0			0.4325
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	41	41.0	8.0			0.1709
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	42	42.0	8.0			0.287
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	43	43.0	8.0			0.2738
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	44	44.0	8.0			0.4635
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	45	45.0	8.0			0.5372
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	46	46.0	8.0			-0.0742
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	47	47.0	8.0			0.3862
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	48	48.0	8.0			0.3469
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	49	49.0	8.0			0.3973
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	50	50.0	8.0			0.2073
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	51	51.0	8.0			0.3027
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	52	52.0	8.0			0.3024
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	53	53.0	8.0			0.3886
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	54	54.0	8.0			0.3597
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	55	55.0	8.0			0.4622
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	56	56.0	8.0			0.488
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	57	57.0	8.0			0.4861
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	58	58.0	8.0			0.1131
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	59	59.0	8.0			0.3906
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	60	60.0	8.0			0.7602
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	61	61.0	8.0			0.303
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	62	62.0	8.0			0.5017
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	63	63.0	8.0			0.4144
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	64	64.0	8.0			0.3664
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	65	65.0	8.0			0.418
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	66	66.0	8.0			0.3805
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	67	67.0	8.0			0.4148
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	68	68.0	8.0			0.4153
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	69	69.0	8.0			0.49
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	70	70.0	8.0			0.4794
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	71	71.0	8.0			0.4091
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	72	72.0	8.0			0.5483
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	8	73	73.0	8.0			0.6054
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	0	0.0	9.0			-0.3268
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	1	1.0	9.0			0.0164
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	2	2.0	9.0			0.0002
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	3	3.0	9.0			0.3209
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	4	4.0	9.0			0.0826
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	5	5.0	9.0			0.2776
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	6	6.0	9.0			0.2501
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	7	7.0	9.0			0.1694
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	8	8.0	9.0			0.255
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	9	9.0	9.0			0.2563
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	10	10.0	9.0			0.159
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	11	11.0	9.0			0.3798
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	12	12.0	9.0			0.3723
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	13	13.0	9.0			0.2698
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	14	14.0	9.0			0.2691
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	15	15.0	9.0			0.3347
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	16	16.0	9.0			0.3907
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	17	17.0	9.0			0.6485
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	18	18.0	9.0			0.4952
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	19	19.0	9.0			0.2319
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	20	20.0	9.0			0.2177
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	21	21.0	9.0			0.4332
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	22	22.0	9.0			0.4785
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	23	23.0	9.0			0.5785
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	24	24.0	9.0			0.5282
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	25	25.0	9.0			0.4168
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	26	26.0	9.0			0.5155
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	27	27.0	9.0			0.4346
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	28	28.0	9.0			0.4252
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	29	29.0	9.0			0.7075
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	30	30.0	9.0			0.5622
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	31	31.0	9.0			0.5665
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	32	32.0	9.0			0.5535
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	33	33.0	9.0			0.5495
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	34	34.0	9.0			0.4151
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	35	35.0	9.0			0.5847
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	36	36.0	9.0			0.4321
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	37	37.0	9.0			0.5778
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	38	38.0	9.0			0.5634
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	39	39.0	9.0			0.5538
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	40	40.0	9.0			0.6476
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	41	41.0	9.0			0.5239
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	42	42.0	9.0			0.5584
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	43	43.0	9.0			0.5145
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	44	44.0	9.0			0.7005
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	45	45.0	9.0			0.6333
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	46	46.0	9.0			0.7286
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	47	47.0	9.0			0.4289
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	48	48.0	9.0			0.6126
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	49	49.0	9.0			0.6972
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	50	50.0	9.0			0.4439
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	51	51.0	9.0			0.6245
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	52	52.0	9.0			0.5284
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	53	53.0	9.0			0.5692
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	54	54.0	9.0			0.6238
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	55	55.0	9.0			0.5298
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	56	56.0	9.0			0.6906
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	57	57.0	9.0			0.7089
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	58	58.0	9.0			0.5643
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	59	59.0	9.0			0.6189
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	60	60.0	9.0			0.7022
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	61	61.0	9.0			0.7045
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	62	62.0	9.0			0.6218
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	63	63.0	9.0			0.585
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	64	64.0	9.0			0.7049
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	65	65.0	9.0			0.6042
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	66	66.0	9.0			0.6511
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	67	67.0	9.0			0.6874
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	68	68.0	9.0			0.5949
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	69	69.0	9.0			0.6554
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	70	70.0	9.0			0.6984
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	71	71.0	9.0			0.7716
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	72	72.0	9.0			0.8403
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	9	73	73.0	9.0			0.8563
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	0	0.0	10.0			-0.0816
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	1	1.0	10.0			0.143
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	2	2.0	10.0			-0.0308
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	3	3.0	10.0			0.395
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	4	4.0	10.0			0.2114
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	5	5.0	10.0			0.3647
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	6	6.0	10.0			0.3553
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	7	7.0	10.0			0.1783
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	8	8.0	10.0			0.36
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	9	9.0	10.0			0.2757
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	10	10.0	10.0			0.331
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	11	11.0	10.0			0.457
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	12	12.0	10.0			0.4784
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	13	13.0	10.0			0.2367
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	14	14.0	10.0			0.4531
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	15	15.0	10.0			0.4905
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	16	16.0	10.0			0.4518
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	17	17.0	10.0			0.2071
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	18	18.0	10.0			0.4869
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	19	19.0	10.0			0.3185
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	20	20.0	10.0			0.3586
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	21	21.0	10.0			0.4875
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	22	22.0	10.0			0.5138
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	23	23.0	10.0			0.6185
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	24	24.0	10.0			0.5299
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	25	25.0	10.0			0.5486
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	26	26.0	10.0			0.5136
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	27	27.0	10.0			0.4883
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	28	28.0	10.0			0.4467
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	29	29.0	10.0			0.2846
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	30	30.0	10.0			0.366
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	31	31.0	10.0			0.5898
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	32	32.0	10.0			0.386
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	33	33.0	10.0			0.4422
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	34	34.0	10.0			0.4843
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	35	35.0	10.0			0.5876
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	36	36.0	10.0			0.5861
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	37	37.0	10.0			0.608
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	38	38.0	10.0			0.5689
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	39	39.0	10.0			0.5499
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	40	40.0	10.0			0.4838
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	41	41.0	10.0			0.563
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	42	42.0	10.0			0.5587
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	43	43.0	10.0			0.6093
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	44	44.0	10.0			0.4797
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	45	45.0	10.0			0.4701
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	46	46.0	10.0			0.5821
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	47	47.0	10.0			0.5471
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	48	48.0	10.0			0.6118
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	49	49.0	10.0			0.5315
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	50	50.0	10.0			0.595
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	51	51.0	10.0			0.586
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	52	52.0	10.0			0.6456
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	53	53.0	10.0			0.4726
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	54	54.0	10.0			0.6036
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	55	55.0	10.0			0.5838
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	56	56.0	10.0			0.5213
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	57	57.0	10.0			0.5475
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	58	58.0	10.0			0.6501
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	59	59.0	10.0			0.6616
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	60	60.0	10.0			0.417
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	61	61.0	10.0			0.571
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	62	62.0	10.0			0.6139
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	63	63.0	10.0			0.6335
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	64	64.0	10.0			0.7551
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	65	65.0	10.0			0.7291
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	66	66.0	10.0			0.7031
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	67	67.0	10.0			0.7696
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	68	68.0	10.0			0.6498
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	69	69.0	10.0			0.7282
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	70	70.0	10.0			0.7865
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	71	71.0	10.0			0.8302
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	72	72.0	10.0			0.8501
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	10	73	73.0	10.0			0.8982
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	0	0.0	11.0			0.0411
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	1	1.0	11.0			0.0223
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	2	2.0	11.0			0.0048
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	3	3.0	11.0			0.3569
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	4	4.0	11.0			0.2789
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	5	5.0	11.0			0.3314
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	6	6.0	11.0			0.3349
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	7	7.0	11.0			0.2794
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	8	8.0	11.0			0.359
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	9	9.0	11.0			0.2965
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	10	10.0	11.0			0.3371
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	11	11.0	11.0			0.4288
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	12	12.0	11.0			0.451
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	13	13.0	11.0			0.4207
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	14	14.0	11.0			0.53
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	15	15.0	11.0			0.4885
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	16	16.0	11.0			0.5003
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	17	17.0	11.0			0.4233
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	18	18.0	11.0			0.5103
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	19	19.0	11.0			0.4234
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	20	20.0	11.0			0.4223
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	21	21.0	11.0			0.5097
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	22	22.0	11.0			0.5282
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	23	23.0	11.0			0.5788
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	24	24.0	11.0			0.5281
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	25	25.0	11.0			0.5329
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	26	26.0	11.0			0.5286
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	27	27.0	11.0			0.5204
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	28	28.0	11.0			0.497
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	29	29.0	11.0			0.6608
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	30	30.0	11.0			0.4993
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	31	31.0	11.0			0.6006
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	32	32.0	11.0			0.4801
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	33	33.0	11.0			0.5753
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	34	34.0	11.0			0.5373
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	35	35.0	11.0			0.5957
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	36	36.0	11.0			0.6345
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	37	37.0	11.0			0.6687
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	38	38.0	11.0			0.5641
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	39	39.0	11.0			0.6151
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	40	40.0	11.0			0.6338
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	41	41.0	11.0			0.5715
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	42	42.0	11.0			0.5818
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	43	43.0	11.0			0.6409
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	44	44.0	11.0			0.6367
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	45	45.0	11.0			0.6255
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	46	46.0	11.0			0.6698
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	47	47.0	11.0			0.6126
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	48	48.0	11.0			0.5887
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	49	49.0	11.0			0.6895
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	50	50.0	11.0			0.6432
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	51	51.0	11.0			0.5994
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	52	52.0	11.0			0.6793
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	53	53.0	11.0			0.6347
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	54	54.0	11.0			0.625
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	55	55.0	11.0			0.6279
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	56	56.0	11.0			0.7169
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	57	57.0	11.0			0.6942
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	58	58.0	11.0			0.713
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	59	59.0	11.0			0.6527
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	60	60.0	11.0			0.6788
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	61	61.0	11.0			0.7978
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	62	62.0	11.0			0.6769
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	63	63.0	11.0			0.6638
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	64	64.0	11.0			0.7766
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	65	65.0	11.0			0.7305
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	66	66.0	11.0			0.7458
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	67	67.0	11.0			0.7555
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	68	68.0	11.0			0.6964
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	69	69.0	11.0			0.7737
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	70	70.0	11.0			0.8157
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	71	71.0	11.0			0.8264
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	72	72.0	11.0			0.84
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	11	73	73.0	11.0			0.9121
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	0	0.0	12.0			-0.0495
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	1	1.0	12.0			0.0469
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	2	2.0	12.0			0.0829
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	3	3.0	12.0			0.2085
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	4	4.0	12.0			0.2567
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	5	5.0	12.0			0.2707
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	6	6.0	12.0			0.249
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	7	7.0	12.0			0.3122
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	8	8.0	12.0			0.2836
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	9	9.0	12.0			0.2824
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	10	10.0	12.0			0.428
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	11	11.0	12.0			0.3641
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	12	12.0	12.0			0.3734
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	13	13.0	12.0			0.4441
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	14	14.0	12.0			0.4774
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	15	15.0	12.0			0.4062
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	16	16.0	12.0			0.41
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	17	17.0	12.0			0.5695
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	18	18.0	12.0			0.4994
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	19	19.0	12.0			0.5614
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	20	20.0	12.0			0.5038
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	21	21.0	12.0			0.5205
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	22	22.0	12.0			0.5122
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	23	23.0	12.0			0.4149
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	24	24.0	12.0			0.5229
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	25	25.0	12.0			0.5136
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	26	26.0	12.0			0.4678
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	27	27.0	12.0			0.4789
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	28	28.0	12.0			0.5414
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	29	29.0	12.0			0.6282
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	30	30.0	12.0			0.5911
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	31	31.0	12.0			0.5649
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	32	32.0	12.0			0.5509
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	33	33.0	12.0			0.5068
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	34	34.0	12.0			0.5586
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	35	35.0	12.0			0.599
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	36	36.0	12.0			0.5854
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	37	37.0	12.0			0.6251
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	38	38.0	12.0			0.5397
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	39	39.0	12.0			0.5482
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	40	40.0	12.0			0.6168
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	41	41.0	12.0			0.5761
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	42	42.0	12.0			0.5938
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	43	43.0	12.0			0.6285
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	44	44.0	12.0			0.6409
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	45	45.0	12.0			0.6263
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	46	46.0	12.0			0.7322
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	47	47.0	12.0			0.6287
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	48	48.0	12.0			0.5999
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	49	49.0	12.0			0.6907
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	50	50.0	12.0			0.6657
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	51	51.0	12.0			0.6333
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	52	52.0	12.0			0.657
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	53	53.0	12.0			0.6675
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	54	54.0	12.0			0.6204
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	55	55.0	12.0			0.6308
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	56	56.0	12.0			0.715
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	57	57.0	12.0			0.6643
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	58	58.0	12.0			0.7168
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	59	59.0	12.0			0.6824
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	60	60.0	12.0			0.7214
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	61	61.0	12.0			0.7676
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	62	62.0	12.0			0.7723
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	63	63.0	12.0			0.7097
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	64	64.0	12.0			0.7515
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	65	65.0	12.0			0.7195
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	66	66.0	12.0			0.7803
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	67	67.0	12.0			0.7275
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	68	68.0	12.0			0.7722
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	69	69.0	12.0			0.8496
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	70	70.0	12.0			0.8146
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	71	71.0	12.0			0.8072
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	72	72.0	12.0			0.8832
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	12	73	73.0	12.0			0.9346
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	0	0.0	13.0			0.2271
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	1	1.0	13.0			0.1154
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	2	2.0	13.0			0.0968
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	3	3.0	13.0			-0.0365
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	4	4.0	13.0			0.201
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	5	5.0	13.0			0.0942
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	6	6.0	13.0			0.1797
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	7	7.0	13.0			0.295
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	8	8.0	13.0			0.2848
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	9	9.0	13.0			0.2671
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	10	10.0	13.0			0.4146
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	11	11.0	13.0			0.1852
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	12	12.0	13.0			0.3535
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	13	13.0	13.0			0.4189
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	14	14.0	13.0			0.429
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	15	15.0	13.0			0.3382
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	16	16.0	13.0			0.4292
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	17	17.0	13.0			0.6526
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	18	18.0	13.0			0.5322
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	19	19.0	13.0			0.547
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	20	20.0	13.0			0.5456
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	21	21.0	13.0			0.5296
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	22	22.0	13.0			0.3891
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	23	23.0	13.0			0.3431
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	24	24.0	13.0			0.42
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	25	25.0	13.0			0.5038
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	26	26.0	13.0			0.458
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	27	27.0	13.0			0.5159
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	28	28.0	13.0			0.5429
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	29	29.0	13.0			0.6219
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	30	30.0	13.0			0.5937
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	31	31.0	13.0			0.5608
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	32	32.0	13.0			0.6135
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	33	33.0	13.0			0.4924
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	34	34.0	13.0			0.5344
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	35	35.0	13.0			0.606
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	36	36.0	13.0			0.4165
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	37	37.0	13.0			0.5571
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	38	38.0	13.0			0.4829
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	39	39.0	13.0			0.4772
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	40	40.0	13.0			0.6035
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	41	41.0	13.0			0.6647
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	42	42.0	13.0			0.6371
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	43	43.0	13.0			0.5418
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	44	44.0	13.0			0.6339
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	45	45.0	13.0			0.5683
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	46	46.0	13.0			0.745
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	47	47.0	13.0			0.5798
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	48	48.0	13.0			0.6451
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	49	49.0	13.0			0.6103
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	50	50.0	13.0			0.6049
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	51	51.0	13.0			0.6306
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	52	52.0	13.0			0.5434
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	53	53.0	13.0			0.6531
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	54	54.0	13.0			0.6871
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	55	55.0	13.0			0.6288
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	56	56.0	13.0			0.6593
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	57	57.0	13.0			0.6796
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	58	58.0	13.0			0.7054
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	59	59.0	13.0			0.6561
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	60	60.0	13.0			0.7213
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	61	61.0	13.0			0.7137
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	62	62.0	13.0			0.6471
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	63	63.0	13.0			0.7007
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	64	64.0	13.0			0.6041
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	65	65.0	13.0			0.6939
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	66	66.0	13.0			0.6386
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	67	67.0	13.0			0.6645
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	68	68.0	13.0			0.7794
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	69	69.0	13.0			0.7743
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	70	70.0	13.0			0.7941
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	71	71.0	13.0			0.7582
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	72	72.0	13.0			0.8322
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	13	73	73.0	13.0			0.8511
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	0	0.0	14.0			0.1665
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	1	1.0	14.0			-0.0039
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	2	2.0	14.0			0.0576
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	3	3.0	14.0			-0.1038
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	4	4.0	14.0			0.1838
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	5	5.0	14.0			0.0102
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	6	6.0	14.0			0.0495
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	7	7.0	14.0			0.4617
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	8	8.0	14.0			0.1489
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	9	9.0	14.0			0.3416
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	10	10.0	14.0			0.5207
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	11	11.0	14.0			0.1517
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	12	12.0	14.0			0.3479
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	13	13.0	14.0			0.5002
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	14	14.0	14.0			0.4118
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	15	15.0	14.0			0.2508
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	16	16.0	14.0			0.4317
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	17	17.0	14.0			0.7645
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	18	18.0	14.0			0.5
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	19	19.0	14.0			0.5278
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	20	20.0	14.0			0.4884
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	21	21.0	14.0			0.4752
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	22	22.0	14.0			0.5333
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	23	23.0	14.0			0.3265
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	24	24.0	14.0			0.496
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	25	25.0	14.0			0.409
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	26	26.0	14.0			0.4077
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	27	27.0	14.0			0.5823
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	28	28.0	14.0			0.6591
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	29	29.0	14.0			0.7646
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	30	30.0	14.0			0.6212
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	31	31.0	14.0			0.5229
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	32	32.0	14.0			0.5612
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	33	33.0	14.0			0.533
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	34	34.0	14.0			0.4994
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	35	35.0	14.0			0.5918
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	36	36.0	14.0			0.6693
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	37	37.0	14.0			0.612
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	38	38.0	14.0			0.598
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	39	39.0	14.0			0.4995
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	40	40.0	14.0			0.7206
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	41	41.0	14.0			0.6735
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	42	42.0	14.0			0.5861
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	43	43.0	14.0			0.5633
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	44	44.0	14.0			0.7564
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	45	45.0	14.0			0.5971
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	46	46.0	14.0			0.6288
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	47	47.0	14.0			0.5936
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	48	48.0	14.0			0.6075
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	49	49.0	14.0			0.8074
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	50	50.0	14.0			0.6144
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	51	51.0	14.0			0.6729
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	52	52.0	14.0			0.6524
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	53	53.0	14.0			0.6482
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	54	54.0	14.0			0.6291
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	55	55.0	14.0			0.6758
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	56	56.0	14.0			0.8085
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	57	57.0	14.0			0.7416
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	58	58.0	14.0			0.7071
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	59	59.0	14.0			0.704
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	60	60.0	14.0			0.7687
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	61	61.0	14.0			0.8348
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	62	62.0	14.0			0.766
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	63	63.0	14.0			0.7395
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	64	64.0	14.0			0.6931
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	65	65.0	14.0			0.6846
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	66	66.0	14.0			0.7343
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	67	67.0	14.0			0.6816
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	68	68.0	14.0			0.7607
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	69	69.0	14.0			0.8278
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	70	70.0	14.0			0.7936
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	71	71.0	14.0			0.8037
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	72	72.0	14.0			0.885
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	14	73	73.0	14.0			0.9021
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	0	0.0	15.0			0.0237
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	1	1.0	15.0			0.3958
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	2	2.0	15.0			0.41
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	3	3.0	15.0			0.2569
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	4	4.0	15.0			0.3572
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	5	5.0	15.0			0.3117
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	6	6.0	15.0			0.3301
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	7	7.0	15.0			0.304
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	8	8.0	15.0			0.3121
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	9	9.0	15.0			0.5272
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	10	10.0	15.0			0.3847
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	11	11.0	15.0			0.3435
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	12	12.0	15.0			0.4233
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	13	13.0	15.0			0.3325
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	14	14.0	15.0			0.5004
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	15	15.0	15.0			0.545
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	16	16.0	15.0			0.3645
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	17	17.0	15.0			-0.1069
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	18	18.0	15.0			0.4039
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	19	19.0	15.0			0.4654
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	20	20.0	15.0			0.4949
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	21	21.0	15.0			0.4307
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	22	22.0	15.0			0.5952
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	23	23.0	15.0			0.5067
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	24	24.0	15.0			0.4874
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	25	25.0	15.0			0.5397
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	26	26.0	15.0			0.4884
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	27	27.0	15.0			0.5048
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	28	28.0	15.0			0.5724
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	29	29.0	15.0			-0.2536
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	30	30.0	15.0			0.2555
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	31	31.0	15.0			0.5365
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	32	32.0	15.0			0.428
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	33	33.0	15.0			0.3643
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	34	34.0	15.0			0.5083
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	35	35.0	15.0			0.4834
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	36	36.0	15.0			0.6762
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	37	37.0	15.0			0.7353
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	38	38.0	15.0			0.6174
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	39	39.0	15.0			0.4885
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	40	40.0	15.0			0.2374
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	41	41.0	15.0			0.5837
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	42	42.0	15.0			0.6194
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	43	43.0	15.0			0.5997
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	44	44.0	15.0			0.2156
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	45	45.0	15.0			0.2513
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	46	46.0	15.0			0.7842
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	47	47.0	15.0			0.5889
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	48	48.0	15.0			0.6032
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	49	49.0	15.0			0.2795
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	50	50.0	15.0			0.6046
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	51	51.0	15.0			0.587
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	52	52.0	15.0			0.6511
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	53	53.0	15.0			0.3679
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	54	54.0	15.0			0.6226
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	55	55.0	15.0			0.6721
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	56	56.0	15.0			0.3169
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	57	57.0	15.0			0.4093
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	58	58.0	15.0			0.7858
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	59	59.0	15.0			0.6649
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	60	60.0	15.0			0.3062
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	61	61.0	15.0			0.5191
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	62	62.0	15.0			0.7671
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	63	63.0	15.0			0.6671
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	64	64.0	15.0			0.738
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	65	65.0	15.0			0.7996
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	66	66.0	15.0			0.7475
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	67	67.0	15.0			0.7271
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	68	68.0	15.0			0.767
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	69	69.0	15.0			0.8673
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	70	70.0	15.0			0.8257
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	71	71.0	15.0			0.7994
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	72	72.0	15.0			0.8474
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	cell	_child0	False	15	73	73.0	15.0			0.8688
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	0	0	0.0	4.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	1	0	1.0	4.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	2	0	2.0	4.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	3	0	4.0	4.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	4	0	8.0	4.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	5	0	10.0	4.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	6	0	17.0	4.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	7	0	0.0	5.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	8	0	1.0	5.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	9	0	2.0	5.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	10	0	4.0	5.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	11	0	0.0	6.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	12	0	2.0	6.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	13	0	10.0	6.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	14	0	1.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	15	0	3.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	16	0	5.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	17	0	6.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	18	0	9.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	19	0	11.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	20	0	12.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	21	0	36.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	22	0	37.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	23	0	46.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	24	0	62.0	7.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	25	0	1.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	26	0	3.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	27	0	5.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	28	0	6.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	29	0	7.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	30	0	9.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	31	0	12.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	32	0	37.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	33	0	46.0	8.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	34	0	0.0	9.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	35	0	0.0	10.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	36	0	2.0	10.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	37	0	0.0	12.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	38	0	3.0	13.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	39	0	1.0	14.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	40	0	3.0	14.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	41	0	17.0	15.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	points	_child1	True	42	0	29.0	15.0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	text	Focal adhesion	False	0	0	73	-1.5			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	Cat cortex CKD1/2	False	0	0		0			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	Cat cortex CKD3/4 (ref)	False	1	0		1			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	Cat medulla CKD1/2	False	2	0		2			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	Cat medulla CKD3/4	False	3	0		3			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	Pod-TRECK D5	False	4	0		4			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	Pod-TRECK D14	False	5	0		5			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	Pod-TRECK D21	False	6	0		6			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 2 h	False	7	0		7			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 4 h	False	8	0		8			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 24 h	False	9	0		9			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 48 h	False	10	0		10			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 72 h	False	11	0		11			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 7 d	False	12	0		12			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 14 d	False	13	0		13			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 28 d	False	14	0		14			
+2	(B)  Alignment varies by pathway, and the ranking of mouse states with it	ytick	IRI 12 mo	False	15	0		15			
+3		cell	_child1	False	0	0	0.5	-0.99609375			-0.99609375
+3		cell	_child1	False	1	0	0.5	-0.98828125			-0.98828125
+3		cell	_child1	False	2	0	0.5	-0.98046875			-0.98046875
+3		cell	_child1	False	3	0	0.5	-0.97265625			-0.97265625
+3		cell	_child1	False	4	0	0.5	-0.96484375			-0.96484375
+3		cell	_child1	False	5	0	0.5	-0.95703125			-0.95703125
+3		cell	_child1	False	6	0	0.5	-0.94921875			-0.94921875
+3		cell	_child1	False	7	0	0.5	-0.94140625			-0.94140625
+3		cell	_child1	False	8	0	0.5	-0.93359375			-0.93359375
+3		cell	_child1	False	9	0	0.5	-0.92578125			-0.92578125
+3		cell	_child1	False	10	0	0.5	-0.91796875			-0.91796875
+3		cell	_child1	False	11	0	0.5	-0.91015625			-0.91015625
+3		cell	_child1	False	12	0	0.5	-0.90234375			-0.90234375
+3		cell	_child1	False	13	0	0.5	-0.89453125			-0.89453125
+3		cell	_child1	False	14	0	0.5	-0.88671875			-0.88671875
+3		cell	_child1	False	15	0	0.5	-0.87890625			-0.87890625
+3		cell	_child1	False	16	0	0.5	-0.87109375			-0.87109375
+3		cell	_child1	False	17	0	0.5	-0.86328125			-0.86328125
+3		cell	_child1	False	18	0	0.5	-0.85546875			-0.85546875
+3		cell	_child1	False	19	0	0.5	-0.84765625			-0.84765625
+3		cell	_child1	False	20	0	0.5	-0.83984375			-0.83984375
+3		cell	_child1	False	21	0	0.5	-0.83203125			-0.83203125
+3		cell	_child1	False	22	0	0.5	-0.82421875			-0.82421875
+3		cell	_child1	False	23	0	0.5	-0.81640625			-0.81640625
+3		cell	_child1	False	24	0	0.5	-0.80859375			-0.80859375
+3		cell	_child1	False	25	0	0.5	-0.80078125			-0.80078125
+3		cell	_child1	False	26	0	0.5	-0.79296875			-0.79296875
+3		cell	_child1	False	27	0	0.5	-0.78515625			-0.78515625
+3		cell	_child1	False	28	0	0.5	-0.77734375			-0.77734375
+3		cell	_child1	False	29	0	0.5	-0.76953125			-0.76953125
+3		cell	_child1	False	30	0	0.5	-0.76171875			-0.76171875
+3		cell	_child1	False	31	0	0.5	-0.75390625			-0.75390625
+3		cell	_child1	False	32	0	0.5	-0.74609375			-0.74609375
+3		cell	_child1	False	33	0	0.5	-0.73828125			-0.73828125
+3		cell	_child1	False	34	0	0.5	-0.73046875			-0.73046875
+3		cell	_child1	False	35	0	0.5	-0.72265625			-0.72265625
+3		cell	_child1	False	36	0	0.5	-0.71484375			-0.71484375
+3		cell	_child1	False	37	0	0.5	-0.70703125			-0.70703125
+3		cell	_child1	False	38	0	0.5	-0.69921875			-0.69921875
+3		cell	_child1	False	39	0	0.5	-0.69140625			-0.69140625
+3		cell	_child1	False	40	0	0.5	-0.68359375			-0.68359375
+3		cell	_child1	False	41	0	0.5	-0.67578125			-0.67578125
+3		cell	_child1	False	42	0	0.5	-0.66796875			-0.66796875
+3		cell	_child1	False	43	0	0.5	-0.66015625			-0.66015625
+3		cell	_child1	False	44	0	0.5	-0.65234375			-0.65234375
+3		cell	_child1	False	45	0	0.5	-0.64453125			-0.64453125
+3		cell	_child1	False	46	0	0.5	-0.63671875			-0.63671875
+3		cell	_child1	False	47	0	0.5	-0.62890625			-0.62890625
+3		cell	_child1	False	48	0	0.5	-0.62109375			-0.62109375
+3		cell	_child1	False	49	0	0.5	-0.61328125			-0.61328125
+3		cell	_child1	False	50	0	0.5	-0.60546875			-0.60546875
+3		cell	_child1	False	51	0	0.5	-0.59765625			-0.59765625
+3		cell	_child1	False	52	0	0.5	-0.58984375			-0.58984375
+3		cell	_child1	False	53	0	0.5	-0.58203125			-0.58203125
+3		cell	_child1	False	54	0	0.5	-0.57421875			-0.57421875
+3		cell	_child1	False	55	0	0.5	-0.56640625			-0.56640625
+3		cell	_child1	False	56	0	0.5	-0.55859375			-0.55859375
+3		cell	_child1	False	57	0	0.5	-0.55078125			-0.55078125
+3		cell	_child1	False	58	0	0.5	-0.54296875			-0.54296875
+3		cell	_child1	False	59	0	0.5	-0.53515625			-0.53515625
+3		cell	_child1	False	60	0	0.5	-0.52734375			-0.52734375
+3		cell	_child1	False	61	0	0.5	-0.51953125			-0.51953125
+3		cell	_child1	False	62	0	0.5	-0.51171875			-0.51171875
+3		cell	_child1	False	63	0	0.5	-0.50390625			-0.50390625
+3		cell	_child1	False	64	0	0.5	-0.49609375			-0.49609375
+3		cell	_child1	False	65	0	0.5	-0.48828125			-0.48828125
+3		cell	_child1	False	66	0	0.5	-0.48046875			-0.48046875
+3		cell	_child1	False	67	0	0.5	-0.47265625			-0.47265625
+3		cell	_child1	False	68	0	0.5	-0.46484375			-0.46484375
+3		cell	_child1	False	69	0	0.5	-0.45703125			-0.45703125
+3		cell	_child1	False	70	0	0.5	-0.44921875			-0.44921875
+3		cell	_child1	False	71	0	0.5	-0.44140625			-0.44140625
+3		cell	_child1	False	72	0	0.5	-0.43359375			-0.43359375
+3		cell	_child1	False	73	0	0.5	-0.42578125			-0.42578125
+3		cell	_child1	False	74	0	0.5	-0.41796875			-0.41796875
+3		cell	_child1	False	75	0	0.5	-0.41015625			-0.41015625
+3		cell	_child1	False	76	0	0.5	-0.40234375			-0.40234375
+3		cell	_child1	False	77	0	0.5	-0.39453125			-0.39453125
+3		cell	_child1	False	78	0	0.5	-0.38671875			-0.38671875
+3		cell	_child1	False	79	0	0.5	-0.37890625			-0.37890625
+3		cell	_child1	False	80	0	0.5	-0.37109375			-0.37109375
+3		cell	_child1	False	81	0	0.5	-0.36328125			-0.36328125
+3		cell	_child1	False	82	0	0.5	-0.35546875			-0.35546875
+3		cell	_child1	False	83	0	0.5	-0.34765625			-0.34765625
+3		cell	_child1	False	84	0	0.5	-0.33984375			-0.33984375
+3		cell	_child1	False	85	0	0.5	-0.33203125			-0.33203125
+3		cell	_child1	False	86	0	0.5	-0.32421875			-0.32421875
+3		cell	_child1	False	87	0	0.5	-0.31640625			-0.31640625
+3		cell	_child1	False	88	0	0.5	-0.30859375			-0.30859375
+3		cell	_child1	False	89	0	0.5	-0.30078125			-0.30078125
+3		cell	_child1	False	90	0	0.5	-0.29296875			-0.29296875
+3		cell	_child1	False	91	0	0.5	-0.28515625			-0.28515625
+3		cell	_child1	False	92	0	0.5	-0.27734375			-0.27734375
+3		cell	_child1	False	93	0	0.5	-0.26953125			-0.26953125
+3		cell	_child1	False	94	0	0.5	-0.26171875			-0.26171875
+3		cell	_child1	False	95	0	0.5	-0.25390625			-0.25390625
+3		cell	_child1	False	96	0	0.5	-0.24609375			-0.24609375
+3		cell	_child1	False	97	0	0.5	-0.23828125			-0.23828125
+3		cell	_child1	False	98	0	0.5	-0.23046875			-0.23046875
+3		cell	_child1	False	99	0	0.5	-0.22265625			-0.22265625
+3		cell	_child1	False	100	0	0.5	-0.21484375			-0.21484375
+3		cell	_child1	False	101	0	0.5	-0.20703125			-0.20703125
+3		cell	_child1	False	102	0	0.5	-0.19921875			-0.19921875
+3		cell	_child1	False	103	0	0.5	-0.19140625			-0.19140625
+3		cell	_child1	False	104	0	0.5	-0.18359375			-0.18359375
+3		cell	_child1	False	105	0	0.5	-0.17578125			-0.17578125
+3		cell	_child1	False	106	0	0.5	-0.16796875			-0.16796875
+3		cell	_child1	False	107	0	0.5	-0.16015625			-0.16015625
+3		cell	_child1	False	108	0	0.5	-0.15234375			-0.15234375
+3		cell	_child1	False	109	0	0.5	-0.14453125			-0.14453125
+3		cell	_child1	False	110	0	0.5	-0.13671875			-0.13671875
+3		cell	_child1	False	111	0	0.5	-0.12890625			-0.12890625
+3		cell	_child1	False	112	0	0.5	-0.12109375			-0.12109375
+3		cell	_child1	False	113	0	0.5	-0.11328125			-0.11328125
+3		cell	_child1	False	114	0	0.5	-0.10546875			-0.10546875
+3		cell	_child1	False	115	0	0.5	-0.09765625			-0.09765625
+3		cell	_child1	False	116	0	0.5	-0.08984375			-0.08984375
+3		cell	_child1	False	117	0	0.5	-0.08203125			-0.08203125
+3		cell	_child1	False	118	0	0.5	-0.07421875			-0.07421875
+3		cell	_child1	False	119	0	0.5	-0.06640625			-0.06640625
+3		cell	_child1	False	120	0	0.5	-0.05859375			-0.05859375
+3		cell	_child1	False	121	0	0.5	-0.05078125			-0.05078125
+3		cell	_child1	False	122	0	0.5	-0.04296875			-0.04296875
+3		cell	_child1	False	123	0	0.5	-0.03515625			-0.03515625
+3		cell	_child1	False	124	0	0.5	-0.02734375			-0.02734375
+3		cell	_child1	False	125	0	0.5	-0.01953125			-0.01953125
+3		cell	_child1	False	126	0	0.5	-0.01171875			-0.01171875
+3		cell	_child1	False	127	0	0.5	-0.00390625			-0.00390625
+3		cell	_child1	False	128	0	0.5	0.00390625			0.00390625
+3		cell	_child1	False	129	0	0.5	0.01171875			0.01171875
+3		cell	_child1	False	130	0	0.5	0.01953125			0.01953125
+3		cell	_child1	False	131	0	0.5	0.02734375			0.02734375
+3		cell	_child1	False	132	0	0.5	0.03515625			0.03515625
+3		cell	_child1	False	133	0	0.5	0.04296875			0.04296875
+3		cell	_child1	False	134	0	0.5	0.05078125			0.05078125
+3		cell	_child1	False	135	0	0.5	0.05859375			0.05859375
+3		cell	_child1	False	136	0	0.5	0.06640625			0.06640625
+3		cell	_child1	False	137	0	0.5	0.07421875			0.07421875
+3		cell	_child1	False	138	0	0.5	0.08203125			0.08203125
+3		cell	_child1	False	139	0	0.5	0.08984375			0.08984375
+3		cell	_child1	False	140	0	0.5	0.09765625			0.09765625
+3		cell	_child1	False	141	0	0.5	0.10546875			0.10546875
+3		cell	_child1	False	142	0	0.5	0.11328125			0.11328125
+3		cell	_child1	False	143	0	0.5	0.12109375			0.12109375
+3		cell	_child1	False	144	0	0.5	0.12890625			0.12890625
+3		cell	_child1	False	145	0	0.5	0.13671875			0.13671875
+3		cell	_child1	False	146	0	0.5	0.14453125			0.14453125
+3		cell	_child1	False	147	0	0.5	0.15234375			0.15234375
+3		cell	_child1	False	148	0	0.5	0.16015625			0.16015625
+3		cell	_child1	False	149	0	0.5	0.16796875			0.16796875
+3		cell	_child1	False	150	0	0.5	0.17578125			0.17578125
+3		cell	_child1	False	151	0	0.5	0.18359375			0.18359375
+3		cell	_child1	False	152	0	0.5	0.19140625			0.19140625
+3		cell	_child1	False	153	0	0.5	0.19921875			0.19921875
+3		cell	_child1	False	154	0	0.5	0.20703125			0.20703125
+3		cell	_child1	False	155	0	0.5	0.21484375			0.21484375
+3		cell	_child1	False	156	0	0.5	0.22265625			0.22265625
+3		cell	_child1	False	157	0	0.5	0.23046875			0.23046875
+3		cell	_child1	False	158	0	0.5	0.23828125			0.23828125
+3		cell	_child1	False	159	0	0.5	0.24609375			0.24609375
+3		cell	_child1	False	160	0	0.5	0.25390625			0.25390625
+3		cell	_child1	False	161	0	0.5	0.26171875			0.26171875
+3		cell	_child1	False	162	0	0.5	0.26953125			0.26953125
+3		cell	_child1	False	163	0	0.5	0.27734375			0.27734375
+3		cell	_child1	False	164	0	0.5	0.28515625			0.28515625
+3		cell	_child1	False	165	0	0.5	0.29296875			0.29296875
+3		cell	_child1	False	166	0	0.5	0.30078125			0.30078125
+3		cell	_child1	False	167	0	0.5	0.30859375			0.30859375
+3		cell	_child1	False	168	0	0.5	0.31640625			0.31640625
+3		cell	_child1	False	169	0	0.5	0.32421875			0.32421875
+3		cell	_child1	False	170	0	0.5	0.33203125			0.33203125
+3		cell	_child1	False	171	0	0.5	0.33984375			0.33984375
+3		cell	_child1	False	172	0	0.5	0.34765625			0.34765625
+3		cell	_child1	False	173	0	0.5	0.35546875			0.35546875
+3		cell	_child1	False	174	0	0.5	0.36328125			0.36328125
+3		cell	_child1	False	175	0	0.5	0.37109375			0.37109375
+3		cell	_child1	False	176	0	0.5	0.37890625			0.37890625
+3		cell	_child1	False	177	0	0.5	0.38671875			0.38671875
+3		cell	_child1	False	178	0	0.5	0.39453125			0.39453125
+3		cell	_child1	False	179	0	0.5	0.40234375			0.40234375
+3		cell	_child1	False	180	0	0.5	0.41015625			0.41015625
+3		cell	_child1	False	181	0	0.5	0.41796875			0.41796875
+3		cell	_child1	False	182	0	0.5	0.42578125			0.42578125
+3		cell	_child1	False	183	0	0.5	0.43359375			0.43359375
+3		cell	_child1	False	184	0	0.5	0.44140625			0.44140625
+3		cell	_child1	False	185	0	0.5	0.44921875			0.44921875
+3		cell	_child1	False	186	0	0.5	0.45703125			0.45703125
+3		cell	_child1	False	187	0	0.5	0.46484375			0.46484375
+3		cell	_child1	False	188	0	0.5	0.47265625			0.47265625
+3		cell	_child1	False	189	0	0.5	0.48046875			0.48046875
+3		cell	_child1	False	190	0	0.5	0.48828125			0.48828125
+3		cell	_child1	False	191	0	0.5	0.49609375			0.49609375
+3		cell	_child1	False	192	0	0.5	0.50390625			0.50390625
+3		cell	_child1	False	193	0	0.5	0.51171875			0.51171875
+3		cell	_child1	False	194	0	0.5	0.51953125			0.51953125
+3		cell	_child1	False	195	0	0.5	0.52734375			0.52734375
+3		cell	_child1	False	196	0	0.5	0.53515625			0.53515625
+3		cell	_child1	False	197	0	0.5	0.54296875			0.54296875
+3		cell	_child1	False	198	0	0.5	0.55078125			0.55078125
+3		cell	_child1	False	199	0	0.5	0.55859375			0.55859375
+3		cell	_child1	False	200	0	0.5	0.56640625			0.56640625
+3		cell	_child1	False	201	0	0.5	0.57421875			0.57421875
+3		cell	_child1	False	202	0	0.5	0.58203125			0.58203125
+3		cell	_child1	False	203	0	0.5	0.58984375			0.58984375
+3		cell	_child1	False	204	0	0.5	0.59765625			0.59765625
+3		cell	_child1	False	205	0	0.5	0.60546875			0.60546875
+3		cell	_child1	False	206	0	0.5	0.61328125			0.61328125
+3		cell	_child1	False	207	0	0.5	0.62109375			0.62109375
+3		cell	_child1	False	208	0	0.5	0.62890625			0.62890625
+3		cell	_child1	False	209	0	0.5	0.63671875			0.63671875
+3		cell	_child1	False	210	0	0.5	0.64453125			0.64453125
+3		cell	_child1	False	211	0	0.5	0.65234375			0.65234375
+3		cell	_child1	False	212	0	0.5	0.66015625			0.66015625
+3		cell	_child1	False	213	0	0.5	0.66796875			0.66796875
+3		cell	_child1	False	214	0	0.5	0.67578125			0.67578125
+3		cell	_child1	False	215	0	0.5	0.68359375			0.68359375
+3		cell	_child1	False	216	0	0.5	0.69140625			0.69140625
+3		cell	_child1	False	217	0	0.5	0.69921875			0.69921875
+3		cell	_child1	False	218	0	0.5	0.70703125			0.70703125
+3		cell	_child1	False	219	0	0.5	0.71484375			0.71484375
+3		cell	_child1	False	220	0	0.5	0.72265625			0.72265625
+3		cell	_child1	False	221	0	0.5	0.73046875			0.73046875
+3		cell	_child1	False	222	0	0.5	0.73828125			0.73828125
+3		cell	_child1	False	223	0	0.5	0.74609375			0.74609375
+3		cell	_child1	False	224	0	0.5	0.75390625			0.75390625
+3		cell	_child1	False	225	0	0.5	0.76171875			0.76171875
+3		cell	_child1	False	226	0	0.5	0.76953125			0.76953125
+3		cell	_child1	False	227	0	0.5	0.77734375			0.77734375
+3		cell	_child1	False	228	0	0.5	0.78515625			0.78515625
+3		cell	_child1	False	229	0	0.5	0.79296875			0.79296875
+3		cell	_child1	False	230	0	0.5	0.80078125			0.80078125
+3		cell	_child1	False	231	0	0.5	0.80859375			0.80859375
+3		cell	_child1	False	232	0	0.5	0.81640625			0.81640625
+3		cell	_child1	False	233	0	0.5	0.82421875			0.82421875
+3		cell	_child1	False	234	0	0.5	0.83203125			0.83203125
+3		cell	_child1	False	235	0	0.5	0.83984375			0.83984375
+3		cell	_child1	False	236	0	0.5	0.84765625			0.84765625
+3		cell	_child1	False	237	0	0.5	0.85546875			0.85546875
+3		cell	_child1	False	238	0	0.5	0.86328125			0.86328125
+3		cell	_child1	False	239	0	0.5	0.87109375			0.87109375
+3		cell	_child1	False	240	0	0.5	0.87890625			0.87890625
+3		cell	_child1	False	241	0	0.5	0.88671875			0.88671875
+3		cell	_child1	False	242	0	0.5	0.89453125			0.89453125
+3		cell	_child1	False	243	0	0.5	0.90234375			0.90234375
+3		cell	_child1	False	244	0	0.5	0.91015625			0.91015625
+3		cell	_child1	False	245	0	0.5	0.91796875			0.91796875
+3		cell	_child1	False	246	0	0.5	0.92578125			0.92578125
+3		cell	_child1	False	247	0	0.5	0.93359375			0.93359375
+3		cell	_child1	False	248	0	0.5	0.94140625			0.94140625
+3		cell	_child1	False	249	0	0.5	0.94921875			0.94921875
+3		cell	_child1	False	250	0	0.5	0.95703125			0.95703125
+3		cell	_child1	False	251	0	0.5	0.96484375			0.96484375
+3		cell	_child1	False	252	0	0.5	0.97265625			0.97265625
+3		cell	_child1	False	253	0	0.5	0.98046875			0.98046875
+3		cell	_child1	False	254	0	0.5	0.98828125			0.98828125
+3		cell	_child1	False	255	0	0.5	0.99609375			0.99609375
+3		ytick	-1.0	False	0	0		-1.0			
+3		ytick	-0.5	False	1	0		-0.5			
+3		ytick	0.0	False	2	0		0.0			
+3		ytick	0.5	False	3	0		0.5			
+3		ytick	1.0	False	4	0		1.0			

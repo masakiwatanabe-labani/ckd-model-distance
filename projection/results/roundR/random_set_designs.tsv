@@ -1,0 +1,7 @@
+design	quantity	n_draws	observed_real_sets	random_median	random_min	random_max	draws_at_or_above_observed
+size-matched draws	auc_agg_uncentred	300	0.8675	0.9215	0.9006	0.9498	300
+size-matched draws	auc_agg_centred	300	0.5112	0.7599	0.7051	0.8317	300
+size-matched draws	difference	300	0.3563	0.1629	0.0972	0.2174	0
+gene-label permutation	auc_agg_uncentred	300	0.8675	0.9153	0.8403	0.9915	296
+gene-label permutation	auc_agg_centred	300	0.5112	0.7321	0.5011	0.969	299
+gene-label permutation	difference	300	0.3563	0.1891	-0.0545	0.3851	3

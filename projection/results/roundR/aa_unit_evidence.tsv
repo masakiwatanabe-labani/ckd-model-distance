@@ -1,0 +1,12 @@
+quantity	value
+file name	GSE98622_mouse-iri-master.xlsx
+sha256	f24d20bc3dcd36115c7273a0303d788db630a5190cf92840e07dc74cce30e58a
+rows in the sheet	43309
+numeric sample columns	49
+genes with finite values in every column	43309
+share of non-zero entries that are integers	5.359394407236875e-05
+share of non-zero entries that are non-integer	0.9999464060559277
+smallest non-zero value	0.0002
+smallest column sum	432914.1476999979
+largest column sum	685006.9584000001
+coefficient of variation of column sums	0.1109122886439178

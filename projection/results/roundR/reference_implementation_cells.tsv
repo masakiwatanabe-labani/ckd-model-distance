@@ -1,0 +1,9 @@
+method	compared	matrix	n_sets	n_states	max_abs_difference	median_abs_difference	max_relative_difference	pearson_r_of_cells	spearman_r_of_cells	plage_sign_flipped_sets
+ssGSEA	gseapy.ssgsea (ES) vs ssgseaParam(normalize = FALSE)	uncentered	422	16	3.410605131648481e-12	3.694822225952521e-13	4.2107649717208185e-15	1.0	1.0	0
+ssGSEA	gseapy.ssgsea (ES) vs ssgseaParam(normalize = FALSE)	centered	422	16	3.410605131648481e-12	3.694822225952521e-13	4.2107649717208185e-15	1.0	1.0	0
+GSVA	"gseapy.gsva vs gsvaParam(kcdf = ""Gaussian"")"	uncentered	422	16	0.005344738424221951	4.551914400963142e-15	0.006273228831535221	0.9999999137465371	0.9999998910793142	0
+GSVA	"gseapy.gsva vs gsvaParam(kcdf = ""Gaussian"")"	centered	422	16	0.004094337785248436	5.051514762044462e-15	0.005057674387631235	0.9999999498577514	0.9999999413586467	0
+PLAGE	own implementation vs plageParam	uncentered	422	16	1.0231032687713082e-10	5.094117835890977e-12	1.453563545697774e-10	1.0	1.0	146
+PLAGE	own implementation vs plageParam	centered	422	16	4.831297376051147e-10	6.9811378899942156e-12	6.16811642654054e-10	1.0	1.0	159
+singscore	own implementation vs singscore::simpleScore	uncentered	422	16	0.02639834260258464	0.0021193154097525722	0.0637490177065467	0.9998248443083169	0.9998009420475223	0
+singscore	own implementation vs singscore::simpleScore	centered	422	16	0.02639834260258464	0.0021193154097525722	0.0637490177065467	0.9998248443083169	0.9998009420475223	0

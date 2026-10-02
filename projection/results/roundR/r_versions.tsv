@@ -1,0 +1,10 @@
+R	4.6.1
+Bioconductor	3.23
+GSVA	2.6.6
+singscore	1.32.0
+GSEABase	1.74.0
+plage_api	plageParam + gsva (current API)
+ssgsea_api	ssgseaParam + gsva (current API)
+gsva_api	gsvaParam + gsva (current API)
+gsva_kcdf_auto_uncentered	auto
+gsva_kcdf_auto_centered	auto

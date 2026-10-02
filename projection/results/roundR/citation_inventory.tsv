@@ -1,0 +1,46 @@
+ref	section	first_author	title	context
+4	Introduction	Eddy, A.A.	Investigating mechanisms of chronic kidney disease in mouse models	Animal models of kidney disease have been developed sepa
+7	Introduction	Lawson, J.S.	The cat as a naturally occurring model of renal interstitial fibro	Feline chronic kidney disease provides a naturally occur
+8	Introduction	Seok, J.	Genomic responses in mouse models poorly mimic human inflammatory 	Cross-species comparisons have used rank correlation, ov
+9	Introduction	Takao, K.	Genomic responses in mouse models greatly mimic human inflammatory	Cross-species comparisons have used rank correlation, ov
+10	Discussion	Zong, W.	Transcriptomic congruence analysis for evaluating model organisms.	Pathway-dependent model agreement is already recognized 
+10	Introduction	Zong, W.	Transcriptomic congruence analysis for evaluating model organisms.	Pathway analysis offers a biologically organized descrip
+11	Introduction	Jiang, P.	TimeMeter assesses temporal gene expression similarity and identif	Pairwise and reference-anchored comparisons also ask dif
+12	Introduction	Sumanaweera, D.	Gene-level alignment of single-cell trajectories. Nat. Methods 202	Pairwise and reference-anchored comparisons also ask dif
+13	Introduction	Natsoulis, G.	Classification of a large microarray data set: algorithm compariso	Projection scores retain both the magnitude and directio
+13	Methods	Natsoulis, G.	Classification of a large microarray data set: algorithm compariso	The signature projection score is defined as , the proje
+13	Results	Natsoulis, G.	Classification of a large microarray data set: algorithm compariso	The signature projection score S = ‖v‖ cos θ [13,14] dif
+14	Introduction	Eynon, B.P.	Signature Projection Score. U.S. Patent 7,519,519 B1, 14 April 200	Projection scores retain both the magnitude and directio
+14	Methods	Eynon, B.P.	Signature Projection Score. U.S. Patent 7,519,519 B1, 14 April 200	and does not depend on v. α and S therefore order states
+14	Results	Eynon, B.P.	Signature Projection Score. U.S. Patent 7,519,519 B1, 14 April 200	The signature projection score S = ‖v‖ cos θ [13,14] dif
+15	Discussion	Brubaker, D.K.	An interspecies translation model implicates integrin signaling in	Pathway-dependent model agreement is already recognized 
+15	Introduction	Brubaker, D.K.	An interspecies translation model implicates integrin signaling in	Projection scores retain both the magnitude and directio
+16	Introduction	Normand, R.	Found in translation: a machine learning model for mouse-to-human 	Projection scores retain both the magnitude and directio
+17	Introduction	Marino, C.L.	Prevalence and classification of chronic kidney disease in cats ra	Feline chronic kidney disease provides a naturally occur
+18	Methods	Milacic, M.	The Reactome Pathway Knowledgebase 2024. Nucleic Acids Res. 2024, 	Gene sets were drawn from Reactome [18], MSigDB Hallmark
+18	Results	Milacic, M.	The Reactome Pathway Knowledgebase 2024. Nucleic Acids Res. 2024, 	The primary pathway analysis used 422 sets containing at
+19	Methods	Ashburner, M.	Gene ontology: tool for the unification of biology. Nat. Genet. 20	Gene sets were drawn from Reactome [18], MSigDB Hallmark
+19	Results	Ashburner, M.	Gene ontology: tool for the unification of biology. Nat. Genet. 20	The primary pathway analysis used 422 sets containing at
+20	Methods	Kanehisa, M.	KEGG: Kyoto Encyclopedia of Genes and Genomes. Nucleic Acids Res. 	Gene sets were drawn from Reactome [18], MSigDB Hallmark
+20	Results	Kanehisa, M.	KEGG: Kyoto Encyclopedia of Genes and Genomes. Nucleic Acids Res. 	The primary pathway analysis used 422 sets containing at
+21	Methods	Liberzon, A.	The Molecular Signatures Database (MSigDB) hallmark gene set colle	Gene sets were drawn from Reactome [18], MSigDB Hallmark
+21	Results	Liberzon, A.	The Molecular Signatures Database (MSigDB) hallmark gene set colle	The primary pathway analysis used 422 sets containing at
+23	Discussion	Georgiadou, A.	Comparative transcriptomic analysis reveals translationally releva	Pathway-dependent model agreement is already recognized 
+24	Discussion	Preuss, C.	A novel systems biology approach to evaluate mouse models of late-	Pathway-dependent model agreement is already recognized 
+25	Discussion	Kriegeskorte, N.	Representational similarity analysis — connecting the branches of 	Reliability-derived comparisons are established in congr
+26	Discussion	Nili, H.	A toolbox for representational similarity analysis. PLoS Comput. B	Reliability-derived comparisons are established in congr
+28	Methods	Li, Q.	Integrated multi-omics analysis of renal metabolism in domestic ca	A state was defined as a disease group contrasted with i
+28	backmatter	Li, Q.	Integrated multi-omics analysis of renal metabolism in domestic ca	Institutional Review Board Statement: This study reanaly
+29	Methods	Watanabe, M.	An inducible and podocyte-specific diphtheria toxin receptor knock	A state was defined as a disease group contrasted with i
+29	backmatter	Watanabe, M.	An inducible and podocyte-specific diphtheria toxin receptor knock	Data Availability Statement: The transcriptomic datasets
+30	Methods	Liu, J.	Molecular characterization of the transition from acute to chronic	A state was defined as a disease group contrasted with i
+30	backmatter	Liu, J.	Molecular characterization of the transition from acute to chronic	Institutional Review Board Statement: This study reanaly
+31	Methods	Harrison, P.W.	Ensembl 2024. Nucleic Acids Res. 2024, 52, D891–D899. https://doi.	Cat-to-human and mouse-to-human correspondences were obt
+34	RESPONSE	Ito, K.	Integrated proteomic–transcriptomic profiling identifies NR3C2 up-	entary Table S1 of the companion study, reference 34
+34	backmatter	Ito, K.	Integrated proteomic–transcriptomic profiling identifies NR3C2 up-	Institutional Review Board Statement: This study reanaly
+35	Methods	Mantel, N. The detection of disease clustering and a generalized regression approach. Cancer Res. 1967, 27, 209–220.	The detection of disease clustering and a generalized regression a	Pairwise associations were assessed with Mantel statisti
+36	Methods	Spearman, C. Correlation calculated from faulty data. Br. J. Psychol. 1910, 3, 271–295. https://doi.org/10.1111/j.2044-8295.1910.tb00206.x.	Correlation calculated from faulty data. Br. J. Psychol. 1910, 3, 	For each state, disease and control samples were partiti
+38	Methods	Nunnally, J.C.	Psychometric Theory, 3rd ed.; McGraw-Hill: New York, NY, USA, 1994	For each state, disease and control samples were partiti
+39	Methods	Efron, B.	An Introduction to the Bootstrap; Chapman & Hall: New York, NY, US	Gene bootstrapping [39] assesses sensitivity to the sele
+40	Methods	Ju, W.	Tissue transcriptome-driven identification of epidermal growth fac	Human tubulointerstitial expression profiles from the Eu
+40	backmatter	Ju, W.	Tissue transcriptome-driven identification of epidermal growth fac	Data Availability Statement: The transcriptomic datasets

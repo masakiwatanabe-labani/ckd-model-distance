@@ -1,0 +1,6 @@
+role	file	bytes	downloaded	sha256	note
+feline cortical and medullary proteomes	42003_2025_9164_MOESM3_ESM.xlsx	10151094	2026-08-26	0037263600ec06f688a453ddbc2732e754c9034df7b4486713bfc76663ebf136	Supplementary Data 3 of Li et al., Commun. Biol. 2025;8:1794 (doi:10.1038/s42003-025-09164-8), sheets 'S5 Protein cortex' and 'S6 Protein medulla'; publicly downloadable from the publisher
+Pod-TRECK proteome	Supplementary_Data_S1_PodTRECK_proteome.xlsx	1683246	2026-08-26	6194c68111856b1e4e01cb94084b2eeb0f1e6b12fb1682fd8f1faace4a6a49bc	attached as Supplementary Data S1 of this paper; the same values as the source table, with the document properties cleared
+cat-to-human one-to-one orthologues	orthologs_cat2human.tsv	1478973	2026-08-26	4724e9374da1d43d593c46d99607bf0b0d47f7bf3edfa081167a72efd6b06a3d	Ensembl BioMart, www.ensembl.org; current release on the download date was 115 (release 116 was published 2026-09-10)
+mouse-to-human one-to-one orthologues	orthologs_mouse2human.tsv	1994181	2026-08-26	a0cc6f531a325046ea883eab3018215f8f0e8b9e655e4fc1bb1a0d3f3fbff0df	Ensembl BioMart, www.ensembl.org; current release 115
+ensembl release at download			2026-08-26		115

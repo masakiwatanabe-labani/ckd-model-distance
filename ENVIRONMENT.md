@@ -86,7 +86,7 @@ md5sum -c <(awk '{print $1"  "$2}' DATA_CHECKSUMS.md5)
 |---|---|---|
 | `data/raw/42003_2025_9164_MOESM3_ESM.xlsx` | Li et al. Commun Biol 2025 の Supplementary Data 3 | 使う |
 | `data/raw/all_fpkm_TRECK.xlsx` | GSE299326 | 使う |
-| `data/raw/PK25055_解析結果.xlsx`、`PK25055-1〜3_全タンパク質.xlsx` | 研究室内（非公開） | 使う |
+| 自家プロテオームの定量表と対比較表（ファイル名は受託先の案件番号を含むので記さない。定量表は Supplementary Data S1 として公開） | 研究室内（非公開） | 使う |
 | `data/external/KPMP/DataLake_DEPs.txt` | KPMP Atlas Explorer（doi:10.48698/mg7h-bc51）、利用規約に同意 | 使う |
 | `data/external/plasma_RamirezMedina2023/12014_2023_9405_MOESM2_ESM.csv` | Ramírez Medina et al. Clin Proteomics 2023 の補足 MOESM2 | 30 |
 | `data/external/HPA/hpa_secretome_blood.tsv` | 下のコマンド | 30 |

@@ -102,6 +102,10 @@ MOUSE2HUMAN = one2one("orthologs_mouse2human.tsv")
 MAPS = {"cat": CAT2HUMAN, "mouse": MOUSE2HUMAN}
 
 
+# 遺伝子記号として扱わない index（元表で記号が付与されていない行）
+NO_SYMBOL = {"-", "", "NA", "N/A", "NAN", "NONE"}
+
+
 def to_human(s: pd.Series, species: str) -> tuple[pd.Series, pd.Series]:
     """系列をヒトシンボル空間へ。値と、遺伝子ごとの写像由来を返す。
 
@@ -114,6 +118,9 @@ def to_human(s: pd.Series, species: str) -> tuple[pd.Series, pd.Series]:
     prov = ["ortholog" if g in mapping else "fallback" for g in src]
     out = pd.DataFrame({"value": s.to_numpy(), "prov": prov, "src": src}, index=human)
     out = out[~out.index.duplicated(keep="first")]
+    # 遺伝子記号が付与されていない行を落とす（Pod-TRECK の 2 表に "-" の行がある）。
+    # GT(ROSA)26SOR のような正当な登録は残す。
+    out = out[~out.index.isin(NO_SYMBOL)]
     return out["value"], out["prov"]
 
 

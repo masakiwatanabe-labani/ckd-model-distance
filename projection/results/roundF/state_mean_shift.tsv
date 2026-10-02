@@ -1,0 +1,17 @@
+state	species	mean_delta	sd_delta	median_delta	frac_positive
+Feline cortex, CKD1/2	feline	-0.0876	0.4329	-0.102	0.3557
+Feline medulla, CKD3/4	feline	-0.1551	0.7879	-0.0835	0.443
+Feline cortex, CKD3/4	feline	-0.1735	0.7149	-0.1311	0.3606
+Feline medulla, CKD1/2	feline	-0.3247	0.8928	-0.1536	0.3442
+Pod-TRECK day 14	mouse	0.4261	1.0053	0.5013	0.7287
+Pod-TRECK day 21	mouse	0.2734	0.6975	0.3187	0.7257
+IRI 7 d	mouse	0.2357	0.8168	0.1852	0.6245
+IRI 24 h	mouse	0.2228	0.8821	0.28	0.6756
+IRI 48 h	mouse	0.2157	0.8035	0.1847	0.6379
+Pod-TRECK day 5	mouse	0.1693	0.3873	0.1711	0.7272
+IRI 28 d	mouse	0.1539	0.5894	0.0786	0.5923
+IRI 72 h	mouse	0.1422	0.7499	0.1049	0.5873
+IRI 14 d	mouse	0.1269	0.7906	0.0671	0.5506
+IRI 12 mo	mouse	0.1015	0.3538	0.0441	0.5962
+IRI 4 h	mouse	0.0043	0.3874	-0.0506	0.4142
+IRI 2 h	mouse	-0.0679	0.421	-0.0387	0.4529

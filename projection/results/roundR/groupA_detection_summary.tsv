@@ -1,0 +1,9 @@
+step	genes
+Genes in the Δ matrix	22344
+Detected in the feline cortical proteome	2873
+Detected in the feline medullary proteome	2592
+Detected in both feline proteomes	2348
+Detected in the Pod-TRECK proteome	11894
+Group A: detected in all three	2240
+Group A with finite values in all 16 states	2016
+Group B: the remainder of the Δ matrix	20104

@@ -7,8 +7,8 @@ Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,R
 Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 100 ng, 2W (n=3)",Non-induced control (n=3),14,m_rna_2w
 Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 100 ng, 3W (n=3)",Non-induced control (n=3),21,m_rna_3w
 Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,transcriptome,GSE299326,RNA-seq (FPKM table),"DT 250 ng, 2W (n=3)",Non-induced control (n=3),14,m_rna_2w250
-Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,PK25055 (in-house; not deposited),LC-MS/MS,Day14 (n=3),Control (n=3),14,m_prot_d14
-Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,PK25055 (in-house; not deposited),LC-MS/MS,Day21 (n=3),Control (n=3),21,m_prot_d21
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,in-house proteome (not deposited; published as Supplementary Data S1),LC-MS/MS,Day14 (n=3),Control (n=3),14,m_prot_d14
+Mus musculus,Pod-TRECK (podocyte DT injury),glomerular,proteome,in-house proteome (not deposited; published as Supplementary Data S1),LC-MS/MS,Day21 (n=3),Control (n=3),21,m_prot_d21
 Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI2h (n=3),SHAM4h + SHAM24h (n=6),0.083,IRI2h
 Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI4h (n=3),SHAM4h + SHAM24h (n=6),0.167,IRI4h
 Mus musculus,Bilateral IRI (whole kidney),tubular,transcriptome,GSE98622,Illumina HiSeq 2000 (GPL13112),IRI24h (n=3),SHAM4h + SHAM24h (n=6),1,IRI24h

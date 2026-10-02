@@ -1,4 +1,11 @@
 figure	panel	item	printed
+Fig2	B	smallest cross-species gap, ceiling_SB	0.297
+Fig2	B	pairs above the benchmark, ceiling_SB	4
+Fig2	C	smallest cross-species gap, ceiling_raw	0.171
+Fig2	C	pairs above the benchmark, ceiling_raw	9
+Fig2	D	group median gap, group starting at 0	0.196
+Fig2	D	group median gap, group starting at 39	0.487
+Fig2	D	group median gap, group starting at 63	0.338
 Fig3	A	pathway sets in the size histogram	422
 Fig3	A	sets below 50 Group A genes	244
 Fig3	B	columns (pathways drawn)	74
